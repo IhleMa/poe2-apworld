@@ -29,7 +29,7 @@ MAX_LINE = 200                 # characters per chat line (PoE's limit is a bit 
 MAX_LINES_PER_ZONE = 4
 ZONE_SETTLE_SECONDS = 3.0      # wait after the last zone-load line before typing
 SEND_WINDOW_SECONDS = 15.0     # only send this long after a zone change
-KEY_DELAY = 0.05
+LINE_GAP = 0.06               # lets the game read the pasted line before the clipboard changes
 
 
 # ---------------------------------------------------------------- platform input
@@ -48,16 +48,55 @@ class _Keyboard:
         raise NotImplementedError
 
 
+def _windows_input_types():
+    """ctypes structures for user32.SendInput (correct sizes on 32- and 64-bit Python)."""
+    import ctypes
+    WORD, DWORD, LONG = ctypes.c_uint16, ctypes.c_uint32, ctypes.c_int32   # fixed widths, same as Windows' types
+
+    class KEYBDINPUT(ctypes.Structure):
+        _fields_ = [("wVk", WORD), ("wScan", WORD), ("dwFlags", DWORD),
+                    ("time", DWORD), ("dwExtraInfo", ctypes.c_size_t)]
+
+    class MOUSEINPUT(ctypes.Structure):
+        _fields_ = [("dx", LONG), ("dy", LONG), ("mouseData", DWORD),
+                    ("dwFlags", DWORD), ("time", DWORD), ("dwExtraInfo", ctypes.c_size_t)]
+
+    class HARDWAREINPUT(ctypes.Structure):
+        _fields_ = [("uMsg", DWORD), ("wParamL", WORD), ("wParamH", WORD)]
+
+    class _U(ctypes.Union):
+        _fields_ = [("ki", KEYBDINPUT), ("mi", MOUSEINPUT), ("hi", HARDWAREINPUT)]
+
+    class INPUT(ctypes.Structure):
+        _anonymous_ = ("u",)
+        _fields_ = [("type", DWORD), ("u", _U)]
+
+    return INPUT, KEYBDINPUT
+
+
 class _WindowsKeyboard(_Keyboard):
     VK_RETURN, VK_CONTROL, VK_SHIFT, VK_MENU, VK_V = 0x0D, 0x11, 0x10, 0x12, 0x56
     KEYUP = 0x0002
+    INPUT_KEYBOARD = 1
 
     def __init__(self):
         import ctypes
-        self.user32 = ctypes.windll.user32
         self.ctypes = ctypes
+        self.user32 = ctypes.windll.user32
+        self.INPUT, self.KEYBDINPUT = _windows_input_types()
+        # Enter, Ctrl+V, Enter as one atomic batch: nothing the player presses can land in between
+        seq = [(vk, True) for vk in (self.VK_SHIFT, self.VK_CONTROL, self.VK_MENU)]   # release held modifiers
+        seq += [(self.VK_RETURN, False), (self.VK_RETURN, True),
+                (self.VK_CONTROL, False), (self.VK_V, False), (self.VK_V, True), (self.VK_CONTROL, True),
+                (self.VK_RETURN, False), (self.VK_RETURN, True)]
+        self.batch = (self.INPUT * len(seq))(*[self._input(vk, up) for vk, up in seq])
         self.available = True
         self.reason = ""
+
+    def _input(self, vk: int, up: bool):
+        ki = self.KEYBDINPUT(wVk=vk, wScan=self.user32.MapVirtualKeyW(vk, 0),
+                             dwFlags=self.KEYUP if up else 0, time=0, dwExtraInfo=0)
+        return self.INPUT(type=self.INPUT_KEYBOARD, ki=ki)
 
     def foreground_title(self) -> str:
         hwnd = self.user32.GetForegroundWindow()
@@ -66,18 +105,11 @@ class _WindowsKeyboard(_Keyboard):
         self.user32.GetWindowTextW(hwnd, buf, length + 1)
         return buf.value.strip()
 
-    def _key(self, vk: int, up: bool = False):
-        scan = self.user32.MapVirtualKeyW(vk, 0)
-        self.user32.keybd_event(vk, scan, self.KEYUP if up else 0, 0)
-
     def send_line(self):
-        for vk in (self.VK_SHIFT, self.VK_CONTROL, self.VK_MENU):   # release anything the player is holding
-            self._key(vk, up=True)
-        self._key(self.VK_RETURN); self._key(self.VK_RETURN, True)  # open chat
-        time.sleep(KEY_DELAY * 2)
-        self._key(self.VK_CONTROL); self._key(self.VK_V); self._key(self.VK_V, True); self._key(self.VK_CONTROL, True)
-        time.sleep(KEY_DELAY * 2)
-        self._key(self.VK_RETURN); self._key(self.VK_RETURN, True)  # send
+        sent = self.user32.SendInput(len(self.batch), self.batch, self.ctypes.sizeof(self.INPUT))
+        if sent != len(self.batch):
+            raise OSError("Windows blocked the key presses (is Path of Exile 2 running as administrator? "
+                          "Then run Archipelago as administrator too)")
 
 
 class _XdotoolKeyboard(_Keyboard):
@@ -96,12 +128,8 @@ class _XdotoolKeyboard(_Keyboard):
             return ""
 
     def send_line(self):
-        self._run("keyup", "shift", "ctrl", "alt", "super")
-        self._run("key", "--clearmodifiers", "Return")
-        time.sleep(KEY_DELAY * 2)
-        self._run("key", "--clearmodifiers", "ctrl+v")
-        time.sleep(KEY_DELAY * 2)
-        self._run("key", "--clearmodifiers", "Return")
+        # one xdotool call for the whole sequence
+        self._run("key", "--clearmodifiers", "--delay", "8", "Return", "ctrl+v", "Return")
 
 
 def is_game_title(title: str) -> bool:
@@ -248,8 +276,12 @@ class InGameChat:
             lines = self._build_lines()
             self.reload_filter = False
             if lines:
+                started = time.perf_counter()
+                self.last_result = ""
                 await self._type_lines(lines)
-                self.last_result = f"typed {len(lines)} line(s) at {time.strftime('%H:%M:%S')}"
+                if not self.last_result:
+                    self.last_result = (f"typed {len(lines)} line(s) in {time.perf_counter() - started:.2f}s "
+                                        f"at {time.strftime('%H:%M:%S')}")
         finally:
             self._sending = False
         self.zone_entered_at = 0.0   # one batch per zone change
@@ -264,11 +296,14 @@ class InGameChat:
                 if not is_game_title(await asyncio.to_thread(self.kb.foreground_title)):
                     break
                 clip.write(line)
-                await asyncio.sleep(KEY_DELAY)
                 await asyncio.to_thread(self.kb.send_line)
                 sent += 1
-                await asyncio.sleep(0.15)
+                await asyncio.sleep(LINE_GAP)
+        except OSError as e:
+            self.last_result = str(e)
+            logger.warning(f"[PoE2] In-game chat: {e}", extra={"poe2_no_whisper": True})
         finally:
+            await asyncio.sleep(LINE_GAP)
             clip.write(previous or "")
             self.integ.ignore_clipboard(previous or "")
         if sent < len(lines):
