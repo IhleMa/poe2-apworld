@@ -1,6 +1,7 @@
 from .Data import game_table
 
-game_name: str = "Manual_%s_%s" % (game_table["game"], game_table["creator"])
+# A "game_id" in game.json replaces the default Manual_<game>_<creator> naming.
+game_name: str = game_table.get("game_id") or "Manual_%s_%s" % (game_table["game"], game_table["creator"])
 filler_item_name: str | list[str] = game_table["filler_item_name"] if "filler_item_name" in game_table else "Filler"
 glitches_item_name: str | None = game_table["glitches_item_name"] if "glitches_item_name" in game_table else None
 starting_items: list[dict] | None = game_table["starting_items"] if "starting_items" in game_table else None

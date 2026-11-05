@@ -1,7 +1,8 @@
 {
     "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.game.schema.json",
     "game": "PathOfExile2",
-    "creator": "Community",
+    "game_id": "PathOfExile2",
+    "creator": "IhleMa",
     "filler_item_name": "A Pile of Gold",
     "death_link": true,
     "starting_index": 1,

@@ -5,9 +5,9 @@ An [Archipelago](https://archipelago.gg) world for **Path of Exile 2**, modelled
 and earn skill gems, supports, passive points, gear rarity per slot, flask and charm slots, support sockets and
 ascendancies as items, solo or in a multiworld with other games.
 
-It ships as a single `.apworld` file that includes its own **Path of Exile 2 Client** for the Archipelago Launcher.
+It ships as a single `.apworld` file that includes its own **PathOfExile2 Client** for the Archipelago Launcher.
 
-![The Path of Exile 2 Client](docs/client.png)
+![The PathOfExile2 Client](docs/client.png)
 
 ## Features
 
@@ -29,21 +29,21 @@ Gear and gem restrictions are an honor system; the client warns, it doesn't enfo
 ## Install & play
 
 1. Install [Archipelago](https://github.com/ArchipelagoMW/Archipelago/releases) 0.6.4 or newer.
-2. Download `manual_pathofexile2_community.apworld` from the [Releases](../../releases) page and put it in
+2. Download `PathOfExile2.apworld` from the [Releases](../../releases) page and put it in
    Archipelago's `custom_worlds` folder.
 3. Create a YAML (Launcher → **Generate Template Options**, or start from
    [`examples/PathOfExile2_example.yaml`](examples/PathOfExile2_example.yaml)) and generate/host as usual.
-4. Open **Path of Exile 2 Client** in the Launcher and connect.
+4. Open **PathOfExile2 Client** in the Launcher and connect.
 
-The full rules, options and client commands are in the [setup guide](worlds/manual_pathofexile2_community/docs/setup_en.md).
+The full rules, options and client commands are in the [setup guide](worlds/PathOfExile2/docs/setup_en.md).
 
 ## Repository layout
 
 | Path | What it is |
 |---|---|
-| `worlds/manual_pathofexile2_community/` | The world: Manual framework, PoE2 data (`data/`), logic hooks (`hooks/`) and the client automation (`poe2_client.py`, `poe2_character_check.py`) |
+| `worlds/PathOfExile2/` | The world: Manual framework, PoE2 data (`data/`), logic hooks (`hooks/`) and the client automation (`poe2_client.py`, `poe2_character_check.py`) |
 | `tools/build_data.py` | Regenerates `data/*.json` from the [repoe-fork/poe2](https://github.com/repoe-fork/poe2) game-data export |
-| `tools/build_apworld.py` | Packages the world into `dist/manual_pathofexile2_community.apworld` |
+| `tools/build_apworld.py` | Packages the world into `dist/PathOfExile2.apworld` |
 | `tools/generation_test.py` | Generates many random 6-player multiworlds to catch generation failures |
 | `examples/` | Example player YAML |
 | `docs/` | Screenshot (the setup guide lives in the world's `docs/` folder) |
@@ -53,7 +53,7 @@ The full rules, options and client commands are in the [setup guide](worlds/manu
 ```bash
 # rebuild the game data (e.g. after a PoE2 patch)
 git clone --depth 1 https://github.com/repoe-fork/poe2 ../repoe-poe2
-python tools/build_data.py ../repoe-poe2 worlds/manual_pathofexile2_community
+python tools/build_data.py ../repoe-poe2 worlds/PathOfExile2
 
 # package the .apworld
 python tools/build_apworld.py
@@ -66,7 +66,7 @@ Current data: repoe-fork/poe2 export from 29 Oct 2026 (patch 0.5.x). Weapon type
 (swords, axes, daggers, claws, flails) and the Duelist are excluded; adding them for 1.0 needs small changes in
 `tools/build_data.py` (`NOT_YET_IN_GAME`, `WEAPON_CLASSES`, `CLASSES`) and `hooks/poe2.py`.
 
-**Seed compatibility:** the internal game ID is `Manual_PathOfExile2_Community`. Changing it, or adding/removing
+**Seed compatibility:** the game ID is `PathOfExile2`. Changing it, or adding/removing
 items or locations, makes older seeds incompatible — bump `world_version` in `archipelago.json` when that happens.
 
 ### Character API

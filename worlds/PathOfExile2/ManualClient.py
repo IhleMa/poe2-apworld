@@ -89,9 +89,9 @@ def natural_sort_key(key: str):
 
     return [convert(c) for c in re.split('([0-9]+)', key)]
 
-# Set by the "Path of Exile 2 Client" launcher entry: fixed game, PoE2 titles, no game picker.
+# Set by the "PathOfExile2 Client" launcher entry: fixed game, PoE2 titles, no game picker.
 POE2_MODE = False
-POE2_GAME = "Manual_PathOfExile2_Community"
+POE2_GAME = "PathOfExile2"
 
 
 class ManualClientCommandProcessor(ClientCommandProcessor):
@@ -206,7 +206,7 @@ class ManualContext(SuperContext):
             else:
                 await super(ManualContext, self).server_auth(password_requested)
 
-        if "Manual_" not in self.ui.game_bar_text.text:
+        if not POE2_MODE and "Manual_" not in self.ui.game_bar_text.text:
             raise Exception("The Manual client can only be used for Manual games.")
 
         self.game = self.ui.game_bar_text.text
@@ -484,7 +484,7 @@ class ManualContext(SuperContext):
             background_color = ColorProperty()
 
         class ManualManager(ui):
-            base_title = "Archipelago Path of Exile 2 Client" if POE2_MODE else "Archipelago Manual Client"
+            base_title = "Archipelago PathOfExile2 Client" if POE2_MODE else "Archipelago Manual Client"
             listed_items = {"(No Category)": []}
             item_categories = ["(No Category)"]
             listed_locations = {"(No Category)": []}
@@ -531,7 +531,7 @@ class ManualContext(SuperContext):
                 if not POE2_MODE:  # the PoE2 client always uses the PoE2 world
                     self.grid.add_widget(self.manual_game_layout, 3)
 
-                panel = self.add_client_tab("Path of Exile 2" if POE2_MODE else "Manual",
+                panel = self.add_client_tab("PathOfExile2" if POE2_MODE else "Manual",
                                             ManualTabLayout(orientation="vertical"))
 
                 self.controls_panel = ManualControlsLayout(orientation="horizontal", size_hint_y=None, height=dp(40))
@@ -1570,7 +1570,7 @@ def launch(*launch_args) -> None:
             f.write(requests.get(icon_url).content)
 
 def launch_poe2(*launch_args) -> None:
-    """Entry point of the "Path of Exile 2 Client" launcher button (module level so it can run in a subprocess)."""
+    """Entry point of the "PathOfExile2 Client" launcher button (module level so it can run in a subprocess)."""
     global POE2_MODE
     POE2_MODE = True
     launch(*launch_args)

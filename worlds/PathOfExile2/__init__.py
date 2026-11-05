@@ -633,11 +633,11 @@ def add_client_to_launcher() -> None:
     if not discord_component:
         components.append(Component("Manual Discord Server", "ManualDiscord", func=lambda: webbrowser.open("https://discord.gg/hm4rQnTzQ5"), icon="discord", component_type=Type.ADJUSTER))
 
-add_client_to_launcher()
+# This world registers only its own "PathOfExile2 Client" entry (below), not the generic Manual Client.
 
 
 # ----- Path of Exile 2 client entry -----
-POE2_GAME = "Manual_PathOfExile2_Community"
+POE2_GAME = "PathOfExile2"
 
 
 def launch_poe2_client(*args):
@@ -645,16 +645,16 @@ def launch_poe2_client(*args):
     from .ManualClient import launch_poe2
 
     if CommonClient.gui_enabled:
-        launch(launch_poe2, name="Path of Exile 2 Client", args=args)
+        launch(launch_poe2, name="PathOfExile2 Client", args=args)
     else:
         launch_poe2(*args)
 
 
 def add_poe2_client_to_launcher() -> None:
     icon_paths["poe2"] = f"ap:{__name__}/data/poe2_icon.png"
-    if not any(c.display_name == "Path of Exile 2 Client" for c in components):
+    if not any(c.display_name == "PathOfExile2 Client" for c in components):
         components.append(Component(
-            "Path of Exile 2 Client", "PathOfExile2Client", func=launch_poe2_client, icon="poe2",
+            "PathOfExile2 Client", "PathOfExile2Client", func=launch_poe2_client, icon="poe2",
             component_type=Type.CLIENT, game_name=POE2_GAME, supports_uri=True,
             description="Tracks zones, levels, pickups and deaths, and keeps your loot filter updated."))
 

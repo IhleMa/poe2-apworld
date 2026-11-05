@@ -1,10 +1,9 @@
-# Path of Exile 2 – Archipelago (Manual) Setup Guide
+# PathOfExile2 – Archipelago Setup Guide
 
 This world plays Path of Exile 2 the same way the Path of Exile 1 randomizer does — you start with almost nothing and
-earn your skill gems, supports, passive points, gear rarity, flask and charm slots and ascendancy as Archipelago items —
-but it needs **no PoE2-specific client or tracker**. It is built on the Manual framework: the generic Manual client that
-ships inside this `.apworld` shows what you have received, sends zone/level/pickup checks automatically and keeps a
-loot filter highlighting what you still need.
+earn your skill gems, supports, passive points, gear rarity, flask and charm slots and ascendancy as Archipelago items.
+The **PathOfExile2 Client** that ships inside this `.apworld` shows what you have received, sends zone/level/pickup
+checks automatically and keeps a loot filter highlighting what you still need.
 
 The client only reads PoE2's log and your clipboard and writes a filter file. Gear and gem restrictions are not
 enforced by software: **you follow the rules below yourself.**
@@ -13,23 +12,23 @@ enforced by software: **you follow the rules below yourself.**
 
 - Path of Exile 2
 - Archipelago 0.6.4 or newer (`.exe` installer from https://github.com/ArchipelagoMW/Archipelago/releases)
-- `manual_pathofexile2_community.apworld`
+- `PathOfExile2.apworld`
 
 ## Install
 
-1. Copy `manual_pathofexile2_community.apworld` into the `custom_worlds` folder of your Archipelago install.
+1. Copy `PathOfExile2.apworld` into the `custom_worlds` folder of your Archipelago install.
    Don't extract or rename it.
 2. Open `ArchipelagoLauncher.exe` → **Generate Template Options**. Your template is
-   `Players/Templates/Manual_PathOfExile2_Community.yaml`. Edit it (or use the provided example YAML).
+   `Players/Templates/PathOfExile2.yaml`. Edit it (or use the provided example YAML).
 3. The host puts everyone's YAML in `Players/`, clicks **Generate**, and hosts the archive from `output/`
    (upload it to archipelago.gg, or use **Host**). Everyone generating/hosting needs the same `.apworld` version.
 
 ## Connect
 
-1. In the Archipelago Launcher open **Path of Exile 2 Client** (it appears once the `.apworld` is installed). Room
+1. In the Archipelago Launcher open **PathOfExile2 Client** (it appears once the `.apworld` is installed). Room
    links from archipelago.gg for a PoE2 slot open it too.
 2. Enter the server address (e.g. `archipelago.gg:38281`), click **Connect**, and enter your slot name.
-3. In the **Path of Exile 2** tab, the **Items** list lists everything you have received. The **Locations** tab lists checks grouped by category
+3. In the **PathOfExile2** tab, the **Items** list lists everything you have received. The **Locations** tab lists checks grouped by category
    (Zones – Act 1, Bosses – Act 2, Bases – Helmet, Level Ups, …). Click a check when you complete it.
    Optional: if you also install the Universal Tracker apworld, the client colours checks that are currently in logic,
    so it doubles as a "what can I do now" tracker.

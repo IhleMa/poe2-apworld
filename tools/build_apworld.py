@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Package worlds/manual_pathofexile2_community into dist/manual_pathofexile2_community.apworld.
+"""Package worlds/PathOfExile2 into dist/PathOfExile2.apworld.
 
 Usage:  python tools/build_apworld.py
 """
@@ -8,7 +8,7 @@ import zipfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-WORLD = "manual_pathofexile2_community"
+WORLD = "PathOfExile2"
 SRC = ROOT / "worlds" / WORLD
 DIST = ROOT / "dist"
 SKIP_DIRS = {"__pycache__"}

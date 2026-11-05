@@ -2,7 +2,7 @@
 """Generate the Manual-format data files for the Path of Exile 2 Archipelago world.
 
 Source: the repoe-fork/poe2 game-data export (https://github.com/repoe-fork/poe2).
-Usage:  python tools/build_data.py <path-to-repoe-poe2-checkout> worlds/manual_pathofexile2_community
+Usage:  python tools/build_data.py <path-to-repoe-poe2-checkout> worlds/PathOfExile2
 """
 import json
 import re

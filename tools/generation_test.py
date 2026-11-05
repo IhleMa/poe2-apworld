@@ -15,7 +15,7 @@ import sys
 import tempfile
 from pathlib import Path
 
-GAME = "Manual_PathOfExile2_Community"
+GAME = "PathOfExile2"
 GOALS = ["victory - complete the campaign", "victory - complete act 1", "victory - complete act 2",
          "victory - complete act 3", "victory - complete act 4", "victory - defeat pinnacle bosses"]
 CLASSES = ["random_class", "warrior", "mercenary", "ranger", "huntress", "monk", "sorceress", "witch", "druid"]

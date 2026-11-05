@@ -30,7 +30,7 @@ from .poe2_character_check import OAUTH_STATUS
 if typing.TYPE_CHECKING:
     from .ManualClient import ManualContext
 
-GAME_NAME = "Manual_PathOfExile2_Community"
+GAME_NAME = "PathOfExile2"
 FILTER_NAME = "ArchipelagoPoE2"
 STEAM_APP_ID = "2694490"
 

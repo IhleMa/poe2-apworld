@@ -1,7 +1,7 @@
 name: YourName
-game: Manual_PathOfExile2_Community
-description: Path of Exile 2 - Archipelago (Manual)
-Manual_PathOfExile2_Community:
+game: PathOfExile2
+description: PathOfExile2 - Archipelago
+PathOfExile2:
   goal: victory - complete the campaign   # or: victory - complete act 1..4, victory - defeat pinnacle bosses
   starting_character: random_class        # warrior, mercenary, ranger, huntress, monk, sorceress, witch, druid
   usable_starting_gear: true
