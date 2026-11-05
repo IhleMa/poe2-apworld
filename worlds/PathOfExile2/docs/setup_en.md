@@ -53,7 +53,25 @@ The client has Path of Exile 2 automation built in. It only **reads** PoE2's `Cl
 **Loot filter:** the client writes `ArchipelagoPoE2.filter` into your PoE2 filter folder. It highlights (purple, big
 font, minimap star, alert sound) every base you haven't checked yet, then includes your normal filter below so
 everything else looks as usual. It is rewritten whenever your checks change. In game, select **ArchipelagoPoE2** in
-Options → Game → Item Filter once, and press the filter **reload** button there after updates.
+Options → Game → Item Filter once; after that the client reloads it in game for you (see below).
+
+**In-game chat (filter reload and whispers):** like the Path of Exile 1 client, the client can type into PoE2's
+chat for you:
+
+- `/itemfilter ArchipelagoPoE2` whenever the filter changed, so the game reloads it by itself;
+- whispers to yourself (`@YourCharacter …`) with what's happening: by default the items you receive, hints about
+  your items, the goal, DeathLinks and out-of-logic warnings (`/poe2_whispers all` adds everything from the client
+  console, `/poe2_whispers off` turns whispers off).
+
+To stay out of your way it only types **right after a zone has loaded** (a few seconds after "You have entered …"),
+only while Path of Exile 2 is the window in front, and at most 4 lines per zone change; the rest waits for the next
+one. It presses Enter, pastes the line, presses Enter, and puts your clipboard back. Your character name is learned
+from your first level-up (or set it with `/poe2_character <name>`). Turn the filter reload off with
+`/poe2_filter_reload off`. Use `/poe2_chat_test`, then change zones, to try it.
+
+This needs Windows, or Linux with `xdotool` installed (Steam/Proton). It assumes chat opens with **Enter** (the
+default key). Typing into the game for you is the same thing the Path of Exile 1 client and popular trade tools do, but
+it is still automated input - use it at your own discretion.
 
 **Setup:** the client auto-detects `Client.txt` (standalone and Steam installs) and
 `Documents/My Games/Path of Exile 2`. After connecting it prints what it found. Use these commands in the client's
@@ -65,6 +83,7 @@ text box if something is missing:
 - `/poe2_base_filter <name>` – your normal filter to keep underneath (e.g. a NeverSink filter downloaded to that folder; subscribed online filters can't be read)
 - `/poe2_character <name>` – which character's levels/deaths count (default: the first one that levels up)
 - `/poe2_auto on|off`, `/poe2_clipboard on|off`, `/poe2_filter_sound on|off`, `/poe2_filter` (rewrite now)
+- `/poe2_filter_reload on|off`, `/poe2_whispers off|important|all`, `/poe2_chat_test`
 
 ### Character API (not available yet)
 

@@ -21,7 +21,9 @@ It ships as a single `.apworld` file that includes its own **PathOfExile2 Client
 - **Client automation** (no game memory reading, no login):
   - zones, level-ups, deaths (DeathLink) and act goals are read from PoE2's `Client.txt`;
   - pick-ups are sent by hovering an item and pressing **Ctrl+C**, with a warning if its rarity isn't unlocked yet;
-  - an `ArchipelagoPoE2.filter` loot filter highlights every base you still need and keeps your normal filter below it.
+  - an `ArchipelagoPoE2.filter` loot filter highlights every base you still need and keeps your normal filter below it;
+  - the filter is reloaded in game automatically, and received items, hints and warnings are whispered to your
+    character - typed into chat right after a zone loads, only while PoE2 is in front (Windows, or Linux with xdotool).
 - Boss and trial checks aren't in `Client.txt`, so you click those in the client.
 
 Gear and gem restrictions are an honor system; the client warns, it doesn't enforce.
@@ -41,7 +43,7 @@ The full rules, options and client commands are in the [setup guide](worlds/Path
 
 | Path | What it is |
 |---|---|
-| `worlds/PathOfExile2/` | The world: Manual framework, PoE2 data (`data/`), logic hooks (`hooks/`) and the client automation (`poe2_client.py`, `poe2_character_check.py`) |
+| `worlds/PathOfExile2/` | The world: Manual framework, PoE2 data (`data/`), logic hooks (`hooks/`) and the client automation (`poe2_client.py`, `poe2_ingame.py`, `poe2_character_check.py`) |
 | `tools/build_data.py` | Regenerates `data/*.json` from the [repoe-fork/poe2](https://github.com/repoe-fork/poe2) game-data export |
 | `tools/build_apworld.py` | Packages the world into `dist/PathOfExile2.apworld` |
 | `tools/generation_test.py` | Generates many random 6-player multiworlds to catch generation failures |

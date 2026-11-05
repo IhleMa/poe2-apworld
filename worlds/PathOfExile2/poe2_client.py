@@ -14,6 +14,8 @@ Boss kills are not written to Client.txt, so those checks are still clicked in t
 from __future__ import annotations
 
 import asyncio
+import copy
+import logging
 import os
 import re
 import sys
@@ -50,10 +52,12 @@ def PROGRESSIVE_SUPPORTS(integ) -> bool:
     return bool(integ.slot_data.get("poe2_progressive_supports"))
 
 # ---------------------------------------------------------------- log parsing
-RE_AREA = re.compile(r'Generating level (\d+) area "([^"]+)"')
-RE_ENTERED = re.compile(r": You have entered (.+?)\.\s*$")
-RE_LEVEL = re.compile(r": ([^\s:]+) \(([^)]+)\) is now level (\d+)")
-RE_SLAIN = re.compile(r": ([^\s:]+) has been slain\.")
+# System lines look like "... [INFO Client 1234] : You have entered X." - chat lines have a name before the colon
+# ("[INFO Client 1234] @From Name: ...", "Name: ..."), so anchoring on "] : " ignores anything typed in chat.
+RE_AREA = re.compile(r'\] Generating level (\d+) area "([^"]+)"')
+RE_ENTERED = re.compile(r"\] : You have entered (.+?)\.\s*$")
+RE_LEVEL = re.compile(r"\] : ([^\s:]+) \(([^)]+)\) is now level (\d+)\s*$")
+RE_SLAIN = re.compile(r"\] : ([^\s:]+) has been slain\.\s*$")
 ZONE_LOCATION_BY_NAME = {v[len("Enter "):]: v for v in ZONE_LOCATION_BY_AREA.values()}
 
 # goal location name -> predicate on an entered area id
@@ -174,6 +178,46 @@ def detect_client_txt() -> str | None:
 
 
 # ---------------------------------------------------------------- integration
+class _Clipboard:
+    @staticmethod
+    def read() -> str | None:
+        try:
+            from kivy.core.clipboard import Clipboard
+            return Clipboard.paste()
+        except Exception:
+            return None
+
+    @staticmethod
+    def write(text: str) -> None:
+        from kivy.core.clipboard import Clipboard
+        Clipboard.copy(text)
+
+
+class _WhisperLogHandler(logging.Handler):
+    """Forwards the client's own [PoE2] messages to in-game whispers (warnings = important)."""
+    _installed: "_WhisperLogHandler | None" = None
+
+    def __init__(self, integration):
+        super().__init__(level=logging.INFO)
+        self.integ = integration
+
+    @classmethod
+    def install(cls, integration):
+        if cls._installed:
+            logger.removeHandler(cls._installed)
+        cls._installed = cls(integration)
+        logger.addHandler(cls._installed)
+
+    def emit(self, record: logging.LogRecord):
+        try:
+            msg = record.getMessage()
+            if not msg.startswith("[PoE2]") or getattr(record, "poe2_no_whisper", False):
+                return
+            self.integ.chat.queue_whisper(msg[len("[PoE2]"):].strip(), record.levelno >= logging.WARNING)
+        except Exception:
+            pass
+
+
 class PoE2Integration:
     SETTINGS_KEY = "poe2_archipelago"
 
@@ -188,6 +232,8 @@ class PoE2Integration:
             "enabled": stored.get("enabled", True),
             "filter_sound": stored.get("filter_sound", True),
             "clipboard": stored.get("clipboard", True),
+            "auto_reload_filter": stored.get("auto_reload_filter", True),
+            "whisper_mode": stored.get("whisper_mode", "important"),
         }
         self._log_pos: int | None = None
         self._log_path_open: str | None = None
@@ -198,6 +244,10 @@ class PoE2Integration:
         self.slot_data: dict = {}
         from .poe2_character_check import CharacterChecker
         self.checker = CharacterChecker(self)
+        from .poe2_ingame import InGameChat
+        self.chat = InGameChat(self)
+        self.clipboard = _Clipboard()
+        _WhisperLogHandler.install(self)
         # Older versions could store a POESESSID / character id; wipe them from disk.
         for old_key in ("poesessid", "account", "character_id", "api_enabled"):
             if stored.get(old_key):
@@ -239,6 +289,7 @@ class PoE2Integration:
             f"Base filter: {s['base_filter'] or '(none)'}",
             f"Character: {s['character'] or '(auto: first character that levels up)'}",
             f"Clipboard pickups (Ctrl+C on an item): {'on' if s['clipboard'] else 'off'}",
+            self.chat.status_line(),
             f"Character API: {OAUTH_STATUS}",
         ]
 
@@ -255,6 +306,26 @@ class PoE2Integration:
             logger.info("[PoE2] Type /poe2 for help. Select the 'ArchipelagoPoE2' filter in PoE2's game options.")
         if cmd in ("Connected", "RoomUpdate"):
             self.write_filter()
+        if cmd == "PrintJSON":
+            self.on_print_json(args)
+
+    def on_print_json(self, args: dict):
+        kind = args.get("type")
+        me = self.ctx.slot
+        if kind in ("ItemSend", "ItemCheat"):
+            important = args.get("receiving") == me
+        elif kind == "Hint":
+            item = args.get("item")
+            important = args.get("receiving") == me or getattr(item, "player", None) == me
+        elif kind in ("Goal", "Countdown"):
+            important = True
+        else:
+            important = False
+        try:
+            text = self.ctx.rawjsontotextparser(copy.deepcopy(args.get("data", [])))
+        except Exception:
+            return
+        self.chat.queue_whisper(text, important)
 
     def on_deathlink(self, data: dict):
         if self.ctx.game == GAME_NAME:
@@ -299,8 +370,10 @@ class PoE2Integration:
             logger.warning(f"[PoE2] Could not write loot filter ({e}). Is the folder synced/locked by OneDrive?")
             return
         if self._last_filter_key is not None:
-            logger.info(f"[PoE2] Loot filter updated ({len(bases)} bases highlighted). Reload it in game to apply.")
+            logger.info(f"[PoE2] Loot filter updated ({len(bases)} bases highlighted).",
+                        extra={"poe2_no_whisper": True})
         self._last_filter_key = key
+        self.chat.queue_filter_reload()
 
     # ---------- Client.txt
     def handle_log_line(self, line: str):
@@ -310,6 +383,7 @@ class PoE2Integration:
             return
         m = RE_ENTERED.search(line)
         if m:
+            self.chat.on_zone_entered()
             loc = ZONE_LOCATION_BY_NAME.get(m.group(1).strip())
             if loc:
                 self.send_location(loc, "Zone entered")
@@ -374,11 +448,7 @@ class PoE2Integration:
 
     # ---------- clipboard
     def read_clipboard(self) -> str | None:
-        try:
-            from kivy.core.clipboard import Clipboard
-            return Clipboard.paste()
-        except Exception:
-            return None
+        return self.clipboard.read()
 
     def handle_clipboard(self, text: str):
         item_class, rarity, base = parse_item_text(text)
@@ -395,6 +465,10 @@ class PoE2Integration:
                 logger.warning(f"[PoE2] You can't equip this yet: {rarity} {item_class} needs "
                                f"{RARITY_TIER[rarity]} x 'Progressive {unlocks[0]}', you have {have} "
                                f"(allowed: {TIER_NAME[have]}).")
+
+    def ignore_clipboard(self, text: str):
+        """Don't treat text the client put back on the clipboard as a new Ctrl+C."""
+        self._last_clip = text
 
     def poll_clipboard(self):
         if not self.settings["clipboard"]:
@@ -415,6 +489,7 @@ class PoE2Integration:
                 if self.active:
                     self.poll_log()
                     self.poll_clipboard()
+                    await self.chat.tick()
             except Exception as e:  # never let automation take the client down
                 logger.exception(f"[PoE2] automation error: {e}")
             await asyncio.sleep(0.5)
@@ -439,7 +514,7 @@ def install_commands(processor_cls):
             self.output(line)
         self.output("Commands: /poe2_log <path to Client.txt>, /poe2_filter_dir <folder>, /poe2_base_filter <name>, "
                     "/poe2_character <name>, /poe2_auto on|off, /poe2_clipboard on|off, /poe2_filter_sound on|off, "
-                    "/poe2_filter (rewrite now)")
+                    "/poe2_filter (rewrite now), /poe2_filter_reload on|off, /poe2_whispers off|important|all, /poe2_chat_test")
         return True
 
     @mark_raw
@@ -523,6 +598,37 @@ def install_commands(processor_cls):
                     "pathofexile2.com / pathofexile.com to invalidate it. Tracking uses Client.txt and Ctrl+C.")
         return False
 
+    def _cmd_poe2_whispers(self, mode: str = "") -> bool:
+        """PoE2: what the client whispers to you in game: off, important (items you receive, hints, warnings) or all."""
+        i = integ(self)
+        if not i:
+            return False
+        mode = mode.strip().lower()
+        if mode not in ("off", "important", "all"):
+            self.output(f"Whispers: {i.settings['whisper_mode']}. Use /poe2_whispers off|important|all")
+            return mode == ""
+        i.save("whisper_mode", mode)
+        if mode == "off":
+            i.chat.whispers.clear()
+        self.output(f"Whispers: {mode}")
+        return True
+
+    def _cmd_poe2_chat_test(self) -> bool:
+        """PoE2: queue a test whisper and a filter reload; they're sent after your next zone change."""
+        i = integ(self)
+        if not i:
+            return False
+        if not i.chat.kb.available:
+            self.output(f"In-game chat is unavailable: {i.chat.kb.reason}.")
+            return False
+        if not i.settings.get("character"):
+            self.output("Your character name isn't known yet - level up once or use /poe2_character <name>.")
+            return False
+        i.chat.whispers.append("Archipelago chat test - if you can read this, whispers work.")
+        i.chat.reload_filter = True
+        self.output("Queued. Change zones in Path of Exile 2 (keep the game in front) and watch your chat.")
+        return True
+
     new_commands = {
         "poe2": _cmd_poe2,
         "poe2_log": _cmd_poe2_log,
@@ -533,6 +639,9 @@ def install_commands(processor_cls):
         "poe2_auto": _toggle("enabled", "Automation"),
         "poe2_clipboard": _toggle("clipboard", "Clipboard pickups"),
         "poe2_filter_sound": _toggle("filter_sound", "Filter alert sound"),
+        "poe2_filter_reload": _toggle("auto_reload_filter", "Automatic in-game filter reload"),
+        "poe2_whispers": _cmd_poe2_whispers,
+        "poe2_chat_test": _cmd_poe2_chat_test,
         "poe2_session": _cmd_poe2_session,
     }
     # CommandMeta collects commands when the class is created, so register them in both places.
