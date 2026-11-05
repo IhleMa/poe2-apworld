@@ -1,0 +1,27 @@
+{
+    "$schema": "https://raw.githubusercontent.com/ManualForArchipelago/Manual/main/schemas/Manual.meta.schema.json",
+    "docs": {
+        "apworld_description": [
+            "Path of Exile 2 as a Manual Archipelago game, modelled on the Path of Exile (1) randomizer.",
+            "Skill gems, support gems, passive points, gear rarity per slot, flask/charm slots, support sockets and ascendancies",
+            "are items you receive. Picking up item bases, entering zones, killing bosses and levelling up are checks you mark",
+            "in the Manual client. You only use what you have received - nothing is enforced by software."
+        ],
+        "web": {
+            "theme": "stone",
+            "tutorials": [
+                {
+                    "name": "Path of Exile 2 Setup Guide",
+                    "description": "How to install and play Path of Exile 2 in Archipelago with the Manual client.",
+                    "language": "English",
+                    "file_name": "setup_en.md",
+                    "link": "setup/en",
+                    "authors": [
+                        "IhleMa"
+                    ]
+                }
+            ],
+            "bug_report_page": "https://github.com/IhleMa/poe2-apworld/issues"
+        }
+    }
+}

@@ -1,0 +1,5093 @@
+{
+  "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.items.schema.json",
+  "data": [
+    {
+      "name": "Pounce",
+      "category": [
+        "Meta Gems",
+        "Meta Gems - Tier 03"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Ferocious Roar",
+      "category": [
+        "Meta Gems",
+        "Meta Gems - Tier 07"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Spell Totem",
+      "category": [
+        "Meta Gems",
+        "Meta Gems - Tier 07"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Barrier Invocation",
+      "category": [
+        "Meta Gems",
+        "Meta Gems - Tier 08"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Blasphemy",
+      "category": [
+        "Meta Gems",
+        "Meta Gems - Tier 08"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Cast on Minion Death",
+      "category": [
+        "Meta Gems",
+        "Meta Gems - Tier 08"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Elemental Invocation",
+      "category": [
+        "Meta Gems",
+        "Meta Gems - Tier 08"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Mirage Archer",
+      "category": [
+        "Meta Gems",
+        "Meta Gems - Tier 08"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Hand of Chayula",
+      "category": [
+        "Meta Gems",
+        "Meta Gems - Tier 09"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Mortar Cannon",
+      "category": [
+        "Meta Gems",
+        "Meta Gems - Tier 11"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Ancestral Warrior Totem",
+      "category": [
+        "Meta Gems",
+        "Meta Gems - Tier 13"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Cast on Critical",
+      "category": [
+        "Meta Gems",
+        "Meta Gems - Tier 14"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Cast on Dodge",
+      "category": [
+        "Meta Gems",
+        "Meta Gems - Tier 14"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Cast on Elemental Ailment",
+      "category": [
+        "Meta Gems",
+        "Meta Gems - Tier 14"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Feral Invocation",
+      "category": [
+        "Meta Gems",
+        "Meta Gems - Tier 14"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Reaper's Invocation",
+      "category": [
+        "Meta Gems",
+        "Meta Gems - Tier 14"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Armour Piercing Rounds",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 01"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Boneshatter",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 01"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Contagion",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 01"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Disengage",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 01"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Earthquake",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 01"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Entangle",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 01"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Escape Shot",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 01"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Explosive Grenade",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 01"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Explosive Spear",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 01"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Falling Thunder",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 01"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Flame Wall",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 01"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Fragmentation Rounds",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 01"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Frost Bomb",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 01"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Frozen Locus",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 01"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Furious Slam",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 01"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Glacial Cascade",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 01"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Ice Nova",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 01"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Killing Palm",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 01"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Lightning Arrow",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 01"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Lightning Rod",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 01"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Lunar Assault",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 01"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Permafrost Bolts",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 01"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Poisonburst Arrow",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 01"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Rolling Slam",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 01"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Skeletal Sniper",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 01"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Spark",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 01"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Twister",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 01"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Unearth",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 01"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Volcano",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 01"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Whirling Slash",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 01"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Armour Breaker",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 03"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Bone Cage",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 03"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Cull The Weak",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 03"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Essence Drain",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 03"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Fangs of Frost",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 03"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Fireball",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 03"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Flash Grenade",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 03"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Freezing Salvo",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 03"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Frost Darts",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 03"
+      ],
+      "progression": true
+    },
+    {
+      "name": "High Velocity Rounds",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 03"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Incendiary Shot",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 03"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Lightning Spear",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 03"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Living Bomb",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 03"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Orb of Storms",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 03"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Rake",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 03"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Rolling Magma",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 03"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Shield Charge",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 03"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Shockwave Totem",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 03"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Skeletal Arsonist",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 03"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Snipe",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 03"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Stormcaller Arrow",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 03"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Tempest Bell",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 03"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Vine Arrow",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 03"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Wind Blast",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 03"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Wing Blast",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 03"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Grim Feast",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 04"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Raging Spirits",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 04"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Ravenous Swarm",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 04"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Arc",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 05"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Bonestorm",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 05"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Devour",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 05"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Electrocuting Arrow",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 05"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Ember Fusillade",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 05"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Frostbolt",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 05"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Fury of the Mountain",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 05"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Galvanic Shards",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 05"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Gas Grenade",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 05"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Ice Shards",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 05"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Ice Strike",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 05"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Molten Blast",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 05"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Pain Offering",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 05"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Perfect Strike",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 05"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Raise Zombie",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 05"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Rapid Assault",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 05"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Rapid Shot",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 05"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Resonating Shield",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 05"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Skeletal Frost Mage",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 05"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Snap",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 05"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Spearfield",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 05"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Storm Lance",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 05"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Tempest Flurry",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 05"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Thunderstorm",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 05"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Toxic Growth",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 05"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Vaulting Impact",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 05"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Artillery Ballista",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 07"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Bind Spectre",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 07"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Blood Hunt",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 07"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Cross Slash",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 07"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Detonate Dead",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 07"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Earthshatter",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 07"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Explosive Shot",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 07"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Gas Arrow",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 07"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Glacial Bolt",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 07"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Glacial Lance",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 07"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Leap Slam",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 07"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Profane Ritual",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 07"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Shield Wall",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 07"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Siphoning Strike",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 07"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Storm Wave",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 07"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Tame Beast",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 07"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Volcanic Fissure",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 07"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Voltaic Grenade",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 07"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Wave of Frost",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 07"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Wolf Pack",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 08"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Dark Effigy",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 09"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Detonating Arrow",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 09"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Forge Hammer",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 09"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Frost Wall",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 09"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Ice Shot",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 09"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Incinerate",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 09"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Lightning Warp",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 09"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Oil Barrage",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 09"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Oil Grenade",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 09"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Primal Strikes",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 09"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Rain of Arrows",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 09"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Siege Ballista",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 09"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Skeletal Reaver",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 09"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Stormblast Bolts",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 09"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Sunder",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 09"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Thrashing Vines",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 09"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Thunderous Leap",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 09"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Ball Lightning",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 11"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Bone Offering",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 11"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Comet",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 11"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Elemental Sundering",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 11"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Firestorm",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 11"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Hailstorm Rounds",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 11"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Hexblast",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 11"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Rampage",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 11"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Shattering Palm",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 11"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Shockburst Rounds",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 11"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Shockchain Arrow",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 11"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Skeletal Storm Mage",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 11"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Stampede",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 11"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Supercharged Slam",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 11"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Tornado",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 11"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Tornado Shot",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 11"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Whirling Assault",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 11"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Whirlwind Lance",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 11"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Cluster Grenade",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 13"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Eye of Winter",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 13"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Flame Breath",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 13"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Flameblast",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 13"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Flicker Strike",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 13"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Gathering Storm",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 13"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Hammer of the Gods",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 13"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Lightning Conduit",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 13"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Magnetic Salvo",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 13"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Plasma Blast",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 13"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Siege Cascade",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 13"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Skeletal Brute",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 13"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Skeletal Cleric",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 13"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Soul Offering",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 13"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Spear of Solaris",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 13"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Spiral Volley",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 13"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Wind Serpent's Fury",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 13"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Rhoa Mount",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 14"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Sacrifice",
+      "category": [
+        "Skill Gems",
+        "Skill Gems - Tier 14"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Arctic Armour",
+      "category": [
+        "Spirit Gems",
+        "Spirit Gems - Tier 04"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Attrition",
+      "category": [
+        "Spirit Gems",
+        "Spirit Gems - Tier 04"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Briarpatch",
+      "category": [
+        "Spirit Gems",
+        "Spirit Gems - Tier 04"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Convalescence",
+      "category": [
+        "Spirit Gems",
+        "Spirit Gems - Tier 04"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Ghost Dance",
+      "category": [
+        "Spirit Gems",
+        "Spirit Gems - Tier 04"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Herald of Ash",
+      "category": [
+        "Spirit Gems",
+        "Spirit Gems - Tier 04"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Herald of Blood",
+      "category": [
+        "Spirit Gems",
+        "Spirit Gems - Tier 04"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Herald of Ice",
+      "category": [
+        "Spirit Gems",
+        "Spirit Gems - Tier 04"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Herald of Thunder",
+      "category": [
+        "Spirit Gems",
+        "Spirit Gems - Tier 04"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Iron Ward",
+      "category": [
+        "Spirit Gems",
+        "Spirit Gems - Tier 04"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Magma Barrier",
+      "category": [
+        "Spirit Gems",
+        "Spirit Gems - Tier 04"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Mana Remnants",
+      "category": [
+        "Spirit Gems",
+        "Spirit Gems - Tier 04"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Plague Bearer",
+      "category": [
+        "Spirit Gems",
+        "Spirit Gems - Tier 04"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Savage Fury",
+      "category": [
+        "Spirit Gems",
+        "Spirit Gems - Tier 04"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Scavenged Plating",
+      "category": [
+        "Spirit Gems",
+        "Spirit Gems - Tier 04"
+      ],
+      "useful": true
+    },
+    {
+      "name": "War Banner",
+      "category": [
+        "Spirit Gems",
+        "Spirit Gems - Tier 04"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Wind Dancer",
+      "category": [
+        "Spirit Gems",
+        "Spirit Gems - Tier 04"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Withering Presence",
+      "category": [
+        "Spirit Gems",
+        "Spirit Gems - Tier 04"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Barkskin",
+      "category": [
+        "Spirit Gems",
+        "Spirit Gems - Tier 08"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Blink",
+      "category": [
+        "Spirit Gems",
+        "Spirit Gems - Tier 08"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Combat Frenzy",
+      "category": [
+        "Spirit Gems",
+        "Spirit Gems - Tier 08"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Defiance Banner",
+      "category": [
+        "Spirit Gems",
+        "Spirit Gems - Tier 08"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Herald of Plague",
+      "category": [
+        "Spirit Gems",
+        "Spirit Gems - Tier 08"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Lingering Illusion",
+      "category": [
+        "Spirit Gems",
+        "Spirit Gems - Tier 08"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Overwhelming Presence",
+      "category": [
+        "Spirit Gems",
+        "Spirit Gems - Tier 08"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Shard Scavenger",
+      "category": [
+        "Spirit Gems",
+        "Spirit Gems - Tier 08"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Siphon Elements",
+      "category": [
+        "Spirit Gems",
+        "Spirit Gems - Tier 08"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Time of Need",
+      "category": [
+        "Spirit Gems",
+        "Spirit Gems - Tier 08"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Trail of Caltrops",
+      "category": [
+        "Spirit Gems",
+        "Spirit Gems - Tier 08"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Alchemist's Boon",
+      "category": [
+        "Spirit Gems",
+        "Spirit Gems - Tier 14"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Archmage",
+      "category": [
+        "Spirit Gems",
+        "Spirit Gems - Tier 14"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Berserk",
+      "category": [
+        "Spirit Gems",
+        "Spirit Gems - Tier 14"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Charge Regulation",
+      "category": [
+        "Spirit Gems",
+        "Spirit Gems - Tier 14"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Dread Banner",
+      "category": [
+        "Spirit Gems",
+        "Spirit Gems - Tier 14"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Elemental Conflux",
+      "category": [
+        "Spirit Gems",
+        "Spirit Gems - Tier 14"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Eternal Rage",
+      "category": [
+        "Spirit Gems",
+        "Spirit Gems - Tier 14"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Trinity",
+      "category": [
+        "Spirit Gems",
+        "Spirit Gems - Tier 14"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Enfeeble",
+      "category": [
+        "Utility Gems",
+        "Utility Gems - Tier 03"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Infernal Cry",
+      "category": [
+        "Utility Gems",
+        "Utility Gems - Tier 03"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Staggering Palm",
+      "category": [
+        "Utility Gems",
+        "Utility Gems - Tier 03"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Arctic Howl",
+      "category": [
+        "Utility Gems",
+        "Utility Gems - Tier 05"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Barrage",
+      "category": [
+        "Utility Gems",
+        "Utility Gems - Tier 05"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Ice-Tipped Arrows",
+      "category": [
+        "Utility Gems",
+        "Utility Gems - Tier 05"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Elemental Weakness",
+      "category": [
+        "Utility Gems",
+        "Utility Gems - Tier 07"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Freezing Mark",
+      "category": [
+        "Utility Gems",
+        "Utility Gems - Tier 07"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Mana Tempest",
+      "category": [
+        "Utility Gems",
+        "Utility Gems - Tier 07"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Sniper's Mark",
+      "category": [
+        "Utility Gems",
+        "Utility Gems - Tier 07"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Temporal Chains",
+      "category": [
+        "Utility Gems",
+        "Utility Gems - Tier 07"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Voltaic Mark",
+      "category": [
+        "Utility Gems",
+        "Utility Gems - Tier 07"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Vulnerability",
+      "category": [
+        "Utility Gems",
+        "Utility Gems - Tier 07"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Bloodhound's Mark",
+      "category": [
+        "Utility Gems",
+        "Utility Gems - Tier 09"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Charged Staff",
+      "category": [
+        "Utility Gems",
+        "Utility Gems - Tier 09"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Despair",
+      "category": [
+        "Utility Gems",
+        "Utility Gems - Tier 09"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Fortifying Cry",
+      "category": [
+        "Utility Gems",
+        "Utility Gems - Tier 09"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Mantra of Destruction",
+      "category": [
+        "Utility Gems",
+        "Utility Gems - Tier 09"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Emergency Reload",
+      "category": [
+        "Utility Gems",
+        "Utility Gems - Tier 11"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Seismic Cry",
+      "category": [
+        "Utility Gems",
+        "Utility Gems - Tier 11"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Ancestral Cry",
+      "category": [
+        "Utility Gems",
+        "Utility Gems - Tier 13"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Lunar Blessing",
+      "category": [
+        "Utility Gems",
+        "Utility Gems - Tier 13"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Toxic Domain",
+      "category": [
+        "Utility Gems",
+        "Utility Gems - Tier 13"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Walking Calamity",
+      "category": [
+        "Utility Gems",
+        "Utility Gems - Tier 13"
+      ],
+      "useful": true
+    },
+    {
+      "name": "Abiding Hex Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Accelerated Growth Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Acrimony Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Adhesive Grenades Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Admixture Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Advancing Storm Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 4"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Aftershock Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Alignment Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 3"
+      ],
+      "count": 3,
+      "progression": true
+    },
+    {
+      "name": "Ambrosia Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Ambush Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Ammo Conservation Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 3,
+      "progression": true
+    },
+    {
+      "name": "Ancestral Call Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 4"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Arcane Surge Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Armour Break Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 3,
+      "progression": true
+    },
+    {
+      "name": "Armour Demolisher Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Armour Explosion Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Astral Projection Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 3"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Barbs Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 3"
+      ],
+      "count": 3,
+      "progression": true
+    },
+    {
+      "name": "Battershout Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Behead Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Bidding Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 3,
+      "progression": true
+    },
+    {
+      "name": "Biting Frost Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 3"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Blazing Critical Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 4"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Bleed Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 4,
+      "progression": true
+    },
+    {
+      "name": "Blind Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Blindside Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Bone Shrapnel Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Boundless Energy Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Bounty Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Brambleslam Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 5"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Branching Fissures Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 3"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Brink Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Brittle Armour Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 3"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Brutality Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 3,
+      "progression": true
+    },
+    {
+      "name": "Burgeon Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Burning Inscription Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 4"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Bursting Plague Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Cadence Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Caltrops Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 3"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Cannibalism Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 3"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Catalysing Elements Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 5"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Catharsis Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Chain Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 3,
+      "progression": true
+    },
+    {
+      "name": "Chaos Attunement Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 3"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Chaos Mastery Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 5"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Chaotic Freeze Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 3"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Charge Profusion Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Charged Mark Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 5"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Charged Shots Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 3"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Clarity Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Clash Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 3"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Close Combat Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 3"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Cold Attunement Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Cold Exposure Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 4"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Cold Mastery Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 5"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Cold Penetration Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Combo Finisher Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Commiserate Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Compressed Duration Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Concentrated Area Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Concoct Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Concussive Spells Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 4"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Considered Casting Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Controlled Destruction Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Controlled Hazard Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 4"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Cool Headed Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 3"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Cooldown Recovery Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 3"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Corpse Conservation Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 3"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Corrosion Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Corrupting Cry Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 3"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Coursing Current Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Crackling Barrier Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Crater Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Crazed Minions Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 4"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Creeping Chill Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Crescendo Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 3,
+      "progression": true
+    },
+    {
+      "name": "Crystalline Shards Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Culling Strike Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 4"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Culmination Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 3"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Cursed Ground Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 3"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Danse Macabre Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Deadly Herald Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 3"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Deadly Poison Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Deadly Resolve Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 3"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Deathmarch Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Decaying Hex Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 3"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Deep Cuts Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 3"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Deep Freeze Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Defy Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Delayed Gratification Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Delayed Reaction Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 4"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Deliberation Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 3"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Derange Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 4"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Direstrike Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Double Barrel Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 3,
+      "progression": true
+    },
+    {
+      "name": "Drain Ailments Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 3"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Durability Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Echoing Cry Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 4"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Efficiency Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Electrocute Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Electromagnetism Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 3"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Elemental Armament Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 3,
+      "progression": true
+    },
+    {
+      "name": "Elemental Army Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Elemental Discharge Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 3"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Elemental Focus Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 3"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Embitter Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Empowered Sparks Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Encroaching Ground Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Enduring Impact Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Energy Capacitor Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 3"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Energy Retention Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 3"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Enraged Warcry Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 4"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Escalating Poison Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Essence Harvest Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 3"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Eternal Flame Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 3,
+      "progression": true
+    },
+    {
+      "name": "Eternal Mark Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 3"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Excise Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Execrate Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 3"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Execute Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 3,
+      "progression": true
+    },
+    {
+      "name": "Expand Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 5"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Expanse Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Exploit Weakness Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Exposing Cry Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 4"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Extraction Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 3"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Fan The Flames Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Feeding Frenzy Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 3"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Fiery Death Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Fire Attunement Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Fire Exposure Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 4"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Fire Mastery Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 5"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Fire Penetration Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Fist of War Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 3,
+      "progression": true
+    },
+    {
+      "name": "Fluke Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 3"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Focused Curse Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Font of Blood Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Font of Mana Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Fork Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 3"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Fortress Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Freeze Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Frenzied Riposte Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Fresh Clip Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Frost Nexus Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Frostfire Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 3"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Frozen Spite Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Gambleshot Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 3"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Glacier Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Gorge Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Haemocrystals Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 3"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Hardy Totems Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Harmonic Remnants Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Heavy Swing Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 4"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Heft Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 5"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Heightened Accuracy Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Heightened Charges Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Heightened Curse Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Herbalism Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Hex Bloom Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 3"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Hit and Run Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 4"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Holy Descent Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 5"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Hourglass Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Hulking Minions Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 4"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Ice Bite Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Icicle Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Ignite Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 3,
+      "progression": true
+    },
+    {
+      "name": "Immolate Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 3"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Impact Shockwave Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Impale Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 4"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Impending Doom Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Incision Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 4"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Inexorable Critical Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 3"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Infernal Legion Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Inhibitor Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Innervate Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Intense Agony Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Jagged Ground Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Knockback Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 3"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Last Gasp Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Lasting Shock Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Life Drain Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Life Leech Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 3,
+      "progression": true
+    },
+    {
+      "name": "Lifetap Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Lightning Attunement Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Lightning Exposure Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 4"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Lightning Mastery Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 5"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Lightning Penetration Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Living Lightning Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Long Fuse Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 4"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Longshot Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Loyalty Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Magnified Area Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Maim Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Mana Flare Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Mana Leech Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Mark for Death Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Mark of Siphoning Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Meat Shield Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Minion Instability Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Minion Mastery Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 5"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Minion Pact Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Minion Splash Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Mobility Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 3"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Momentum Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Multishot Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Muster Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 3"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Mysticism Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Neural Overload Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 3"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Nimble Reload Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 4"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Nova Projectiles Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Opening Move Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Overabundance Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Overcharge Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 4"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Overreach Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Payload Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 4"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Perfected Endurance Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 4"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Perfection Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 4"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Perpetual Charge Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Persistent Ground Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 3,
+      "progression": true
+    },
+    {
+      "name": "Physical Mastery Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 5"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Pierce Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 3,
+      "progression": true
+    },
+    {
+      "name": "Pin Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 3,
+      "progression": true
+    },
+    {
+      "name": "Pinpoint Critical Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Poison Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 3,
+      "progression": true
+    },
+    {
+      "name": "Poison Spores Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 3"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Potent Exposure Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Practical Magic Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 3"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Practiced Combo Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 3"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Precision Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Profanity Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Projectile Acceleration Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 3,
+      "progression": true
+    },
+    {
+      "name": "Projectile Deceleration Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Prolonged Duration Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Punch Through Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 3"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Pursuit Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 3,
+      "progression": true
+    },
+    {
+      "name": "Quill Burst Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 3"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Rage Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 3,
+      "progression": true
+    },
+    {
+      "name": "Rageforged Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 4"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Raging Cry Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Rapid Attacks Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 3,
+      "progression": true
+    },
+    {
+      "name": "Rapid Casting Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 3,
+      "progression": true
+    },
+    {
+      "name": "Rearm Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 3"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Refraction Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 3,
+      "progression": true
+    },
+    {
+      "name": "Reinforced Totems Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 3"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Remnant Potency Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 3,
+      "progression": true
+    },
+    {
+      "name": "Rending Apex Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 3"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Retaliate Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Retreat Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 3,
+      "progression": true
+    },
+    {
+      "name": "Ricochet Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Rip Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 3"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Rising Tempest Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Ritualistic Curse Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 3"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Rupture Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 3"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Sacrificial Lamb Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Sacrificial Offering Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 3"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Salvo Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 3"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Searing Flame Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 3"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Second Wind Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 3,
+      "progression": true
+    },
+    {
+      "name": "Selfless Remnants Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Shock Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Shock Conduction Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Shocking Leap Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Short Fuse Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Skittering Stone Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Slow Potency Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Soul Drain Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 3"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Spectral Volley Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 4"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Spell Cascade Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Spell Echo Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Splinter Totem Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 3"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Static Shocks Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 3"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Steadfast Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Stoicism Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 3"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Stomping Ground Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Stormfire Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 3"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Streamlined Rounds Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 3"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Strong Hearted Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 3"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Stun Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 3,
+      "progression": true
+    },
+    {
+      "name": "Supercritical Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 3"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Swift Affliction Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 3,
+      "progression": true
+    },
+    {
+      "name": "Syzygy Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 4"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Tear Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 3"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Tectonic Slams Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Thornskin Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Thrill of the Kill Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Tireless Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Unleash Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Upheaval Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Upwelling Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Urgent Totems Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 3,
+      "progression": true
+    },
+    {
+      "name": "Vanguard Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Verglas Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 3"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Vitality Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Volatility Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 3"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Volcanic Eruption Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Volt Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Warm Blooded Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 3"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Wildfire Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 2"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Wildshards Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 3"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Window of Opportunity Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Withering Touch Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 1,
+      "progression": true
+    },
+    {
+      "name": "Zenith Support",
+      "category": [
+        "Support Gems",
+        "Support Gems - Tier 1"
+      ],
+      "count": 2,
+      "progression": true
+    },
+    {
+      "name": "Progressive One Hand Mace",
+      "category": [
+        "Gear",
+        "Gear - Weapons"
+      ],
+      "count": 4,
+      "progression": true
+    },
+    {
+      "name": "Progressive Two Hand Mace",
+      "category": [
+        "Gear",
+        "Gear - Weapons"
+      ],
+      "count": 4,
+      "progression": true
+    },
+    {
+      "name": "Progressive Quarterstaff",
+      "category": [
+        "Gear",
+        "Gear - Weapons"
+      ],
+      "count": 4,
+      "progression": true
+    },
+    {
+      "name": "Progressive Spear",
+      "category": [
+        "Gear",
+        "Gear - Weapons"
+      ],
+      "count": 4,
+      "progression": true
+    },
+    {
+      "name": "Progressive Bow",
+      "category": [
+        "Gear",
+        "Gear - Weapons"
+      ],
+      "count": 4,
+      "progression": true
+    },
+    {
+      "name": "Progressive Crossbow",
+      "category": [
+        "Gear",
+        "Gear - Weapons"
+      ],
+      "count": 4,
+      "progression": true
+    },
+    {
+      "name": "Progressive Wand",
+      "category": [
+        "Gear",
+        "Gear - Weapons"
+      ],
+      "count": 4,
+      "progression": true
+    },
+    {
+      "name": "Progressive Staff",
+      "category": [
+        "Gear",
+        "Gear - Weapons"
+      ],
+      "count": 4,
+      "progression": true
+    },
+    {
+      "name": "Progressive Sceptre",
+      "category": [
+        "Gear",
+        "Gear - Weapons"
+      ],
+      "count": 4,
+      "progression": true
+    },
+    {
+      "name": "Progressive Talisman",
+      "category": [
+        "Gear",
+        "Gear - Weapons"
+      ],
+      "count": 4,
+      "progression": true
+    },
+    {
+      "name": "Progressive Shield",
+      "category": [
+        "Gear",
+        "Gear - Off-hands"
+      ],
+      "count": 4,
+      "progression": true
+    },
+    {
+      "name": "Progressive Buckler",
+      "category": [
+        "Gear",
+        "Gear - Off-hands"
+      ],
+      "count": 4,
+      "progression": true
+    },
+    {
+      "name": "Progressive Focus",
+      "category": [
+        "Gear",
+        "Gear - Off-hands"
+      ],
+      "count": 4,
+      "progression": true
+    },
+    {
+      "name": "Progressive Quiver",
+      "category": [
+        "Gear",
+        "Gear - Off-hands"
+      ],
+      "count": 4,
+      "progression": true
+    },
+    {
+      "name": "Progressive Helmet",
+      "category": [
+        "Gear",
+        "Gear - Armour"
+      ],
+      "count": 4,
+      "progression": true
+    },
+    {
+      "name": "Progressive Body Armour",
+      "category": [
+        "Gear",
+        "Gear - Armour"
+      ],
+      "count": 4,
+      "progression": true
+    },
+    {
+      "name": "Progressive Gloves",
+      "category": [
+        "Gear",
+        "Gear - Armour"
+      ],
+      "count": 4,
+      "progression": true
+    },
+    {
+      "name": "Progressive Boots",
+      "category": [
+        "Gear",
+        "Gear - Armour"
+      ],
+      "count": 4,
+      "progression": true
+    },
+    {
+      "name": "Progressive Belt",
+      "category": [
+        "Gear",
+        "Gear - Jewellery"
+      ],
+      "count": 4,
+      "progression": true
+    },
+    {
+      "name": "Progressive Amulet",
+      "category": [
+        "Gear",
+        "Gear - Jewellery"
+      ],
+      "count": 4,
+      "progression": true
+    },
+    {
+      "name": "Progressive Ring (Left)",
+      "category": [
+        "Gear",
+        "Gear - Jewellery"
+      ],
+      "count": 4,
+      "progression": true
+    },
+    {
+      "name": "Progressive Ring (Right)",
+      "category": [
+        "Gear",
+        "Gear - Jewellery"
+      ],
+      "count": 4,
+      "progression": true
+    },
+    {
+      "name": "Life Flask Slot",
+      "category": [
+        "Flasks & Charms"
+      ],
+      "progression": true,
+      "early": true
+    },
+    {
+      "name": "Mana Flask Slot",
+      "category": [
+        "Flasks & Charms"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Progressive Charm Slot",
+      "category": [
+        "Flasks & Charms"
+      ],
+      "count": 3,
+      "progression": true
+    },
+    {
+      "name": "Progressive Support Socket",
+      "category": [
+        "Support Sockets"
+      ],
+      "count": 3,
+      "progression": true
+    },
+    {
+      "name": "Passive Skill Point",
+      "category": [
+        "Passive Points"
+      ],
+      "count": 123,
+      "progression": true
+    },
+    {
+      "name": "Weapon Set Passive Points",
+      "category": [
+        "Passive Points"
+      ],
+      "count": 12,
+      "useful": true
+    },
+    {
+      "name": "Progressive Ascendancy Trial",
+      "category": [
+        "Ascendancy"
+      ],
+      "count": 4,
+      "progression": true
+    },
+    {
+      "name": "Pinnacle Boss Trophy",
+      "category": [
+        "Goal"
+      ],
+      "count": 10,
+      "progression_skip_balancing": true
+    },
+    {
+      "name": "Ascendancy - Titan",
+      "category": [
+        "Ascendancy",
+        "Ascendancy - Warrior"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Ascendancy - Warbringer",
+      "category": [
+        "Ascendancy",
+        "Ascendancy - Warrior"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Ascendancy - Smith of Kitava",
+      "category": [
+        "Ascendancy",
+        "Ascendancy - Warrior"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Ascendancy - Tactician",
+      "category": [
+        "Ascendancy",
+        "Ascendancy - Mercenary"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Ascendancy - Witchhunter",
+      "category": [
+        "Ascendancy",
+        "Ascendancy - Mercenary"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Ascendancy - Gemling Legionnaire",
+      "category": [
+        "Ascendancy",
+        "Ascendancy - Mercenary"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Ascendancy - Deadeye",
+      "category": [
+        "Ascendancy",
+        "Ascendancy - Ranger"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Ascendancy - Pathfinder",
+      "category": [
+        "Ascendancy",
+        "Ascendancy - Ranger"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Ascendancy - Amazon",
+      "category": [
+        "Ascendancy",
+        "Ascendancy - Huntress"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Ascendancy - Spirit Walker",
+      "category": [
+        "Ascendancy",
+        "Ascendancy - Huntress"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Ascendancy - Ritualist",
+      "category": [
+        "Ascendancy",
+        "Ascendancy - Huntress"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Ascendancy - Martial Artist",
+      "category": [
+        "Ascendancy",
+        "Ascendancy - Monk"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Ascendancy - Invoker",
+      "category": [
+        "Ascendancy",
+        "Ascendancy - Monk"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Ascendancy - Acolyte of Chayula",
+      "category": [
+        "Ascendancy",
+        "Ascendancy - Monk"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Ascendancy - Stormweaver",
+      "category": [
+        "Ascendancy",
+        "Ascendancy - Sorceress"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Ascendancy - Chronomancer",
+      "category": [
+        "Ascendancy",
+        "Ascendancy - Sorceress"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Ascendancy - Disciple of Varashta",
+      "category": [
+        "Ascendancy",
+        "Ascendancy - Sorceress"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Ascendancy - Infernalist",
+      "category": [
+        "Ascendancy",
+        "Ascendancy - Witch"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Ascendancy - Blood Mage",
+      "category": [
+        "Ascendancy",
+        "Ascendancy - Witch"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Ascendancy - Lich",
+      "category": [
+        "Ascendancy",
+        "Ascendancy - Witch"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Ascendancy - Abyssal Lich",
+      "category": [
+        "Ascendancy",
+        "Ascendancy - Witch"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Ascendancy - Oracle",
+      "category": [
+        "Ascendancy",
+        "Ascendancy - Druid"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Ascendancy - Shaman",
+      "category": [
+        "Ascendancy",
+        "Ascendancy - Druid"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Class - Warrior",
+      "category": [
+        "Character Class"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Class - Mercenary",
+      "category": [
+        "Character Class"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Class - Ranger",
+      "category": [
+        "Character Class"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Class - Huntress",
+      "category": [
+        "Character Class"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Class - Monk",
+      "category": [
+        "Character Class"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Class - Sorceress",
+      "category": [
+        "Character Class"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Class - Witch",
+      "category": [
+        "Character Class"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Class - Druid",
+      "category": [
+        "Character Class"
+      ],
+      "progression": true
+    },
+    {
+      "name": "A Pile of Gold",
+      "category": [
+        "Filler"
+      ],
+      "filler": true
+    }
+  ]
+}

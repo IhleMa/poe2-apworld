@@ -1,0 +1,141 @@
+{
+    "$schema": "https://raw.githubusercontent.com/ManualForArchipelago/Manual/main/schemas/Manual.options.schema.json",
+    "core": {
+        "goal": {
+            "display_name": "Goal",
+            "description": [
+                "What ends your run.",
+                "Complete the Campaign: finish Acts 1-4 and the Interludes and reach The Ziggurat Refuge.",
+                "Complete Act N: reach the first zone of the next act.",
+                "Defeat Pinnacle Bosses: defeat 'pinnacle_bosses_required' endgame pinnacle bosses."
+            ]
+        },
+        "death_link": {
+            "default": false
+        },
+        "filler_traps": {
+            "hidden": true
+        }
+    },
+    "user": {
+        "starting_character": {
+            "display_name": "Starting Character",
+            "type": "Choice",
+            "description": [
+                "Which class you play. You start with that class unlocked (shown as 'Class - <name>' in the client).",
+                "Only this class's ascendancies are placed in the item pool."
+            ],
+            "values": {
+                "random_class": 0,
+                "warrior": 1,
+                "mercenary": 2,
+                "ranger": 3,
+                "huntress": 4,
+                "monk": 5,
+                "sorceress": 6,
+                "witch": 7,
+                "druid": 8
+            },
+            "default": 0,
+            "group": "Starting Conditions"
+        },
+        "usable_starting_gear": {
+            "display_name": "Usable Starting Gear",
+            "type": "Toggle",
+            "description": [
+                "Start with your class's weapon type unlocked at Normal rarity, plus your Life and Mana flask slots,",
+                "so the opening zones are playable before your first items arrive."
+            ],
+            "default": true,
+            "group": "Starting Conditions"
+        },
+        "starting_skill_gem": {
+            "display_name": "Starting Skill Gem",
+            "type": "Toggle",
+            "description": "Start with one random tier 1 skill gem that fits your class's starting weapon or spell type.",
+            "default": true,
+            "group": "Starting Conditions"
+        },
+        "include_ascendancy": {
+            "display_name": "Include Ascendancy",
+            "type": "Toggle",
+            "description": [
+                "Adds your class's ascendancies ('Ascendancy - <name>') and 4 'Progressive Ascendancy Trial' items.",
+                "You may only ascend into an ascendancy you received, and each trial item allows 2 ascendancy points."
+            ],
+            "default": true,
+            "group": "Item Pool"
+        },
+        "progressive_support_gems": {
+            "display_name": "Progressive Support Gems",
+            "type": "Toggle",
+            "description": [
+                "Off: one '<Name> Support' item unlocks every level of that support lineage (e.g. Barbs I, II and III).",
+                "On: each copy received unlocks the next level of the lineage (more items, slower unlocks)."
+            ],
+            "default": false,
+            "group": "Item Pool"
+        },
+        "passive_points_in_pool": {
+            "display_name": "Passive Points in Pool",
+            "type": "Range",
+            "description": [
+                "How many 'Passive Skill Point' items are shuffled. You may only allocate as many passive points as you received.",
+                "0 turns this off: you can then allocate passives normally. The full game has 123 regular passive points."
+            ],
+            "range_start": 0,
+            "range_end": 123,
+            "default": 123,
+            "group": "Item Pool"
+        },
+        "add_base_item_locations": {
+            "display_name": "Item Base Locations",
+            "type": "Toggle",
+            "description": "Picking up each weapon/armour/jewellery/flask/charm base type for the first time is a check.",
+            "default": true,
+            "group": "Locations"
+        },
+        "add_zone_locations": {
+            "display_name": "Zone Locations",
+            "type": "Toggle",
+            "description": "Entering each campaign zone for the first time is a check.",
+            "default": true,
+            "group": "Locations"
+        },
+        "add_boss_locations": {
+            "display_name": "Boss Locations",
+            "type": "Toggle",
+            "description": "Defeating each zone's campaign boss (and completing the ascendancy trials) is a check.",
+            "default": true,
+            "group": "Locations"
+        },
+        "add_level_locations": {
+            "display_name": "Level Up Locations",
+            "type": "Toggle",
+            "description": "Reaching each character level is a check.",
+            "default": true,
+            "group": "Locations"
+        },
+        "max_level_location": {
+            "display_name": "Highest Level Location",
+            "type": "Range",
+            "description": "The highest 'Reach Level N' check. Levels past your goal's content are removed automatically.",
+            "range_start": 10,
+            "range_end": 100,
+            "default": 90,
+            "group": "Locations"
+        },
+        "pinnacle_bosses_required": {
+            "display_name": "Pinnacle Bosses Required",
+            "type": "Range",
+            "description": [
+                "Only used with the 'Defeat Pinnacle Bosses' goal: how many of the 10 pinnacle boss checks you must complete.",
+                "Each pinnacle boss check always rewards a 'Pinnacle Boss Trophy'."
+            ],
+            "range_start": 1,
+            "range_end": 10,
+            "default": 3,
+            "group": "Goal"
+        }
+    }
+}

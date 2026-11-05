@@ -1,0 +1,6018 @@
+{
+ "regions": [
+  "Act 1 - The Riverbank",
+  "Act 1",
+  "Act 2",
+  "Act 3",
+  "Act 4",
+  "Interludes",
+  "Endgame"
+ ],
+ "gems": {
+  "Alchemist's Boon": {
+   "kind": "Spirit Gem",
+   "tier": 14,
+   "weapons": [],
+   "groups": [
+    "Bow"
+   ]
+  },
+  "Ancestral Cry": {
+   "kind": "Utility Gem",
+   "tier": 13,
+   "weapons": [],
+   "groups": [
+    "Mace"
+   ]
+  },
+  "Archmage": {
+   "kind": "Spirit Gem",
+   "tier": 14,
+   "weapons": [],
+   "groups": [
+    "Elemental"
+   ]
+  },
+  "Armour Piercing Rounds": {
+   "kind": "Skill Gem",
+   "tier": 1,
+   "weapons": [
+    "Crossbow"
+   ],
+   "groups": [
+    "Crossbow"
+   ]
+  },
+  "Attrition": {
+   "kind": "Spirit Gem",
+   "tier": 4,
+   "weapons": [],
+   "groups": [
+    "Crossbow"
+   ]
+  },
+  "Barkskin": {
+   "kind": "Spirit Gem",
+   "tier": 8,
+   "weapons": [],
+   "groups": [
+    "Primal"
+   ]
+  },
+  "Fury of the Mountain": {
+   "kind": "Skill Gem",
+   "tier": 5,
+   "weapons": [
+    "Talisman"
+   ],
+   "groups": [
+    "Primal"
+   ]
+  },
+  "Berserk": {
+   "kind": "Spirit Gem",
+   "tier": 14,
+   "weapons": [],
+   "groups": [
+    "Mace"
+   ]
+  },
+  "Blink": {
+   "kind": "Spirit Gem",
+   "tier": 8,
+   "weapons": [],
+   "groups": [
+    "Elemental"
+   ]
+  },
+  "Bloodhound's Mark": {
+   "kind": "Utility Gem",
+   "tier": 9,
+   "weapons": [],
+   "groups": [
+    "Spear"
+   ]
+  },
+  "Bone Cage": {
+   "kind": "Skill Gem",
+   "tier": 3,
+   "weapons": [],
+   "groups": [
+    "Occult"
+   ]
+  },
+  "Bonestorm": {
+   "kind": "Skill Gem",
+   "tier": 5,
+   "weapons": [],
+   "groups": [
+    "Occult"
+   ]
+  },
+  "Charge Regulation": {
+   "kind": "Spirit Gem",
+   "tier": 14,
+   "weapons": [],
+   "groups": [
+    "Quarterstaff",
+    "Crossbow"
+   ]
+  },
+  "Cluster Grenade": {
+   "kind": "Skill Gem",
+   "tier": 13,
+   "weapons": [
+    "Crossbow"
+   ],
+   "groups": [
+    "Crossbow"
+   ]
+  },
+  "Snap": {
+   "kind": "Skill Gem",
+   "tier": 5,
+   "weapons": [],
+   "groups": [
+    "Elemental"
+   ]
+  },
+  "Combat Frenzy": {
+   "kind": "Spirit Gem",
+   "tier": 8,
+   "weapons": [],
+   "groups": [
+    "Bow",
+    "Spear"
+   ]
+  },
+  "Convalescence": {
+   "kind": "Spirit Gem",
+   "tier": 4,
+   "weapons": [],
+   "groups": [
+    "Occult",
+    "Elemental"
+   ]
+  },
+  "Cull The Weak": {
+   "kind": "Skill Gem",
+   "tier": 3,
+   "weapons": [
+    "Spear"
+   ],
+   "groups": [
+    "Spear"
+   ]
+  },
+  "Dark Effigy": {
+   "kind": "Skill Gem",
+   "tier": 9,
+   "weapons": [],
+   "groups": [
+    "Occult"
+   ]
+  },
+  "Defiance Banner": {
+   "kind": "Spirit Gem",
+   "tier": 8,
+   "weapons": [],
+   "groups": [
+    "Crossbow"
+   ]
+  },
+  "Detonating Arrow": {
+   "kind": "Skill Gem",
+   "tier": 9,
+   "weapons": [
+    "Bow"
+   ],
+   "groups": [
+    "Bow"
+   ]
+  },
+  "Dread Banner": {
+   "kind": "Spirit Gem",
+   "tier": 14,
+   "weapons": [],
+   "groups": [
+    "Crossbow",
+    "Mace"
+   ]
+  },
+  "Electrocuting Arrow": {
+   "kind": "Skill Gem",
+   "tier": 5,
+   "weapons": [
+    "Bow"
+   ],
+   "groups": [
+    "Bow"
+   ]
+  },
+  "Elemental Conflux": {
+   "kind": "Spirit Gem",
+   "tier": 14,
+   "weapons": [],
+   "groups": [
+    "Elemental"
+   ]
+  },
+  "Elemental Invocation": {
+   "kind": "Meta Gem",
+   "tier": 8,
+   "weapons": [],
+   "groups": [
+    "Elemental",
+    "Quarterstaff"
+   ]
+  },
+  "Elemental Sundering": {
+   "kind": "Skill Gem",
+   "tier": 11,
+   "weapons": [
+    "Spear"
+   ],
+   "groups": [
+    "Spear"
+   ]
+  },
+  "Elemental Weakness": {
+   "kind": "Utility Gem",
+   "tier": 7,
+   "weapons": [],
+   "groups": [
+    "Elemental"
+   ]
+  },
+  "Emergency Reload": {
+   "kind": "Utility Gem",
+   "tier": 11,
+   "weapons": [],
+   "groups": [
+    "Crossbow"
+   ]
+  },
+  "Entangle": {
+   "kind": "Skill Gem",
+   "tier": 1,
+   "weapons": [],
+   "groups": [
+    "Primal"
+   ]
+  },
+  "Explosive Grenade": {
+   "kind": "Skill Gem",
+   "tier": 1,
+   "weapons": [
+    "Crossbow"
+   ],
+   "groups": [
+    "Crossbow"
+   ]
+  },
+  "Explosive Shot": {
+   "kind": "Skill Gem",
+   "tier": 7,
+   "weapons": [
+    "Crossbow"
+   ],
+   "groups": [
+    "Crossbow"
+   ]
+  },
+  "Explosive Spear": {
+   "kind": "Skill Gem",
+   "tier": 1,
+   "weapons": [
+    "Spear"
+   ],
+   "groups": [
+    "Spear"
+   ]
+  },
+  "Fangs of Frost": {
+   "kind": "Skill Gem",
+   "tier": 3,
+   "weapons": [
+    "Spear"
+   ],
+   "groups": [
+    "Spear"
+   ]
+  },
+  "Feral Invocation": {
+   "kind": "Meta Gem",
+   "tier": 14,
+   "weapons": [],
+   "groups": [
+    "Primal"
+   ]
+  },
+  "Fireball": {
+   "kind": "Skill Gem",
+   "tier": 3,
+   "weapons": [],
+   "groups": [
+    "Elemental"
+   ]
+  },
+  "Flash Grenade": {
+   "kind": "Skill Gem",
+   "tier": 3,
+   "weapons": [
+    "Crossbow"
+   ],
+   "groups": [
+    "Crossbow"
+   ]
+  },
+  "Forge Hammer": {
+   "kind": "Skill Gem",
+   "tier": 9,
+   "weapons": [
+    "One Hand Mace",
+    "Two Hand Mace"
+   ],
+   "groups": [
+    "Mace"
+   ]
+  },
+  "Fortifying Cry": {
+   "kind": "Utility Gem",
+   "tier": 9,
+   "weapons": [],
+   "groups": [
+    "Mace"
+   ]
+  },
+  "Fragmentation Rounds": {
+   "kind": "Skill Gem",
+   "tier": 1,
+   "weapons": [
+    "Crossbow"
+   ],
+   "groups": [
+    "Crossbow"
+   ]
+  },
+  "Freezing Mark": {
+   "kind": "Utility Gem",
+   "tier": 7,
+   "weapons": [],
+   "groups": [
+    "Quarterstaff",
+    "Bow"
+   ]
+  },
+  "Freezing Salvo": {
+   "kind": "Skill Gem",
+   "tier": 3,
+   "weapons": [
+    "Bow"
+   ],
+   "groups": [
+    "Bow"
+   ]
+  },
+  "Frost Darts": {
+   "kind": "Skill Gem",
+   "tier": 3,
+   "weapons": [],
+   "groups": [
+    "Elemental"
+   ]
+  },
+  "Frozen Locus": {
+   "kind": "Skill Gem",
+   "tier": 1,
+   "weapons": [
+    "Quarterstaff"
+   ],
+   "groups": [
+    "Quarterstaff"
+   ]
+  },
+  "Galvanic Shards": {
+   "kind": "Skill Gem",
+   "tier": 5,
+   "weapons": [
+    "Crossbow"
+   ],
+   "groups": [
+    "Crossbow"
+   ]
+  },
+  "Gas Arrow": {
+   "kind": "Skill Gem",
+   "tier": 7,
+   "weapons": [
+    "Bow"
+   ],
+   "groups": [
+    "Bow"
+   ]
+  },
+  "Gas Grenade": {
+   "kind": "Skill Gem",
+   "tier": 5,
+   "weapons": [
+    "Crossbow"
+   ],
+   "groups": [
+    "Crossbow"
+   ]
+  },
+  "Gathering Storm": {
+   "kind": "Skill Gem",
+   "tier": 13,
+   "weapons": [
+    "Quarterstaff"
+   ],
+   "groups": [
+    "Quarterstaff"
+   ]
+  },
+  "Glacial Bolt": {
+   "kind": "Skill Gem",
+   "tier": 7,
+   "weapons": [
+    "Crossbow"
+   ],
+   "groups": [
+    "Crossbow"
+   ]
+  },
+  "Grim Feast": {
+   "kind": "Skill Gem",
+   "tier": 4,
+   "weapons": [],
+   "groups": [
+    "Occult"
+   ]
+  },
+  "Hailstorm Rounds": {
+   "kind": "Skill Gem",
+   "tier": 11,
+   "weapons": [
+    "Crossbow"
+   ],
+   "groups": [
+    "Crossbow"
+   ]
+  },
+  "Hammer of the Gods": {
+   "kind": "Skill Gem",
+   "tier": 13,
+   "weapons": [
+    "One Hand Mace",
+    "Two Hand Mace"
+   ],
+   "groups": [
+    "Mace"
+   ]
+  },
+  "Hand of Chayula": {
+   "kind": "Meta Gem",
+   "tier": 9,
+   "weapons": [],
+   "groups": [
+    "Quarterstaff"
+   ]
+  },
+  "Herald of Blood": {
+   "kind": "Spirit Gem",
+   "tier": 4,
+   "weapons": [],
+   "groups": [
+    "Spear"
+   ]
+  },
+  "Herald of Plague": {
+   "kind": "Spirit Gem",
+   "tier": 8,
+   "weapons": [],
+   "groups": [
+    "Bow"
+   ]
+  },
+  "High Velocity Rounds": {
+   "kind": "Skill Gem",
+   "tier": 3,
+   "weapons": [
+    "Crossbow"
+   ],
+   "groups": [
+    "Crossbow"
+   ]
+  },
+  "Ice Shards": {
+   "kind": "Skill Gem",
+   "tier": 5,
+   "weapons": [
+    "Crossbow"
+   ],
+   "groups": [
+    "Crossbow"
+   ]
+  },
+  "Ice Shot": {
+   "kind": "Skill Gem",
+   "tier": 9,
+   "weapons": [
+    "Bow"
+   ],
+   "groups": [
+    "Bow"
+   ]
+  },
+  "Ice-Tipped Arrows": {
+   "kind": "Utility Gem",
+   "tier": 5,
+   "weapons": [],
+   "groups": [
+    "Bow"
+   ]
+  },
+  "Incendiary Shot": {
+   "kind": "Skill Gem",
+   "tier": 3,
+   "weapons": [
+    "Crossbow"
+   ],
+   "groups": [
+    "Crossbow"
+   ]
+  },
+  "Iron Ward": {
+   "kind": "Spirit Gem",
+   "tier": 4,
+   "weapons": [],
+   "groups": [
+    "Mace"
+   ]
+  },
+  "Lightning Rod": {
+   "kind": "Skill Gem",
+   "tier": 1,
+   "weapons": [
+    "Bow"
+   ],
+   "groups": [
+    "Bow"
+   ]
+  },
+  "Living Bomb": {
+   "kind": "Skill Gem",
+   "tier": 3,
+   "weapons": [],
+   "groups": [
+    "Elemental"
+   ]
+  },
+  "Lunar Assault": {
+   "kind": "Skill Gem",
+   "tier": 1,
+   "weapons": [
+    "Talisman"
+   ],
+   "groups": [
+    "Primal"
+   ]
+  },
+  "Magma Barrier": {
+   "kind": "Spirit Gem",
+   "tier": 4,
+   "weapons": [],
+   "groups": [
+    "Mace"
+   ]
+  },
+  "Magnetic Salvo": {
+   "kind": "Skill Gem",
+   "tier": 13,
+   "weapons": [
+    "Bow"
+   ],
+   "groups": [
+    "Bow"
+   ]
+  },
+  "Mana Remnants": {
+   "kind": "Spirit Gem",
+   "tier": 4,
+   "weapons": [],
+   "groups": [
+    "Elemental"
+   ]
+  },
+  "Mantra of Destruction": {
+   "kind": "Utility Gem",
+   "tier": 9,
+   "weapons": [],
+   "groups": [
+    "Quarterstaff"
+   ]
+  },
+  "Mirage Archer": {
+   "kind": "Meta Gem",
+   "tier": 8,
+   "weapons": [],
+   "groups": [
+    "Bow",
+    "Spear"
+   ]
+  },
+  "Molten Blast": {
+   "kind": "Skill Gem",
+   "tier": 5,
+   "weapons": [
+    "One Hand Mace",
+    "Two Hand Mace"
+   ],
+   "groups": [
+    "Mace"
+   ]
+  },
+  "Mortar Cannon": {
+   "kind": "Meta Gem",
+   "tier": 11,
+   "weapons": [],
+   "groups": [
+    "Crossbow"
+   ]
+  },
+  "Oil Barrage": {
+   "kind": "Skill Gem",
+   "tier": 9,
+   "weapons": [
+    "Talisman"
+   ],
+   "groups": [
+    "Primal"
+   ]
+  },
+  "Oil Grenade": {
+   "kind": "Skill Gem",
+   "tier": 9,
+   "weapons": [
+    "Crossbow"
+   ],
+   "groups": [
+    "Crossbow"
+   ]
+  },
+  "Overwhelming Presence": {
+   "kind": "Spirit Gem",
+   "tier": 8,
+   "weapons": [],
+   "groups": [
+    "Mace",
+    "Crossbow",
+    "Primal"
+   ]
+  },
+  "Perfect Strike": {
+   "kind": "Skill Gem",
+   "tier": 5,
+   "weapons": [
+    "One Hand Mace",
+    "Two Hand Mace"
+   ],
+   "groups": [
+    "Mace"
+   ]
+  },
+  "Permafrost Bolts": {
+   "kind": "Skill Gem",
+   "tier": 1,
+   "weapons": [
+    "Crossbow"
+   ],
+   "groups": [
+    "Crossbow"
+   ]
+  },
+  "Plasma Blast": {
+   "kind": "Skill Gem",
+   "tier": 13,
+   "weapons": [
+    "Crossbow"
+   ],
+   "groups": [
+    "Crossbow"
+   ]
+  },
+  "Poisonburst Arrow": {
+   "kind": "Skill Gem",
+   "tier": 1,
+   "weapons": [
+    "Bow"
+   ],
+   "groups": [
+    "Bow"
+   ]
+  },
+  "Primal Strikes": {
+   "kind": "Skill Gem",
+   "tier": 9,
+   "weapons": [
+    "Spear"
+   ],
+   "groups": [
+    "Spear"
+   ]
+  },
+  "Profane Ritual": {
+   "kind": "Skill Gem",
+   "tier": 7,
+   "weapons": [],
+   "groups": [
+    "Occult"
+   ]
+  },
+  "Raging Spirits": {
+   "kind": "Skill Gem",
+   "tier": 4,
+   "weapons": [],
+   "groups": [
+    "Elemental"
+   ]
+  },
+  "Rake": {
+   "kind": "Skill Gem",
+   "tier": 3,
+   "weapons": [
+    "Spear"
+   ],
+   "groups": [
+    "Spear"
+   ]
+  },
+  "Rapid Shot": {
+   "kind": "Skill Gem",
+   "tier": 5,
+   "weapons": [
+    "Crossbow"
+   ],
+   "groups": [
+    "Crossbow"
+   ]
+  },
+  "Ravenous Swarm": {
+   "kind": "Skill Gem",
+   "tier": 4,
+   "weapons": [],
+   "groups": [
+    "Occult"
+   ]
+  },
+  "Reaper's Invocation": {
+   "kind": "Meta Gem",
+   "tier": 14,
+   "weapons": [],
+   "groups": [
+    "Quarterstaff"
+   ]
+  },
+  "Resonating Shield": {
+   "kind": "Skill Gem",
+   "tier": 5,
+   "weapons": [
+    "One Hand Mace",
+    "Two Hand Mace"
+   ],
+   "groups": [
+    "Mace"
+   ]
+  },
+  "Sacrifice": {
+   "kind": "Skill Gem",
+   "tier": 14,
+   "weapons": [],
+   "groups": [
+    "Occult"
+   ]
+  },
+  "Scavenged Plating": {
+   "kind": "Spirit Gem",
+   "tier": 4,
+   "weapons": [],
+   "groups": [
+    "Mace"
+   ]
+  },
+  "Shard Scavenger": {
+   "kind": "Spirit Gem",
+   "tier": 8,
+   "weapons": [],
+   "groups": [
+    "Crossbow"
+   ]
+  },
+  "Shield Wall": {
+   "kind": "Skill Gem",
+   "tier": 7,
+   "weapons": [
+    "One Hand Mace",
+    "Two Hand Mace"
+   ],
+   "groups": [
+    "Mace"
+   ]
+  },
+  "Shockburst Rounds": {
+   "kind": "Skill Gem",
+   "tier": 11,
+   "weapons": [
+    "Crossbow"
+   ],
+   "groups": [
+    "Crossbow"
+   ]
+  },
+  "Shockchain Arrow": {
+   "kind": "Skill Gem",
+   "tier": 11,
+   "weapons": [
+    "Bow"
+   ],
+   "groups": [
+    "Bow"
+   ]
+  },
+  "Siege Cascade": {
+   "kind": "Skill Gem",
+   "tier": 13,
+   "weapons": [
+    "Crossbow"
+   ],
+   "groups": [
+    "Crossbow"
+   ]
+  },
+  "Siphon Elements": {
+   "kind": "Spirit Gem",
+   "tier": 8,
+   "weapons": [],
+   "groups": [
+    "Elemental"
+   ]
+  },
+  "Siphoning Strike": {
+   "kind": "Skill Gem",
+   "tier": 7,
+   "weapons": [
+    "Quarterstaff"
+   ],
+   "groups": [
+    "Quarterstaff"
+   ]
+  },
+  "Snipe": {
+   "kind": "Skill Gem",
+   "tier": 3,
+   "weapons": [
+    "Bow"
+   ],
+   "groups": [
+    "Bow"
+   ]
+  },
+  "Soul Offering": {
+   "kind": "Skill Gem",
+   "tier": 13,
+   "weapons": [],
+   "groups": [
+    "Occult"
+   ]
+  },
+  "Spear of Solaris": {
+   "kind": "Skill Gem",
+   "tier": 13,
+   "weapons": [
+    "Spear"
+   ],
+   "groups": [
+    "Spear"
+   ]
+  },
+  "Stampede": {
+   "kind": "Skill Gem",
+   "tier": 11,
+   "weapons": [
+    "One Hand Mace",
+    "Two Hand Mace"
+   ],
+   "groups": [
+    "Mace"
+   ]
+  },
+  "Storm Lance": {
+   "kind": "Skill Gem",
+   "tier": 5,
+   "weapons": [
+    "Spear"
+   ],
+   "groups": [
+    "Spear"
+   ]
+  },
+  "Storm Wave": {
+   "kind": "Skill Gem",
+   "tier": 7,
+   "weapons": [
+    "Quarterstaff"
+   ],
+   "groups": [
+    "Quarterstaff"
+   ]
+  },
+  "Stormblast Bolts": {
+   "kind": "Skill Gem",
+   "tier": 9,
+   "weapons": [
+    "Crossbow"
+   ],
+   "groups": [
+    "Crossbow"
+   ]
+  },
+  "Stormcaller Arrow": {
+   "kind": "Skill Gem",
+   "tier": 3,
+   "weapons": [
+    "Bow"
+   ],
+   "groups": [
+    "Bow"
+   ]
+  },
+  "Tame Beast": {
+   "kind": "Skill Gem",
+   "tier": 7,
+   "weapons": [],
+   "groups": [
+    "Spear"
+   ]
+  },
+  "Tempest Bell": {
+   "kind": "Skill Gem",
+   "tier": 3,
+   "weapons": [
+    "Quarterstaff"
+   ],
+   "groups": [
+    "Quarterstaff"
+   ]
+  },
+  "Thrashing Vines": {
+   "kind": "Skill Gem",
+   "tier": 9,
+   "weapons": [],
+   "groups": [
+    "Primal"
+   ]
+  },
+  "Thunderous Leap": {
+   "kind": "Skill Gem",
+   "tier": 9,
+   "weapons": [
+    "Spear"
+   ],
+   "groups": [
+    "Spear"
+   ]
+  },
+  "Time of Need": {
+   "kind": "Spirit Gem",
+   "tier": 8,
+   "weapons": [],
+   "groups": [
+    "Mace",
+    "Primal"
+   ]
+  },
+  "Tornado Shot": {
+   "kind": "Skill Gem",
+   "tier": 11,
+   "weapons": [
+    "Bow"
+   ],
+   "groups": [
+    "Bow"
+   ]
+  },
+  "Toxic Domain": {
+   "kind": "Utility Gem",
+   "tier": 13,
+   "weapons": [],
+   "groups": [
+    "Bow"
+   ]
+  },
+  "Toxic Growth": {
+   "kind": "Skill Gem",
+   "tier": 5,
+   "weapons": [
+    "Bow"
+   ],
+   "groups": [
+    "Bow"
+   ]
+  },
+  "Trinity": {
+   "kind": "Spirit Gem",
+   "tier": 14,
+   "weapons": [],
+   "groups": [
+    "Spear",
+    "Primal"
+   ]
+  },
+  "Twister": {
+   "kind": "Skill Gem",
+   "tier": 1,
+   "weapons": [
+    "Spear"
+   ],
+   "groups": [
+    "Spear"
+   ]
+  },
+  "Unearth": {
+   "kind": "Skill Gem",
+   "tier": 1,
+   "weapons": [],
+   "groups": [
+    "Occult"
+   ]
+  },
+  "Vaulting Impact": {
+   "kind": "Skill Gem",
+   "tier": 5,
+   "weapons": [
+    "Quarterstaff"
+   ],
+   "groups": [
+    "Quarterstaff"
+   ]
+  },
+  "Vine Arrow": {
+   "kind": "Skill Gem",
+   "tier": 3,
+   "weapons": [
+    "Bow"
+   ],
+   "groups": [
+    "Bow"
+   ]
+  },
+  "Voltaic Mark": {
+   "kind": "Utility Gem",
+   "tier": 7,
+   "weapons": [],
+   "groups": [
+    "Bow"
+   ]
+  },
+  "War Banner": {
+   "kind": "Spirit Gem",
+   "tier": 4,
+   "weapons": [],
+   "groups": [
+    "Crossbow"
+   ]
+  },
+  "Whirlwind Lance": {
+   "kind": "Skill Gem",
+   "tier": 11,
+   "weapons": [
+    "Spear"
+   ],
+   "groups": [
+    "Spear"
+   ]
+  },
+  "Wind Dancer": {
+   "kind": "Spirit Gem",
+   "tier": 4,
+   "weapons": [],
+   "groups": [
+    "Bow",
+    "Spear"
+   ]
+  },
+  "Wind Serpent's Fury": {
+   "kind": "Skill Gem",
+   "tier": 13,
+   "weapons": [
+    "Spear"
+   ],
+   "groups": [
+    "Spear"
+   ]
+  },
+  "Wing Blast": {
+   "kind": "Skill Gem",
+   "tier": 3,
+   "weapons": [
+    "Talisman"
+   ],
+   "groups": [
+    "Primal"
+   ]
+  },
+  "Withering Presence": {
+   "kind": "Spirit Gem",
+   "tier": 4,
+   "weapons": [],
+   "groups": [
+    "Occult"
+   ]
+  },
+  "Arctic Howl": {
+   "kind": "Utility Gem",
+   "tier": 5,
+   "weapons": [],
+   "groups": [
+    "Primal"
+   ]
+  },
+  "Cross Slash": {
+   "kind": "Skill Gem",
+   "tier": 7,
+   "weapons": [
+    "Talisman"
+   ],
+   "groups": [
+    "Primal"
+   ]
+  },
+  "Lunar Blessing": {
+   "kind": "Utility Gem",
+   "tier": 13,
+   "weapons": [],
+   "groups": [
+    "Primal"
+   ]
+  },
+  "Devour": {
+   "kind": "Skill Gem",
+   "tier": 5,
+   "weapons": [
+    "Talisman"
+   ],
+   "groups": [
+    "Primal"
+   ]
+  },
+  "Flame Breath": {
+   "kind": "Skill Gem",
+   "tier": 13,
+   "weapons": [
+    "Talisman"
+   ],
+   "groups": [
+    "Primal"
+   ]
+  },
+  "Ancestral Warrior Totem": {
+   "kind": "Meta Gem",
+   "tier": 13,
+   "weapons": [],
+   "groups": [
+    "Mace"
+   ]
+  },
+  "Arc": {
+   "kind": "Skill Gem",
+   "tier": 5,
+   "weapons": [],
+   "groups": [
+    "Elemental"
+   ]
+  },
+  "Arctic Armour": {
+   "kind": "Spirit Gem",
+   "tier": 4,
+   "weapons": [],
+   "groups": [
+    "Elemental"
+   ]
+  },
+  "Armour Breaker": {
+   "kind": "Skill Gem",
+   "tier": 3,
+   "weapons": [
+    "One Hand Mace",
+    "Two Hand Mace"
+   ],
+   "groups": [
+    "Mace"
+   ]
+  },
+  "Siege Ballista": {
+   "kind": "Skill Gem",
+   "tier": 9,
+   "weapons": [
+    "Crossbow"
+   ],
+   "groups": [
+    "Crossbow"
+   ]
+  },
+  "Ball Lightning": {
+   "kind": "Skill Gem",
+   "tier": 11,
+   "weapons": [],
+   "groups": [
+    "Elemental"
+   ]
+  },
+  "Barrage": {
+   "kind": "Utility Gem",
+   "tier": 5,
+   "weapons": [],
+   "groups": [
+    "Bow",
+    "Spear"
+   ]
+  },
+  "Barrier Invocation": {
+   "kind": "Meta Gem",
+   "tier": 8,
+   "weapons": [],
+   "groups": [
+    "Occult",
+    "Elemental",
+    "Quarterstaff"
+   ]
+  },
+  "Rampage": {
+   "kind": "Skill Gem",
+   "tier": 11,
+   "weapons": [
+    "Talisman"
+   ],
+   "groups": [
+    "Primal"
+   ]
+  },
+  "Bind Spectre": {
+   "kind": "Skill Gem",
+   "tier": 7,
+   "weapons": [],
+   "groups": [
+    "Occult"
+   ]
+  },
+  "Blasphemy": {
+   "kind": "Meta Gem",
+   "tier": 8,
+   "weapons": [],
+   "groups": [
+    "Occult"
+   ]
+  },
+  "Blood Hunt": {
+   "kind": "Skill Gem",
+   "tier": 7,
+   "weapons": [
+    "Spear"
+   ],
+   "groups": [
+    "Spear"
+   ]
+  },
+  "Bone Offering": {
+   "kind": "Skill Gem",
+   "tier": 11,
+   "weapons": [],
+   "groups": [
+    "Occult"
+   ]
+  },
+  "Boneshatter": {
+   "kind": "Skill Gem",
+   "tier": 1,
+   "weapons": [
+    "One Hand Mace",
+    "Two Hand Mace"
+   ],
+   "groups": [
+    "Mace"
+   ]
+  },
+  "Briarpatch": {
+   "kind": "Spirit Gem",
+   "tier": 4,
+   "weapons": [],
+   "groups": [
+    "Primal"
+   ]
+  },
+  "Cast on Critical": {
+   "kind": "Meta Gem",
+   "tier": 14,
+   "weapons": [],
+   "groups": [
+    "Occult"
+   ]
+  },
+  "Cast on Dodge": {
+   "kind": "Meta Gem",
+   "tier": 14,
+   "weapons": [],
+   "groups": [
+    "Quarterstaff"
+   ]
+  },
+  "Cast on Elemental Ailment": {
+   "kind": "Meta Gem",
+   "tier": 14,
+   "weapons": [],
+   "groups": [
+    "Elemental"
+   ]
+  },
+  "Cast on Minion Death": {
+   "kind": "Meta Gem",
+   "tier": 8,
+   "weapons": [],
+   "groups": [
+    "Occult"
+   ]
+  },
+  "Charged Staff": {
+   "kind": "Utility Gem",
+   "tier": 9,
+   "weapons": [],
+   "groups": [
+    "Quarterstaff"
+   ]
+  },
+  "Comet": {
+   "kind": "Skill Gem",
+   "tier": 11,
+   "weapons": [],
+   "groups": [
+    "Elemental"
+   ]
+  },
+  "Contagion": {
+   "kind": "Skill Gem",
+   "tier": 1,
+   "weapons": [],
+   "groups": [
+    "Occult"
+   ]
+  },
+  "Despair": {
+   "kind": "Utility Gem",
+   "tier": 9,
+   "weapons": [],
+   "groups": [
+    "Occult"
+   ]
+  },
+  "Detonate Dead": {
+   "kind": "Skill Gem",
+   "tier": 7,
+   "weapons": [],
+   "groups": [
+    "Occult"
+   ]
+  },
+  "Disengage": {
+   "kind": "Skill Gem",
+   "tier": 1,
+   "weapons": [
+    "Spear"
+   ],
+   "groups": [
+    "Spear"
+   ]
+  },
+  "Earthquake": {
+   "kind": "Skill Gem",
+   "tier": 1,
+   "weapons": [
+    "One Hand Mace",
+    "Two Hand Mace"
+   ],
+   "groups": [
+    "Mace"
+   ]
+  },
+  "Earthshatter": {
+   "kind": "Skill Gem",
+   "tier": 7,
+   "weapons": [
+    "One Hand Mace",
+    "Two Hand Mace"
+   ],
+   "groups": [
+    "Mace"
+   ]
+  },
+  "Ember Fusillade": {
+   "kind": "Skill Gem",
+   "tier": 5,
+   "weapons": [],
+   "groups": [
+    "Elemental"
+   ]
+  },
+  "Enfeeble": {
+   "kind": "Utility Gem",
+   "tier": 3,
+   "weapons": [],
+   "groups": [
+    "Occult"
+   ]
+  },
+  "Escape Shot": {
+   "kind": "Skill Gem",
+   "tier": 1,
+   "weapons": [
+    "Bow"
+   ],
+   "groups": [
+    "Bow"
+   ]
+  },
+  "Essence Drain": {
+   "kind": "Skill Gem",
+   "tier": 3,
+   "weapons": [],
+   "groups": [
+    "Occult"
+   ]
+  },
+  "Eternal Rage": {
+   "kind": "Spirit Gem",
+   "tier": 14,
+   "weapons": [],
+   "groups": [
+    "Primal"
+   ]
+  },
+  "Eye of Winter": {
+   "kind": "Skill Gem",
+   "tier": 13,
+   "weapons": [],
+   "groups": [
+    "Elemental"
+   ]
+  },
+  "Falling Thunder": {
+   "kind": "Skill Gem",
+   "tier": 1,
+   "weapons": [
+    "Quarterstaff"
+   ],
+   "groups": [
+    "Quarterstaff"
+   ]
+  },
+  "Ferocious Roar": {
+   "kind": "Meta Gem",
+   "tier": 7,
+   "weapons": [],
+   "groups": [
+    "Primal"
+   ]
+  },
+  "Firestorm": {
+   "kind": "Skill Gem",
+   "tier": 11,
+   "weapons": [],
+   "groups": [
+    "Elemental"
+   ]
+  },
+  "Flame Wall": {
+   "kind": "Skill Gem",
+   "tier": 1,
+   "weapons": [],
+   "groups": [
+    "Elemental"
+   ]
+  },
+  "Flameblast": {
+   "kind": "Skill Gem",
+   "tier": 13,
+   "weapons": [],
+   "groups": [
+    "Elemental"
+   ]
+  },
+  "Flicker Strike": {
+   "kind": "Skill Gem",
+   "tier": 13,
+   "weapons": [
+    "Quarterstaff"
+   ],
+   "groups": [
+    "Quarterstaff"
+   ]
+  },
+  "Frost Bomb": {
+   "kind": "Skill Gem",
+   "tier": 1,
+   "weapons": [],
+   "groups": [
+    "Elemental"
+   ]
+  },
+  "Frost Wall": {
+   "kind": "Skill Gem",
+   "tier": 9,
+   "weapons": [],
+   "groups": [
+    "Elemental"
+   ]
+  },
+  "Frostbolt": {
+   "kind": "Skill Gem",
+   "tier": 5,
+   "weapons": [],
+   "groups": [
+    "Elemental"
+   ]
+  },
+  "Furious Slam": {
+   "kind": "Skill Gem",
+   "tier": 1,
+   "weapons": [
+    "Talisman"
+   ],
+   "groups": [
+    "Primal"
+   ]
+  },
+  "Ghost Dance": {
+   "kind": "Spirit Gem",
+   "tier": 4,
+   "weapons": [],
+   "groups": [
+    "Quarterstaff"
+   ]
+  },
+  "Glacial Cascade": {
+   "kind": "Skill Gem",
+   "tier": 1,
+   "weapons": [
+    "Quarterstaff"
+   ],
+   "groups": [
+    "Quarterstaff"
+   ]
+  },
+  "Glacial Lance": {
+   "kind": "Skill Gem",
+   "tier": 7,
+   "weapons": [
+    "Spear"
+   ],
+   "groups": [
+    "Spear"
+   ]
+  },
+  "Herald of Ash": {
+   "kind": "Spirit Gem",
+   "tier": 4,
+   "weapons": [],
+   "groups": [
+    "Mace",
+    "Primal"
+   ]
+  },
+  "Herald of Ice": {
+   "kind": "Spirit Gem",
+   "tier": 4,
+   "weapons": [],
+   "groups": [
+    "Quarterstaff",
+    "Primal"
+   ]
+  },
+  "Herald of Thunder": {
+   "kind": "Spirit Gem",
+   "tier": 4,
+   "weapons": [],
+   "groups": [
+    "Quarterstaff",
+    "Bow",
+    "Crossbow",
+    "Spear"
+   ]
+  },
+  "Hexblast": {
+   "kind": "Skill Gem",
+   "tier": 11,
+   "weapons": [],
+   "groups": [
+    "Occult"
+   ]
+  },
+  "Ice Nova": {
+   "kind": "Skill Gem",
+   "tier": 1,
+   "weapons": [],
+   "groups": [
+    "Elemental"
+   ]
+  },
+  "Ice Strike": {
+   "kind": "Skill Gem",
+   "tier": 5,
+   "weapons": [
+    "Quarterstaff"
+   ],
+   "groups": [
+    "Quarterstaff"
+   ]
+  },
+  "Incinerate": {
+   "kind": "Skill Gem",
+   "tier": 9,
+   "weapons": [],
+   "groups": [
+    "Elemental"
+   ]
+  },
+  "Infernal Cry": {
+   "kind": "Utility Gem",
+   "tier": 3,
+   "weapons": [],
+   "groups": [
+    "Mace"
+   ]
+  },
+  "Killing Palm": {
+   "kind": "Skill Gem",
+   "tier": 1,
+   "weapons": [
+    "Quarterstaff"
+   ],
+   "groups": [
+    "Quarterstaff"
+   ]
+  },
+  "Leap Slam": {
+   "kind": "Skill Gem",
+   "tier": 7,
+   "weapons": [
+    "One Hand Mace",
+    "Two Hand Mace"
+   ],
+   "groups": [
+    "Mace"
+   ]
+  },
+  "Lightning Arrow": {
+   "kind": "Skill Gem",
+   "tier": 1,
+   "weapons": [
+    "Bow"
+   ],
+   "groups": [
+    "Bow"
+   ]
+  },
+  "Lightning Conduit": {
+   "kind": "Skill Gem",
+   "tier": 13,
+   "weapons": [],
+   "groups": [
+    "Elemental"
+   ]
+  },
+  "Lightning Spear": {
+   "kind": "Skill Gem",
+   "tier": 3,
+   "weapons": [
+    "Spear"
+   ],
+   "groups": [
+    "Spear"
+   ]
+  },
+  "Lightning Warp": {
+   "kind": "Skill Gem",
+   "tier": 9,
+   "weapons": [],
+   "groups": [
+    "Elemental"
+   ]
+  },
+  "Lingering Illusion": {
+   "kind": "Spirit Gem",
+   "tier": 8,
+   "weapons": [],
+   "groups": [
+    "Quarterstaff"
+   ]
+  },
+  "Mana Tempest": {
+   "kind": "Utility Gem",
+   "tier": 7,
+   "weapons": [],
+   "groups": [
+    "Elemental"
+   ]
+  },
+  "Orb of Storms": {
+   "kind": "Skill Gem",
+   "tier": 3,
+   "weapons": [],
+   "groups": [
+    "Elemental"
+   ]
+  },
+  "Pain Offering": {
+   "kind": "Skill Gem",
+   "tier": 5,
+   "weapons": [],
+   "groups": [
+    "Occult"
+   ]
+  },
+  "Plague Bearer": {
+   "kind": "Spirit Gem",
+   "tier": 4,
+   "weapons": [],
+   "groups": [
+    "Bow"
+   ]
+  },
+  "Rain of Arrows": {
+   "kind": "Skill Gem",
+   "tier": 9,
+   "weapons": [
+    "Bow"
+   ],
+   "groups": [
+    "Bow"
+   ]
+  },
+  "Raise Zombie": {
+   "kind": "Skill Gem",
+   "tier": 5,
+   "weapons": [],
+   "groups": [
+    "Occult"
+   ]
+  },
+  "Rapid Assault": {
+   "kind": "Skill Gem",
+   "tier": 5,
+   "weapons": [
+    "Spear"
+   ],
+   "groups": [
+    "Spear"
+   ]
+  },
+  "Rhoa Mount": {
+   "kind": "Skill Gem",
+   "tier": 14,
+   "weapons": [],
+   "groups": [
+    "Bow",
+    "Spear"
+   ]
+  },
+  "Artillery Ballista": {
+   "kind": "Skill Gem",
+   "tier": 7,
+   "weapons": [
+    "Crossbow"
+   ],
+   "groups": [
+    "Crossbow"
+   ]
+  },
+  "Rolling Magma": {
+   "kind": "Skill Gem",
+   "tier": 3,
+   "weapons": [
+    "Talisman"
+   ],
+   "groups": [
+    "Primal"
+   ]
+  },
+  "Rolling Slam": {
+   "kind": "Skill Gem",
+   "tier": 1,
+   "weapons": [
+    "One Hand Mace",
+    "Two Hand Mace"
+   ],
+   "groups": [
+    "Mace"
+   ]
+  },
+  "Savage Fury": {
+   "kind": "Spirit Gem",
+   "tier": 4,
+   "weapons": [],
+   "groups": [
+    "Primal"
+   ]
+  },
+  "Seismic Cry": {
+   "kind": "Utility Gem",
+   "tier": 11,
+   "weapons": [],
+   "groups": [
+    "Mace"
+   ]
+  },
+  "Shattering Palm": {
+   "kind": "Skill Gem",
+   "tier": 11,
+   "weapons": [
+    "Quarterstaff"
+   ],
+   "groups": [
+    "Quarterstaff"
+   ]
+  },
+  "Shield Charge": {
+   "kind": "Skill Gem",
+   "tier": 3,
+   "weapons": [
+    "One Hand Mace",
+    "Two Hand Mace"
+   ],
+   "groups": [
+    "Mace"
+   ]
+  },
+  "Shockwave Totem": {
+   "kind": "Skill Gem",
+   "tier": 3,
+   "weapons": [
+    "One Hand Mace",
+    "Talisman",
+    "Two Hand Mace"
+   ],
+   "groups": [
+    "Mace",
+    "Primal"
+   ]
+  },
+  "Skeletal Arsonist": {
+   "kind": "Skill Gem",
+   "tier": 3,
+   "weapons": [],
+   "groups": [
+    "Occult"
+   ]
+  },
+  "Skeletal Brute": {
+   "kind": "Skill Gem",
+   "tier": 13,
+   "weapons": [],
+   "groups": [
+    "Occult"
+   ]
+  },
+  "Skeletal Cleric": {
+   "kind": "Skill Gem",
+   "tier": 13,
+   "weapons": [],
+   "groups": [
+    "Occult"
+   ]
+  },
+  "Skeletal Frost Mage": {
+   "kind": "Skill Gem",
+   "tier": 5,
+   "weapons": [],
+   "groups": [
+    "Occult"
+   ]
+  },
+  "Skeletal Reaver": {
+   "kind": "Skill Gem",
+   "tier": 9,
+   "weapons": [],
+   "groups": [
+    "Occult"
+   ]
+  },
+  "Skeletal Sniper": {
+   "kind": "Skill Gem",
+   "tier": 1,
+   "weapons": [],
+   "groups": [
+    "Occult"
+   ]
+  },
+  "Skeletal Storm Mage": {
+   "kind": "Skill Gem",
+   "tier": 11,
+   "weapons": [],
+   "groups": [
+    "Occult"
+   ]
+  },
+  "Sniper's Mark": {
+   "kind": "Utility Gem",
+   "tier": 7,
+   "weapons": [],
+   "groups": [
+    "Bow"
+   ]
+  },
+  "Spark": {
+   "kind": "Skill Gem",
+   "tier": 1,
+   "weapons": [],
+   "groups": [
+    "Elemental"
+   ]
+  },
+  "Spearfield": {
+   "kind": "Skill Gem",
+   "tier": 5,
+   "weapons": [
+    "Spear"
+   ],
+   "groups": [
+    "Spear"
+   ]
+  },
+  "Spell Totem": {
+   "kind": "Meta Gem",
+   "tier": 7,
+   "weapons": [],
+   "groups": [
+    "Primal"
+   ]
+  },
+  "Spiral Volley": {
+   "kind": "Skill Gem",
+   "tier": 13,
+   "weapons": [
+    "Bow"
+   ],
+   "groups": [
+    "Bow"
+   ]
+  },
+  "Staggering Palm": {
+   "kind": "Utility Gem",
+   "tier": 3,
+   "weapons": [],
+   "groups": [
+    "Quarterstaff"
+   ]
+  },
+  "Sunder": {
+   "kind": "Skill Gem",
+   "tier": 9,
+   "weapons": [
+    "One Hand Mace",
+    "Two Hand Mace"
+   ],
+   "groups": [
+    "Mace"
+   ]
+  },
+  "Supercharged Slam": {
+   "kind": "Skill Gem",
+   "tier": 11,
+   "weapons": [
+    "One Hand Mace",
+    "Two Hand Mace"
+   ],
+   "groups": [
+    "Mace"
+   ]
+  },
+  "Tempest Flurry": {
+   "kind": "Skill Gem",
+   "tier": 5,
+   "weapons": [
+    "Quarterstaff"
+   ],
+   "groups": [
+    "Quarterstaff"
+   ]
+  },
+  "Temporal Chains": {
+   "kind": "Utility Gem",
+   "tier": 7,
+   "weapons": [],
+   "groups": [
+    "Elemental"
+   ]
+  },
+  "Thunderstorm": {
+   "kind": "Skill Gem",
+   "tier": 5,
+   "weapons": [],
+   "groups": [
+    "Primal"
+   ]
+  },
+  "Tornado": {
+   "kind": "Skill Gem",
+   "tier": 11,
+   "weapons": [],
+   "groups": [
+    "Primal"
+   ]
+  },
+  "Trail of Caltrops": {
+   "kind": "Spirit Gem",
+   "tier": 8,
+   "weapons": [],
+   "groups": [
+    "Spear"
+   ]
+  },
+  "Volcanic Fissure": {
+   "kind": "Skill Gem",
+   "tier": 7,
+   "weapons": [
+    "One Hand Mace",
+    "Two Hand Mace"
+   ],
+   "groups": [
+    "Mace"
+   ]
+  },
+  "Volcano": {
+   "kind": "Skill Gem",
+   "tier": 1,
+   "weapons": [],
+   "groups": [
+    "Primal"
+   ]
+  },
+  "Voltaic Grenade": {
+   "kind": "Skill Gem",
+   "tier": 7,
+   "weapons": [
+    "Crossbow"
+   ],
+   "groups": [
+    "Crossbow"
+   ]
+  },
+  "Vulnerability": {
+   "kind": "Utility Gem",
+   "tier": 7,
+   "weapons": [],
+   "groups": [
+    "Occult"
+   ]
+  },
+  "Walking Calamity": {
+   "kind": "Utility Gem",
+   "tier": 13,
+   "weapons": [],
+   "groups": [
+    "Primal"
+   ]
+  },
+  "Wave of Frost": {
+   "kind": "Skill Gem",
+   "tier": 7,
+   "weapons": [
+    "Quarterstaff"
+   ],
+   "groups": [
+    "Quarterstaff"
+   ]
+  },
+  "Whirling Assault": {
+   "kind": "Skill Gem",
+   "tier": 11,
+   "weapons": [
+    "Quarterstaff"
+   ],
+   "groups": [
+    "Quarterstaff"
+   ]
+  },
+  "Whirling Slash": {
+   "kind": "Skill Gem",
+   "tier": 1,
+   "weapons": [
+    "Spear"
+   ],
+   "groups": [
+    "Spear"
+   ]
+  },
+  "Wind Blast": {
+   "kind": "Skill Gem",
+   "tier": 3,
+   "weapons": [
+    "Quarterstaff"
+   ],
+   "groups": [
+    "Quarterstaff"
+   ]
+  },
+  "Wolf Pack": {
+   "kind": "Skill Gem",
+   "tier": 8,
+   "weapons": [],
+   "groups": [
+    "Primal"
+   ]
+  },
+  "Pounce": {
+   "kind": "Meta Gem",
+   "tier": 3,
+   "weapons": [],
+   "groups": [
+    "Primal"
+   ]
+  }
+ },
+ "supports": {
+  "Abiding Hex Support": {
+   "tiers": [
+    2
+   ],
+   "gems": [
+    "Abiding Hex"
+   ]
+  },
+  "Accelerated Growth Support": {
+   "tiers": [
+    2,
+    5
+   ],
+   "gems": [
+    "Accelerated Growth",
+    "Accelerated Growth II"
+   ]
+  },
+  "Acrimony Support": {
+   "tiers": [
+    2
+   ],
+   "gems": [
+    "Acrimony"
+   ]
+  },
+  "Adhesive Grenades Support": {
+   "tiers": [
+    2,
+    3
+   ],
+   "gems": [
+    "Adhesive Grenades I",
+    "Adhesive Grenades II"
+   ]
+  },
+  "Admixture Support": {
+   "tiers": [
+    2
+   ],
+   "gems": [
+    "Admixture"
+   ]
+  },
+  "Advancing Storm Support": {
+   "tiers": [
+    4
+   ],
+   "gems": [
+    "Advancing Storm"
+   ]
+  },
+  "Aftershock Support": {
+   "tiers": [
+    2,
+    4
+   ],
+   "gems": [
+    "Aftershock I",
+    "Aftershock II"
+   ]
+  },
+  "Alignment Support": {
+   "tiers": [
+    3,
+    4,
+    5
+   ],
+   "gems": [
+    "Alignment I",
+    "Alignment II",
+    "Alignment III"
+   ]
+  },
+  "Ambrosia Support": {
+   "tiers": [
+    2,
+    3
+   ],
+   "gems": [
+    "Ambrosia",
+    "Ambrosia II"
+   ]
+  },
+  "Ambush Support": {
+   "tiers": [
+    1
+   ],
+   "gems": [
+    "Ambush"
+   ]
+  },
+  "Ammo Conservation Support": {
+   "tiers": [
+    2,
+    4,
+    5
+   ],
+   "gems": [
+    "Ammo Conservation I",
+    "Ammo Conservation II",
+    "Ammo Conservation III"
+   ]
+  },
+  "Ancestral Call Support": {
+   "tiers": [
+    4,
+    5
+   ],
+   "gems": [
+    "Ancestral Call I",
+    "Ancestral Call II"
+   ]
+  },
+  "Arcane Surge Support": {
+   "tiers": [
+    1
+   ],
+   "gems": [
+    "Arcane Surge"
+   ]
+  },
+  "Armour Break Support": {
+   "tiers": [
+    2,
+    3,
+    4
+   ],
+   "gems": [
+    "Armour Break I",
+    "Armour Break II",
+    "Armour Break III"
+   ]
+  },
+  "Armour Demolisher Support": {
+   "tiers": [
+    1,
+    3
+   ],
+   "gems": [
+    "Armour Demolisher I",
+    "Armour Demolisher II"
+   ]
+  },
+  "Armour Explosion Support": {
+   "tiers": [
+    1
+   ],
+   "gems": [
+    "Armour Explosion"
+   ]
+  },
+  "Astral Projection Support": {
+   "tiers": [
+    3
+   ],
+   "gems": [
+    "Astral Projection"
+   ]
+  },
+  "Barbs Support": {
+   "tiers": [
+    3,
+    5,
+    5
+   ],
+   "gems": [
+    "Barbs I",
+    "Barbs II",
+    "Barbs III"
+   ]
+  },
+  "Battershout Support": {
+   "tiers": [
+    1
+   ],
+   "gems": [
+    "Battershout"
+   ]
+  },
+  "Behead Support": {
+   "tiers": [
+    2,
+    3
+   ],
+   "gems": [
+    "Behead I",
+    "Behead II"
+   ]
+  },
+  "Bidding Support": {
+   "tiers": [
+    2,
+    4,
+    5
+   ],
+   "gems": [
+    "Bidding I",
+    "Bidding II",
+    "Bidding III"
+   ]
+  },
+  "Biting Frost Support": {
+   "tiers": [
+    3,
+    5
+   ],
+   "gems": [
+    "Biting Frost I",
+    "Biting Frost II"
+   ]
+  },
+  "Blazing Critical Support": {
+   "tiers": [
+    4
+   ],
+   "gems": [
+    "Blazing Critical"
+   ]
+  },
+  "Bleed Support": {
+   "tiers": [
+    1,
+    3,
+    5,
+    5
+   ],
+   "gems": [
+    "Bleed I",
+    "Bleed II",
+    "Bleed III",
+    "Bleed IV"
+   ]
+  },
+  "Blind Support": {
+   "tiers": [
+    2,
+    5
+   ],
+   "gems": [
+    "Blind I",
+    "Blind II"
+   ]
+  },
+  "Blindside Support": {
+   "tiers": [
+    1
+   ],
+   "gems": [
+    "Blindside"
+   ]
+  },
+  "Bone Shrapnel Support": {
+   "tiers": [
+    2
+   ],
+   "gems": [
+    "Bone Shrapnel"
+   ]
+  },
+  "Boundless Energy Support": {
+   "tiers": [
+    2,
+    4
+   ],
+   "gems": [
+    "Boundless Energy I",
+    "Boundless Energy II"
+   ]
+  },
+  "Bounty Support": {
+   "tiers": [
+    2,
+    4
+   ],
+   "gems": [
+    "Bounty I",
+    "Bounty II"
+   ]
+  },
+  "Brambleslam Support": {
+   "tiers": [
+    5
+   ],
+   "gems": [
+    "Brambleslam"
+   ]
+  },
+  "Branching Fissures Support": {
+   "tiers": [
+    3,
+    5
+   ],
+   "gems": [
+    "Branching Fissures I",
+    "Branching Fissures II"
+   ]
+  },
+  "Brink Support": {
+   "tiers": [
+    1,
+    3
+   ],
+   "gems": [
+    "Brink I",
+    "Brink II"
+   ]
+  },
+  "Brittle Armour Support": {
+   "tiers": [
+    3
+   ],
+   "gems": [
+    "Brittle Armour"
+   ]
+  },
+  "Brutality Support": {
+   "tiers": [
+    1,
+    2,
+    5
+   ],
+   "gems": [
+    "Brutality I",
+    "Brutality II",
+    "Brutality III"
+   ]
+  },
+  "Burgeon Support": {
+   "tiers": [
+    1,
+    4
+   ],
+   "gems": [
+    "Burgeon I",
+    "Burgeon II"
+   ]
+  },
+  "Burning Inscription Support": {
+   "tiers": [
+    4
+   ],
+   "gems": [
+    "Burning Inscription"
+   ]
+  },
+  "Bursting Plague Support": {
+   "tiers": [
+    2
+   ],
+   "gems": [
+    "Bursting Plague"
+   ]
+  },
+  "Cadence Support": {
+   "tiers": [
+    2
+   ],
+   "gems": [
+    "Cadence"
+   ]
+  },
+  "Caltrops Support": {
+   "tiers": [
+    3
+   ],
+   "gems": [
+    "Caltrops"
+   ]
+  },
+  "Cannibalism Support": {
+   "tiers": [
+    3,
+    4
+   ],
+   "gems": [
+    "Cannibalism I",
+    "Cannibalism II"
+   ]
+  },
+  "Catalysing Elements Support": {
+   "tiers": [
+    5
+   ],
+   "gems": [
+    "Catalysing Elements"
+   ]
+  },
+  "Catharsis Support": {
+   "tiers": [
+    2
+   ],
+   "gems": [
+    "Catharsis"
+   ]
+  },
+  "Chain Support": {
+   "tiers": [
+    1,
+    2,
+    5
+   ],
+   "gems": [
+    "Chain I",
+    "Chain II",
+    "Chain III"
+   ]
+  },
+  "Chaos Attunement Support": {
+   "tiers": [
+    3
+   ],
+   "gems": [
+    "Chaos Attunement"
+   ]
+  },
+  "Chaos Mastery Support": {
+   "tiers": [
+    5
+   ],
+   "gems": [
+    "Chaos Mastery"
+   ]
+  },
+  "Chaotic Freeze Support": {
+   "tiers": [
+    3
+   ],
+   "gems": [
+    "Chaotic Freeze"
+   ]
+  },
+  "Charge Profusion Support": {
+   "tiers": [
+    1,
+    5
+   ],
+   "gems": [
+    "Charge Profusion I",
+    "Charge Profusion II"
+   ]
+  },
+  "Charged Mark Support": {
+   "tiers": [
+    5
+   ],
+   "gems": [
+    "Charged Mark"
+   ]
+  },
+  "Charged Shots Support": {
+   "tiers": [
+    3,
+    5
+   ],
+   "gems": [
+    "Charged Shots I",
+    "Charged Shots II"
+   ]
+  },
+  "Clarity Support": {
+   "tiers": [
+    1,
+    4
+   ],
+   "gems": [
+    "Clarity I",
+    "Clarity II"
+   ]
+  },
+  "Clash Support": {
+   "tiers": [
+    3
+   ],
+   "gems": [
+    "Clash"
+   ]
+  },
+  "Close Combat Support": {
+   "tiers": [
+    3,
+    5
+   ],
+   "gems": [
+    "Close Combat I",
+    "Close Combat II"
+   ]
+  },
+  "Cold Attunement Support": {
+   "tiers": [
+    1
+   ],
+   "gems": [
+    "Cold Attunement"
+   ]
+  },
+  "Cold Exposure Support": {
+   "tiers": [
+    4
+   ],
+   "gems": [
+    "Cold Exposure"
+   ]
+  },
+  "Cold Mastery Support": {
+   "tiers": [
+    5
+   ],
+   "gems": [
+    "Cold Mastery"
+   ]
+  },
+  "Cold Penetration Support": {
+   "tiers": [
+    2
+   ],
+   "gems": [
+    "Cold Penetration"
+   ]
+  },
+  "Combo Finisher Support": {
+   "tiers": [
+    1,
+    3
+   ],
+   "gems": [
+    "Combo Finisher I",
+    "Combo Finisher II"
+   ]
+  },
+  "Commiserate Support": {
+   "tiers": [
+    2
+   ],
+   "gems": [
+    "Commiserate"
+   ]
+  },
+  "Compressed Duration Support": {
+   "tiers": [
+    1,
+    3
+   ],
+   "gems": [
+    "Compressed Duration I",
+    "Compressed Duration II"
+   ]
+  },
+  "Concentrated Area Support": {
+   "tiers": [
+    1
+   ],
+   "gems": [
+    "Concentrated Area"
+   ]
+  },
+  "Concoct Support": {
+   "tiers": [
+    2,
+    4
+   ],
+   "gems": [
+    "Concoct I",
+    "Concoct II"
+   ]
+  },
+  "Concussive Spells Support": {
+   "tiers": [
+    4
+   ],
+   "gems": [
+    "Concussive Spells"
+   ]
+  },
+  "Considered Casting Support": {
+   "tiers": [
+    2
+   ],
+   "gems": [
+    "Considered Casting"
+   ]
+  },
+  "Controlled Destruction Support": {
+   "tiers": [
+    1
+   ],
+   "gems": [
+    "Controlled Destruction"
+   ]
+  },
+  "Controlled Hazard Support": {
+   "tiers": [
+    4
+   ],
+   "gems": [
+    "Controlled Hazard"
+   ]
+  },
+  "Cool Headed Support": {
+   "tiers": [
+    3
+   ],
+   "gems": [
+    "Cool Headed"
+   ]
+  },
+  "Cooldown Recovery Support": {
+   "tiers": [
+    3,
+    4
+   ],
+   "gems": [
+    "Cooldown Recovery I",
+    "Cooldown Recovery II"
+   ]
+  },
+  "Corpse Conservation Support": {
+   "tiers": [
+    3
+   ],
+   "gems": [
+    "Corpse Conservation"
+   ]
+  },
+  "Corrosion Support": {
+   "tiers": [
+    1
+   ],
+   "gems": [
+    "Corrosion"
+   ]
+  },
+  "Corrupting Cry Support": {
+   "tiers": [
+    3,
+    5
+   ],
+   "gems": [
+    "Corrupting Cry I",
+    "Corrupting Cry II"
+   ]
+  },
+  "Coursing Current Support": {
+   "tiers": [
+    1
+   ],
+   "gems": [
+    "Coursing Current"
+   ]
+  },
+  "Crackling Barrier Support": {
+   "tiers": [
+    2
+   ],
+   "gems": [
+    "Crackling Barrier"
+   ]
+  },
+  "Crater Support": {
+   "tiers": [
+    2
+   ],
+   "gems": [
+    "Crater"
+   ]
+  },
+  "Crazed Minions Support": {
+   "tiers": [
+    4
+   ],
+   "gems": [
+    "Crazed Minions"
+   ]
+  },
+  "Creeping Chill Support": {
+   "tiers": [
+    1
+   ],
+   "gems": [
+    "Creeping Chill"
+   ]
+  },
+  "Crescendo Support": {
+   "tiers": [
+    1,
+    4,
+    5
+   ],
+   "gems": [
+    "Crescendo I",
+    "Crescendo II",
+    "Crescendo III"
+   ]
+  },
+  "Crystalline Shards Support": {
+   "tiers": [
+    1
+   ],
+   "gems": [
+    "Crystalline Shards"
+   ]
+  },
+  "Culling Strike Support": {
+   "tiers": [
+    4,
+    5
+   ],
+   "gems": [
+    "Culling Strike I",
+    "Culling Strike II"
+   ]
+  },
+  "Culmination Support": {
+   "tiers": [
+    3,
+    5
+   ],
+   "gems": [
+    "Culmination I",
+    "Culmination II"
+   ]
+  },
+  "Cursed Ground Support": {
+   "tiers": [
+    3
+   ],
+   "gems": [
+    "Cursed Ground"
+   ]
+  },
+  "Danse Macabre Support": {
+   "tiers": [
+    2
+   ],
+   "gems": [
+    "Danse Macabre"
+   ]
+  },
+  "Deadly Herald Support": {
+   "tiers": [
+    3
+   ],
+   "gems": [
+    "Deadly Herald"
+   ]
+  },
+  "Deadly Poison Support": {
+   "tiers": [
+    2,
+    4
+   ],
+   "gems": [
+    "Deadly Poison I",
+    "Deadly Poison II"
+   ]
+  },
+  "Deadly Resolve Support": {
+   "tiers": [
+    3
+   ],
+   "gems": [
+    "Deadly Resolve"
+   ]
+  },
+  "Deathmarch Support": {
+   "tiers": [
+    2
+   ],
+   "gems": [
+    "Deathmarch"
+   ]
+  },
+  "Decaying Hex Support": {
+   "tiers": [
+    3
+   ],
+   "gems": [
+    "Decaying Hex"
+   ]
+  },
+  "Deep Cuts Support": {
+   "tiers": [
+    3,
+    5
+   ],
+   "gems": [
+    "Deep Cuts I",
+    "Deep Cuts II"
+   ]
+  },
+  "Deep Freeze Support": {
+   "tiers": [
+    1
+   ],
+   "gems": [
+    "Deep Freeze"
+   ]
+  },
+  "Defy Support": {
+   "tiers": [
+    2,
+    5
+   ],
+   "gems": [
+    "Defy I",
+    "Defy II"
+   ]
+  },
+  "Delayed Gratification Support": {
+   "tiers": [
+    2
+   ],
+   "gems": [
+    "Delayed Gratification"
+   ]
+  },
+  "Delayed Reaction Support": {
+   "tiers": [
+    4
+   ],
+   "gems": [
+    "Delayed Reaction"
+   ]
+  },
+  "Deliberation Support": {
+   "tiers": [
+    3
+   ],
+   "gems": [
+    "Deliberation"
+   ]
+  },
+  "Derange Support": {
+   "tiers": [
+    4
+   ],
+   "gems": [
+    "Derange"
+   ]
+  },
+  "Direstrike Support": {
+   "tiers": [
+    2,
+    4
+   ],
+   "gems": [
+    "Direstrike I",
+    "Direstrike II"
+   ]
+  },
+  "Double Barrel Support": {
+   "tiers": [
+    1,
+    2,
+    5
+   ],
+   "gems": [
+    "Double Barrel I",
+    "Double Barrel II",
+    "Double Barrel III"
+   ]
+  },
+  "Drain Ailments Support": {
+   "tiers": [
+    3
+   ],
+   "gems": [
+    "Drain Ailments"
+   ]
+  },
+  "Durability Support": {
+   "tiers": [
+    2
+   ],
+   "gems": [
+    "Durability"
+   ]
+  },
+  "Echoing Cry Support": {
+   "tiers": [
+    4
+   ],
+   "gems": [
+    "Echoing Cry"
+   ]
+  },
+  "Efficiency Support": {
+   "tiers": [
+    1,
+    4
+   ],
+   "gems": [
+    "Efficiency I",
+    "Efficiency II"
+   ]
+  },
+  "Electrocute Support": {
+   "tiers": [
+    2
+   ],
+   "gems": [
+    "Electrocute"
+   ]
+  },
+  "Electromagnetism Support": {
+   "tiers": [
+    3
+   ],
+   "gems": [
+    "Electromagnetism"
+   ]
+  },
+  "Elemental Armament Support": {
+   "tiers": [
+    1,
+    2,
+    5
+   ],
+   "gems": [
+    "Elemental Armament I",
+    "Elemental Armament II",
+    "Elemental Armament III"
+   ]
+  },
+  "Elemental Army Support": {
+   "tiers": [
+    1
+   ],
+   "gems": [
+    "Elemental Army"
+   ]
+  },
+  "Elemental Discharge Support": {
+   "tiers": [
+    3
+   ],
+   "gems": [
+    "Elemental Discharge"
+   ]
+  },
+  "Elemental Focus Support": {
+   "tiers": [
+    3
+   ],
+   "gems": [
+    "Elemental Focus"
+   ]
+  },
+  "Embitter Support": {
+   "tiers": [
+    2
+   ],
+   "gems": [
+    "Embitter"
+   ]
+  },
+  "Empowered Sparks Support": {
+   "tiers": [
+    2,
+    4
+   ],
+   "gems": [
+    "Empowered Sparks I",
+    "Empowered Sparks II"
+   ]
+  },
+  "Encroaching Ground Support": {
+   "tiers": [
+    2
+   ],
+   "gems": [
+    "Encroaching Ground"
+   ]
+  },
+  "Enduring Impact Support": {
+   "tiers": [
+    1,
+    4
+   ],
+   "gems": [
+    "Enduring Impact I",
+    "Enduring Impact II"
+   ]
+  },
+  "Energy Capacitor Support": {
+   "tiers": [
+    3
+   ],
+   "gems": [
+    "Energy Capacitor"
+   ]
+  },
+  "Energy Retention Support": {
+   "tiers": [
+    3
+   ],
+   "gems": [
+    "Energy Retention"
+   ]
+  },
+  "Enraged Warcry Support": {
+   "tiers": [
+    4,
+    5
+   ],
+   "gems": [
+    "Enraged Warcry I",
+    "Enraged Warcry II"
+   ]
+  },
+  "Escalating Poison Support": {
+   "tiers": [
+    1
+   ],
+   "gems": [
+    "Escalating Poison"
+   ]
+  },
+  "Essence Harvest Support": {
+   "tiers": [
+    3
+   ],
+   "gems": [
+    "Essence Harvest"
+   ]
+  },
+  "Eternal Flame Support": {
+   "tiers": [
+    1,
+    3,
+    4
+   ],
+   "gems": [
+    "Eternal Flame I",
+    "Eternal Flame II",
+    "Eternal Flame III"
+   ]
+  },
+  "Eternal Mark Support": {
+   "tiers": [
+    3
+   ],
+   "gems": [
+    "Eternal Mark"
+   ]
+  },
+  "Excise Support": {
+   "tiers": [
+    2
+   ],
+   "gems": [
+    "Excise"
+   ]
+  },
+  "Execrate Support": {
+   "tiers": [
+    3
+   ],
+   "gems": [
+    "Execrate"
+   ]
+  },
+  "Execute Support": {
+   "tiers": [
+    1,
+    4,
+    5
+   ],
+   "gems": [
+    "Execute I",
+    "Execute II",
+    "Execute III"
+   ]
+  },
+  "Expand Support": {
+   "tiers": [
+    5
+   ],
+   "gems": [
+    "Expand"
+   ]
+  },
+  "Expanse Support": {
+   "tiers": [
+    1
+   ],
+   "gems": [
+    "Expanse"
+   ]
+  },
+  "Exploit Weakness Support": {
+   "tiers": [
+    2
+   ],
+   "gems": [
+    "Exploit Weakness"
+   ]
+  },
+  "Exposing Cry Support": {
+   "tiers": [
+    4
+   ],
+   "gems": [
+    "Exposing Cry"
+   ]
+  },
+  "Extraction Support": {
+   "tiers": [
+    3
+   ],
+   "gems": [
+    "Extraction"
+   ]
+  },
+  "Fan The Flames Support": {
+   "tiers": [
+    2,
+    4
+   ],
+   "gems": [
+    "Fan The Flames",
+    "Fan The Flames II"
+   ]
+  },
+  "Feeding Frenzy Support": {
+   "tiers": [
+    3,
+    4
+   ],
+   "gems": [
+    "Feeding Frenzy I",
+    "Feeding Frenzy II"
+   ]
+  },
+  "Fiery Death Support": {
+   "tiers": [
+    2
+   ],
+   "gems": [
+    "Fiery Death"
+   ]
+  },
+  "Fire Attunement Support": {
+   "tiers": [
+    1
+   ],
+   "gems": [
+    "Fire Attunement"
+   ]
+  },
+  "Fire Exposure Support": {
+   "tiers": [
+    4
+   ],
+   "gems": [
+    "Fire Exposure"
+   ]
+  },
+  "Fire Mastery Support": {
+   "tiers": [
+    5
+   ],
+   "gems": [
+    "Fire Mastery"
+   ]
+  },
+  "Fire Penetration Support": {
+   "tiers": [
+    2,
+    5
+   ],
+   "gems": [
+    "Fire Penetration I",
+    "Fire Penetration II"
+   ]
+  },
+  "Fist of War Support": {
+   "tiers": [
+    1,
+    3,
+    5
+   ],
+   "gems": [
+    "Fist of War I",
+    "Fist of War II",
+    "Fist of War III"
+   ]
+  },
+  "Fluke Support": {
+   "tiers": [
+    3
+   ],
+   "gems": [
+    "Fluke"
+   ]
+  },
+  "Focused Curse Support": {
+   "tiers": [
+    2
+   ],
+   "gems": [
+    "Focused Curse"
+   ]
+  },
+  "Font of Blood Support": {
+   "tiers": [
+    2
+   ],
+   "gems": [
+    "Font of Blood"
+   ]
+  },
+  "Font of Mana Support": {
+   "tiers": [
+    2
+   ],
+   "gems": [
+    "Font of Mana"
+   ]
+  },
+  "Fork Support": {
+   "tiers": [
+    3
+   ],
+   "gems": [
+    "Fork"
+   ]
+  },
+  "Fortress Support": {
+   "tiers": [
+    1,
+    3
+   ],
+   "gems": [
+    "Fortress I",
+    "Fortress II"
+   ]
+  },
+  "Freeze Support": {
+   "tiers": [
+    2
+   ],
+   "gems": [
+    "Freeze"
+   ]
+  },
+  "Frenzied Riposte Support": {
+   "tiers": [
+    2
+   ],
+   "gems": [
+    "Frenzied Riposte"
+   ]
+  },
+  "Fresh Clip Support": {
+   "tiers": [
+    2,
+    4
+   ],
+   "gems": [
+    "Fresh Clip I",
+    "Fresh Clip II"
+   ]
+  },
+  "Frost Nexus Support": {
+   "tiers": [
+    2
+   ],
+   "gems": [
+    "Frost Nexus"
+   ]
+  },
+  "Frostfire Support": {
+   "tiers": [
+    3
+   ],
+   "gems": [
+    "Frostfire"
+   ]
+  },
+  "Frozen Spite Support": {
+   "tiers": [
+    2
+   ],
+   "gems": [
+    "Frozen Spite"
+   ]
+  },
+  "Gambleshot Support": {
+   "tiers": [
+    3
+   ],
+   "gems": [
+    "Gambleshot"
+   ]
+  },
+  "Glacier Support": {
+   "tiers": [
+    2
+   ],
+   "gems": [
+    "Glacier"
+   ]
+  },
+  "Gorge Support": {
+   "tiers": [
+    2
+   ],
+   "gems": [
+    "Gorge"
+   ]
+  },
+  "Haemocrystals Support": {
+   "tiers": [
+    3
+   ],
+   "gems": [
+    "Haemocrystals"
+   ]
+  },
+  "Hardy Totems Support": {
+   "tiers": [
+    2,
+    4
+   ],
+   "gems": [
+    "Hardy Totems I",
+    "Hardy Totems II"
+   ]
+  },
+  "Harmonic Remnants Support": {
+   "tiers": [
+    2,
+    3
+   ],
+   "gems": [
+    "Harmonic Remnants I",
+    "Harmonic Remnants II"
+   ]
+  },
+  "Heavy Swing Support": {
+   "tiers": [
+    4
+   ],
+   "gems": [
+    "Heavy Swing"
+   ]
+  },
+  "Heft Support": {
+   "tiers": [
+    5
+   ],
+   "gems": [
+    "Heft"
+   ]
+  },
+  "Heightened Accuracy Support": {
+   "tiers": [
+    1,
+    3
+   ],
+   "gems": [
+    "Heightened Accuracy I",
+    "Heightened Accuracy II"
+   ]
+  },
+  "Heightened Charges Support": {
+   "tiers": [
+    2
+   ],
+   "gems": [
+    "Heightened Charges"
+   ]
+  },
+  "Heightened Curse Support": {
+   "tiers": [
+    1
+   ],
+   "gems": [
+    "Heightened Curse"
+   ]
+  },
+  "Herbalism Support": {
+   "tiers": [
+    2,
+    4
+   ],
+   "gems": [
+    "Herbalism I",
+    "Herbalism II"
+   ]
+  },
+  "Hex Bloom Support": {
+   "tiers": [
+    3
+   ],
+   "gems": [
+    "Hex Bloom"
+   ]
+  },
+  "Hit and Run Support": {
+   "tiers": [
+    4
+   ],
+   "gems": [
+    "Hit and Run"
+   ]
+  },
+  "Holy Descent Support": {
+   "tiers": [
+    5
+   ],
+   "gems": [
+    "Holy Descent"
+   ]
+  },
+  "Hourglass Support": {
+   "tiers": [
+    1
+   ],
+   "gems": [
+    "Hourglass"
+   ]
+  },
+  "Hulking Minions Support": {
+   "tiers": [
+    4
+   ],
+   "gems": [
+    "Hulking Minions"
+   ]
+  },
+  "Ice Bite Support": {
+   "tiers": [
+    1,
+    3
+   ],
+   "gems": [
+    "Ice Bite I",
+    "Ice Bite II"
+   ]
+  },
+  "Icicle Support": {
+   "tiers": [
+    2
+   ],
+   "gems": [
+    "Icicle"
+   ]
+  },
+  "Ignite Support": {
+   "tiers": [
+    1,
+    3,
+    5
+   ],
+   "gems": [
+    "Ignite I",
+    "Ignite II",
+    "Ignite III"
+   ]
+  },
+  "Immolate Support": {
+   "tiers": [
+    3
+   ],
+   "gems": [
+    "Immolate"
+   ]
+  },
+  "Impact Shockwave Support": {
+   "tiers": [
+    1
+   ],
+   "gems": [
+    "Impact Shockwave"
+   ]
+  },
+  "Impale Support": {
+   "tiers": [
+    4
+   ],
+   "gems": [
+    "Impale"
+   ]
+  },
+  "Impending Doom Support": {
+   "tiers": [
+    1
+   ],
+   "gems": [
+    "Impending Doom"
+   ]
+  },
+  "Incision Support": {
+   "tiers": [
+    4
+   ],
+   "gems": [
+    "Incision"
+   ]
+  },
+  "Inexorable Critical Support": {
+   "tiers": [
+    3,
+    4
+   ],
+   "gems": [
+    "Inexorable Critical I",
+    "Inexorable Critical II"
+   ]
+  },
+  "Infernal Legion Support": {
+   "tiers": [
+    2,
+    5
+   ],
+   "gems": [
+    "Infernal Legion I",
+    "Infernal Legion II"
+   ]
+  },
+  "Inhibitor Support": {
+   "tiers": [
+    2
+   ],
+   "gems": [
+    "Inhibitor"
+   ]
+  },
+  "Innervate Support": {
+   "tiers": [
+    1
+   ],
+   "gems": [
+    "Innervate"
+   ]
+  },
+  "Intense Agony Support": {
+   "tiers": [
+    2
+   ],
+   "gems": [
+    "Intense Agony"
+   ]
+  },
+  "Jagged Ground Support": {
+   "tiers": [
+    2,
+    5
+   ],
+   "gems": [
+    "Jagged Ground I",
+    "Jagged Ground II"
+   ]
+  },
+  "Knockback Support": {
+   "tiers": [
+    3
+   ],
+   "gems": [
+    "Knockback"
+   ]
+  },
+  "Last Gasp Support": {
+   "tiers": [
+    1
+   ],
+   "gems": [
+    "Last Gasp"
+   ]
+  },
+  "Lasting Shock Support": {
+   "tiers": [
+    2
+   ],
+   "gems": [
+    "Lasting Shock"
+   ]
+  },
+  "Life Drain Support": {
+   "tiers": [
+    1
+   ],
+   "gems": [
+    "Life Drain"
+   ]
+  },
+  "Life Leech Support": {
+   "tiers": [
+    2,
+    3,
+    5
+   ],
+   "gems": [
+    "Life Leech I",
+    "Life Leech II",
+    "Life Leech III"
+   ]
+  },
+  "Lifetap Support": {
+   "tiers": [
+    2
+   ],
+   "gems": [
+    "Lifetap"
+   ]
+  },
+  "Lightning Attunement Support": {
+   "tiers": [
+    1
+   ],
+   "gems": [
+    "Lightning Attunement"
+   ]
+  },
+  "Lightning Exposure Support": {
+   "tiers": [
+    4
+   ],
+   "gems": [
+    "Lightning Exposure"
+   ]
+  },
+  "Lightning Mastery Support": {
+   "tiers": [
+    5
+   ],
+   "gems": [
+    "Lightning Mastery"
+   ]
+  },
+  "Lightning Penetration Support": {
+   "tiers": [
+    2
+   ],
+   "gems": [
+    "Lightning Penetration"
+   ]
+  },
+  "Living Lightning Support": {
+   "tiers": [
+    2,
+    4
+   ],
+   "gems": [
+    "Living Lightning",
+    "Living Lightning II"
+   ]
+  },
+  "Long Fuse Support": {
+   "tiers": [
+    4,
+    5
+   ],
+   "gems": [
+    "Long Fuse I",
+    "Long Fuse II"
+   ]
+  },
+  "Longshot Support": {
+   "tiers": [
+    2,
+    3
+   ],
+   "gems": [
+    "Longshot I",
+    "Longshot II"
+   ]
+  },
+  "Loyalty Support": {
+   "tiers": [
+    2
+   ],
+   "gems": [
+    "Loyalty"
+   ]
+  },
+  "Magnified Area Support": {
+   "tiers": [
+    1,
+    3
+   ],
+   "gems": [
+    "Magnified Area I",
+    "Magnified Area II"
+   ]
+  },
+  "Maim Support": {
+   "tiers": [
+    2
+   ],
+   "gems": [
+    "Maim"
+   ]
+  },
+  "Mana Flare Support": {
+   "tiers": [
+    2
+   ],
+   "gems": [
+    "Mana Flare"
+   ]
+  },
+  "Mana Leech Support": {
+   "tiers": [
+    2
+   ],
+   "gems": [
+    "Mana Leech"
+   ]
+  },
+  "Mark for Death Support": {
+   "tiers": [
+    2,
+    4
+   ],
+   "gems": [
+    "Mark for Death",
+    "Mark for Death II"
+   ]
+  },
+  "Mark of Siphoning Support": {
+   "tiers": [
+    1,
+    4
+   ],
+   "gems": [
+    "Mark of Siphoning",
+    "Mark of Siphoning II"
+   ]
+  },
+  "Meat Shield Support": {
+   "tiers": [
+    1,
+    3
+   ],
+   "gems": [
+    "Meat Shield I",
+    "Meat Shield II"
+   ]
+  },
+  "Minion Instability Support": {
+   "tiers": [
+    2
+   ],
+   "gems": [
+    "Minion Instability"
+   ]
+  },
+  "Minion Mastery Support": {
+   "tiers": [
+    5
+   ],
+   "gems": [
+    "Minion Mastery"
+   ]
+  },
+  "Minion Pact Support": {
+   "tiers": [
+    1,
+    4
+   ],
+   "gems": [
+    "Minion Pact I",
+    "Minion Pact II"
+   ]
+  },
+  "Minion Splash Support": {
+   "tiers": [
+    2,
+    5
+   ],
+   "gems": [
+    "Minion Splash I",
+    "Minion Splash II"
+   ]
+  },
+  "Mobility Support": {
+   "tiers": [
+    3
+   ],
+   "gems": [
+    "Mobility"
+   ]
+  },
+  "Momentum Support": {
+   "tiers": [
+    2
+   ],
+   "gems": [
+    "Momentum"
+   ]
+  },
+  "Multishot Support": {
+   "tiers": [
+    1,
+    2
+   ],
+   "gems": [
+    "Multishot I",
+    "Multishot II"
+   ]
+  },
+  "Muster Support": {
+   "tiers": [
+    3
+   ],
+   "gems": [
+    "Muster"
+   ]
+  },
+  "Mysticism Support": {
+   "tiers": [
+    2,
+    4
+   ],
+   "gems": [
+    "Mysticism I",
+    "Mysticism II"
+   ]
+  },
+  "Neural Overload Support": {
+   "tiers": [
+    3
+   ],
+   "gems": [
+    "Neural Overload"
+   ]
+  },
+  "Nimble Reload Support": {
+   "tiers": [
+    4
+   ],
+   "gems": [
+    "Nimble Reload"
+   ]
+  },
+  "Nova Projectiles Support": {
+   "tiers": [
+    2,
+    4
+   ],
+   "gems": [
+    "Nova Projectiles I",
+    "Nova Projectiles II"
+   ]
+  },
+  "Opening Move Support": {
+   "tiers": [
+    1
+   ],
+   "gems": [
+    "Opening Move"
+   ]
+  },
+  "Overabundance Support": {
+   "tiers": [
+    1,
+    4
+   ],
+   "gems": [
+    "Overabundance I",
+    "Overabundance II"
+   ]
+  },
+  "Overcharge Support": {
+   "tiers": [
+    4
+   ],
+   "gems": [
+    "Overcharge"
+   ]
+  },
+  "Overreach Support": {
+   "tiers": [
+    2
+   ],
+   "gems": [
+    "Overreach"
+   ]
+  },
+  "Payload Support": {
+   "tiers": [
+    4
+   ],
+   "gems": [
+    "Payload"
+   ]
+  },
+  "Perfected Endurance Support": {
+   "tiers": [
+    4
+   ],
+   "gems": [
+    "Perfected Endurance"
+   ]
+  },
+  "Perfection Support": {
+   "tiers": [
+    4
+   ],
+   "gems": [
+    "Perfection"
+   ]
+  },
+  "Perpetual Charge Support": {
+   "tiers": [
+    1
+   ],
+   "gems": [
+    "Perpetual Charge"
+   ]
+  },
+  "Persistent Ground Support": {
+   "tiers": [
+    2,
+    3,
+    5
+   ],
+   "gems": [
+    "Persistent Ground I",
+    "Persistent Ground II",
+    "Persistent Ground III"
+   ]
+  },
+  "Physical Mastery Support": {
+   "tiers": [
+    5
+   ],
+   "gems": [
+    "Physical Mastery"
+   ]
+  },
+  "Pierce Support": {
+   "tiers": [
+    1,
+    3,
+    5
+   ],
+   "gems": [
+    "Pierce I",
+    "Pierce II",
+    "Pierce III"
+   ]
+  },
+  "Pin Support": {
+   "tiers": [
+    1,
+    2,
+    5
+   ],
+   "gems": [
+    "Pin I",
+    "Pin II",
+    "Pin III"
+   ]
+  },
+  "Pinpoint Critical Support": {
+   "tiers": [
+    2
+   ],
+   "gems": [
+    "Pinpoint Critical"
+   ]
+  },
+  "Poison Support": {
+   "tiers": [
+    1,
+    3,
+    5
+   ],
+   "gems": [
+    "Poison I",
+    "Poison II",
+    "Poison III"
+   ]
+  },
+  "Poison Spores Support": {
+   "tiers": [
+    3
+   ],
+   "gems": [
+    "Poison Spores"
+   ]
+  },
+  "Potent Exposure Support": {
+   "tiers": [
+    2
+   ],
+   "gems": [
+    "Potent Exposure"
+   ]
+  },
+  "Practical Magic Support": {
+   "tiers": [
+    3,
+    5
+   ],
+   "gems": [
+    "Practical Magic I",
+    "Practical Magic II"
+   ]
+  },
+  "Practiced Combo Support": {
+   "tiers": [
+    3
+   ],
+   "gems": [
+    "Practiced Combo"
+   ]
+  },
+  "Precision Support": {
+   "tiers": [
+    1,
+    4
+   ],
+   "gems": [
+    "Precision I",
+    "Precision II"
+   ]
+  },
+  "Profanity Support": {
+   "tiers": [
+    1,
+    5
+   ],
+   "gems": [
+    "Profanity I",
+    "Profanity II"
+   ]
+  },
+  "Projectile Acceleration Support": {
+   "tiers": [
+    1,
+    4,
+    5
+   ],
+   "gems": [
+    "Projectile Acceleration I",
+    "Projectile Acceleration II",
+    "Projectile Acceleration III"
+   ]
+  },
+  "Projectile Deceleration Support": {
+   "tiers": [
+    1,
+    3
+   ],
+   "gems": [
+    "Projectile Deceleration I",
+    "Projectile Deceleration II"
+   ]
+  },
+  "Prolonged Duration Support": {
+   "tiers": [
+    1,
+    3
+   ],
+   "gems": [
+    "Prolonged Duration I",
+    "Prolonged Duration II"
+   ]
+  },
+  "Punch Through Support": {
+   "tiers": [
+    3
+   ],
+   "gems": [
+    "Punch Through"
+   ]
+  },
+  "Pursuit Support": {
+   "tiers": [
+    1,
+    3,
+    5
+   ],
+   "gems": [
+    "Pursuit I",
+    "Pursuit II",
+    "Pursuit III"
+   ]
+  },
+  "Quill Burst Support": {
+   "tiers": [
+    3
+   ],
+   "gems": [
+    "Quill Burst"
+   ]
+  },
+  "Rage Support": {
+   "tiers": [
+    1,
+    4,
+    5
+   ],
+   "gems": [
+    "Rage I",
+    "Rage II",
+    "Rage III"
+   ]
+  },
+  "Rageforged Support": {
+   "tiers": [
+    4,
+    5
+   ],
+   "gems": [
+    "Rageforged I",
+    "Rageforged II"
+   ]
+  },
+  "Raging Cry Support": {
+   "tiers": [
+    2
+   ],
+   "gems": [
+    "Raging Cry"
+   ]
+  },
+  "Rapid Attacks Support": {
+   "tiers": [
+    1,
+    4,
+    5
+   ],
+   "gems": [
+    "Rapid Attacks I",
+    "Rapid Attacks II",
+    "Rapid Attacks III"
+   ]
+  },
+  "Rapid Casting Support": {
+   "tiers": [
+    1,
+    4,
+    5
+   ],
+   "gems": [
+    "Rapid Casting I",
+    "Rapid Casting II",
+    "Rapid Casting III"
+   ]
+  },
+  "Rearm Support": {
+   "tiers": [
+    3,
+    5
+   ],
+   "gems": [
+    "Rearm I",
+    "Rearm II"
+   ]
+  },
+  "Refraction Support": {
+   "tiers": [
+    2,
+    3,
+    5
+   ],
+   "gems": [
+    "Refraction I",
+    "Refraction II",
+    "Refraction III"
+   ]
+  },
+  "Reinforced Totems Support": {
+   "tiers": [
+    3,
+    5
+   ],
+   "gems": [
+    "Reinforced Totems I",
+    "Reinforced Totems II"
+   ]
+  },
+  "Remnant Potency Support": {
+   "tiers": [
+    2,
+    3,
+    4
+   ],
+   "gems": [
+    "Remnant Potency I",
+    "Remnant Potency II",
+    "Remnant Potency III"
+   ]
+  },
+  "Rending Apex Support": {
+   "tiers": [
+    3
+   ],
+   "gems": [
+    "Rending Apex"
+   ]
+  },
+  "Retaliate Support": {
+   "tiers": [
+    2,
+    4
+   ],
+   "gems": [
+    "Retaliate I",
+    "Retaliate II"
+   ]
+  },
+  "Retreat Support": {
+   "tiers": [
+    1,
+    3,
+    5
+   ],
+   "gems": [
+    "Retreat I",
+    "Retreat II",
+    "Retreat III"
+   ]
+  },
+  "Ricochet Support": {
+   "tiers": [
+    2,
+    4
+   ],
+   "gems": [
+    "Ricochet I",
+    "Ricochet II"
+   ]
+  },
+  "Rip Support": {
+   "tiers": [
+    3
+   ],
+   "gems": [
+    "Rip"
+   ]
+  },
+  "Rising Tempest Support": {
+   "tiers": [
+    2
+   ],
+   "gems": [
+    "Rising Tempest"
+   ]
+  },
+  "Ritualistic Curse Support": {
+   "tiers": [
+    3
+   ],
+   "gems": [
+    "Ritualistic Curse"
+   ]
+  },
+  "Rupture Support": {
+   "tiers": [
+    3
+   ],
+   "gems": [
+    "Rupture"
+   ]
+  },
+  "Sacrificial Lamb Support": {
+   "tiers": [
+    1,
+    3
+   ],
+   "gems": [
+    "Sacrificial Lamb I",
+    "Sacrificial Lamb II"
+   ]
+  },
+  "Sacrificial Offering Support": {
+   "tiers": [
+    3
+   ],
+   "gems": [
+    "Sacrificial Offering"
+   ]
+  },
+  "Salvo Support": {
+   "tiers": [
+    3
+   ],
+   "gems": [
+    "Salvo"
+   ]
+  },
+  "Searing Flame Support": {
+   "tiers": [
+    3,
+    4
+   ],
+   "gems": [
+    "Searing Flame I",
+    "Searing Flame II"
+   ]
+  },
+  "Second Wind Support": {
+   "tiers": [
+    2,
+    4,
+    5
+   ],
+   "gems": [
+    "Second Wind I",
+    "Second Wind II",
+    "Second Wind III"
+   ]
+  },
+  "Selfless Remnants Support": {
+   "tiers": [
+    2
+   ],
+   "gems": [
+    "Selfless Remnants"
+   ]
+  },
+  "Shock Support": {
+   "tiers": [
+    1
+   ],
+   "gems": [
+    "Shock"
+   ]
+  },
+  "Shock Conduction Support": {
+   "tiers": [
+    2
+   ],
+   "gems": [
+    "Shock Conduction"
+   ]
+  },
+  "Shocking Leap Support": {
+   "tiers": [
+    2
+   ],
+   "gems": [
+    "Shocking Leap"
+   ]
+  },
+  "Short Fuse Support": {
+   "tiers": [
+    2,
+    4
+   ],
+   "gems": [
+    "Short Fuse I",
+    "Short Fuse II"
+   ]
+  },
+  "Skittering Stone Support": {
+   "tiers": [
+    2,
+    4
+   ],
+   "gems": [
+    "Skittering Stone I",
+    "Skittering Stone II"
+   ]
+  },
+  "Slow Potency Support": {
+   "tiers": [
+    1
+   ],
+   "gems": [
+    "Slow Potency"
+   ]
+  },
+  "Soul Drain Support": {
+   "tiers": [
+    3
+   ],
+   "gems": [
+    "Soul Drain"
+   ]
+  },
+  "Spectral Volley Support": {
+   "tiers": [
+    4
+   ],
+   "gems": [
+    "Spectral Volley"
+   ]
+  },
+  "Spell Cascade Support": {
+   "tiers": [
+    1
+   ],
+   "gems": [
+    "Spell Cascade"
+   ]
+  },
+  "Spell Echo Support": {
+   "tiers": [
+    2
+   ],
+   "gems": [
+    "Spell Echo"
+   ]
+  },
+  "Splinter Totem Support": {
+   "tiers": [
+    3,
+    5
+   ],
+   "gems": [
+    "Splinter Totem I",
+    "Splinter Totem II"
+   ]
+  },
+  "Static Shocks Support": {
+   "tiers": [
+    3
+   ],
+   "gems": [
+    "Static Shocks"
+   ]
+  },
+  "Steadfast Support": {
+   "tiers": [
+    1,
+    3
+   ],
+   "gems": [
+    "Steadfast I",
+    "Steadfast II"
+   ]
+  },
+  "Stoicism Support": {
+   "tiers": [
+    3,
+    5
+   ],
+   "gems": [
+    "Stoicism I",
+    "Stoicism II"
+   ]
+  },
+  "Stomping Ground Support": {
+   "tiers": [
+    1
+   ],
+   "gems": [
+    "Stomping Ground"
+   ]
+  },
+  "Stormfire Support": {
+   "tiers": [
+    3
+   ],
+   "gems": [
+    "Stormfire"
+   ]
+  },
+  "Streamlined Rounds Support": {
+   "tiers": [
+    3
+   ],
+   "gems": [
+    "Streamlined Rounds"
+   ]
+  },
+  "Strong Hearted Support": {
+   "tiers": [
+    3
+   ],
+   "gems": [
+    "Strong Hearted"
+   ]
+  },
+  "Stun Support": {
+   "tiers": [
+    2,
+    4,
+    5
+   ],
+   "gems": [
+    "Stun I",
+    "Stun II",
+    "Stun III"
+   ]
+  },
+  "Supercritical Support": {
+   "tiers": [
+    3
+   ],
+   "gems": [
+    "Supercritical"
+   ]
+  },
+  "Swift Affliction Support": {
+   "tiers": [
+    1,
+    3,
+    5
+   ],
+   "gems": [
+    "Swift Affliction I",
+    "Swift Affliction II",
+    "Swift Affliction III"
+   ]
+  },
+  "Syzygy Support": {
+   "tiers": [
+    4
+   ],
+   "gems": [
+    "Syzygy"
+   ]
+  },
+  "Tear Support": {
+   "tiers": [
+    3
+   ],
+   "gems": [
+    "Tear"
+   ]
+  },
+  "Tectonic Slams Support": {
+   "tiers": [
+    2
+   ],
+   "gems": [
+    "Tectonic Slams"
+   ]
+  },
+  "Thornskin Support": {
+   "tiers": [
+    2,
+    4
+   ],
+   "gems": [
+    "Thornskin I",
+    "Thornskin II"
+   ]
+  },
+  "Thrill of the Kill Support": {
+   "tiers": [
+    1,
+    3
+   ],
+   "gems": [
+    "Thrill of the Kill",
+    "Thrill of the Kill II"
+   ]
+  },
+  "Tireless Support": {
+   "tiers": [
+    1
+   ],
+   "gems": [
+    "Tireless"
+   ]
+  },
+  "Unleash Support": {
+   "tiers": [
+    1
+   ],
+   "gems": [
+    "Unleash"
+   ]
+  },
+  "Upheaval Support": {
+   "tiers": [
+    1,
+    5
+   ],
+   "gems": [
+    "Upheaval I",
+    "Upheaval II"
+   ]
+  },
+  "Upwelling Support": {
+   "tiers": [
+    2,
+    4
+   ],
+   "gems": [
+    "Upwelling I",
+    "Upwelling II"
+   ]
+  },
+  "Urgent Totems Support": {
+   "tiers": [
+    2,
+    3,
+    4
+   ],
+   "gems": [
+    "Urgent Totems I",
+    "Urgent Totems II",
+    "Urgent Totems III"
+   ]
+  },
+  "Vanguard Support": {
+   "tiers": [
+    1,
+    2
+   ],
+   "gems": [
+    "Vanguard I",
+    "Vanguard II"
+   ]
+  },
+  "Verglas Support": {
+   "tiers": [
+    3
+   ],
+   "gems": [
+    "Verglas"
+   ]
+  },
+  "Vitality Support": {
+   "tiers": [
+    1,
+    4
+   ],
+   "gems": [
+    "Vitality I",
+    "Vitality II"
+   ]
+  },
+  "Volatility Support": {
+   "tiers": [
+    3
+   ],
+   "gems": [
+    "Volatility"
+   ]
+  },
+  "Volcanic Eruption Support": {
+   "tiers": [
+    2
+   ],
+   "gems": [
+    "Volcanic Eruption"
+   ]
+  },
+  "Volt Support": {
+   "tiers": [
+    2
+   ],
+   "gems": [
+    "Volt"
+   ]
+  },
+  "Warm Blooded Support": {
+   "tiers": [
+    3
+   ],
+   "gems": [
+    "Warm Blooded"
+   ]
+  },
+  "Wildfire Support": {
+   "tiers": [
+    2
+   ],
+   "gems": [
+    "Wildfire"
+   ]
+  },
+  "Wildshards Support": {
+   "tiers": [
+    3,
+    5
+   ],
+   "gems": [
+    "Wildshards I",
+    "Wildshards II"
+   ]
+  },
+  "Window of Opportunity Support": {
+   "tiers": [
+    1,
+    5
+   ],
+   "gems": [
+    "Window of Opportunity I",
+    "Window of Opportunity II"
+   ]
+  },
+  "Withering Touch Support": {
+   "tiers": [
+    1
+   ],
+   "gems": [
+    "Withering Touch"
+   ]
+  },
+  "Zenith Support": {
+   "tiers": [
+    1,
+    3
+   ],
+   "gems": [
+    "Zenith I",
+    "Zenith II"
+   ]
+  }
+ },
+ "classes": {
+  "Warrior": {
+   "weapon": "Two Hand Mace",
+   "gem_group": "Mace",
+   "ascendancies": [
+    "Titan",
+    "Warbringer",
+    "Smith of Kitava"
+   ]
+  },
+  "Mercenary": {
+   "weapon": "Crossbow",
+   "gem_group": "Crossbow",
+   "ascendancies": [
+    "Tactician",
+    "Witchhunter",
+    "Gemling Legionnaire"
+   ]
+  },
+  "Ranger": {
+   "weapon": "Bow",
+   "gem_group": "Bow",
+   "ascendancies": [
+    "Deadeye",
+    "Pathfinder"
+   ]
+  },
+  "Huntress": {
+   "weapon": "Spear",
+   "gem_group": "Spear",
+   "ascendancies": [
+    "Amazon",
+    "Spirit Walker",
+    "Ritualist"
+   ]
+  },
+  "Monk": {
+   "weapon": "Quarterstaff",
+   "gem_group": "Quarterstaff",
+   "ascendancies": [
+    "Martial Artist",
+    "Invoker",
+    "Acolyte of Chayula"
+   ]
+  },
+  "Sorceress": {
+   "weapon": "Staff",
+   "gem_group": "Elemental",
+   "ascendancies": [
+    "Stormweaver",
+    "Chronomancer",
+    "Disciple of Varashta"
+   ]
+  },
+  "Witch": {
+   "weapon": "Wand",
+   "gem_group": "Occult",
+   "ascendancies": [
+    "Infernalist",
+    "Blood Mage",
+    "Lich",
+    "Abyssal Lich"
+   ]
+  },
+  "Druid": {
+   "weapon": "Talisman",
+   "gem_group": "Primal",
+   "ascendancies": [
+    "Oracle",
+    "Shaman"
+   ]
+  }
+ },
+ "level_of_location": {
+  "Reach Level 2": 2,
+  "Reach Level 3": 3,
+  "Reach Level 4": 4,
+  "Reach Level 5": 5,
+  "Reach Level 6": 6,
+  "Reach Level 7": 7,
+  "Reach Level 8": 8,
+  "Reach Level 9": 9,
+  "Reach Level 10": 10,
+  "Reach Level 11": 11,
+  "Reach Level 12": 12,
+  "Reach Level 13": 13,
+  "Reach Level 14": 14,
+  "Reach Level 15": 15,
+  "Reach Level 16": 16,
+  "Reach Level 17": 17,
+  "Reach Level 18": 18,
+  "Reach Level 19": 19,
+  "Reach Level 20": 20,
+  "Reach Level 21": 21,
+  "Reach Level 22": 22,
+  "Reach Level 23": 23,
+  "Reach Level 24": 24,
+  "Reach Level 25": 25,
+  "Reach Level 26": 26,
+  "Reach Level 27": 27,
+  "Reach Level 28": 28,
+  "Reach Level 29": 29,
+  "Reach Level 30": 30,
+  "Reach Level 31": 31,
+  "Reach Level 32": 32,
+  "Reach Level 33": 33,
+  "Reach Level 34": 34,
+  "Reach Level 35": 35,
+  "Reach Level 36": 36,
+  "Reach Level 37": 37,
+  "Reach Level 38": 38,
+  "Reach Level 39": 39,
+  "Reach Level 40": 40,
+  "Reach Level 41": 41,
+  "Reach Level 42": 42,
+  "Reach Level 43": 43,
+  "Reach Level 44": 44,
+  "Reach Level 45": 45,
+  "Reach Level 46": 46,
+  "Reach Level 47": 47,
+  "Reach Level 48": 48,
+  "Reach Level 49": 49,
+  "Reach Level 50": 50,
+  "Reach Level 51": 51,
+  "Reach Level 52": 52,
+  "Reach Level 53": 53,
+  "Reach Level 54": 54,
+  "Reach Level 55": 55,
+  "Reach Level 56": 56,
+  "Reach Level 57": 57,
+  "Reach Level 58": 58,
+  "Reach Level 59": 59,
+  "Reach Level 60": 60,
+  "Reach Level 61": 61,
+  "Reach Level 62": 62,
+  "Reach Level 63": 63,
+  "Reach Level 64": 64,
+  "Reach Level 65": 65,
+  "Reach Level 66": 66,
+  "Reach Level 67": 67,
+  "Reach Level 68": 68,
+  "Reach Level 69": 69,
+  "Reach Level 70": 70,
+  "Reach Level 71": 71,
+  "Reach Level 72": 72,
+  "Reach Level 73": 73,
+  "Reach Level 74": 74,
+  "Reach Level 75": 75,
+  "Reach Level 76": 76,
+  "Reach Level 77": 77,
+  "Reach Level 78": 78,
+  "Reach Level 79": 79,
+  "Reach Level 80": 80,
+  "Reach Level 81": 81,
+  "Reach Level 82": 82,
+  "Reach Level 83": 83,
+  "Reach Level 84": 84,
+  "Reach Level 85": 85,
+  "Reach Level 86": 86,
+  "Reach Level 87": 87,
+  "Reach Level 88": 88,
+  "Reach Level 89": 89,
+  "Reach Level 90": 90,
+  "Reach Level 91": 91,
+  "Reach Level 92": 92,
+  "Reach Level 93": 93,
+  "Reach Level 94": 94,
+  "Reach Level 95": 95,
+  "Reach Level 96": 96,
+  "Reach Level 97": 97,
+  "Reach Level 98": 98,
+  "Reach Level 99": 99,
+  "Reach Level 100": 100
+ },
+ "zone_location_by_area": {
+  "G1_town": "Enter Clearfell Encampment",
+  "G1_1": "Enter The Riverbank",
+  "G1_2": "Enter Clearfell",
+  "G1_3": "Enter Mud Burrow",
+  "G1_4": "Enter The Grelwood",
+  "G1_5": "Enter The Red Vale",
+  "G1_6": "Enter The Grim Tangle",
+  "G1_7": "Enter Cemetery of the Eternals",
+  "G1_8": "Enter Mausoleum of the Praetor",
+  "G1_9": "Enter Tomb of the Consort",
+  "G1_11": "Enter Hunting Grounds",
+  "G1_12": "Enter Freythorn",
+  "G1_13_1": "Enter Ogham Farmlands",
+  "G1_13_2": "Enter Ogham Village",
+  "G1_14": "Enter The Manor Ramparts",
+  "G1_15": "Enter Ogham Manor",
+  "G2_town": "Enter The Ardura Caravan",
+  "G2_1": "Enter Vastiri Outskirts",
+  "G2_2": "Enter Traitor's Passage",
+  "G2_3": "Enter The Halani Gates",
+  "G2_3a": "Enter The Halani Gates",
+  "G2_3s": "Enter The Halani Gates",
+  "G2_4_1": "Enter Keth",
+  "G2_4_2": "Enter The Lost City",
+  "G2_4_3": "Enter Buried Shrines",
+  "G2_5_1": "Enter Mastodon Badlands",
+  "G2_5_2": "Enter The Bone Pits",
+  "G2_6": "Enter Valley of the Titans",
+  "G2_7": "Enter The Titan Grotto",
+  "G2_8": "Enter Deshar",
+  "G2_8a": "Enter Deshar",
+  "G2_9_1": "Enter Path of Mourning",
+  "G2_9_2": "Enter The Spires of Deshar",
+  "G2_10_1": "Enter Mawdun Quarry",
+  "G2_10_2": "Enter Mawdun Mine",
+  "G2_11": "Enter The Dreadnought's Wake",
+  "G2_12": "Enter Dreadnought",
+  "G2_13": "Enter Trial of the Sekhemas",
+  "G3_town": "Enter Ziggurat Encampment",
+  "G3_1": "Enter Sandswept Marsh",
+  "G3_2_1": "Enter Infested Barrens",
+  "G3_2_2": "Enter The Matlan Waterways",
+  "G3_3": "Enter Jungle Ruins",
+  "G3_4": "Enter The Venom Crypts",
+  "G3_5": "Enter Chimeral Wetlands",
+  "G3_6_1": "Enter Jiquani's Machinarium",
+  "G3_6_2": "Enter Jiquani's Sanctum",
+  "G3_7": "Enter The Azak Bog",
+  "G3_8": "Enter The Drowned City",
+  "G3_9": "Enter The Molten Vault",
+  "G3_10": "Enter The Trial of Chaos",
+  "G3_10_Airlock": "Enter The Temple of Chaos",
+  "G3_11": "Enter Apex of Filth",
+  "G3_12": "Enter Temple of Kopec",
+  "G3_14": "Enter Utzaal",
+  "G3_15": "Enter Library of Kamasa",
+  "G3_16": "Enter Aggorat",
+  "G3_17": "Enter The Black Chambers",
+  "G4_town": "Enter Kingsmarch",
+  "G4_1_1": "Enter Isle of Kin",
+  "G4_1_2": "Enter Volcanic Warrens",
+  "G4_2_1": "Enter Kedge Bay",
+  "G4_2_2": "Enter Journey's End",
+  "G4_3_1": "Enter Whakapanu Island",
+  "G4_3_2": "Enter Singing Caverns",
+  "G4_4_1": "Enter Eye of Hinekora",
+  "G4_4_2": "Enter Halls of the Dead",
+  "G4_4_3": "Enter Trial of the Ancestors",
+  "G4_5_1": "Enter Abandoned Prison",
+  "G4_5_2": "Enter Solitary Confinement",
+  "G4_7": "Enter Shrike Island",
+  "G4_8a": "Enter Arastas",
+  "G4_8b": "Enter Arastas",
+  "G4_9_": "Enter Isle of Decay",
+  "G4_10": "Enter The Excavation",
+  "G4_11_1a": "Enter Ngakanu",
+  "G4_11_1b": "Enter Ngakanu",
+  "G4_11_2": "Enter Heart of the Tribe",
+  "G4_13": "Enter Plunder's Point",
+  "G4_14": "Enter Brinerot Cove",
+  "P1_Town": "Enter The Refuge",
+  "P1_1": "Enter Scorched Farmlands",
+  "P1_2": "Enter Stones of Serle",
+  "P1_3": "Enter The Blackwood",
+  "P1_4": "Enter Holten",
+  "P1_5": "Enter Wolvenhold",
+  "P1_6": "Enter Holten Estate",
+  "P2_Town": "Enter The Khari Bazaar",
+  "P2_1": "Enter The Khari Crossing",
+  "P2_2": "Enter Pools of Khatal",
+  "P2_3": "Enter Sel Khari Sanctuary",
+  "P2_5": "Enter The Galai Gates",
+  "P2_6": "Enter Qimah",
+  "P2_7": "Enter Qimah Reservoir",
+  "P3_Town": "Enter The Glade",
+  "P3_1": "Enter Ashen Forest",
+  "P3_2": "Enter Kriar Village",
+  "P3_3": "Enter Glacial Tarn",
+  "P3_4": "Enter Howling Caves",
+  "P3_5": "Enter Kriar Peaks",
+  "P3_6": "Enter Etched Ravine",
+  "P3_7": "Enter The Cuachic Vault",
+  "G_Endgame_Town": "Enter The Ziggurat Refuge"
+ },
+ "base_groups": {
+  "Ruby": "Jewel",
+  "Emerald": "Jewel",
+  "Sapphire": "Jewel",
+  "Wooden Club": "One Hand Mace",
+  "Smithing Hammer": "One Hand Mace",
+  "Slim Mace": "One Hand Mace",
+  "Spiked Club": "One Hand Mace",
+  "Warpick": "One Hand Mace",
+  "Plated Mace": "One Hand Mace",
+  "Brigand Mace": "One Hand Mace",
+  "Construct Hammer": "One Hand Mace",
+  "Morning Star": "One Hand Mace",
+  "Jade Club": "One Hand Mace",
+  "Lumen Mace": "One Hand Mace",
+  "Execratus Hammer": "One Hand Mace",
+  "Torment Club": "One Hand Mace",
+  "Kalguuran Forgehammer": "One Hand Mace",
+  "Felled Greatclub": "Two Hand Mace",
+  "Oak Greathammer": "Two Hand Mace",
+  "Forge Maul": "Two Hand Mace",
+  "Studded Greatclub": "Two Hand Mace",
+  "Cultist Greathammer": "Two Hand Mace",
+  "Temple Maul": "Two Hand Mace",
+  "Leaden Greathammer": "Two Hand Mace",
+  "Crumbling Maul": "Two Hand Mace",
+  "Pointed Maul": "Two Hand Mace",
+  "Totemic Greatclub": "Two Hand Mace",
+  "Greatmace": "Two Hand Mace",
+  "Precise Greathammer": "Two Hand Mace",
+  "Giant Maul": "Two Hand Mace",
+  "Hardwood Spear": "Spear",
+  "Ironhead Spear": "Spear",
+  "Hunting Spear": "Spear",
+  "Winged Spear": "Spear",
+  "War Spear": "Spear",
+  "Forked Spear": "Spear",
+  "Barbed Spear": "Spear",
+  "Broad Spear": "Spear",
+  "Crossblade Spear": "Spear",
+  "Seaglass Spear": "Spear",
+  "Sword Spear": "Spear",
+  "Striking Spear": "Spear",
+  "Helix Spear": "Spear",
+  "Wrapped Quarterstaff": "Quarterstaff",
+  "Long Quarterstaff": "Quarterstaff",
+  "Gothic Quarterstaff": "Quarterstaff",
+  "Crackling Quarterstaff": "Quarterstaff",
+  "Crescent Quarterstaff": "Quarterstaff",
+  "Steelpoint Quarterstaff": "Quarterstaff",
+  "Slicing Quarterstaff": "Quarterstaff",
+  "Barrier Quarterstaff": "Quarterstaff",
+  "Hefty Quarterstaff": "Quarterstaff",
+  "Smooth Quarterstaff": "Quarterstaff",
+  "Anima Quarterstaff": "Quarterstaff",
+  "Graceful Quarterstaff": "Quarterstaff",
+  "Wyrm Quarterstaff": "Quarterstaff",
+  "Withered Wand": "Wand",
+  "Bone Wand": "Wand",
+  "Attuned Wand": "Wand",
+  "Siphoning Wand": "Wand",
+  "Volatile Wand": "Wand",
+  "Galvanic Wand": "Wand",
+  "Acrid Wand": "Wand",
+  "Offering Wand": "Wand",
+  "Frigid Wand": "Wand",
+  "Torture Wand": "Wand",
+  "Critical Wand": "Wand",
+  "Primordial Wand": "Wand",
+  "Dueling Wand": "Wand",
+  "Twisted Wand": "Wand",
+  "Runic Fork": "Wand",
+  "Ashen Staff": "Staff",
+  "Gelid Staff": "Staff",
+  "Voltaic Staff": "Staff",
+  "Spriggan Staff": "Staff",
+  "Pyrophyte Staff": "Staff",
+  "Chiming Staff": "Staff",
+  "Rending Staff": "Staff",
+  "Reaping Staff": "Staff",
+  "Icicle Staff": "Staff",
+  "Roaring Staff": "Staff",
+  "Paralysing Staff": "Staff",
+  "Sanctified Staff": "Staff",
+  "Dark Staff": "Staff",
+  "Ravenous Staff": "Staff",
+  "Permafrost Staff": "Staff",
+  "Reflecting Staff": "Staff",
+  "Perching Staff": "Staff",
+  "Crude Bow": "Bow",
+  "Shortbow": "Bow",
+  "Warden Bow": "Bow",
+  "Recurve Bow": "Bow",
+  "Composite Bow": "Bow",
+  "Dualstring Bow": "Bow",
+  "Cultist Bow": "Bow",
+  "Zealot Bow": "Bow",
+  "Artillery Bow": "Bow",
+  "Tribal Bow": "Bow",
+  "Greatbow": "Bow",
+  "Double Limb Bow": "Bow",
+  "Heavy Bow": "Bow",
+  "Makeshift Crossbow": "Crossbow",
+  "Tense Crossbow": "Crossbow",
+  "Sturdy Crossbow": "Crossbow",
+  "Varnished Crossbow": "Crossbow",
+  "Dyad Crossbow": "Crossbow",
+  "Alloy Crossbow": "Crossbow",
+  "Bombard Crossbow": "Crossbow",
+  "Construct Crossbow": "Crossbow",
+  "Blackfire Crossbow": "Crossbow",
+  "Piercing Crossbow": "Crossbow",
+  "Cumbrous Crossbow": "Crossbow",
+  "Dedalian Crossbow": "Crossbow",
+  "Esoteric Crossbow": "Crossbow",
+  "Rattling Sceptre": "Sceptre",
+  "Stoic Sceptre": "Sceptre",
+  "Lupine Sceptre": "Sceptre",
+  "Omen Sceptre": "Sceptre",
+  "Ochre Sceptre": "Sceptre",
+  "Shrine Sceptre": "Sceptre",
+  "Devouring Sceptre": "Sceptre",
+  "Clasped Sceptre": "Sceptre",
+  "Devotional Sceptre": "Sceptre",
+  "Wrath Sceptre": "Sceptre",
+  "Aromatic Sceptre": "Sceptre",
+  "Pious Sceptre": "Sceptre",
+  "Hallowed Sceptre": "Sceptre",
+  "Changeling Talisman": "Talisman",
+  "Nettle Talisman": "Talisman",
+  "Cinderbark Talisman": "Talisman",
+  "Familial Talisman": "Talisman",
+  "Frenzied Talisman": "Talisman",
+  "Primal Talisman": "Talisman",
+  "Rabid Talisman": "Talisman",
+  "Vicious Talisman": "Talisman",
+  "Voltfang Talisman": "Talisman",
+  "Lumbering Talisman": "Talisman",
+  "Roaring Talisman": "Talisman",
+  "Wingbeat Talisman": "Talisman",
+  "Condemned Talisman": "Talisman",
+  "Rusted Cuirass": "Body Armour",
+  "Fur Plate": "Body Armour",
+  "Iron Cuirass": "Body Armour",
+  "Raider Plate": "Body Armour",
+  "Maraketh Cuirass": "Body Armour",
+  "Steel Plate": "Body Armour",
+  "Full Plate": "Body Armour",
+  "Vaal Cuirass": "Body Armour",
+  "Juggernaut Plate": "Body Armour",
+  "Chieftain Cuirass": "Body Armour",
+  "Colosseum Plate": "Body Armour",
+  "Champion Cuirass": "Body Armour",
+  "Glorious Plate": "Body Armour",
+  "Conqueror Plate": "Body Armour",
+  "Abyssal Cuirass": "Body Armour",
+  "Leather Vest": "Body Armour",
+  "Quilted Vest": "Body Armour",
+  "Pathfinder Coat": "Body Armour",
+  "Shrouded Vest": "Body Armour",
+  "Rhoahide Coat": "Body Armour",
+  "Studded Vest": "Body Armour",
+  "Scout's Vest": "Body Armour",
+  "Serpentscale Coat": "Body Armour",
+  "Corsair Vest": "Body Armour",
+  "Smuggler Coat": "Body Armour",
+  "Strider Vest": "Body Armour",
+  "Hardleather Coat": "Body Armour",
+  "Exquisite Vest": "Body Armour",
+  "Mail Coat": "Body Armour",
+  "Armoured Vest": "Body Armour",
+  "Tattered Robe": "Body Armour",
+  "Feathered Robe": "Body Armour",
+  "Hexer's Robe": "Body Armour",
+  "Bone Raiment": "Body Armour",
+  "Silk Robe": "Body Armour",
+  "Keth Raiment": "Body Armour",
+  "Votive Raiment": "Body Armour",
+  "Altar Robe": "Body Armour",
+  "Elementalist Robe": "Body Armour",
+  "Mystic Raiment": "Body Armour",
+  "Imperial Robe": "Body Armour",
+  "Plated Raiment": "Body Armour",
+  "Havoc Raiment": "Body Armour",
+  "Enlightened Robe": "Body Armour",
+  "Arcane Raiment": "Body Armour",
+  "Chain Mail": "Body Armour",
+  "Rogue Armour": "Body Armour",
+  "Vagabond Armour": "Body Armour",
+  "Cloaked Mail": "Body Armour",
+  "Explorer Armour": "Body Armour",
+  "Scale Mail": "Body Armour",
+  "Knight Armour": "Body Armour",
+  "Ancestral Mail": "Body Armour",
+  "Lamellar Mail": "Body Armour",
+  "Gladiator Armour": "Body Armour",
+  "Heroic Armour": "Body Armour",
+  "Tournament Mail": "Body Armour",
+  "Slayer Armour": "Body Armour",
+  "Pilgrim Vestments": "Body Armour",
+  "Pelt Mantle": "Body Armour",
+  "Mail Vestments": "Body Armour",
+  "Shaman Mantle": "Body Armour",
+  "Ironclad Vestments": "Body Armour",
+  "Sacrificial Mantle": "Body Armour",
+  "Cleric Vestments": "Body Armour",
+  "Tideseer Mantle": "Body Armour",
+  "Gilded Vestments": "Body Armour",
+  "Venerated Mantle": "Body Armour",
+  "Revered Vestments": "Body Armour",
+  "Corvus Mantle": "Body Armour",
+  "Zenith Vestments": "Body Armour",
+  "Ornate Ringmail": "Body Armour",
+  "Ancient Mail": "Body Armour",
+  "Hermit Garb": "Body Armour",
+  "Waxed Jacket": "Body Armour",
+  "Marabout Garb": "Body Armour",
+  "Wayfarer Jacket": "Body Armour",
+  "Anchorite Garb": "Body Armour",
+  "Scalper's Jacket": "Body Armour",
+  "Scoundrel Jacket": "Body Armour",
+  "Ascetic Garb": "Body Armour",
+  "Clandestine Jacket": "Body Armour",
+  "Monastic Garb": "Body Armour",
+  "Torment Jacket": "Body Armour",
+  "Devout Garb": "Body Armour",
+  "Assassin Garb": "Body Armour",
+  "Rusted Greathelm": "Helmet",
+  "Soldier Greathelm": "Helmet",
+  "Wrapped Greathelm": "Helmet",
+  "Spired Greathelm": "Helmet",
+  "Elite Greathelm": "Helmet",
+  "Warrior Greathelm": "Helmet",
+  "Commander Greathelm": "Helmet",
+  "Fierce Greathelm": "Helmet",
+  "Sentinel Greathelm": "Helmet",
+  "Goliath Greathelm": "Helmet",
+  "Guardian Greathelm": "Helmet",
+  "Shabby Hood": "Helmet",
+  "Felt Cap": "Helmet",
+  "Lace Hood": "Helmet",
+  "Swathed Cap": "Helmet",
+  "Hunter Hood": "Helmet",
+  "Viper Cap": "Helmet",
+  "Corsair Cap": "Helmet",
+  "Leatherbound Hood": "Helmet",
+  "Velvet Cap": "Helmet",
+  "Covert Hood": "Helmet",
+  "Armoured Cap": "Helmet",
+  "Twig Circlet": "Helmet",
+  "Wicker Tiara": "Helmet",
+  "Beaded Circlet": "Helmet",
+  "Chain Tiara": "Helmet",
+  "Feathered Tiara": "Helmet",
+  "Gold Circlet": "Helmet",
+  "Vermeil Circlet": "Helmet",
+  "Jade Tiara": "Helmet",
+  "Noble Circlet": "Helmet",
+  "Twilight Tiara": "Helmet",
+  "Magus Tiara": "Helmet",
+  "Brimmed Helm": "Helmet",
+  "Guarded Helm": "Helmet",
+  "Visored Helm": "Helmet",
+  "Cowled Helm": "Helmet",
+  "Shielded Helm": "Helmet",
+  "Closed Helm": "Helmet",
+  "Decorated Helm": "Helmet",
+  "Gallant Helm": "Helmet",
+  "Ancient Visor": "Helmet",
+  "Iron Crown": "Helmet",
+  "Horned Crown": "Helmet",
+  "Cultist Crown": "Helmet",
+  "Martyr Crown": "Helmet",
+  "Heavy Crown": "Helmet",
+  "Spiritbone Crown": "Helmet",
+  "Lavish Crown": "Helmet",
+  "Archon Crown": "Helmet",
+  "Tenebrous Crown": "Helmet",
+  "Hewn Mask": "Helmet",
+  "Face Mask": "Helmet",
+  "Hooded Mask": "Helmet",
+  "Veiled Mask": "Helmet",
+  "Tribal Mask": "Helmet",
+  "Solid Mask": "Helmet",
+  "Shaded Mask": "Helmet",
+  "Death Mask": "Helmet",
+  "Stocky Mitts": "Gloves",
+  "Riveted Mitts": "Gloves",
+  "Tempered Mitts": "Gloves",
+  "Bolstered Mitts": "Gloves",
+  "Moulded Mitts": "Gloves",
+  "Detailed Mitts": "Gloves",
+  "Titan Mitts": "Gloves",
+  "Grand Mitts": "Gloves",
+  "Suede Bracers": "Gloves",
+  "Firm Bracers": "Gloves",
+  "Bound Bracers": "Gloves",
+  "Sectioned Bracers": "Gloves",
+  "Spined Bracers": "Gloves",
+  "Fine Bracers": "Gloves",
+  "Hardened Bracers": "Gloves",
+  "Engraved Bracers": "Gloves",
+  "Torn Gloves": "Gloves",
+  "Sombre Gloves": "Gloves",
+  "Stitched Gloves": "Gloves",
+  "Jewelled Gloves": "Gloves",
+  "Intricate Gloves": "Gloves",
+  "Pauascale Gloves": "Gloves",
+  "Embroidered Gloves": "Gloves",
+  "Adorned Gloves": "Gloves",
+  "Ringmail Gauntlets": "Gloves",
+  "Layered Gauntlets": "Gloves",
+  "Doubled Gauntlets": "Gloves",
+  "Plate Gauntlets": "Gloves",
+  "Burnished Gauntlets": "Gloves",
+  "Ornate Gauntlets": "Gloves",
+  "Ancient Gauntlets": "Gloves",
+  "Rope Cuffs": "Gloves",
+  "Aged Cuffs": "Gloves",
+  "Goldcast Cuffs": "Gloves",
+  "Kalguuran Cuffs": "Gloves",
+  "Righteous Cuffs": "Gloves",
+  "Signet Cuffs": "Gloves",
+  "Gauze Wraps": "Gloves",
+  "Linen Wraps": "Gloves",
+  "Spiral Wraps": "Gloves",
+  "Buckled Wraps": "Gloves",
+  "Furtive Wraps": "Gloves",
+  "Utility Wraps": "Gloves",
+  "Rough Greaves": "Boots",
+  "Iron Greaves": "Boots",
+  "Bronze Greaves": "Boots",
+  "Trimmed Greaves": "Boots",
+  "Stone Greaves": "Boots",
+  "Reefsteel Greaves": "Boots",
+  "Monument Greaves": "Boots",
+  "Totemic Greaves": "Boots",
+  "Rawhide Boots": "Boots",
+  "Laced Boots": "Boots",
+  "Embossed Boots": "Boots",
+  "Steeltoe Boots": "Boots",
+  "Lizardscale Boots": "Boots",
+  "Flared Boots": "Boots",
+  "Leatherplate Boots": "Boots",
+  "Embroidered Boots": "Boots",
+  "Straw Sandals": "Boots",
+  "Wrapped Sandals": "Boots",
+  "Lattice Sandals": "Boots",
+  "Silk Slippers": "Boots",
+  "Feathered Sandals": "Boots",
+  "Flax Sandals": "Boots",
+  "Studded Sandals": "Boots",
+  "Elaborate Sandals": "Boots",
+  "Mail Sabatons": "Boots",
+  "Braced Sabatons": "Boots",
+  "Stacked Sabatons": "Boots",
+  "Covered Sabatons": "Boots",
+  "Flexile Sabatons": "Boots",
+  "Bold Sabatons": "Boots",
+  "Padded Leggings": "Boots",
+  "Secured Leggings": "Boots",
+  "Pelt Leggings": "Boots",
+  "Weaver Leggings": "Boots",
+  "Gilt Leggings": "Boots",
+  "Pious Leggings": "Boots",
+  "Ancient Leggings": "Boots",
+  "Frayed Shoes": "Boots",
+  "Threaded Shoes": "Boots",
+  "Hunting Shoes": "Boots",
+  "Steelpoint Shoes": "Boots",
+  "Velour Shoes": "Boots",
+  "Bladed Shoes": "Boots",
+  "Splintered Tower Shield": "Shield",
+  "Painted Tower Shield": "Shield",
+  "Braced Tower Shield": "Shield",
+  "Barricade Tower Shield": "Shield",
+  "Effigial Tower Shield": "Shield",
+  "Rampart Tower Shield": "Shield",
+  "Heraldric Tower Shield": "Shield",
+  "Stone Tower Shield": "Shield",
+  "Crucible Tower Shield": "Shield",
+  "Ancestor Tower Shield": "Shield",
+  "Phalanx Tower Shield": "Shield",
+  "Defiant Tower Shield": "Shield",
+  "Blacksteel Tower Shield": "Shield",
+  "Hardwood Targe": "Shield",
+  "Pelage Targe": "Shield",
+  "Studded Targe": "Shield",
+  "Crescent Targe": "Shield",
+  "Chiseled Targe": "Shield",
+  "Feathered Targe": "Shield",
+  "Stratified Targe": "Shield",
+  "Carved Targe": "Shield",
+  "Mosaic Targe": "Shield",
+  "Aureate Targe": "Shield",
+  "Grand Targe": "Shield",
+  "Blazon Crest Shield": "Shield",
+  "Sigil Crest Shield": "Shield",
+  "Emblem Crest Shield": "Shield",
+  "Jingling Crest Shield": "Shield",
+  "Sectarian Crest Shield": "Shield",
+  "Omen Crest Shield": "Shield",
+  "Wayward Crest Shield": "Shield",
+  "Seer Crest Shield": "Shield",
+  "Stoic Crest Shield": "Shield",
+  "Empyreal Crest Shield": "Shield",
+  "Deified Crest Shield": "Shield",
+  "Leather Buckler": "Buckler",
+  "Wooden Buckler": "Buckler",
+  "Plated Buckler": "Buckler",
+  "Iron Buckler": "Buckler",
+  "Ridged Buckler": "Buckler",
+  "Spiked Buckler": "Buckler",
+  "Ringed Buckler": "Buckler",
+  "Edged Buckler": "Buckler",
+  "Laminate Buckler": "Buckler",
+  "Pearl Buckler": "Buckler",
+  "Ornate Buckler": "Buckler",
+  "Array Buckler": "Buckler",
+  "Aegis Buckler": "Buckler",
+  "Twig Focus": "Focus",
+  "Woven Focus": "Focus",
+  "Antler Focus": "Focus",
+  "Engraved Focus": "Focus",
+  "Tonal Focus": "Focus",
+  "Crystal Focus": "Focus",
+  "Voodoo Focus": "Focus",
+  "Plumed Focus": "Focus",
+  "Runed Focus": "Focus",
+  "Whorl Focus": "Focus",
+  "Elegant Focus": "Focus",
+  "Attuned Focus": "Focus",
+  "Magus Focus": "Focus",
+  "Broadhead Quiver": "Quiver",
+  "Fire Quiver": "Quiver",
+  "Sacral Quiver": "Quiver",
+  "Two-Point Quiver": "Quiver",
+  "Blunt Quiver": "Quiver",
+  "Toxic Quiver": "Quiver",
+  "Serrated Quiver": "Quiver",
+  "Primed Quiver": "Quiver",
+  "Penetrating Quiver": "Quiver",
+  "Volant Quiver": "Quiver",
+  "Visceral Quiver": "Quiver",
+  "Crimson Amulet": "Amulet",
+  "Azure Amulet": "Amulet",
+  "Amber Amulet": "Amulet",
+  "Jade Amulet": "Amulet",
+  "Lapis Amulet": "Amulet",
+  "Lunar Amulet": "Amulet",
+  "Bloodstone Amulet": "Amulet",
+  "Stellar Amulet": "Amulet",
+  "Solar Amulet": "Amulet",
+  "Gold Amulet": "Amulet",
+  "Pearlescent Amulet": "Amulet",
+  "Veridical Chain": "Amulet",
+  "Lament Amulet": "Amulet",
+  "Portent Amulet": "Amulet",
+  "Absent Amulet": "Amulet",
+  "Corona Amulet": "Amulet",
+  "Iron Ring": "Ring",
+  "Lazuli Ring": "Ring",
+  "Ruby Ring": "Ring",
+  "Sapphire Ring": "Ring",
+  "Topaz Ring": "Ring",
+  "Amethyst Ring": "Ring",
+  "Emerald Ring": "Ring",
+  "Pearl Ring": "Ring",
+  "Prismatic Ring": "Ring",
+  "Gold Ring": "Ring",
+  "Unset Ring": "Ring",
+  "Abyssal Signet": "Ring",
+  "Two-Stone Ring": "Ring",
+  "Biostatic Ring": "Ring",
+  "Vitalic Ring": "Ring",
+  "Mnemonic Ring": "Ring",
+  "Kinetic Ring": "Ring",
+  "Oneiric Ring": "Ring",
+  "Grasping Ring": "Ring",
+  "Rawhide Belt": "Belt",
+  "Linen Belt": "Belt",
+  "Wide Belt": "Belt",
+  "Long Belt": "Belt",
+  "Plate Belt": "Belt",
+  "Ornate Belt": "Belt",
+  "Mail Belt": "Belt",
+  "Double Belt": "Belt",
+  "Heavy Belt": "Belt",
+  "Utility Belt": "Belt",
+  "Fine Belt": "Belt",
+  "Stalking Belt": "Belt",
+  "Invoking Belt": "Belt",
+  "Sinew Belt": "Belt",
+  "Forking Belt": "Belt",
+  "Lesser Life Flask": "Life Flask",
+  "Medium Life Flask": "Life Flask",
+  "Greater Life Flask": "Life Flask",
+  "Grand Life Flask": "Life Flask",
+  "Giant Life Flask": "Life Flask",
+  "Colossal Life Flask": "Life Flask",
+  "Gargantuan Life Flask": "Life Flask",
+  "Transcendent Life Flask": "Life Flask",
+  "Ultimate Life Flask": "Life Flask",
+  "Lesser Mana Flask": "Mana Flask",
+  "Medium Mana Flask": "Mana Flask",
+  "Greater Mana Flask": "Mana Flask",
+  "Grand Mana Flask": "Mana Flask",
+  "Giant Mana Flask": "Mana Flask",
+  "Colossal Mana Flask": "Mana Flask",
+  "Gargantuan Mana Flask": "Mana Flask",
+  "Transcendent Mana Flask": "Mana Flask",
+  "Ultimate Mana Flask": "Mana Flask",
+  "Thawing Charm": "Charm",
+  "Staunching Charm": "Charm",
+  "Antidote Charm": "Charm",
+  "Dousing Charm": "Charm",
+  "Grounding Charm": "Charm",
+  "Stone Charm": "Charm",
+  "Silver Charm": "Charm",
+  "Ruby Charm": "Charm",
+  "Sapphire Charm": "Charm",
+  "Topaz Charm": "Charm",
+  "Amethyst Charm": "Charm",
+  "Golden Charm": "Charm",
+  "Cleansing Charm": "Charm",
+  "Garment": "Body Armour",
+  "Grand Regalia": "Body Armour",
+  "Sacrificial Regalia": "Body Armour",
+  "Grasping Mail": "Body Armour",
+  "Grand Visage": "Helmet",
+  "Grand Manchettes": "Gloves",
+  "Grand Cuisses": "Boots",
+  "Golden Visage": "Helmet",
+  "Golden Bracers": "Gloves",
+  "Golden Greaves": "Boots",
+  "Golden Plate": "Body Armour",
+  "Golden Shield": "Shield",
+  "Calescent Hammer": "One Hand Mace",
+  "Flared Mace": "One Hand Mace",
+  "Battle Pick": "One Hand Mace",
+  "Marching Mace": "One Hand Mace",
+  "Bandit Mace": "One Hand Mace",
+  "Structured Hammer": "One Hand Mace",
+  "Snakewood Greathammer": "Two Hand Mace",
+  "Blacksmith Maul": "Two Hand Mace",
+  "Zealot Greathammer": "Two Hand Mace",
+  "Solemn Maul": "Two Hand Mace",
+  "Heavy Greathammer": "Two Hand Mace",
+  "Disintegrating Maul": "Two Hand Mace",
+  "Reaching Quarterstaff": "Quarterstaff",
+  "Barbarous Quarterstaff": "Quarterstaff",
+  "Arcing Quarterstaff": "Quarterstaff",
+  "Waxing Quarterstaff": "Quarterstaff",
+  "Bladed Quarterstaff": "Quarterstaff",
+  "Guardian Quarterstaff": "Quarterstaff",
+  "Snakewood Shortbow": "Bow",
+  "Protector Bow": "Bow",
+  "Rider Bow": "Bow",
+  "Twin Bow": "Bow",
+  "Adherent Bow": "Bow",
+  "Militant Bow": "Bow",
+  "Taut Crossbow": "Crossbow",
+  "Robust Crossbow": "Crossbow",
+  "Painted Crossbow": "Crossbow",
+  "Twin Crossbow": "Crossbow",
+  "Cannonade Crossbow": "Crossbow",
+  "Bleak Crossbow": "Crossbow",
+  "Steelhead Spear": "Spear",
+  "Coursing Spear": "Spear",
+  "Swift Spear": "Spear",
+  "Branched Spear": "Spear",
+  "Jagged Spear": "Spear",
+  "Massive Spear": "Spear",
+  "Howling Talisman": "Talisman",
+  "Fury Talisman": "Talisman",
+  "Cruel Talisman": "Talisman",
+  "Barbarian Plate": "Body Armour",
+  "Rugged Cuirass": "Body Armour",
+  "Sandsworn Cuirass": "Body Armour",
+  "Elegant Plate": "Body Armour",
+  "Heavy Plate": "Body Armour",
+  "Stone Cuirass": "Body Armour",
+  "Patchwork Vest": "Body Armour",
+  "Hunting Coat": "Body Armour",
+  "Riding Coat": "Body Armour",
+  "Layered Vest": "Body Armour",
+  "Runner Vest": "Body Armour",
+  "Lizardscale Coat": "Body Armour",
+  "Avian Robe": "Body Armour",
+  "Cursespeaker's Robe": "Body Armour",
+  "Luxurious Robe": "Body Armour",
+  "River Raiment": "Body Armour",
+  "Adherent's Raiment": "Body Armour",
+  "Ceremonial Robe": "Body Armour",
+  "Ring Mail": "Body Armour",
+  "Scoundrel Armour": "Body Armour",
+  "Wanderer Armour": "Body Armour",
+  "Mantled Mail": "Body Armour",
+  "Trailblazer Armour": "Body Armour",
+  "Golden Mail": "Body Armour",
+  "Templar Vestments": "Body Armour",
+  "Bearskin Mantle": "Body Armour",
+  "Chain Vestments": "Body Armour",
+  "Occultist Mantle": "Body Armour",
+  "Plated Vestments": "Body Armour",
+  "Heartcarver Mantle": "Body Armour",
+  "Oiled Jacket": "Body Armour",
+  "Evangelist Garb": "Body Armour",
+  "Itinerant Jacket": "Body Armour",
+  "Hatungo Garb": "Body Armour",
+  "Hawker's Jacket": "Body Armour",
+  "Corroded Greathelm": "Helmet",
+  "Mercenary Greathelm": "Helmet",
+  "Homeguard Greathelm": "Helmet",
+  "Elegant Greathelm": "Helmet",
+  "Noble Greathelm": "Helmet",
+  "Rotted Hood": "Helmet",
+  "Wool Cap": "Helmet",
+  "Narrow Hood": "Helmet",
+  "Wrapped Cap": "Helmet",
+  "Deerstalker Hood": "Helmet",
+  "Druidic Circlet": "Helmet",
+  "Avian Tiara": "Helmet",
+  "Desert Circlet": "Helmet",
+  "Sandsworn Tiara": "Helmet",
+  "Jungle Tiara": "Helmet",
+  "Domed Helm": "Helmet",
+  "Engraved Helm": "Helmet",
+  "Soldier Helm": "Helmet",
+  "Cabalist Helm": "Helmet",
+  "Cassis Helm": "Helmet",
+  "Mailed Crown": "Helmet",
+  "Forest Crown": "Helmet",
+  "Zealot Crown": "Helmet",
+  "Hallowed Crown": "Helmet",
+  "Inquisitor Crown": "Helmet",
+  "Oak Mask": "Helmet",
+  "Bandit Mask": "Helmet",
+  "Skulking Mask": "Helmet",
+  "Pariah Mask": "Helmet",
+  "Avian Mask": "Helmet",
+  "Plated Mitts": "Gloves",
+  "Elegant Mitts": "Gloves",
+  "Ancient Mitts": "Gloves",
+  "Feathered Mitts": "Gloves",
+  "Hunting Bracers": "Gloves",
+  "Swift Bracers": "Gloves",
+  "Refined Bracers": "Gloves",
+  "Spiked Bracers": "Gloves",
+  "Ominous Gloves": "Gloves",
+  "Embellished Gloves": "Gloves",
+  "Baroque Gloves": "Gloves",
+  "Gold Gloves": "Gloves",
+  "Ironmail Gauntlets": "Gloves",
+  "Captain Gauntlets": "Gloves",
+  "Zealot Gauntlets": "Gloves",
+  "Braided Cuffs": "Gloves",
+  "Heirloom Cuffs": "Gloves",
+  "Ornate Cuffs": "Gloves",
+  "Bandage Wraps": "Gloves",
+  "Cambric Wraps": "Gloves",
+  "Adorned Wraps": "Gloves",
+  "Plated Greaves": "Boots",
+  "Lionheart Greaves": "Boots",
+  "Elegant Greaves": "Boots",
+  "Carved Greaves": "Boots",
+  "Bound Boots": "Boots",
+  "Sleek Boots": "Boots",
+  "Studded Boots": "Boots",
+  "Serpentscale Boots": "Boots",
+  "Laced Sandals": "Boots",
+  "Bangled Sandals": "Boots",
+  "Elegant Slippers": "Boots",
+  "Dunerunner Sandals": "Boots",
+  "Soldiering Sabatons": "Boots",
+  "Goldwork Sabatons": "Boots",
+  "Bastion Sabatons": "Boots",
+  "Adherent Leggings": "Boots",
+  "Bound Leggings": "Boots",
+  "Shamanistic Leggings": "Boots",
+  "Wayfarer Shoes": "Boots",
+  "Silverbuckled Shoes": "Boots",
+  "Treerunner Shoes": "Boots",
+  "Aged Tower Shield": "Shield",
+  "Metalworked Tower Shield": "Shield",
+  "Cultist Tower Shield": "Shield",
+  "Bulwark Tower Shield": "Shield",
+  "Noble Tower Shield": "Shield",
+  "Goldworked Tower Shield": "Shield",
+  "Ironwood Targe": "Shield",
+  "Fur-lined Targe": "Shield",
+  "Mercenary Targe": "Shield",
+  "Polished Targe": "Shield",
+  "Stone Targe": "Shield",
+  "Avian Targe": "Shield",
+  "Painted Crest Shield": "Shield",
+  "Engraved Crest Shield": "Shield",
+  "Descry Crest Shield": "Shield",
+  "Dekharan Crest Shield": "Shield",
+  "Quartered Crest Shield": "Shield",
+  "Glowering Crest Shield": "Shield",
+  "Oak Buckler": "Buckler",
+  "Painted Buckler": "Buckler",
+  "Coiled Buckler": "Buckler",
+  "Spikeward Buckler": "Buckler",
+  "Jingling Buckler": "Buckler",
+  "Bladeguard Buckler": "Buckler",
+  "Wreath Focus": "Focus",
+  "Staghorn Focus": "Focus",
+  "Jingling Focus": "Focus",
+  "Arrayed Focus": "Focus",
+  "Cultist Focus": "Focus",
+  "Hallowed Focus": "Focus",
+  "Soldier Cuirass": "Body Armour",
+  "Ornate Plate": "Body Armour",
+  "Utzaal Cuirass": "Body Armour",
+  "Warlord Cuirass": "Body Armour",
+  "Swiftstalker Coat": "Body Armour",
+  "Slipstrike Vest": "Body Armour",
+  "Wyrmscale Coat": "Body Armour",
+  "Corsair Coat": "Body Armour",
+  "Vile Robe": "Body Armour",
+  "Flowing Raiment": "Body Armour",
+  "Sacramental Robe": "Body Armour",
+  "Feathered Raiment": "Body Armour",
+  "Dastard Armour": "Body Armour",
+  "Shrouded Mail": "Body Armour",
+  "Death Mail": "Body Armour",
+  "Thane Mail": "Body Armour",
+  "Wolfskin Mantle": "Body Armour",
+  "Conjurer Mantle": "Body Armour",
+  "Death Mantle": "Body Armour",
+  "Seastorm Mantle": "Body Armour",
+  "Sleek Jacket": "Body Armour",
+  "Rambler Jacket": "Body Armour",
+  "Falconer's Jacket": "Body Armour",
+  "Austere Garb": "Body Armour",
+  "Primal Markings": "Body Armour",
+  "Warmonger Greathelm": "Helmet",
+  "Masked Greathelm": "Helmet",
+  "Paragon Greathelm": "Helmet",
+  "Imperial Greathelm": "Helmet",
+  "Woven Cap": "Helmet",
+  "Desert Cap": "Helmet",
+  "Trapper Hood": "Helmet",
+  "Freebooter Cap": "Helmet",
+  "Skycrown Tiara": "Helmet",
+  "Sorcerous Tiara": "Helmet",
+  "Kamasan Tiara": "Helmet",
+  "Ancestral Tiara": "Helmet",
+  "Warded Helm": "Helmet",
+  "Cryptic Helm": "Helmet",
+  "Champion Helm": "Helmet",
+  "Gladiatorial Helm": "Helmet",
+  "Druidic Crown": "Helmet",
+  "Saintly Crown": "Helmet",
+  "Divine Crown": "Helmet",
+  "Cryptic Crown": "Helmet",
+  "Brigand Mask": "Helmet",
+  "Faridun Mask": "Helmet",
+  "Soaring Mask": "Helmet",
+  "Grinning Mask": "Helmet",
+  "Knightly Mitts": "Gloves",
+  "Ornate Mitts": "Gloves",
+  "Vaal Mitts": "Gloves",
+  "Massive Mitts": "Gloves",
+  "Stalking Bracers": "Gloves",
+  "Grand Bracers": "Gloves",
+  "Barbed Bracers": "Gloves",
+  "Polished Bracers": "Gloves",
+  "Grim Gloves": "Gloves",
+  "Opulent Gloves": "Gloves",
+  "Vaal Gloves": "Gloves",
+  "Sirenscale Gloves": "Gloves",
+  "Steelmail Gauntlets": "Gloves",
+  "Commander Gauntlets": "Gloves",
+  "Cultist Gauntlets": "Gloves",
+  "Blacksteel Gauntlets": "Gloves",
+  "Bound Cuffs": "Gloves",
+  "Ancient Cuffs": "Gloves",
+  "Gleaming Cuffs": "Gloves",
+  "Adherent Cuffs": "Gloves",
+  "Tethering Bands": "Gloves",
+  "War Wraps": "Gloves",
+  "Elegant Wraps": "Gloves",
+  "Vaal Wraps": "Gloves",
+  "Secured Wraps": "Gloves",
+  "Fists of Stone": "Gloves",
+  "Bulwark Greaves": "Boots",
+  "Ornate Greaves": "Boots",
+  "Vaal Greaves": "Boots",
+  "Tasalian Greaves": "Boots",
+  "Cinched Boots": "Boots",
+  "Cavalry Boots": "Boots",
+  "Dragonscale Boots": "Boots",
+  "Drakeskin Boots": "Boots",
+  "Bound Sandals": "Boots",
+  "Luxurious Slippers": "Boots",
+  "Sandsworn Sandals": "Boots",
+  "Sekhema Sandals": "Boots",
+  "Veteran Sabatons": "Boots",
+  "Noble Sabatons": "Boots",
+  "Fortress Sabatons": "Boots",
+  "Blacksteel Sabatons": "Boots",
+  "Faithful Leggings": "Boots",
+  "Apostle Leggings": "Boots",
+  "Warlock Leggings": "Boots",
+  "Cryptic Leggings": "Boots",
+  "Wanderer Shoes": "Boots",
+  "Charmed Shoes": "Boots",
+  "Quickslip Shoes": "Boots",
+  "Daggerfoot Shoes": "Boots",
+  "Royal Tower Shield": "Shield",
+  "Fortress Tower Shield": "Shield",
+  "Vaal Tower Shield": "Shield",
+  "Tawhoan Tower Shield": "Shield",
+  "Glacial Fortress": "Shield",
+  "Mammoth Targe": "Shield",
+  "Baroque Targe": "Shield",
+  "Soaring Targe": "Shield",
+  "Golden Targe": "Shield",
+  "Venerable Defender": "Shield",
+  "Intricate Crest Shield": "Shield",
+  "Sekheman Crest Shield": "Shield",
+  "Vaal Crest Shield": "Shield",
+  "Blacksteel Crest Shield": "Shield",
+  "Gutspike Buckler": "Buckler",
+  "Ancient Buckler": "Buckler",
+  "Desert Buckler": "Buckler",
+  "Druidic Focus": "Focus",
+  "Leyline Focus": "Focus",
+  "Sacred Focus": "Focus",
+  "Tasalian Focus": "Focus",
+  "Flanged Mace": "One Hand Mace",
+  "Crown Mace": "One Hand Mace",
+  "Molten Hammer": "One Hand Mace",
+  "Strife Pick": "One Hand Mace",
+  "Fortified Hammer": "One Hand Mace",
+  "Marauding Mace": "One Hand Mace",
+  "Akoyan Club": "One Hand Mace",
+  "Anvil Maul": "Two Hand Mace",
+  "Sacred Maul": "Two Hand Mace",
+  "Ironwood Greathammer": "Two Hand Mace",
+  "Fanatic Greathammer": "Two Hand Mace",
+  "Ruination Maul": "Two Hand Mace",
+  "Massive Greathammer": "Two Hand Mace",
+  "Tawhoan Greatclub": "Two Hand Mace",
+  "Aberrant Sledge": "Two Hand Mace",
+  "Sinister Quarterstaff": "Quarterstaff",
+  "Lunar Quarterstaff": "Quarterstaff",
+  "Striking Quarterstaff": "Quarterstaff",
+  "Bolting Quarterstaff": "Quarterstaff",
+  "Aegis Quarterstaff": "Quarterstaff",
+  "Razor Quarterstaff": "Quarterstaff",
+  "Skullcrusher Quarterstaff": "Quarterstaff",
+  "Dreaming Quarterstaff": "Quarterstaff",
+  "Warding Quarterstaff": "Quarterstaff",
+  "Ironwood Shortbow": "Bow",
+  "Cavalry Bow": "Bow",
+  "Guardian Bow": "Bow",
+  "Gemini Bow": "Bow",
+  "Fanatic Bow": "Bow",
+  "Warmonger Bow": "Bow",
+  "Obliterator Bow": "Bow",
+  "Heartwood Shortbow": "Bow",
+  "Stout Crossbow": "Crossbow",
+  "Engraved Crossbow": "Crossbow",
+  "Flexed Crossbow": "Crossbow",
+  "Gemini Crossbow": "Crossbow",
+  "Siege Crossbow": "Crossbow",
+  "Desolate Crossbow": "Crossbow",
+  "Elegant Crossbow": "Crossbow",
+  "Trarthan Cannon": "Crossbow",
+  "Orichalcum Spear": "Spear",
+  "Soaring Spear": "Spear",
+  "Pronged Spear": "Spear",
+  "Stalking Spear": "Spear",
+  "Flying Spear": "Spear",
+  "Grand Spear": "Spear",
+  "Spiked Spear": "Spear",
+  "Guardian Spear": "Spear",
+  "Akoyan Spear": "Spear",
+  "Spiny Talisman": "Talisman",
+  "Ashbark Talisman": "Talisman",
+  "Fang Talisman": "Talisman",
+  "Fungal Talisman": "Talisman",
+  "Alpha Talisman": "Talisman",
+  "Maji Talisman": "Talisman",
+  "Wildwood Talisman": "Talisman",
+  "Thunder Talisman": "Talisman",
+  "Jade Talisman": "Talisman"
+ },
+ "source": "repoe-fork/poe2 data export"
+}

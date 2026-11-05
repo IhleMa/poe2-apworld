@@ -1,0 +1,91 @@
+{
+  "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.categories.schema.json",
+  "Bases - Jewellery": {},
+  "Base Items": {
+    "hidden": true,
+    "yaml_option": [
+      "add_base_item_locations"
+    ]
+  },
+  "Bases - Body Armour": {},
+  "Bases - Boots": {},
+  "Bases - Weapons": {},
+  "Bases - Off-hands": {},
+  "Bases - Gloves": {},
+  "Bases - Helmet": {},
+  "Bases - Flasks & Charms": {},
+  "Zones - Act 1": {
+    "yaml_option": [
+      "add_zone_locations"
+    ]
+  },
+  "Zones": {
+    "yaml_option": [
+      "add_zone_locations"
+    ],
+    "hidden": true
+  },
+  "Zones - Act 2": {
+    "yaml_option": [
+      "add_zone_locations"
+    ]
+  },
+  "Zones - Act 3": {
+    "yaml_option": [
+      "add_zone_locations"
+    ]
+  },
+  "Zones - Act 4": {
+    "yaml_option": [
+      "add_zone_locations"
+    ]
+  },
+  "Zones - Interludes": {
+    "yaml_option": [
+      "add_zone_locations"
+    ]
+  },
+  "Bosses - Act 1": {
+    "yaml_option": [
+      "add_boss_locations"
+    ]
+  },
+  "Bosses": {
+    "yaml_option": [
+      "add_boss_locations"
+    ],
+    "hidden": true
+  },
+  "Bosses - Act 2": {
+    "yaml_option": [
+      "add_boss_locations"
+    ]
+  },
+  "Bosses - Act 3": {
+    "yaml_option": [
+      "add_boss_locations"
+    ]
+  },
+  "Bosses - Act 4": {
+    "yaml_option": [
+      "add_boss_locations"
+    ]
+  },
+  "Bosses - Interludes": {
+    "yaml_option": [
+      "add_boss_locations"
+    ]
+  },
+  "Zones - Endgame": {
+    "yaml_option": [
+      "add_zone_locations"
+    ]
+  },
+  "Pinnacle Bosses": {},
+  "Level Ups": {
+    "yaml_option": [
+      "add_level_locations"
+    ]
+  },
+  "Goal": {}
+}

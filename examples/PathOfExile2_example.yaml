@@ -1,0 +1,19 @@
+name: YourName
+game: Manual_PathOfExile2_Community
+description: Path of Exile 2 - Archipelago (Manual)
+Manual_PathOfExile2_Community:
+  goal: victory - complete the campaign   # or: victory - complete act 1..4, victory - defeat pinnacle bosses
+  starting_character: random_class        # warrior, mercenary, ranger, huntress, monk, sorceress, witch, druid
+  usable_starting_gear: true
+  starting_skill_gem: true
+  include_ascendancy: true
+  progressive_support_gems: false
+  passive_points_in_pool: 123
+  add_base_item_locations: true
+  add_zone_locations: true
+  add_boss_locations: true
+  add_level_locations: true
+  max_level_location: 90
+  pinnacle_bosses_required: 3
+  death_link: false
+  progression_balancing: 50

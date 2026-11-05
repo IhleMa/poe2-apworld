@@ -1,0 +1,42 @@
+{
+  "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.regions.schema.json",
+  "Act 1 - The Riverbank": {
+    "starting": true,
+    "connects_to": [
+      "Act 1"
+    ]
+  },
+  "Act 1": {
+    "requires": "{canReachRegion(1)}",
+    "connects_to": [
+      "Act 2"
+    ]
+  },
+  "Act 2": {
+    "requires": "{canReachRegion(2)}",
+    "connects_to": [
+      "Act 3"
+    ]
+  },
+  "Act 3": {
+    "requires": "{canReachRegion(3)}",
+    "connects_to": [
+      "Act 4"
+    ]
+  },
+  "Act 4": {
+    "requires": "{canReachRegion(4)}",
+    "connects_to": [
+      "Interludes"
+    ]
+  },
+  "Interludes": {
+    "requires": "{canReachRegion(5)}",
+    "connects_to": [
+      "Endgame"
+    ]
+  },
+  "Endgame": {
+    "requires": "{canReachRegion(6)}"
+  }
+}
