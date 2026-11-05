@@ -1563,7 +1563,7 @@ def launch(*launch_args) -> None:
     asyncio.run(main(args))
     colorama.deinit()
 
-    if not os.path.exists(icon_paths["manual"]):
+    if not POE2_MODE and "manual" in icon_paths and not os.path.exists(icon_paths["manual"]):
         # Download the icon for next time
         icon_url = "https://manualforarchipelago.github.io/ManualBuilder/images/ap-manual-discord-logo-square-96x96.png"
         with open(icon_paths["manual"], 'wb') as f:

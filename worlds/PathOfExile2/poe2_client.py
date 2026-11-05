@@ -56,7 +56,11 @@ def PROGRESSIVE_SUPPORTS(integ) -> bool:
 # ("[INFO Client 1234] @From Name: ...", "Name: ..."), so anchoring on "] : " ignores anything typed in chat.
 RE_AREA = re.compile(r'\] Generating level (\d+) area "([^"]+)"')
 RE_ENTERED = re.compile(r"\] : You have entered (.+?)\.\s*$")
-RE_LEVEL = re.compile(r"\] : ([^\s:]+) \(([^)]+)\) is now level (\d+)\s*$")
+# PoE2 logs zone loads as "[SCENE] Set Source [Clearfell]" (PoE1's "You have entered" may not appear at all)
+RE_SCENE = re.compile(r"\] \[SCENE\] Set Source \[(.+?)\]")
+# the "(Class)" part is optional: PoE2 may log just "Name is now level N"
+RE_LEVEL = re.compile(r"\] : ([^\s:()]+)(?: \(([^)]+)\))? is now level (\d+)\s*$")
+RE_CONNECT = re.compile(r"\] Connecting to instance server.*? for character (\S+)", re.IGNORECASE)
 RE_SLAIN = re.compile(r"\] : ([^\s:]+) has been slain\.\s*$")
 ZONE_LOCATION_BY_NAME = {v[len("Enter "):]: v for v in ZONE_LOCATION_BY_AREA.values()}
 
@@ -379,21 +383,31 @@ class PoE2Integration:
     def handle_log_line(self, line: str):
         m = RE_AREA.search(line)
         if m:
+            self.chat.on_zone_entered("area generated")
             self.on_area(m.group(2))
             return
-        m = RE_ENTERED.search(line)
+        m = RE_SCENE.search(line) or RE_ENTERED.search(line)
         if m:
-            self.chat.on_zone_entered()
-            loc = ZONE_LOCATION_BY_NAME.get(m.group(1).strip())
+            zone = m.group(1).strip()
+            if zone in ("(null)", "(unknown)") or re.fullmatch(r"Act \d+", zone):
+                return
+            self.chat.on_zone_entered(f"entered {zone}")
+            loc = ZONE_LOCATION_BY_NAME.get(zone)
             if loc:
                 self.send_location(loc, "Zone entered")
+            return
+        m = RE_CONNECT.search(line)
+        if m and not self.settings["character"]:
+            self.save("character", m.group(1))
+            logger.info(f"[PoE2] Tracking character '{m.group(1)}'. Change with /poe2_character.")
             return
         m = RE_LEVEL.search(line)
         if m:
             name, cls, level = m.group(1), m.group(2), int(m.group(3))
             if not self.settings["character"]:
                 self.save("character", name)
-                logger.info(f"[PoE2] Tracking character '{name}' ({cls}). Change with /poe2_character.")
+                logger.info(f"[PoE2] Tracking character '{name}'{f' ({cls})' if cls else ''}. "
+                            "Change with /poe2_character.")
             if name == self.settings["character"]:
                 for lvl in range(2, level + 1):
                     self.send_location(f"Reach Level {lvl}", f"Level {level}")
@@ -613,6 +627,15 @@ def install_commands(processor_cls):
         self.output(f"Whispers: {mode}")
         return True
 
+    def _cmd_poe2_chat_debug(self) -> bool:
+        """PoE2: show why in-game whispers / filter reload are or aren't being sent."""
+        i = integ(self)
+        if not i:
+            return False
+        for line in i.chat.debug_lines():
+            self.output(line)
+        return True
+
     def _cmd_poe2_chat_test(self) -> bool:
         """PoE2: queue a test whisper and a filter reload; they're sent after your next zone change."""
         i = integ(self)
@@ -642,6 +665,7 @@ def install_commands(processor_cls):
         "poe2_filter_reload": _toggle("auto_reload_filter", "Automatic in-game filter reload"),
         "poe2_whispers": _cmd_poe2_whispers,
         "poe2_chat_test": _cmd_poe2_chat_test,
+        "poe2_chat_debug": _cmd_poe2_chat_debug,
         "poe2_session": _cmd_poe2_session,
     }
     # CommandMeta collects commands when the class is created, so register them in both places.

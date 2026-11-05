@@ -27,8 +27,8 @@ if typing.TYPE_CHECKING:
 WINDOW_TITLE = "Path of Exile 2"
 MAX_LINE = 200                 # characters per chat line (PoE's limit is a bit higher)
 MAX_LINES_PER_ZONE = 4
-ZONE_SETTLE_SECONDS = 1.5      # wait after "You have entered" before typing
-SEND_WINDOW_SECONDS = 8.0      # only send this long after a zone change
+ZONE_SETTLE_SECONDS = 3.0      # wait after the last zone-load line before typing
+SEND_WINDOW_SECONDS = 15.0     # only send this long after a zone change
 KEY_DELAY = 0.05
 
 
@@ -38,7 +38,10 @@ class _Keyboard:
     reason = "unsupported operating system"
 
     def foreground_is_game(self) -> bool:
-        return False
+        return is_game_title(self.foreground_title())
+
+    def foreground_title(self) -> str:
+        return ""
 
     def send_line(self) -> None:
         """Open chat, paste the clipboard, send. The clipboard is set by the caller beforehand."""
@@ -56,12 +59,12 @@ class _WindowsKeyboard(_Keyboard):
         self.available = True
         self.reason = ""
 
-    def foreground_is_game(self) -> bool:
+    def foreground_title(self) -> str:
         hwnd = self.user32.GetForegroundWindow()
         length = self.user32.GetWindowTextLengthW(hwnd)
         buf = self.ctypes.create_unicode_buffer(length + 1)
         self.user32.GetWindowTextW(hwnd, buf, length + 1)
-        return buf.value.strip() == WINDOW_TITLE
+        return buf.value.strip()
 
     def _key(self, vk: int, up: bool = False):
         scan = self.user32.MapVirtualKeyW(vk, 0)
@@ -86,11 +89,11 @@ class _XdotoolKeyboard(_Keyboard):
     def _run(self, *args) -> str:
         return subprocess.run([self.xdotool, *args], capture_output=True, text=True, timeout=3).stdout.strip()
 
-    def foreground_is_game(self) -> bool:
+    def foreground_title(self) -> str:
         try:
-            return self._run("getactivewindow", "getwindowname") == WINDOW_TITLE
+            return self._run("getactivewindow", "getwindowname")
         except Exception:
-            return False
+            return ""
 
     def send_line(self):
         self._run("keyup", "shift", "ctrl", "alt", "super")
@@ -99,6 +102,10 @@ class _XdotoolKeyboard(_Keyboard):
         self._run("key", "--clearmodifiers", "ctrl+v")
         time.sleep(KEY_DELAY * 2)
         self._run("key", "--clearmodifiers", "Return")
+
+
+def is_game_title(title: str) -> bool:
+    return title.strip().startswith(WINDOW_TITLE)
 
 
 def make_keyboard() -> _Keyboard:
@@ -142,6 +149,8 @@ class InGameChat:
         self.whispers: list[str] = []
         self.reload_filter = False
         self.zone_entered_at = 0.0
+        self.last_zone_event = "none yet"
+        self.last_result = "nothing sent yet"
         self._sending = False
         self._warned_unavailable = False
 
@@ -162,8 +171,21 @@ class InGameChat:
         if self.integ.settings.get("auto_reload_filter", True):
             self.reload_filter = True
 
-    def on_zone_entered(self):
+    def on_zone_entered(self, what: str = "zone change"):
         self.zone_entered_at = time.time()
+        self.last_zone_event = f"{what} at {time.strftime('%H:%M:%S')}"
+
+    def debug_lines(self) -> list[str]:
+        title = self.kb.foreground_title() if self.kb.available else ""
+        return [
+            self.status_line(),
+            f"Keyboard input: {'available' if self.kb.available else 'unavailable - ' + self.kb.reason}",
+            f"Character to whisper: {self.integ.settings.get('character') or '(unknown - level up or /poe2_character <name>)'}",
+            f"Last zone change seen in Client.txt: {self.last_zone_event}",
+            f"Window in front right now: {title!r} ({'Path of Exile 2' if is_game_title(title) else 'not the game'})",
+            f"Queued: {len(self.whispers)} whispers, filter reload {'yes' if self.reload_filter else 'no'}",
+            f"Last attempt: {self.last_result}",
+        ]
 
     def status_line(self) -> str:
         if not self.kb.available:
@@ -216,7 +238,10 @@ class InGameChat:
                 logger.warning("[PoE2] Can't whisper you yet: your character name isn't known. Level up once or use "
                                "/poe2_character <name>.", extra={"poe2_no_whisper": True})
             self.whispers.clear()
-        if not await asyncio.to_thread(self.kb.foreground_is_game):
+        title = await asyncio.to_thread(self.kb.foreground_title)
+        if not is_game_title(title):
+            self.last_result = f"skipped at {time.strftime('%H:%M:%S')}: window in front was {title!r}"
+            self.zone_entered_at = 0.0
             return   # try again after the next zone change
         self._sending = True
         try:
@@ -224,6 +249,7 @@ class InGameChat:
             self.reload_filter = False
             if lines:
                 await self._type_lines(lines)
+                self.last_result = f"typed {len(lines)} line(s) at {time.strftime('%H:%M:%S')}"
         finally:
             self._sending = False
         self.zone_entered_at = 0.0   # one batch per zone change
@@ -235,7 +261,7 @@ class InGameChat:
         sent = 0
         try:
             for line in lines:
-                if not await asyncio.to_thread(self.kb.foreground_is_game):
+                if not is_game_title(await asyncio.to_thread(self.kb.foreground_title)):
                     break
                 clip.write(line)
                 await asyncio.sleep(KEY_DELAY)
