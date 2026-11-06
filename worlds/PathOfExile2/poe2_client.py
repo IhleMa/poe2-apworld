@@ -198,7 +198,7 @@ class _Clipboard:
 
 
 class _WhisperLogHandler(logging.Handler):
-    """Forwards the client's own [PoE2] messages to in-game whispers (warnings = important)."""
+    """Forwards the client's own [PoE2] messages to in-game whispers (category from extra=, else by level)."""
     _installed: "_WhisperLogHandler | None" = None
 
     def __init__(self, integration):
@@ -217,7 +217,9 @@ class _WhisperLogHandler(logging.Handler):
             msg = record.getMessage()
             if not msg.startswith("[PoE2]") or getattr(record, "poe2_no_whisper", False):
                 return
-            self.integ.chat.queue_whisper(msg[len("[PoE2]"):].strip(), record.levelno >= logging.WARNING)
+            category = getattr(record, "poe2_category", None) or \
+                ("warnings" if record.levelno >= logging.WARNING else "client_info")
+            self.integ.chat.queue_whisper(msg[len("[PoE2]"):].strip(), category)
         except Exception:
             pass
 
@@ -237,7 +239,10 @@ class PoE2Integration:
             "filter_sound": stored.get("filter_sound", True),
             "clipboard": stored.get("clipboard", True),
             "auto_reload_filter": stored.get("auto_reload_filter", True),
-            "whisper_mode": stored.get("whisper_mode", "important"),
+            # whispers on/off (older versions stored whisper_mode off|important|all)
+            "whispers": stored.get("whispers", stored.get("whisper_mode", "important") != "off"),
+            "whisper_hidden": stored.get("whisper_hidden", None),
+            "chat_timing": stored.get("chat_timing", "instant"),
         }
         self._log_pos: int | None = None
         self._log_path_open: str | None = None
@@ -316,20 +321,27 @@ class PoE2Integration:
     def on_print_json(self, args: dict):
         kind = args.get("type")
         me = self.ctx.slot
+        item = args.get("item")
+        involves_me = args.get("receiving") == me or getattr(item, "player", None) == me
         if kind in ("ItemSend", "ItemCheat"):
-            important = args.get("receiving") == me
+            category = "my_items" if involves_me else "other_items"
         elif kind == "Hint":
-            item = args.get("item")
-            important = args.get("receiving") == me or getattr(item, "player", None) == me
-        elif kind in ("Goal", "Countdown"):
-            important = True
+            category = "hints" if involves_me else "other_hints"
+        elif kind in ("Chat", "ServerChat"):
+            category = "chat"
+        elif kind in ("Goal", "Release", "Collect", "Countdown"):
+            category = "progress"
+        elif kind in ("Join", "Part", "TagsChanged"):
+            category = "join_leave"
+        elif kind in ("CommandResult", "AdminCommandResult", "Tutorial"):
+            category = "server_replies"
         else:
-            important = False
+            category = "other"
         try:
             text = self.ctx.rawjsontotextparser(copy.deepcopy(args.get("data", [])))
         except Exception:
             return
-        self.chat.queue_whisper(text, important)
+        self.chat.queue_whisper(text, category)
 
     def on_deathlink(self, data: dict):
         if self.ctx.game == GAME_NAME:
@@ -423,7 +435,7 @@ class PoE2Integration:
         goal = getattr(self.ctx, "goal_location", None) or {}
         test = GOAL_AREA_TESTS.get(goal.get("name", ""))
         if test and test(area_id) and not self.ctx.finished_game and not self.ctx.goaled:
-            logger.info(f"[PoE2] Goal reached ({goal['name']})!")
+            logger.info(f"[PoE2] Goal reached ({goal['name']})!", extra={"poe2_category": "progress"})
             self.ctx.goaled = True
             self.ctx.syncing = True
 
@@ -471,14 +483,14 @@ class PoE2Integration:
         if base:
             if not self.send_location(f"Pick up {base}", "Item copied"):
                 if self.location_id(f"Pick up {base}") is not None:
-                    logger.info(f"[PoE2] {base}: already checked.")
+                    logger.info(f"[PoE2] {base}: already checked.", extra={"poe2_category": "pickups"})
         unlocks = ITEM_CLASS_TO_UNLOCKS.get(item_class)
         if unlocks and rarity in RARITY_TIER:
             have = max(min(self.received_count(f"Progressive {u}"), 4) for u in unlocks)
             if have < RARITY_TIER[rarity]:
                 logger.warning(f"[PoE2] You can't equip this yet: {rarity} {item_class} needs "
                                f"{RARITY_TIER[rarity]} x 'Progressive {unlocks[0]}', you have {have} "
-                               f"(allowed: {TIER_NAME[have]}).")
+                               f"(allowed: {TIER_NAME[have]}).", extra={"poe2_category": "pickups"})
 
     def ignore_clipboard(self, text: str):
         """Don't treat text the client put back on the clipboard as a new Ctrl+C."""
@@ -506,7 +518,7 @@ class PoE2Integration:
                     await self.chat.tick()
             except Exception as e:  # never let automation take the client down
                 logger.exception(f"[PoE2] automation error: {e}")
-            await asyncio.sleep(0.5)
+            await asyncio.sleep(0.2)
 
 
 # ---------------------------------------------------------------- client commands
@@ -528,7 +540,7 @@ def install_commands(processor_cls):
             self.output(line)
         self.output("Commands: /poe2_log <path to Client.txt>, /poe2_filter_dir <folder>, /poe2_base_filter <name>, "
                     "/poe2_character <name>, /poe2_auto on|off, /poe2_clipboard on|off, /poe2_filter_sound on|off, "
-                    "/poe2_filter (rewrite now), /poe2_filter_reload on|off, /poe2_whispers off|important|all, /poe2_chat_test")
+                    "/poe2_filter (rewrite now), /poe2_filter_reload on|off, /poe2_whispers [on|off], /poe2_hide <category>, /poe2_show <category>, /poe2_chat_timing instant|zone, /poe2_chat_test, /poe2_chat_debug")
         return True
 
     @mark_raw
@@ -612,19 +624,69 @@ def install_commands(processor_cls):
                     "pathofexile2.com / pathofexile.com to invalidate it. Tracking uses Client.txt and Ctrl+C.")
         return False
 
-    def _cmd_poe2_whispers(self, mode: str = "") -> bool:
-        """PoE2: what the client whispers to you in game: off, important (items you receive, hints, warnings) or all."""
+    def _cmd_poe2_whispers(self, value: str = "") -> bool:
+        """PoE2: whispers on|off, or list the message categories and which ones are hidden."""
+        from .poe2_ingame import CATEGORIES
         i = integ(self)
         if not i:
             return False
-        mode = mode.strip().lower()
-        if mode not in ("off", "important", "all"):
-            self.output(f"Whispers: {i.settings['whisper_mode']}. Use /poe2_whispers off|important|all")
-            return mode == ""
-        i.save("whisper_mode", mode)
-        if mode == "off":
-            i.chat.whispers.clear()
-        self.output(f"Whispers: {mode}")
+        value = value.strip().lower()
+        if value in ("on", "off"):
+            i.save("whispers", value == "on")
+            if value == "off":
+                i.chat.whispers.clear()
+            self.output(f"Whispers: {value}")
+            return True
+        if value:
+            self.output("Use /poe2_whispers on|off")
+            return False
+        hidden = i.chat.hidden
+        self.output(f"Whispers: {'on' if i.chat.enabled else 'off'}, sent {i.chat.timing}. Categories:")
+        for name, (desc, _) in CATEGORIES.items():
+            self.output(f"  {'hidden ' if name in hidden else 'shown  '} {name}: {desc}")
+        self.output("Change with /poe2_hide <category> and /poe2_show <category> ('all' works too).")
+        return True
+
+    def _set_hidden(self, value: str, hide: bool) -> bool:
+        from .poe2_ingame import CATEGORIES
+        i = integ(self)
+        if not i:
+            return False
+        names = [n for n in value.lower().replace(",", " ").split() if n]
+        if names == ["all"]:
+            names = list(CATEGORIES)
+        unknown = [n for n in names if n not in CATEGORIES]
+        if not names or unknown:
+            self.output(f"Unknown category {', '.join(unknown) or '(none given)'}. "
+                        f"Categories: {', '.join(CATEGORIES)}, or 'all'.")
+            return False
+        hidden = i.chat.hidden
+        hidden = hidden | set(names) if hide else hidden - set(names)
+        i.save("whisper_hidden", sorted(hidden))
+        self.output(f"Hidden: {', '.join(sorted(hidden)) or 'nothing'}")
+        return True
+
+    @mark_raw
+    def _cmd_poe2_hide(self, value: str = "") -> bool:
+        """PoE2: stop whispering a message category, e.g. /poe2_hide other_items (see /poe2_whispers)."""
+        return _set_hidden(self, value, True)
+
+    @mark_raw
+    def _cmd_poe2_show(self, value: str = "") -> bool:
+        """PoE2: whisper a message category again, e.g. /poe2_show join_leave (see /poe2_whispers)."""
+        return _set_hidden(self, value, False)
+
+    def _cmd_poe2_chat_timing(self, value: str = "") -> bool:
+        """PoE2: when to type into game chat: instant (as messages arrive) or zone (only right after a zone loads)."""
+        i = integ(self)
+        if not i:
+            return False
+        value = value.strip().lower()
+        if value not in ("instant", "zone"):
+            self.output(f"Chat timing: {i.chat.timing}. Use /poe2_chat_timing instant|zone")
+            return value == ""
+        i.save("chat_timing", value)
+        self.output(f"Chat timing: {value}")
         return True
 
     def _cmd_poe2_chat_debug(self) -> bool:
@@ -649,7 +711,11 @@ def install_commands(processor_cls):
             return False
         i.chat.whispers.append("Archipelago chat test - if you can read this, whispers work.")
         i.chat.reload_filter = True
-        self.output("Queued. Change zones in Path of Exile 2 (keep the game in front) and watch your chat.")
+        i.chat._pending_since = time.time()
+        if i.chat.timing == "zone":
+            self.output("Queued. Change zones in Path of Exile 2 (keep the game in front) and watch your chat.")
+        else:
+            self.output("Queued. Switch to Path of Exile 2 and watch your chat.")
         return True
 
     new_commands = {
@@ -664,6 +730,9 @@ def install_commands(processor_cls):
         "poe2_filter_sound": _toggle("filter_sound", "Filter alert sound"),
         "poe2_filter_reload": _toggle("auto_reload_filter", "Automatic in-game filter reload"),
         "poe2_whispers": _cmd_poe2_whispers,
+        "poe2_hide": _cmd_poe2_hide,
+        "poe2_show": _cmd_poe2_show,
+        "poe2_chat_timing": _cmd_poe2_chat_timing,
         "poe2_chat_test": _cmd_poe2_chat_test,
         "poe2_chat_debug": _cmd_poe2_chat_debug,
         "poe2_session": _cmd_poe2_session,

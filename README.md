@@ -22,8 +22,9 @@ It ships as a single `.apworld` file that includes its own **PathOfExile2 Client
   - zones, level-ups, deaths (DeathLink) and act goals are read from PoE2's `Client.txt`;
   - pick-ups are sent by hovering an item and pressing **Ctrl+C**, with a warning if its rarity isn't unlocked yet;
   - an `ArchipelagoPoE2.filter` loot filter highlights every base you still need and keeps your normal filter below it;
-  - the filter is reloaded in game automatically, and received items, hints and warnings are whispered to your
-    character - typed into chat right after a zone loads, only while PoE2 is in front (Windows, or Linux with xdotool).
+  - the filter is reloaded in game automatically, and unlocks, chat from other players, hints and Ctrl+C results are
+    whispered to your character within about half a second (every message category except the ones you hide; only
+    while PoE2 is in front; Windows, or Linux with xdotool).
 - Boss and trial checks aren't in `Client.txt`, so you click those in the client.
 
 Gear and gem restrictions are an honor system; the client warns, it doesn't enforce.

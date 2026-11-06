@@ -4,8 +4,9 @@ PoE2 has no API for this, so - like the Path of Exile 1 Archipelago client - the
 Enter, paste the line, Enter. Rules that keep this from getting in your way:
 
 * It only types while Path of Exile 2 is the window in front (so it never types into another program).
-* Queued lines are only sent right after a zone has loaded, never in the middle of a fight.
-* At most a few lines per zone change; the rest wait for the next one. Repeated filter reloads collapse into one.
+* Timing "instant" (default): messages go out right away, gathered for a moment so bursts become one batch, and
+  rate-limited so chat isn't flooded. Timing "zone": only right after a zone has loaded.
+* Every message category is whispered unless you hide it (see CATEGORIES). Repeated filter reloads collapse into one.
 * Your clipboard is restored afterwards.
 
 Supported: Windows (native) and Linux with xdotool (Steam/Proton). Not supported on macOS.
@@ -26,10 +27,30 @@ if typing.TYPE_CHECKING:
 
 WINDOW_TITLE = "Path of Exile 2"
 MAX_LINE = 200                 # characters per chat line (PoE's limit is a bit higher)
-MAX_LINES_PER_ZONE = 4
-ZONE_SETTLE_SECONDS = 3.0      # wait after the last zone-load line before typing
-SEND_WINDOW_SECONDS = 15.0     # only send this long after a zone change
-LINE_GAP = 0.06               # lets the game read the pasted line before the clipboard changes
+MAX_LINES_PER_BATCH = 5
+BATCH_DELAY = 0.15             # instant mode: gather messages arriving together into one batch
+BURST_LINES = 6                # instant mode rate limit: up to 6 lines at once ...
+REFILL_SECONDS = 1.0           # ... then one more line per second
+ZONE_SETTLE_SECONDS = 3.0      # zone mode: wait after the last zone-load line before typing
+SEND_WINDOW_SECONDS = 15.0     # zone mode: only send this long after a zone change
+LINE_GAP = 0.06                # lets the game read the pasted line before the clipboard changes
+
+# Whisper categories: name -> (description, shown by default). Everything is shown unless hidden.
+CATEGORIES: dict[str, tuple[str, bool]] = {
+    "my_items":       ("items you receive, and items you find for others", True),
+    "hints":          ("hints about your items or locations", True),
+    "chat":           ("chat from other players and the server", True),
+    "progress":       ("goals, releases, collects and countdowns", True),
+    "pickups":        ("Ctrl+C feedback: already checked, can't equip yet", True),
+    "warnings":       ("client warnings: DeathLink, out of logic", True),
+    "other":          ("any other server message", True),
+    "other_items":    ("items moving between other players", False),
+    "other_hints":    ("hints between other players", False),
+    "join_leave":     ("players joining or leaving, tag changes", False),
+    "server_replies": ("replies to client commands, tutorial text", False),
+    "client_info":    ("client status: zone/level checks sent, filter updates", False),
+}
+DEFAULT_HIDDEN = sorted(name for name, (_, shown) in CATEGORIES.items() if not shown)
 
 
 # ---------------------------------------------------------------- platform input
@@ -179,25 +200,44 @@ class InGameChat:
         self.zone_entered_at = 0.0
         self.last_zone_event = "none yet"
         self.last_result = "nothing sent yet"
+        self._pending_since = 0.0
+        self._tokens = float(BURST_LINES)
+        self._tokens_at = time.time()
         self._sending = False
         self._warned_unavailable = False
 
-    # ---------- what gets queued
+    # ---------- settings
     @property
-    def mode(self) -> str:
-        return self.integ.settings.get("whisper_mode", "important")
+    def enabled(self) -> bool:
+        return bool(self.integ.settings.get("whispers", True))
 
-    def queue_whisper(self, text: str, important: bool):
-        if self.mode == "off" or (self.mode == "important" and not important):
+    @property
+    def timing(self) -> str:
+        return self.integ.settings.get("chat_timing", "instant")
+
+    @property
+    def hidden(self) -> set[str]:
+        stored = self.integ.settings.get("whisper_hidden")
+        return set(DEFAULT_HIDDEN if stored is None else stored)
+
+    # ---------- what gets queued
+    def queue_whisper(self, text: str, category: str):
+        if not self.enabled or category in self.hidden:
             return
         text = clean(text)
         if text:
+            self._mark_pending()
             self.whispers.append(text)
             del self.whispers[:-60]   # never let a backlog grow without bound
 
     def queue_filter_reload(self):
         if self.integ.settings.get("auto_reload_filter", True):
+            self._mark_pending()
             self.reload_filter = True
+
+    def _mark_pending(self):
+        if not self.pending():
+            self._pending_since = time.time()
 
     def on_zone_entered(self, what: str = "zone change"):
         self.zone_entered_at = time.time()
@@ -219,38 +259,47 @@ class InGameChat:
         if not self.kb.available:
             return f"In-game chat: unavailable - {self.kb.reason}"
         s = self.integ.settings
+        when = "instantly" if self.timing == "instant" else "after each zone change"
+        hidden = ", ".join(sorted(self.hidden)) or "nothing"
         return (f"In-game chat: filter auto-reload {'on' if s.get('auto_reload_filter', True) else 'off'}, "
-                f"whispers {self.mode} (sent after each zone change while PoE2 is in front)")
+                f"whispers {'on' if self.enabled else 'off'} ({when}, while PoE2 is in front; hidden: {hidden})")
 
     # ---------- sending
     def pending(self) -> bool:
         return self.reload_filter or bool(self.whispers)
 
-    def _build_lines(self) -> list[str]:
+    def _refill(self):
+        now = time.time()
+        self._tokens = min(BURST_LINES, self._tokens + (now - self._tokens_at) / REFILL_SECONDS)
+        self._tokens_at = now
+
+    def _build_lines(self, budget: int) -> list[str]:
         lines = []
-        if self.reload_filter:
+        if self.reload_filter and budget > 0:
             from .poe2_client import FILTER_NAME
             lines.append(f"/itemfilter {FILTER_NAME}")
         name = self.integ.settings.get("character")
         if self.whispers and name:
             prefix = f"@{name} "
-            budget = MAX_LINES_PER_ZONE - len(lines)
+            room = budget - len(lines)
             text_lines: list[str] = []
-            while self.whispers and len(text_lines) < budget:
-                msg = self.whispers[0]
-                parts = split_message(msg, MAX_LINE - len(prefix))
-                if len(text_lines) + len(parts) > budget and text_lines:
+            while self.whispers and len(text_lines) < room:
+                parts = split_message(self.whispers[0], MAX_LINE - len(prefix))
+                if len(text_lines) + len(parts) > room and text_lines:
                     break
-                text_lines += parts[:budget - len(text_lines)]
+                text_lines += parts[:room - len(text_lines)]
                 self.whispers.pop(0)
             lines += [prefix + t for t in text_lines]
         return lines
 
+    def _ready(self) -> bool:
+        now = time.time()
+        if self.timing == "zone":
+            return ZONE_SETTLE_SECONDS <= now - self.zone_entered_at <= SEND_WINDOW_SECONDS
+        return now - self._pending_since >= BATCH_DELAY
+
     async def tick(self):
-        if self._sending or not self.pending():
-            return
-        since = time.time() - self.zone_entered_at
-        if not (ZONE_SETTLE_SECONDS <= since <= SEND_WINDOW_SECONDS):
+        if self._sending or not self.pending() or not self._ready():
             return
         if not self.kb.available:
             if not self._warned_unavailable:
@@ -266,27 +315,38 @@ class InGameChat:
                 logger.warning("[PoE2] Can't whisper you yet: your character name isn't known. Level up once or use "
                                "/poe2_character <name>.", extra={"poe2_no_whisper": True})
             self.whispers.clear()
+            if not self.pending():
+                return
+        self._refill()
+        budget = min(MAX_LINES_PER_BATCH, int(self._tokens)) if self.timing == "instant" else MAX_LINES_PER_BATCH
+        if budget < 1:
+            return
         title = await asyncio.to_thread(self.kb.foreground_title)
         if not is_game_title(title):
-            self.last_result = f"skipped at {time.strftime('%H:%M:%S')}: window in front was {title!r}"
-            self.zone_entered_at = 0.0
-            return   # try again after the next zone change
+            self.last_result = f"waiting at {time.strftime('%H:%M:%S')}: window in front was {title!r}"
+            if self.timing == "zone":
+                self.zone_entered_at = 0.0   # try again after the next zone change
+            return   # instant mode: tries again as soon as the game is in front
         self._sending = True
         try:
-            lines = self._build_lines()
+            lines = self._build_lines(budget)
             self.reload_filter = False
             if lines:
                 started = time.perf_counter()
                 self.last_result = ""
-                await self._type_lines(lines)
+                sent = await self._type_lines(lines)
+                self._tokens -= sent
                 if not self.last_result:
-                    self.last_result = (f"typed {len(lines)} line(s) in {time.perf_counter() - started:.2f}s "
+                    self.last_result = (f"typed {sent} line(s) in {time.perf_counter() - started:.2f}s "
                                         f"at {time.strftime('%H:%M:%S')}")
         finally:
             self._sending = False
-        self.zone_entered_at = 0.0   # one batch per zone change
+            if self.pending():
+                self._pending_since = time.time() - BATCH_DELAY   # the rest goes out when the rate limit allows
+        if self.timing == "zone":
+            self.zone_entered_at = 0.0   # one batch per zone change
 
-    async def _type_lines(self, lines: list[str]):
+    async def _type_lines(self, lines: list[str]) -> int:
         # clipboard access stays on the client's main thread; only the keystrokes run in a worker thread
         clip = self.integ.clipboard
         previous = clip.read()
@@ -307,9 +367,10 @@ class InGameChat:
             clip.write(previous or "")
             self.integ.ignore_clipboard(previous or "")
         if sent < len(lines):
-            # put what wasn't typed back in the queue for the next zone change
+            # put what wasn't typed back at the front of the queue
             for line in reversed(lines[sent:]):
                 if line.startswith("/itemfilter"):
                     self.reload_filter = True
                 else:
                     self.whispers.insert(0, line.split(" ", 1)[1])
+        return sent

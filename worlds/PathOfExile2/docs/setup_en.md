@@ -59,16 +59,23 @@ Options → Game → Item Filter once; after that the client reloads it in game 
 chat for you:
 
 - `/itemfilter ArchipelagoPoE2` whenever the filter changed, so the game reloads it by itself;
-- whispers to yourself (`@YourCharacter …`) with what's happening: by default the items you receive, hints about
-  your items, the goal, DeathLinks and out-of-logic warnings (`/poe2_whispers all` adds everything from the client
-  console, `/poe2_whispers off` turns whispers off).
+- whispers to yourself (`@YourCharacter …`) with what's happening, within about half a second: your unlocks, chat
+  from other players, hints, goals, DeathLinks and warnings. Ctrl+C on an item always answers in game: the item it
+  unlocked, "already checked", or "can't equip this yet".
 
-To stay out of your way it only types **right after a zone has loaded** (about 3 seconds after the zone change shows up in Client.txt),
-only while Path of Exile 2 is the window in front, and at most 4 lines per zone change; the rest waits for the next
-one. It presses Enter, pastes the line, presses Enter, and puts your clipboard back. Your character name is learned
-from your first level-up (or set it with `/poe2_character <name>`). Turn the filter reload off with
-`/poe2_filter_reload off`. Use `/poe2_chat_test`, then change zones, to try it. If nothing happens,
-`/poe2_chat_debug` shows the character name, the last zone change the client saw and which window was in front.
+Everything is whispered except these categories, which are hidden by default: `other_items` (items moving between
+other players), `other_hints`, `join_leave`, `server_replies` and `client_info` (the client's own status lines).
+`/poe2_whispers` lists all categories; `/poe2_hide <category>` and `/poe2_show <category>` change them, and
+`/poe2_whispers off` turns whispers off.
+
+It only types while Path of Exile 2 is the window in front; anything that arrives while you're tabbed out is sent as
+soon as you're back. It sends Enter, pastes the line and sends Enter in one go, restores your clipboard, and limits
+itself to a burst of 6 lines and then about one per second so chat isn't flooded. If you'd rather it never types
+during a fight, `/poe2_chat_timing zone` only sends right after a zone has loaded. Don't have the chat box open when a
+message arrives: the client's Enter would send what you were typing. Your character name is learned from your first
+level-up (or set it with `/poe2_character <name>`). Turn the filter reload off with `/poe2_filter_reload off`. Use
+`/poe2_chat_test` to try it; if nothing happens, `/poe2_chat_debug` shows the character name, the last zone change
+the client saw and which window was in front.
 
 This needs Windows, or Linux with `xdotool` installed (Steam/Proton). It assumes chat opens with **Enter** (the
 default key). Typing into the game for you is the same thing the Path of Exile 1 client and popular trade tools do, but
@@ -84,7 +91,8 @@ text box if something is missing:
 - `/poe2_base_filter <name>` – your normal filter to keep underneath (e.g. a NeverSink filter downloaded to that folder; subscribed online filters can't be read)
 - `/poe2_character <name>` – which character's levels/deaths count (default: the first one that levels up)
 - `/poe2_auto on|off`, `/poe2_clipboard on|off`, `/poe2_filter_sound on|off`, `/poe2_filter` (rewrite now)
-- `/poe2_filter_reload on|off`, `/poe2_whispers off|important|all`, `/poe2_chat_test`, `/poe2_chat_debug`
+- `/poe2_filter_reload on|off`, `/poe2_whispers [on|off]`, `/poe2_hide <category>`, `/poe2_show <category>`,
+  `/poe2_chat_timing instant|zone`, `/poe2_chat_test`, `/poe2_chat_debug`
 
 ### Character API (not available yet)
 
