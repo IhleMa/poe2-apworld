@@ -87,7 +87,7 @@ GEM_WEAPON_REQ = {
 
 CLASSES = {
     # class: (starting weapon unlock, gem category used for the starting skill gem, ascendancies)
-    "Warrior":   ("Two Hand Mace", "Mace",         ["Titan", "Warbringer", "Smith of Kitava"]),
+    "Warrior":   ("One Hand Mace", "Mace",         ["Titan", "Warbringer", "Smith of Kitava"]),
     "Mercenary": ("Crossbow",      "Crossbow",     ["Tactician", "Witchhunter", "Gemling Legionnaire"]),
     "Ranger":    ("Bow",           "Bow",          ["Deadeye", "Pathfinder"]),
     "Huntress":  ("Spear",         "Spear",        ["Amazon", "Spirit Walker", "Ritualist"]),
