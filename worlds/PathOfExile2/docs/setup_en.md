@@ -139,8 +139,17 @@ Anything not detected automatically can be clicked in the client at any time; no
 
 ## DeathLink
 
-With `death_link: true`, your deaths are sent automatically (the **Death Link** button still works manually). When someone else dies the button changes to show who — the PoE1 convention is to log out to character
-select (no XP loss) rather than die.
+With `death_link: true`, your deaths are sent automatically: when Client.txt says
+`<YourCharacter> has been slain.`, the client sends a DeathLink, no button needed (the **Death Link** button still
+works manually). A death within 15 seconds of receiving someone else's DeathLink isn't sent back.
+
+The client only counts deaths of the character it tracks, which it learns from your first level-up after the client
+starts (or set it with `/poe2_character <name>`). If another character dies, or you die before the client knows your
+name, it says so in the client and tells you the command to fix it. `/poe2` shows the last death it saw and whether a
+DeathLink was sent.
+
+When someone else dies the button changes to show who — the PoE1 convention is to log out to character select (no XP
+loss) rather than die.
 
 ## Options summary
 

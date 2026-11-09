@@ -61,7 +61,7 @@ RE_SCENE = re.compile(r"\] \[SCENE\] Set Source \[(.+?)\]")
 # the "(Class)" part is optional: PoE2 may log just "Name is now level N"
 RE_LEVEL = re.compile(r"\] : ([^\s:()]+)(?: \(([^)]+)\))? is now level (\d+)\s*$")
 RE_CONNECT = re.compile(r"\] Connecting to instance server.*? for character (\S+)", re.IGNORECASE)
-RE_SLAIN = re.compile(r"\] : ([^\s:]+) has been slain\.\s*$")
+RE_SLAIN = re.compile(r"\] : ([^\s:()]+)(?: \([^)]+\))? has been slain\.?\s*$")
 ZONE_LOCATION_BY_NAME = {v[len("Enter "):]: v for v in ZONE_LOCATION_BY_AREA.values()}
 
 # goal location name -> predicate on an entered area id
@@ -250,6 +250,7 @@ class PoE2Integration:
         self._last_filter_key = None
         self._deathlink_received_at = 0.0
         self._announced = False
+        self.last_death_note = "no death seen since the client started"
         self.slot_data: dict = {}
         from .poe2_character_check import CharacterChecker
         self.checker = CharacterChecker(self)
@@ -298,6 +299,8 @@ class PoE2Integration:
             f"Base filter: {s['base_filter'] or '(none)'}",
             f"Character: {s['character'] or '(auto: first character that levels up)'}",
             f"Clipboard pickups (Ctrl+C on an item): {'on' if s['clipboard'] else 'off'}",
+            f"DeathLink: {'automatic' if 'DeathLink' in self.ctx.tags else 'off for this slot'} "
+            f"(last: {self.last_death_note})",
             self.chat.status_line(),
             f"Character API: {OAUTH_STATUS}",
         ]
@@ -425,8 +428,20 @@ class PoE2Integration:
                     self.send_location(f"Reach Level {lvl}", f"Level {level}")
             return
         m = RE_SLAIN.search(line)
-        if m and m.group(1) == self.settings["character"]:
-            self.on_own_death()
+        if m:
+            name, tracked = m.group(1), self.settings["character"]
+            if name == tracked:
+                self.on_own_death()
+            elif not tracked:
+                self.last_death_note = f"{name} died at {time.strftime('%H:%M:%S')}, but no character is tracked yet"
+                logger.warning(f"[PoE2] {name} died, but the client doesn't know your character yet, so no DeathLink "
+                               f"was sent. If that's you, use /poe2_character {name}.")
+            else:
+                # other players in your party also show up here
+                self.last_death_note = (f"{name} died at {time.strftime('%H:%M:%S')} (not counted: tracking "
+                                        f"'{tracked}')")
+                logger.info(f"[PoE2] {name} died - not your tracked character '{tracked}', so no DeathLink. "
+                            f"If {name} is you, use /poe2_character {name}.")
 
     def on_area(self, area_id: str):
         loc = ZONE_LOCATION_BY_AREA.get(area_id)
@@ -440,10 +455,14 @@ class PoE2Integration:
             self.ctx.syncing = True
 
     def on_own_death(self):
+        stamp = time.strftime('%H:%M:%S')
         if "DeathLink" not in self.ctx.tags:
+            self.last_death_note = f"you died at {stamp}; DeathLink is off for this slot"
             return
         if time.time() - self._deathlink_received_at < 15:
+            self.last_death_note = f"you died at {stamp} from a received DeathLink (not sent back)"
             return  # this death was caused by somebody else's DeathLink
+        self.last_death_note = f"you died at {stamp} - DeathLink sent"
         logger.info("[PoE2] You died - sending DeathLink.")
         self.ctx.deathlink_out = True
         ui = getattr(self.ctx, "ui", None)
