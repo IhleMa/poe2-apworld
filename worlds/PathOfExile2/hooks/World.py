@@ -49,10 +49,25 @@ def before_create_items_all(item_config: dict[str, int | dict], world: World, mu
     if not asc_on:
         item_config["Progressive Ascendancy Trial"] = 0
 
+    # Gem pool: only the chosen skill categories, and supports that fit them
+    cats = poe2.chosen_categories(world)
+    if cats is not None:
+        for name, gem in poe2.GEMS.items():
+            if name in item_config and not set(gem["groups"]) & set(cats):
+                item_config[name] = 0
+    if get_option_value(multiworld, player, "support_gems") == 0:   # matching
+        focus = set(cats) if cats is not None else set(poe2.ALL_CATEGORIES)
+        kept_gems = [n for n, g in poe2.GEMS.items() if item_config.get(n, 0)]
+        wanted = {s for g in kept_gems for s in poe2.GEMS[g].get("recommended", [])}
+        wanted |= {name for name, sup in poe2.SUPPORTS.items() if set(sup.get("groups", [])) & focus}
+        for name in poe2.SUPPORTS:
+            if name in item_config and name not in wanted:
+                item_config[name] = 0
+
     # Supports: one item per lineage unless progressive
     if not is_option_enabled(multiworld, player, "progressive_support_gems"):
         for name in poe2.SUPPORTS:
-            if name in item_config:
+            if item_config.get(name):
                 item_config[name] = 1
 
     # Passive points
@@ -88,16 +103,17 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
     if item:
         start.append(item)
 
+    start_cat, start_weapon = poe2.starting_category_and_weapon(world)
     if is_option_enabled(multiworld, player, "usable_starting_gear"):
-        for name in (f"Progressive {data['weapon']}", "Life Flask Slot", "Mana Flask Slot"):
+        for name in (f"Progressive {start_weapon}", "Life Flask Slot", "Mana Flask Slot"):
             item = _take(item_pool, name)
             if item:
                 start.append(item)
 
     if is_option_enabled(multiworld, player, "starting_skill_gem"):
         options = sorted(n for n, g in poe2.SKILL_GEMS.items()
-                         if g["tier"] == 1 and data["gem_group"] in g["groups"]
-                         and (not g["weapons"] or data["weapon"] in g["weapons"]))
+                         if g["tier"] == 1 and start_cat in g["groups"]
+                         and (not g["weapons"] or start_weapon in g["weapons"]))
         in_pool = [n for n in options if any(i.name == n for i in item_pool)]
         if in_pool:
             item = _take(item_pool, world.random.choice(in_pool))
@@ -123,6 +139,7 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
     support_cap = poe2.SUPPORT_TIER_CAP[top]
     cls = poe2.chosen_class(world)
     cls_data = poe2.CLASSES[cls]
+    start_weapon = poe2.starting_category_and_weapon(world)[1]
     progressive_supports = is_option_enabled(multiworld, player, "progressive_support_gems")
 
     def support_tier_of_copy(name: str, index: int) -> int:
@@ -161,14 +178,14 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
     # 4. supports beyond what logic needs (+ buffer)
     remove(pool_items(lambda n: n in poe2.SUPPORTS), keep=poe2.PINNACLE["supports"] + 10)
     # 5. skill gems for other weapon/spell groups (+ buffer)
-    remove(pool_items(lambda n: n in poe2.SKILL_GEMS and cls_data["gem_group"] not in poe2.SKILL_GEMS[n]["groups"]),
+    remove(pool_items(lambda n: n in poe2.SKILL_GEMS and not poe2.gem_in_focus(world, n)),
            keep=10)
     # 6. passive points beyond the highest requirement (+ buffer)
     remove(pool_items(lambda n: n == "Passive Skill Point"), keep=70)
     # 7. unique-tier copies of gear for weapons/off-hands the class doesn't start with
     if excess > 0:
         for name in poe2.GEAR_ITEMS:
-            if name == f"Progressive {cls_data['weapon']}" or name in poe2.ARMOUR_ITEMS:
+            if name == f"Progressive {start_weapon}" or name in poe2.ARMOUR_ITEMS:
                 continue
             copies = pool_items(lambda n, name=name: n == name)
             if copies and excess > 0:
@@ -177,7 +194,7 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
     # 8. small location pools: keep shrinking. Logic requirements scale down to what remains
     #    (see poe2.requirements_for), so the seed stays beatable - it just has fewer unlocks.
     remove(pool_items(lambda n: n in poe2.SUPPORTS), keep=poe2.SUPPORTS_NEEDED[top] + 2)
-    remove(pool_items(lambda n: n in poe2.SKILL_GEMS and cls_data["gem_group"] not in poe2.SKILL_GEMS[n]["groups"]))
+    remove(pool_items(lambda n: n in poe2.SKILL_GEMS and not poe2.gem_in_focus(world, n)))
     remove(pool_items(lambda n: n == "Passive Skill Point"), keep=20)
     remove(pool_items(lambda n: n in poe2.SKILL_GEMS and poe2.SKILL_GEMS[n]["tier"] > 1), keep=poe2.SKILLS_NEEDED[top] + 2)
     if excess > 0:
@@ -191,7 +208,7 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
     remove(pool_items(lambda n: n == "Passive Skill Point"))
     remove(pool_items(lambda n: n in poe2.SUPPORTS))
     remove(pool_items(lambda n: n in ("Progressive Charm Slot", "Progressive Support Socket", "Progressive Ascendancy Trial")))
-    remove(pool_items(lambda n: n in poe2.GEAR_ITEMS and n != f"Progressive {cls_data['weapon']}"), keep=4)
+    remove(pool_items(lambda n: n in poe2.GEAR_ITEMS and n != f"Progressive {start_weapon}"), keep=4)
     remove(pool_items(lambda n: n in poe2.SKILL_GEMS), keep=2)
 
     if excess > 0:
@@ -247,7 +264,9 @@ def after_fill_slot_data(slot_data: dict, world: World, multiworld: MultiWorld, 
 
 
 def before_write_spoiler(world: World, multiworld: MultiWorld, spoiler_handle) -> None:
+    cats = poe2.chosen_categories(world)
     spoiler_handle.write(f"\nPath of Exile 2 ({multiworld.player_name[world.player]}): class {poe2.chosen_class(world)}, "
+                         f"skill categories {', '.join(cats) if cats else 'all'}, "
                          f"starting with {', '.join(getattr(world, 'poe2_start', []))}\n")
 
 

@@ -293,7 +293,8 @@ for gid, g in skill_gems.items():
         for c in ctypes:
             weapons += GEM_WEAPON_REQ.get(c, [])
     tier = g["crafting_level"]
-    gem_meta[clean(name)] = {"kind": kind, "tier": tier, "weapons": sorted(set(weapons)), "groups": ctypes}
+    gem_meta[clean(name)] = {"kind": kind, "tier": tier, "weapons": sorted(set(weapons)), "groups": ctypes,
+                             "recommended_ids": g.get("recommended_supports") or []}
 
 KIND_CATEGORY = {"Skill Gem": "Skill Gems", "Spirit Gem": "Spirit Gems", "Utility Gem": "Utility Gems", "Meta Gem": "Meta Gems"}
 for name, m in sorted(gem_meta.items(), key=lambda x: (x[1]["kind"], x[1]["tier"], x[0])):
@@ -309,23 +310,33 @@ for name, m in sorted(gem_meta.items(), key=lambda x: (x[1]["kind"], x[1]["tier"
 rx = re.compile(r"^(.*?)(?: (I|II|III|IV|V))?$")
 ROMAN = {"I": 1, "II": 2, "III": 3, "IV": 4, "V": 5}
 lineages = defaultdict(list)
-for g in skill_gems.values():
+lineage_groups = defaultdict(set)
+lineage_of_id = {}
+for gid, g in skill_gems.items():
     name = g["base_item"]["display_name"]
     if g["gem_type"] != "support" or g["crafting_level"] <= 0 or name.startswith(BAD_PREFIX):
         continue
     m = rx.match(name)
-    lineages[clean(m.group(1))].append((ROMAN[m.group(2) or "I"], g["crafting_level"], clean(name)))
+    root = clean(m.group(1))
+    lineages[root].append((ROMAN[m.group(2) or "I"], g["crafting_level"], clean(name)))
+    lineage_groups[root].update(g.get("crafting_types") or [])
+    lineage_of_id[gid] = f"{root} Support"
 support_meta = {}
 for root, members in sorted(lineages.items()):
     members.sort()
     item_name = f"{root} Support"
-    support_meta[item_name] = {"tiers": [t for _, t, _ in members], "gems": [n for _, _, n in members]}
+    support_meta[item_name] = {"tiers": [t for _, t, _ in members], "gems": [n for _, _, n in members],
+                               "groups": sorted(lineage_groups[root] - NOT_YET_IN_GAME)}
     items.append({
         "name": item_name,
         "category": ["Support Gems", f"Support Gems - Tier {members[0][1]}"],
         "count": len(members),       # hooks reduce this to 1 unless progressive supports are enabled
         "progression": True,
     })
+
+# Recommended supports per skill gem (GGG's own recommendations), as support item names
+for meta in gem_meta.values():
+    meta["recommended"] = sorted({lineage_of_id[i] for i in meta.pop("recommended_ids") if i in lineage_of_id})
 
 # Gear
 GEAR_SLOTS = (list(WEAPON_CLASSES.values()), list(OFFHAND_CLASSES.values()),

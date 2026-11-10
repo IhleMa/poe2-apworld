@@ -151,10 +151,34 @@ DeathLink was sent.
 When someone else dies the button changes to show who — the PoE1 convention is to log out to character select (no XP
 loss) rather than die.
 
+## Choosing your gems: skill categories
+
+By default only skill gems that fit your class are in the pool, so you don't receive dozens of skills your build can't
+use. PoE2 sorts skills into categories: **Mace, Quarterstaff, Spear, Bow, Crossbow, Primal** (talismans and
+shapeshifting), **Elemental** (fire, cold and lightning spells) and **Occult** (chaos, curses, minions).
+
+```yaml
+  skill_categories: [Class]               # default: your class's own category (Warrior: Mace, Sorceress: Elemental, ...)
+  skill_categories: [Class, Elemental]    # e.g. a Warrior who also casts elemental spells
+  skill_categories: [Bow]                 # play outside your class's category: you start with a Bow instead
+  skill_categories: [All]                 # every skill gem
+  support_gems: matching                  # default: supports for your categories + those recommended for your skills
+  support_gems: all                       # every support gem
+```
+
+`Class` maps to Warrior: Mace, Mercenary: Crossbow, Ranger: Bow, Huntress: Spear, Monk: Quarterstaff,
+Sorceress: Elemental, Witch: Occult, Druid: Primal. Spirit, utility and meta gems follow the same categories.
+"Matching" supports are the ones in your categories plus every support GGG recommends for the skill gems in your pool —
+about 100–150 support lines per category instead of 300. If your categories don't include your class's own, your
+starting weapon and starting skill come from the first category you chose (spell categories keep the class weapon).
+
+A smaller gem pool leaves more checks without an item; those give "A Pile of Gold" (nothing). Turn off some check
+types or lower `max_level_location` if that's too many.
+
 ## Options summary
 
-`goal` (campaign, Act 1–4, pinnacle bosses), `starting_character`, `usable_starting_gear`, `starting_skill_gem`,
-`include_ascendancy`, `progressive_support_gems`, `passive_points_in_pool`, `add_base_item_locations`,
+`goal` (campaign, Act 1–4, pinnacle bosses), `starting_character`, `skill_categories`, `support_gems`,
+`usable_starting_gear`, `starting_skill_gem`, `include_ascendancy`, `progressive_support_gems`, `passive_points_in_pool`, `add_base_item_locations`,
 `add_zone_locations`, `add_boss_locations`, `add_level_locations`, `max_level_location`, `pinnacle_bosses_required`.
 If you turn most location types off, generation can fail with "Not enough locations" — turn some back on.
 Short goals automatically drop content past the goal, and the item pool shrinks to fit.

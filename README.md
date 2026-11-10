@@ -16,6 +16,8 @@ It ships as a single `.apworld` file that includes its own **PathOfExile2 Client
   charm slots, support sockets, ascendancies and ascendancy trials.
 - **Checks:** picking up each item base, entering each campaign zone, each zone boss and the ascendancy trials,
   and reaching each level.
+- **Gem pool by build:** only skill gems from your chosen skill categories (default: your class's) and the supports
+  that fit them are in the pool, e.g. `skill_categories: [Class, Elemental]`.
 - **Goals:** finish the campaign, finish Act 1–4, or defeat a chosen number of pinnacle bosses.
 - **Logic** like PoE 1: each act needs enough usable skill gems for your weapons, gear, supports, passives and flasks.
 - **Client automation** (no game memory reading, no login):

@@ -7,6 +7,8 @@ PathOfExile2:
   usable_starting_gear: true
   starting_skill_gem: true
   include_ascendancy: true
+  skill_categories: [Class]               # e.g. [Class, Elemental], [Bow] or [All] - see the setup guide
+  support_gems: matching                  # or: all
   progressive_support_gems: false
   passive_points_in_pool: 123
   add_base_item_locations: true

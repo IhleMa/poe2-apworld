@@ -67,6 +67,47 @@ def chosen_class(world: "World") -> str:
     return cls
 
 
+# The game's skill categories, in display order, and the weapon each weapon category is used with.
+ALL_CATEGORIES = ["Mace", "Quarterstaff", "Spear", "Bow", "Crossbow", "Primal", "Elemental", "Occult"]
+CATEGORY_WEAPON = {"Mace": "One Hand Mace", "Quarterstaff": "Quarterstaff", "Spear": "Spear", "Bow": "Bow",
+                   "Crossbow": "Crossbow", "Primal": "Talisman"}
+
+
+def chosen_categories(world: "World") -> list[str] | None:
+    """Skill categories in the pool (class category first), or None for "All"."""
+    cached = getattr(world, "poe2_categories", False)
+    if cached is not False:
+        return cached
+    value = set(get_option_value(world.multiworld, world.player, "skill_categories") or {"Class"})
+    class_cat = CLASSES[chosen_class(world)]["gem_group"]
+    if "All" in value:
+        result = None
+    else:
+        cats = {class_cat if c == "Class" else c for c in value} or {class_cat}
+        result = sorted(cats, key=lambda c: (c != class_cat, ALL_CATEGORIES.index(c)))
+    world.poe2_categories = result
+    return result
+
+
+def focus_categories(world: "World") -> set[str]:
+    """Categories the build is about: the chosen ones, or the class's own when everything is in the pool."""
+    cats = chosen_categories(world)
+    return set(cats) if cats else {CLASSES[chosen_class(world)]["gem_group"]}
+
+
+def gem_in_focus(world: "World", name: str) -> bool:
+    return bool(set(GEMS[name]["groups"]) & focus_categories(world))
+
+
+def starting_category_and_weapon(world: "World") -> tuple[str, str]:
+    data = CLASSES[chosen_class(world)]
+    focus = chosen_categories(world)
+    if not focus or data["gem_group"] in focus:
+        return data["gem_group"], data["weapon"]
+    first = focus[0]
+    return first, CATEGORY_WEAPON.get(first, data["weapon"])   # spell categories keep the class weapon
+
+
 def max_region(world: "World") -> int:
     goal = get_option_value(world.multiworld, world.player, "goal")
     return GOAL_MAX_REGION.get(goal, 5)

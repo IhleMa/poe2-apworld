@@ -37,6 +37,9 @@ def random_options(rng: random.Random) -> dict:
         "max_level_location": rng.choice([10, 40, 90]),
         "pinnacle_bosses_required": rng.randint(1, 10),
         "progression_balancing": rng.choice([0, 50, 99]),
+        "skill_categories": rng.choice(["[Class]", "[All]", "[Bow]", "[Elemental]", "[Class, Occult]",
+                                        "[Mace, Quarterstaff]", "[Primal]", "[Crossbow, Spear]"]),
+        "support_gems": rng.choice(["matching", "all"]),
     }
 
 

@@ -15,6 +15,14 @@
    "weapons": [],
    "groups": [
     "Bow"
+   ],
+   "recommended": [
+    "Cannibalism Support",
+    "Clarity Support",
+    "Direstrike Support",
+    "Herbalism Support",
+    "Precision Support",
+    "Warm Blooded Support"
    ]
   },
   "Ancestral Cry": {
@@ -23,6 +31,19 @@
    "weapons": [],
    "groups": [
     "Mace"
+   ],
+   "recommended": [
+    "Brambleslam Support",
+    "Close Combat Support",
+    "Delayed Gratification Support",
+    "Elemental Armament Support",
+    "Fire Attunement Support",
+    "Fire Exposure Support",
+    "Heightened Charges Support",
+    "Immolate Support",
+    "Magnified Area Support",
+    "Nova Projectiles Support",
+    "Prolonged Duration Support"
    ]
   },
   "Archmage": {
@@ -31,6 +52,15 @@
    "weapons": [],
    "groups": [
     "Elemental"
+   ],
+   "recommended": [
+    "Clarity Support",
+    "Herbalism Support",
+    "Lightning Mastery Support",
+    "Mysticism Support",
+    "Strong Hearted Support",
+    "Vitality Support",
+    "Warm Blooded Support"
    ]
   },
   "Armour Piercing Rounds": {
@@ -41,6 +71,20 @@
    ],
    "groups": [
     "Crossbow"
+   ],
+   "recommended": [
+    "Armour Demolisher Support",
+    "Blind Support",
+    "Chain Support",
+    "Gambleshot Support",
+    "Maim Support",
+    "Mobility Support",
+    "Multishot Support",
+    "Nimble Reload Support",
+    "Physical Mastery Support",
+    "Projectile Acceleration Support",
+    "Rapid Attacks Support",
+    "Ricochet Support"
    ]
   },
   "Attrition": {
@@ -49,6 +93,14 @@
    "weapons": [],
    "groups": [
     "Crossbow"
+   ],
+   "recommended": [
+    "Cool Headed Support",
+    "Direstrike Support",
+    "Herbalism Support",
+    "Precision Support",
+    "Strong Hearted Support",
+    "Vitality Support"
    ]
   },
   "Barkskin": {
@@ -57,6 +109,16 @@
    "weapons": [],
    "groups": [
     "Primal"
+   ],
+   "recommended": [
+    "Cannibalism Support",
+    "Clarity Support",
+    "Direstrike Support",
+    "Herbalism Support",
+    "Mysticism Support",
+    "Prolonged Duration Support",
+    "Strong Hearted Support",
+    "Vitality Support"
    ]
   },
   "Fury of the Mountain": {
@@ -67,6 +129,19 @@
    ],
    "groups": [
     "Primal"
+   ],
+   "recommended": [
+    "Aftershock Support",
+    "Branching Fissures Support",
+    "Cadence Support",
+    "Deadly Resolve Support",
+    "Elemental Armament Support",
+    "Fire Attunement Support",
+    "Fire Penetration Support",
+    "Prolonged Duration Support",
+    "Rage Support",
+    "Rapid Attacks Support",
+    "Upheaval Support"
    ]
   },
   "Berserk": {
@@ -75,6 +150,14 @@
    "weapons": [],
    "groups": [
     "Mace"
+   ],
+   "recommended": [
+    "Cannibalism Support",
+    "Direstrike Support",
+    "Herbalism Support",
+    "Precision Support",
+    "Vitality Support",
+    "Warm Blooded Support"
    ]
   },
   "Blink": {
@@ -83,6 +166,14 @@
    "weapons": [],
    "groups": [
     "Elemental"
+   ],
+   "recommended": [
+    "Clarity Support",
+    "Cooldown Recovery Support",
+    "Herbalism Support",
+    "Mysticism Support",
+    "Strong Hearted Support",
+    "Vitality Support"
    ]
   },
   "Bloodhound's Mark": {
@@ -91,6 +182,18 @@
    "weapons": [],
    "groups": [
     "Spear"
+   ],
+   "recommended": [
+    "Brutality Support",
+    "Charged Mark Support",
+    "Close Combat Support",
+    "Execute Support",
+    "Life Leech Support",
+    "Mark for Death Support",
+    "Mark of Siphoning Support",
+    "Physical Mastery Support",
+    "Pin Support",
+    "Rupture Support"
    ]
   },
   "Bone Cage": {
@@ -99,6 +202,18 @@
    "weapons": [],
    "groups": [
     "Occult"
+   ],
+   "recommended": [
+    "Armour Break Support",
+    "Astral Projection Support",
+    "Bleed Support",
+    "Brutality Support",
+    "Considered Casting Support",
+    "Extraction Support",
+    "Heft Support",
+    "Rapid Casting Support",
+    "Spell Cascade Support",
+    "Spell Echo Support"
    ]
   },
   "Bonestorm": {
@@ -107,6 +222,20 @@
    "weapons": [],
    "groups": [
     "Occult"
+   ],
+   "recommended": [
+    "Armour Break Support",
+    "Brutality Support",
+    "Burgeon Support",
+    "Extraction Support",
+    "Nova Projectiles Support",
+    "Perpetual Charge Support",
+    "Physical Mastery Support",
+    "Rapid Casting Support",
+    "Ricochet Support",
+    "Steadfast Support",
+    "Wildshards Support",
+    "Zenith Support"
    ]
   },
   "Charge Regulation": {
@@ -116,6 +245,14 @@
    "groups": [
     "Quarterstaff",
     "Crossbow"
+   ],
+   "recommended": [
+    "Cannibalism Support",
+    "Clarity Support",
+    "Direstrike Support",
+    "Herbalism Support",
+    "Precision Support",
+    "Strong Hearted Support"
    ]
   },
   "Cluster Grenade": {
@@ -126,6 +263,19 @@
    ],
    "groups": [
     "Crossbow"
+   ],
+   "recommended": [
+    "Adhesive Grenades Support",
+    "Cooldown Recovery Support",
+    "Fire Attunement Support",
+    "Fire Penetration Support",
+    "Immolate Support",
+    "Long Fuse Support",
+    "Magnified Area Support",
+    "Multishot Support",
+    "Payload Support",
+    "Second Wind Support",
+    "Short Fuse Support"
    ]
   },
   "Snap": {
@@ -134,6 +284,18 @@
    "weapons": [],
    "groups": [
     "Elemental"
+   ],
+   "recommended": [
+    "Bounty Support",
+    "Cold Mastery Support",
+    "Elemental Focus Support",
+    "Execute Support",
+    "Fire Mastery Support",
+    "Harmonic Remnants Support",
+    "Inhibitor Support",
+    "Lightning Mastery Support",
+    "Magnified Area Support",
+    "Rapid Casting Support"
    ]
   },
   "Combat Frenzy": {
@@ -143,6 +305,15 @@
    "groups": [
     "Bow",
     "Spear"
+   ],
+   "recommended": [
+    "Charge Profusion Support",
+    "Direstrike Support",
+    "Herbalism Support",
+    "Precision Support",
+    "Strong Hearted Support",
+    "Vitality Support",
+    "Warm Blooded Support"
    ]
   },
   "Convalescence": {
@@ -152,6 +323,13 @@
    "groups": [
     "Occult",
     "Elemental"
+   ],
+   "recommended": [
+    "Clarity Support",
+    "Cooldown Recovery Support",
+    "Mysticism Support",
+    "Prolonged Duration Support",
+    "Second Wind Support"
    ]
   },
   "Cull The Weak": {
@@ -162,6 +340,17 @@
    ],
    "groups": [
     "Spear"
+   ],
+   "recommended": [
+    "Ancestral Call Support",
+    "Behead Support",
+    "Bounty Support",
+    "Charge Profusion Support",
+    "Frenzied Riposte Support",
+    "Rage Support",
+    "Rapid Attacks Support",
+    "Tear Support",
+    "Thrill of the Kill Support"
    ]
   },
   "Dark Effigy": {
@@ -170,6 +359,18 @@
    "weapons": [],
    "groups": [
     "Occult"
+   ],
+   "recommended": [
+    "Chaos Mastery Support",
+    "Concentrated Area Support",
+    "Extraction Support",
+    "Hardy Totems Support",
+    "Poison Support",
+    "Profanity Support",
+    "Projectile Acceleration Support",
+    "Rapid Casting Support",
+    "Urgent Totems Support",
+    "Withering Touch Support"
    ]
   },
   "Defiance Banner": {
@@ -178,6 +379,14 @@
    "weapons": [],
    "groups": [
     "Crossbow"
+   ],
+   "recommended": [
+    "Delayed Gratification Support",
+    "Herbalism Support",
+    "Magnified Area Support",
+    "Prolonged Duration Support",
+    "Refraction Support",
+    "Vitality Support"
    ]
   },
   "Detonating Arrow": {
@@ -188,6 +397,21 @@
    ],
    "groups": [
     "Bow"
+   ],
+   "recommended": [
+    "Burgeon Support",
+    "Embitter Support",
+    "Eternal Flame Support",
+    "Execute Support",
+    "Fiery Death Support",
+    "Fire Attunement Support",
+    "Fire Exposure Support",
+    "Fire Penetration Support",
+    "Ignite Support",
+    "Longshot Support",
+    "Searing Flame Support",
+    "Steadfast Support",
+    "Stoicism Support"
    ]
   },
   "Dread Banner": {
@@ -197,6 +421,14 @@
    "groups": [
     "Crossbow",
     "Mace"
+   ],
+   "recommended": [
+    "Delayed Gratification Support",
+    "Herbalism Support",
+    "Magnified Area Support",
+    "Precision Support",
+    "Prolonged Duration Support",
+    "Refraction Support"
    ]
   },
   "Electrocuting Arrow": {
@@ -207,6 +439,17 @@
    ],
    "groups": [
     "Bow"
+   ],
+   "recommended": [
+    "Blind Support",
+    "Hit and Run Support",
+    "Lifetap Support",
+    "Living Lightning Support",
+    "Maim Support",
+    "Multishot Support",
+    "Prolonged Duration Support",
+    "Rapid Attacks Support",
+    "Salvo Support"
    ]
   },
   "Elemental Conflux": {
@@ -215,6 +458,15 @@
    "weapons": [],
    "groups": [
     "Elemental"
+   ],
+   "recommended": [
+    "Clarity Support",
+    "Cold Mastery Support",
+    "Fire Mastery Support",
+    "Herbalism Support",
+    "Mysticism Support",
+    "Prolonged Duration Support",
+    "Strong Hearted Support"
    ]
   },
   "Elemental Invocation": {
@@ -224,6 +476,16 @@
    "groups": [
     "Elemental",
     "Quarterstaff"
+   ],
+   "recommended": [
+    "Boundless Energy Support",
+    "Clarity Support",
+    "Cold Mastery Support",
+    "Energy Capacitor Support",
+    "Energy Retention Support",
+    "Lightning Mastery Support",
+    "Mysticism Support",
+    "Vitality Support"
    ]
   },
   "Elemental Sundering": {
@@ -234,6 +496,22 @@
    ],
    "groups": [
     "Spear"
+   ],
+   "recommended": [
+    "Astral Projection Support",
+    "Close Combat Support",
+    "Culmination Support",
+    "Elemental Armament Support",
+    "Execute Support",
+    "Fire Mastery Support",
+    "Frozen Spite Support",
+    "Hit and Run Support",
+    "Hourglass Support",
+    "Immolate Support",
+    "Magnified Area Support",
+    "Pursuit Support",
+    "Rapid Attacks Support",
+    "Rising Tempest Support"
    ]
   },
   "Elemental Weakness": {
@@ -242,6 +520,18 @@
    "weapons": [],
    "groups": [
     "Elemental"
+   ],
+   "recommended": [
+    "Abiding Hex Support",
+    "Burning Inscription Support",
+    "Cold Mastery Support",
+    "Cursed Ground Support",
+    "Fire Mastery Support",
+    "Focused Curse Support",
+    "Heightened Curse Support",
+    "Magnified Area Support",
+    "Rapid Casting Support",
+    "Spell Cascade Support"
    ]
   },
   "Emergency Reload": {
@@ -250,6 +540,12 @@
    "weapons": [],
    "groups": [
     "Crossbow"
+   ],
+   "recommended": [
+    "Cooldown Recovery Support",
+    "Efficiency Support",
+    "Lifetap Support",
+    "Prolonged Duration Support"
    ]
   },
   "Entangle": {
@@ -258,6 +554,20 @@
    "weapons": [],
    "groups": [
     "Primal"
+   ],
+   "recommended": [
+    "Accelerated Growth Support",
+    "Blazing Critical Support",
+    "Branching Fissures Support",
+    "Concussive Spells Support",
+    "Knockback Support",
+    "Mana Flare Support",
+    "Physical Mastery Support",
+    "Pin Support",
+    "Prolonged Duration Support",
+    "Rapid Casting Support",
+    "Slow Potency Support",
+    "Upheaval Support"
    ]
   },
   "Explosive Grenade": {
@@ -268,6 +578,19 @@
    ],
    "groups": [
     "Crossbow"
+   ],
+   "recommended": [
+    "Adhesive Grenades Support",
+    "Cooldown Recovery Support",
+    "Deliberation Support",
+    "Fire Attunement Support",
+    "Fire Penetration Support",
+    "Long Fuse Support",
+    "Magnified Area Support",
+    "Multishot Support",
+    "Payload Support",
+    "Second Wind Support",
+    "Short Fuse Support"
    ]
   },
   "Explosive Shot": {
@@ -278,6 +601,20 @@
    ],
    "groups": [
     "Crossbow"
+   ],
+   "recommended": [
+    "Ammo Conservation Support",
+    "Deliberation Support",
+    "Double Barrel Support",
+    "Elemental Armament Support",
+    "Fiery Death Support",
+    "Fire Exposure Support",
+    "Fire Penetration Support",
+    "Ignite Support",
+    "Longshot Support",
+    "Multishot Support",
+    "Nimble Reload Support",
+    "Nova Projectiles Support"
    ]
   },
   "Explosive Spear": {
@@ -288,6 +625,20 @@
    ],
    "groups": [
     "Spear"
+   ],
+   "recommended": [
+    "Deliberation Support",
+    "Elemental Armament Support",
+    "Fire Penetration Support",
+    "Ignite Support",
+    "Long Fuse Support",
+    "Magnified Area Support",
+    "Overabundance Support",
+    "Prolonged Duration Support",
+    "Retreat Support",
+    "Rising Tempest Support",
+    "Searing Flame Support",
+    "Short Fuse Support"
    ]
   },
   "Fangs of Frost": {
@@ -298,6 +649,20 @@
    ],
    "groups": [
     "Spear"
+   ],
+   "recommended": [
+    "Ancestral Call Support",
+    "Behead Support",
+    "Close Combat Support",
+    "Cold Attunement Support",
+    "Combo Finisher Support",
+    "Culmination Support",
+    "Elemental Armament Support",
+    "Embitter Support",
+    "Execute Support",
+    "Frozen Spite Support",
+    "Ice Bite Support",
+    "Pursuit Support"
    ]
   },
   "Feral Invocation": {
@@ -306,6 +671,18 @@
    "weapons": [],
    "groups": [
     "Primal"
+   ],
+   "recommended": [
+    "Boundless Energy Support",
+    "Cannibalism Support",
+    "Clarity Support",
+    "Direstrike Support",
+    "Energy Capacitor Support",
+    "Energy Retention Support",
+    "Fluke Support",
+    "Mysticism Support",
+    "Precision Support",
+    "Vitality Support"
    ]
   },
   "Fireball": {
@@ -314,6 +691,20 @@
    "weapons": [],
    "groups": [
     "Elemental"
+   ],
+   "recommended": [
+    "Controlled Destruction Support",
+    "Deliberation Support",
+    "Fiery Death Support",
+    "Fire Exposure Support",
+    "Fire Mastery Support",
+    "Fire Penetration Support",
+    "Ignite Support",
+    "Multishot Support",
+    "Nova Projectiles Support",
+    "Rapid Casting Support",
+    "Unleash Support",
+    "Wildshards Support"
    ]
   },
   "Flash Grenade": {
@@ -324,6 +715,18 @@
    ],
    "groups": [
     "Crossbow"
+   ],
+   "recommended": [
+    "Adhesive Grenades Support",
+    "Brutality Support",
+    "Cooldown Recovery Support",
+    "Long Fuse Support",
+    "Magnified Area Support",
+    "Multishot Support",
+    "Payload Support",
+    "Pin Support",
+    "Second Wind Support",
+    "Short Fuse Support"
    ]
   },
   "Forge Hammer": {
@@ -335,6 +738,20 @@
    ],
    "groups": [
     "Mace"
+   ],
+   "recommended": [
+    "Culmination Support",
+    "Elemental Armament Support",
+    "Fiery Death Support",
+    "Fire Attunement Support",
+    "Fire Exposure Support",
+    "Fire Penetration Support",
+    "Fist of War Support",
+    "Magnified Area Support",
+    "Prolonged Duration Support",
+    "Rage Support",
+    "Rageforged Support",
+    "Skittering Stone Support"
    ]
   },
   "Fortifying Cry": {
@@ -343,6 +760,18 @@
    "weapons": [],
    "groups": [
     "Mace"
+   ],
+   "recommended": [
+    "Armour Break Support",
+    "Brutality Support",
+    "Cooldown Recovery Support",
+    "Heavy Swing Support",
+    "Heft Support",
+    "Magnified Area Support",
+    "Physical Mastery Support",
+    "Prolonged Duration Support",
+    "Rage Support",
+    "Raging Cry Support"
    ]
   },
   "Fragmentation Rounds": {
@@ -353,6 +782,19 @@
    ],
    "groups": [
     "Crossbow"
+   ],
+   "recommended": [
+    "Ammo Conservation Support",
+    "Close Combat Support",
+    "Cold Attunement Support",
+    "Deliberation Support",
+    "Double Barrel Support",
+    "Frozen Spite Support",
+    "Impale Support",
+    "Nimble Reload Support",
+    "Rapid Attacks Support",
+    "Ricochet Support",
+    "Streamlined Rounds Support"
    ]
   },
   "Freezing Mark": {
@@ -362,6 +804,15 @@
    "groups": [
     "Quarterstaff",
     "Bow"
+   ],
+   "recommended": [
+    "Charged Mark Support",
+    "Cold Mastery Support",
+    "Cooldown Recovery Support",
+    "Efficiency Support",
+    "Mark for Death Support",
+    "Mark of Siphoning Support",
+    "Prolonged Duration Support"
    ]
   },
   "Freezing Salvo": {
@@ -372,6 +823,21 @@
    ],
    "groups": [
     "Bow"
+   ],
+   "recommended": [
+    "Alignment Support",
+    "Close Combat Support",
+    "Cold Attunement Support",
+    "Cold Mastery Support",
+    "Cold Penetration Support",
+    "Concentrated Area Support",
+    "Embitter Support",
+    "Execute Support",
+    "Freeze Support",
+    "Hit and Run Support",
+    "Ice Bite Support",
+    "Projectile Acceleration Support",
+    "Stoicism Support"
    ]
   },
   "Frost Darts": {
@@ -380,6 +846,17 @@
    "weapons": [],
    "groups": [
     "Elemental"
+   ],
+   "recommended": [
+    "Cold Mastery Support",
+    "Cold Penetration Support",
+    "Considered Casting Support",
+    "Deliberation Support",
+    "Elemental Focus Support",
+    "Multishot Support",
+    "Projectile Acceleration Support",
+    "Rapid Casting Support",
+    "Zenith Support"
    ]
   },
   "Frozen Locus": {
@@ -390,6 +867,18 @@
    ],
    "groups": [
     "Quarterstaff"
+   ],
+   "recommended": [
+    "Close Combat Support",
+    "Cold Attunement Support",
+    "Cold Exposure Support",
+    "Cold Mastery Support",
+    "Crystalline Shards Support",
+    "Elemental Armament Support",
+    "Freeze Support",
+    "Magnified Area Support",
+    "Rapid Attacks Support",
+    "Verglas Support"
    ]
   },
   "Galvanic Shards": {
@@ -400,6 +889,21 @@
    ],
    "groups": [
     "Crossbow"
+   ],
+   "recommended": [
+    "Ammo Conservation Support",
+    "Chain Support",
+    "Close Combat Support",
+    "Double Barrel Support",
+    "Elemental Armament Support",
+    "Living Lightning Support",
+    "Nimble Reload Support",
+    "Nova Projectiles Support",
+    "Pierce Support",
+    "Rapid Attacks Support",
+    "Rising Tempest Support",
+    "Shock Support",
+    "Streamlined Rounds Support"
    ]
   },
   "Gas Arrow": {
@@ -410,6 +914,21 @@
    ],
    "groups": [
     "Bow"
+   ],
+   "recommended": [
+    "Bursting Plague Support",
+    "Chaos Mastery Support",
+    "Commiserate Support",
+    "Corrosion Support",
+    "Deadly Poison Support",
+    "Fire Attunement Support",
+    "Magnified Area Support",
+    "Nova Projectiles Support",
+    "Overabundance Support",
+    "Persistent Ground Support",
+    "Poison Support",
+    "Prolonged Duration Support",
+    "Salvo Support"
    ]
   },
   "Gas Grenade": {
@@ -420,6 +939,19 @@
    ],
    "groups": [
     "Crossbow"
+   ],
+   "recommended": [
+    "Bursting Plague Support",
+    "Commiserate Support",
+    "Cooldown Recovery Support",
+    "Corrosion Support",
+    "Fire Exposure Support",
+    "Fire Mastery Support",
+    "Long Fuse Support",
+    "Magnified Area Support",
+    "Persistent Ground Support",
+    "Prolonged Duration Support",
+    "Second Wind Support"
    ]
   },
   "Gathering Storm": {
@@ -430,6 +962,20 @@
    ],
    "groups": [
     "Quarterstaff"
+   ],
+   "recommended": [
+    "Burgeon Support",
+    "Close Combat Support",
+    "Elemental Armament Support",
+    "Encroaching Ground Support",
+    "Innervate Support",
+    "Magnified Area Support",
+    "Momentum Support",
+    "Overcharge Support",
+    "Perfection Support",
+    "Persistent Ground Support",
+    "Steadfast Support",
+    "Window of Opportunity Support"
    ]
   },
   "Glacial Bolt": {
@@ -440,6 +986,20 @@
    ],
    "groups": [
     "Crossbow"
+   ],
+   "recommended": [
+    "Ammo Conservation Support",
+    "Cold Mastery Support",
+    "Cold Penetration Support",
+    "Crystalline Shards Support",
+    "Embitter Support",
+    "Fortress Support",
+    "Hit and Run Support",
+    "Icicle Support",
+    "Magnified Area Support",
+    "Nimble Reload Support",
+    "Rapid Attacks Support",
+    "Verglas Support"
    ]
   },
   "Grim Feast": {
@@ -448,6 +1008,12 @@
    "weapons": [],
    "groups": [
     "Occult"
+   ],
+   "recommended": [
+    "Clarity Support",
+    "Harmonic Remnants Support",
+    "Remnant Potency Support",
+    "Upwelling Support"
    ]
   },
   "Hailstorm Rounds": {
@@ -458,6 +1024,19 @@
    ],
    "groups": [
     "Crossbow"
+   ],
+   "recommended": [
+    "Ammo Conservation Support",
+    "Cold Attunement Support",
+    "Cold Exposure Support",
+    "Culling Strike Support",
+    "Deliberation Support",
+    "Elemental Armament Support",
+    "Embitter Support",
+    "Fresh Clip Support",
+    "Ice Bite Support",
+    "Overreach Support",
+    "Verglas Support"
    ]
   },
   "Hammer of the Gods": {
@@ -469,6 +1048,19 @@
    ],
    "groups": [
     "Mace"
+   ],
+   "recommended": [
+    "Aftershock Support",
+    "Bleed Support",
+    "Brutality Support",
+    "Clash Support",
+    "Close Combat Support",
+    "Delayed Gratification Support",
+    "Fist of War Support",
+    "Heavy Swing Support",
+    "Heft Support",
+    "Impale Support",
+    "Rageforged Support"
    ]
   },
   "Hand of Chayula": {
@@ -477,6 +1069,14 @@
    "weapons": [],
    "groups": [
     "Quarterstaff"
+   ],
+   "recommended": [
+    "Ancestral Call Support",
+    "Blind Support",
+    "Chaos Attunement Support",
+    "Lifetap Support",
+    "Rage Support",
+    "Rapid Attacks Support"
    ]
   },
   "Herald of Blood": {
@@ -485,6 +1085,15 @@
    "weapons": [],
    "groups": [
     "Spear"
+   ],
+   "recommended": [
+    "Blind Support",
+    "Herbalism Support",
+    "Overreach Support",
+    "Physical Mastery Support",
+    "Pin Support",
+    "Strong Hearted Support",
+    "Vitality Support"
    ]
   },
   "Herald of Plague": {
@@ -493,6 +1102,15 @@
    "weapons": [],
    "groups": [
     "Bow"
+   ],
+   "recommended": [
+    "Cannibalism Support",
+    "Chaos Mastery Support",
+    "Direstrike Support",
+    "Herbalism Support",
+    "Precision Support",
+    "Vitality Support",
+    "Warm Blooded Support"
    ]
   },
   "High Velocity Rounds": {
@@ -503,6 +1121,16 @@
    ],
    "groups": [
     "Crossbow"
+   ],
+   "recommended": [
+    "Ammo Conservation Support",
+    "Bleed Support",
+    "Brutality Support",
+    "Double Barrel Support",
+    "Execute Support",
+    "Impale Support",
+    "Longshot Support",
+    "Stoicism Support"
    ]
   },
   "Ice Shards": {
@@ -513,6 +1141,21 @@
    ],
    "groups": [
     "Crossbow"
+   ],
+   "recommended": [
+    "Cold Attunement Support",
+    "Cold Exposure Support",
+    "Cold Mastery Support",
+    "Cold Penetration Support",
+    "Controlled Hazard Support",
+    "Elemental Armament Support",
+    "Embitter Support",
+    "Fresh Clip Support",
+    "Ice Bite Support",
+    "Mobility Support",
+    "Rapid Attacks Support",
+    "Rearm Support",
+    "Verglas Support"
    ]
   },
   "Ice Shot": {
@@ -523,6 +1166,21 @@
    ],
    "groups": [
     "Bow"
+   ],
+   "recommended": [
+    "Alignment Support",
+    "Chain Support",
+    "Cold Attunement Support",
+    "Deliberation Support",
+    "Elemental Armament Support",
+    "Frozen Spite Support",
+    "Ice Bite Support",
+    "Longshot Support",
+    "Nova Projectiles Support",
+    "Pierce Support",
+    "Projectile Acceleration Support",
+    "Salvo Support",
+    "Spectral Volley Support"
    ]
   },
   "Ice-Tipped Arrows": {
@@ -531,6 +1189,20 @@
    "weapons": [],
    "groups": [
     "Bow"
+   ],
+   "recommended": [
+    "Blind Support",
+    "Cold Attunement Support",
+    "Cold Exposure Support",
+    "Cold Mastery Support",
+    "Cooldown Recovery Support",
+    "Culling Strike Support",
+    "Deliberation Support",
+    "Elemental Armament Support",
+    "Elemental Focus Support",
+    "Frozen Spite Support",
+    "Rising Tempest Support",
+    "Short Fuse Support"
    ]
   },
   "Incendiary Shot": {
@@ -541,6 +1213,20 @@
    ],
    "groups": [
     "Crossbow"
+   ],
+   "recommended": [
+    "Close Combat Support",
+    "Double Barrel Support",
+    "Fiery Death Support",
+    "Fire Attunement Support",
+    "Fire Exposure Support",
+    "Fire Penetration Support",
+    "Ignite Support",
+    "Nimble Reload Support",
+    "Nova Projectiles Support",
+    "Pierce Support",
+    "Rising Tempest Support",
+    "Streamlined Rounds Support"
    ]
   },
   "Iron Ward": {
@@ -549,6 +1235,16 @@
    "weapons": [],
    "groups": [
     "Mace"
+   ],
+   "recommended": [
+    "Astral Projection Support",
+    "Bleed Support",
+    "Cool Headed Support",
+    "Herbalism Support",
+    "Magnified Area Support",
+    "Physical Mastery Support",
+    "Thornskin Support",
+    "Vitality Support"
    ]
   },
   "Lightning Rod": {
@@ -559,6 +1255,19 @@
    ],
    "groups": [
     "Bow"
+   ],
+   "recommended": [
+    "Alignment Support",
+    "Blind Support",
+    "Charged Shots Support",
+    "Deliberation Support",
+    "Durability Support",
+    "Elemental Armament Support",
+    "Elemental Focus Support",
+    "Execute Support",
+    "Magnified Area Support",
+    "Multishot Support",
+    "Overreach Support"
    ]
   },
   "Living Bomb": {
@@ -567,6 +1276,18 @@
    "weapons": [],
    "groups": [
     "Elemental"
+   ],
+   "recommended": [
+    "Concentrated Area Support",
+    "Considered Casting Support",
+    "Elemental Focus Support",
+    "Execute Support",
+    "Fire Mastery Support",
+    "Fire Penetration Support",
+    "Harmonic Remnants Support",
+    "Overabundance Support",
+    "Prolonged Duration Support",
+    "Rapid Casting Support"
    ]
   },
   "Lunar Assault": {
@@ -577,6 +1298,20 @@
    ],
    "groups": [
     "Primal"
+   ],
+   "recommended": [
+    "Ancestral Call Support",
+    "Brittle Armour Support",
+    "Cold Exposure Support",
+    "Deep Freeze Support",
+    "Defy Support",
+    "Embitter Support",
+    "Freeze Support",
+    "Frost Nexus Support",
+    "Ice Bite Support",
+    "Magnified Area Support",
+    "Rage Support",
+    "Rapid Attacks Support"
    ]
   },
   "Magma Barrier": {
@@ -585,6 +1320,19 @@
    "weapons": [],
    "groups": [
     "Mace"
+   ],
+   "recommended": [
+    "Charge Profusion Support",
+    "Close Combat Support",
+    "Cool Headed Support",
+    "Culling Strike Support",
+    "Direstrike Support",
+    "Elemental Armament Support",
+    "Fire Attunement Support",
+    "Fire Mastery Support",
+    "Immolate Support",
+    "Rage Support",
+    "Thornskin Support"
    ]
   },
   "Magnetic Salvo": {
@@ -595,6 +1343,22 @@
    ],
    "groups": [
     "Bow"
+   ],
+   "recommended": [
+    "Alignment Support",
+    "Ambrosia Support",
+    "Close Combat Support",
+    "Electrocute Support",
+    "Elemental Armament Support",
+    "Execute Support",
+    "Hit and Run Support",
+    "Innervate Support",
+    "Lightning Attunement Support",
+    "Lightning Mastery Support",
+    "Magnified Area Support",
+    "Overcharge Support",
+    "Stoicism Support",
+    "Volt Support"
    ]
   },
   "Mana Remnants": {
@@ -603,6 +1367,13 @@
    "weapons": [],
    "groups": [
     "Elemental"
+   ],
+   "recommended": [
+    "Clarity Support",
+    "Harmonic Remnants Support",
+    "Mysticism Support",
+    "Remnant Potency Support",
+    "Vitality Support"
    ]
   },
   "Mantra of Destruction": {
@@ -611,6 +1382,12 @@
    "weapons": [],
    "groups": [
     "Quarterstaff"
+   ],
+   "recommended": [
+    "Chaos Mastery Support",
+    "Delayed Gratification Support",
+    "Lifetap Support",
+    "Prolonged Duration Support"
    ]
   },
   "Mirage Archer": {
@@ -620,6 +1397,14 @@
    "groups": [
     "Bow",
     "Spear"
+   ],
+   "recommended": [
+    "Cooldown Recovery Support",
+    "Direstrike Support",
+    "Herbalism Support",
+    "Precision Support",
+    "Prolonged Duration Support",
+    "Warm Blooded Support"
    ]
   },
   "Molten Blast": {
@@ -631,6 +1416,22 @@
    ],
    "groups": [
     "Mace"
+   ],
+   "recommended": [
+    "Elemental Armament Support",
+    "Fiery Death Support",
+    "Fire Attunement Support",
+    "Fire Exposure Support",
+    "Fire Penetration Support",
+    "Hit and Run Support",
+    "Ignite Support",
+    "Multishot Support",
+    "Nova Projectiles Support",
+    "Pierce Support",
+    "Retreat Support",
+    "Ricochet Support",
+    "Salvo Support",
+    "Searing Flame Support"
    ]
   },
   "Mortar Cannon": {
@@ -639,6 +1440,12 @@
    "weapons": [],
    "groups": [
     "Crossbow"
+   ],
+   "recommended": [
+    "Adhesive Grenades Support",
+    "Font of Blood Support",
+    "Payload Support",
+    "Urgent Totems Support"
    ]
   },
   "Oil Barrage": {
@@ -649,6 +1456,18 @@
    ],
    "groups": [
     "Primal"
+   ],
+   "recommended": [
+    "Burgeon Support",
+    "Encroaching Ground Support",
+    "Gambleshot Support",
+    "Magnified Area Support",
+    "Perpetual Charge Support",
+    "Persistent Ground Support",
+    "Potent Exposure Support",
+    "Projectile Acceleration Support",
+    "Rapid Attacks Support",
+    "Retreat Support"
    ]
   },
   "Oil Grenade": {
@@ -659,6 +1478,18 @@
    ],
    "groups": [
     "Crossbow"
+   ],
+   "recommended": [
+    "Cooldown Recovery Support",
+    "Efficiency Support",
+    "Magnified Area Support",
+    "Multishot Support",
+    "Persistent Ground Support",
+    "Potent Exposure Support",
+    "Prolonged Duration Support",
+    "Rapid Attacks Support",
+    "Second Wind Support",
+    "Short Fuse Support"
    ]
   },
   "Overwhelming Presence": {
@@ -669,6 +1500,14 @@
     "Mace",
     "Crossbow",
     "Primal"
+   ],
+   "recommended": [
+    "Cannibalism Support",
+    "Direstrike Support",
+    "Herbalism Support",
+    "Precision Support",
+    "Vitality Support",
+    "Warm Blooded Support"
    ]
   },
   "Perfect Strike": {
@@ -680,6 +1519,22 @@
    ],
    "groups": [
     "Mace"
+   ],
+   "recommended": [
+    "Behead Support",
+    "Close Combat Support",
+    "Deadly Resolve Support",
+    "Elemental Armament Support",
+    "Eternal Flame Support",
+    "Exploit Weakness Support",
+    "Fire Attunement Support",
+    "Fire Exposure Support",
+    "Fire Penetration Support",
+    "Perfected Endurance Support",
+    "Perfection Support",
+    "Searing Flame Support",
+    "Stoicism Support",
+    "Window of Opportunity Support"
    ]
   },
   "Permafrost Bolts": {
@@ -690,6 +1545,21 @@
    ],
    "groups": [
     "Crossbow"
+   ],
+   "recommended": [
+    "Ammo Conservation Support",
+    "Cold Exposure Support",
+    "Elemental Armament Support",
+    "Embitter Support",
+    "Freeze Support",
+    "Frost Nexus Support",
+    "Ice Bite Support",
+    "Nimble Reload Support",
+    "Nova Projectiles Support",
+    "Pierce Support",
+    "Projectile Acceleration Support",
+    "Streamlined Rounds Support",
+    "Verglas Support"
    ]
   },
   "Plasma Blast": {
@@ -700,6 +1570,20 @@
    ],
    "groups": [
     "Crossbow"
+   ],
+   "recommended": [
+    "Ambrosia Support",
+    "Ammo Conservation Support",
+    "Concentrated Area Support",
+    "Elemental Armament Support",
+    "Inexorable Critical Support",
+    "Lasting Shock Support",
+    "Mobility Support",
+    "Nova Projectiles Support",
+    "Overcharge Support",
+    "Steadfast Support",
+    "Stoicism Support",
+    "Volt Support"
    ]
   },
   "Poisonburst Arrow": {
@@ -710,6 +1594,19 @@
    ],
    "groups": [
     "Bow"
+   ],
+   "recommended": [
+    "Alignment Support",
+    "Bursting Plague Support",
+    "Chaos Mastery Support",
+    "Deadly Poison Support",
+    "Deliberation Support",
+    "Escalating Poison Support",
+    "Gambleshot Support",
+    "Multishot Support",
+    "Nova Projectiles Support",
+    "Pierce Support",
+    "Prolonged Duration Support"
    ]
   },
   "Primal Strikes": {
@@ -720,6 +1617,18 @@
    ],
    "groups": [
     "Spear"
+   ],
+   "recommended": [
+    "Ancestral Call Support",
+    "Behead Support",
+    "Cadence Support",
+    "Close Combat Support",
+    "Crescendo Support",
+    "Lightning Attunement Support",
+    "Overcharge Support",
+    "Potent Exposure Support",
+    "Rapid Attacks Support",
+    "Stoicism Support"
    ]
   },
   "Profane Ritual": {
@@ -728,6 +1637,18 @@
    "weapons": [],
    "groups": [
     "Occult"
+   ],
+   "recommended": [
+    "Acrimony Support",
+    "Burning Inscription Support",
+    "Chaos Mastery Support",
+    "Chaotic Freeze Support",
+    "Charge Profusion Support",
+    "Corpse Conservation Support",
+    "Derange Support",
+    "Intense Agony Support",
+    "Rapid Casting Support",
+    "Spell Cascade Support"
    ]
   },
   "Raging Spirits": {
@@ -736,6 +1657,16 @@
    "weapons": [],
    "groups": [
     "Elemental"
+   ],
+   "recommended": [
+    "Elemental Armament Support",
+    "Feeding Frenzy Support",
+    "Fire Attunement Support",
+    "Fire Mastery Support",
+    "Immolate Support",
+    "Minion Mastery Support",
+    "Mysticism Support",
+    "Prolonged Duration Support"
    ]
   },
   "Rake": {
@@ -746,6 +1677,19 @@
    ],
    "groups": [
     "Spear"
+   ],
+   "recommended": [
+    "Ancestral Call Support",
+    "Brutality Support",
+    "Close Combat Support",
+    "Concoct Support",
+    "Deep Cuts Support",
+    "Heavy Swing Support",
+    "Heft Support",
+    "Magnified Area Support",
+    "Momentum Support",
+    "Pursuit Support",
+    "Rip Support"
    ]
   },
   "Rapid Shot": {
@@ -756,6 +1700,20 @@
    ],
    "groups": [
     "Crossbow"
+   ],
+   "recommended": [
+    "Elemental Armament Support",
+    "Eternal Flame Support",
+    "Fire Attunement Support",
+    "Fresh Clip Support",
+    "Gambleshot Support",
+    "Immolate Support",
+    "Mobility Support",
+    "Multishot Support",
+    "Nimble Reload Support",
+    "Pierce Support",
+    "Rapid Attacks Support",
+    "Stoicism Support"
    ]
   },
   "Ravenous Swarm": {
@@ -764,6 +1722,15 @@
    "weapons": [],
    "groups": [
     "Occult"
+   ],
+   "recommended": [
+    "Armour Demolisher Support",
+    "Chaos Mastery Support",
+    "Clarity Support",
+    "Cooldown Recovery Support",
+    "Mysticism Support",
+    "Prolonged Duration Support",
+    "Upwelling Support"
    ]
   },
   "Reaper's Invocation": {
@@ -772,6 +1739,14 @@
    "weapons": [],
    "groups": [
     "Quarterstaff"
+   ],
+   "recommended": [
+    "Boundless Energy Support",
+    "Clarity Support",
+    "Energy Capacitor Support",
+    "Energy Retention Support",
+    "Mysticism Support",
+    "Vitality Support"
    ]
   },
   "Resonating Shield": {
@@ -783,6 +1758,19 @@
    ],
    "groups": [
     "Mace"
+   ],
+   "recommended": [
+    "Armour Demolisher Support",
+    "Blind Support",
+    "Deadly Resolve Support",
+    "Magnified Area Support",
+    "Momentum Support",
+    "Quill Burst Support",
+    "Rage Support",
+    "Rapid Attacks Support",
+    "Retaliate Support",
+    "Steadfast Support",
+    "Stoicism Support"
    ]
   },
   "Sacrifice": {
@@ -791,6 +1779,15 @@
    "weapons": [],
    "groups": [
     "Occult"
+   ],
+   "recommended": [
+    "Clarity Support",
+    "Minion Mastery Support",
+    "Mysticism Support",
+    "Strong Hearted Support",
+    "Upwelling Support",
+    "Vitality Support",
+    "Warm Blooded Support"
    ]
   },
   "Scavenged Plating": {
@@ -799,6 +1796,15 @@
    "weapons": [],
    "groups": [
     "Mace"
+   ],
+   "recommended": [
+    "Cannibalism Support",
+    "Cool Headed Support",
+    "Herbalism Support",
+    "Physical Mastery Support",
+    "Prolonged Duration Support",
+    "Thornskin Support",
+    "Vitality Support"
    ]
   },
   "Shard Scavenger": {
@@ -807,6 +1813,16 @@
    "weapons": [],
    "groups": [
     "Crossbow"
+   ],
+   "recommended": [
+    "Direstrike Support",
+    "Fire Mastery Support",
+    "Herbalism Support",
+    "Physical Mastery Support",
+    "Precision Support",
+    "Prolonged Duration Support",
+    "Vitality Support",
+    "Warm Blooded Support"
    ]
   },
   "Shield Wall": {
@@ -818,6 +1834,16 @@
    ],
    "groups": [
     "Mace"
+   ],
+   "recommended": [
+    "Brutality Support",
+    "Close Combat Support",
+    "Fortress Support",
+    "Heft Support",
+    "Magnified Area Support",
+    "Rage Support",
+    "Skittering Stone Support",
+    "Vanguard Support"
    ]
   },
   "Shockburst Rounds": {
@@ -828,6 +1854,20 @@
    ],
    "groups": [
     "Crossbow"
+   ],
+   "recommended": [
+    "Chain Support",
+    "Elemental Armament Support",
+    "Elemental Focus Support",
+    "Fresh Clip Support",
+    "Innervate Support",
+    "Lightning Attunement Support",
+    "Living Lightning Support",
+    "Mobility Support",
+    "Multishot Support",
+    "Nimble Reload Support",
+    "Pierce Support",
+    "Rapid Attacks Support"
    ]
   },
   "Shockchain Arrow": {
@@ -838,6 +1878,17 @@
    ],
    "groups": [
     "Bow"
+   ],
+   "recommended": [
+    "Alignment Support",
+    "Ambrosia Support",
+    "Bounty Support",
+    "Deliberation Support",
+    "Elemental Armament Support",
+    "Elemental Focus Support",
+    "Innervate Support",
+    "Lightning Attunement Support",
+    "Volt Support"
    ]
   },
   "Siege Cascade": {
@@ -848,6 +1899,16 @@
    ],
    "groups": [
     "Crossbow"
+   ],
+   "recommended": [
+    "Ammo Conservation Support",
+    "Armour Break Support",
+    "Bleed Support",
+    "Brutality Support",
+    "Deliberation Support",
+    "Double Barrel Support",
+    "Impale Support",
+    "Magnified Area Support"
    ]
   },
   "Siphon Elements": {
@@ -856,6 +1917,15 @@
    "weapons": [],
    "groups": [
     "Elemental"
+   ],
+   "recommended": [
+    "Clarity Support",
+    "Cold Mastery Support",
+    "Fire Mastery Support",
+    "Harmonic Remnants Support",
+    "Mysticism Support",
+    "Remnant Potency Support",
+    "Vitality Support"
    ]
   },
   "Siphoning Strike": {
@@ -866,6 +1936,19 @@
    ],
    "groups": [
     "Quarterstaff"
+   ],
+   "recommended": [
+    "Charge Profusion Support",
+    "Close Combat Support",
+    "Electrocute Support",
+    "Elemental Armament Support",
+    "Elemental Focus Support",
+    "Execute Support",
+    "Inexorable Critical Support",
+    "Lightning Attunement Support",
+    "Living Lightning Support",
+    "Magnified Area Support",
+    "Rage Support"
    ]
   },
   "Snipe": {
@@ -876,6 +1959,19 @@
    ],
    "groups": [
     "Bow"
+   ],
+   "recommended": [
+    "Bleed Support",
+    "Brutality Support",
+    "Deadly Resolve Support",
+    "Execute Support",
+    "Heft Support",
+    "Hourglass Support",
+    "Impale Support",
+    "Longshot Support",
+    "Perfection Support",
+    "Steadfast Support",
+    "Window of Opportunity Support"
    ]
   },
   "Soul Offering": {
@@ -884,6 +1980,15 @@
    "weapons": [],
    "groups": [
     "Occult"
+   ],
+   "recommended": [
+    "Danse Macabre Support",
+    "Efficiency Support",
+    "Lifetap Support",
+    "Meat Shield Support",
+    "Minion Mastery Support",
+    "Prolonged Duration Support",
+    "Sacrificial Offering Support"
    ]
   },
   "Spear of Solaris": {
@@ -894,6 +1999,19 @@
    ],
    "groups": [
     "Spear"
+   ],
+   "recommended": [
+    "Elemental Armament Support",
+    "Elemental Focus Support",
+    "Encroaching Ground Support",
+    "Execute Support",
+    "Fire Attunement Support",
+    "Fire Exposure Support",
+    "Fire Penetration Support",
+    "Ignite Support",
+    "Magnified Area Support",
+    "Rageforged Support",
+    "Searing Flame Support"
    ]
   },
   "Stampede": {
@@ -905,6 +2023,20 @@
    ],
    "groups": [
     "Mace"
+   ],
+   "recommended": [
+    "Aftershock Support",
+    "Armour Break Support",
+    "Bounty Support",
+    "Brambleslam Support",
+    "Fist of War Support",
+    "Heavy Swing Support",
+    "Heft Support",
+    "Holy Descent Support",
+    "Magnified Area Support",
+    "Momentum Support",
+    "Opening Move Support",
+    "Stomping Ground Support"
    ]
   },
   "Storm Lance": {
@@ -915,6 +2047,20 @@
    ],
    "groups": [
     "Spear"
+   ],
+   "recommended": [
+    "Ambrosia Support",
+    "Deliberation Support",
+    "Elemental Armament Support",
+    "Hit and Run Support",
+    "Innervate Support",
+    "Lightning Attunement Support",
+    "Lightning Mastery Support",
+    "Living Lightning Support",
+    "Multishot Support",
+    "Overcharge Support",
+    "Persistent Ground Support",
+    "Prolonged Duration Support"
    ]
   },
   "Storm Wave": {
@@ -925,6 +2071,18 @@
    ],
    "groups": [
     "Quarterstaff"
+   ],
+   "recommended": [
+    "Ambrosia Support",
+    "Branching Fissures Support",
+    "Electrocute Support",
+    "Elemental Armament Support",
+    "Innervate Support",
+    "Lightning Exposure Support",
+    "Living Lightning Support",
+    "Magnified Area Support",
+    "Overcharge Support",
+    "Upheaval Support"
    ]
   },
   "Stormblast Bolts": {
@@ -935,6 +2093,17 @@
    ],
    "groups": [
     "Crossbow"
+   ],
+   "recommended": [
+    "Ammo Conservation Support",
+    "Cadence Support",
+    "Culling Strike Support",
+    "Elemental Armament Support",
+    "Elemental Focus Support",
+    "Living Lightning Support",
+    "Magnified Area Support",
+    "Multishot Support",
+    "Prolonged Duration Support"
    ]
   },
   "Stormcaller Arrow": {
@@ -945,6 +2114,18 @@
    ],
    "groups": [
     "Bow"
+   ],
+   "recommended": [
+    "Alignment Support",
+    "Charged Shots Support",
+    "Deliberation Support",
+    "Elemental Armament Support",
+    "Hit and Run Support",
+    "Lightning Attunement Support",
+    "Overcharge Support",
+    "Shock Conduction Support",
+    "Shock Support",
+    "Volt Support"
    ]
   },
   "Tame Beast": {
@@ -953,7 +2134,8 @@
    "weapons": [],
    "groups": [
     "Spear"
-   ]
+   ],
+   "recommended": []
   },
   "Tempest Bell": {
    "kind": "Skill Gem",
@@ -963,6 +2145,18 @@
    ],
    "groups": [
     "Quarterstaff"
+   ],
+   "recommended": [
+    "Ambrosia Support",
+    "Ancestral Call Support",
+    "Close Combat Support",
+    "Delayed Gratification Support",
+    "Durability Support",
+    "Embitter Support",
+    "Heavy Swing Support",
+    "Magnified Area Support",
+    "Overabundance Support",
+    "Rage Support"
    ]
   },
   "Thrashing Vines": {
@@ -971,6 +2165,17 @@
    "weapons": [],
    "groups": [
     "Primal"
+   ],
+   "recommended": [
+    "Accelerated Growth Support",
+    "Brutality Support",
+    "Concussive Spells Support",
+    "Considered Casting Support",
+    "Magnified Area Support",
+    "Poison Spores Support",
+    "Prolonged Duration Support",
+    "Rageforged Support",
+    "Stun Support"
    ]
   },
   "Thunderous Leap": {
@@ -981,6 +2186,20 @@
    ],
    "groups": [
     "Spear"
+   ],
+   "recommended": [
+    "Aftershock Support",
+    "Ambrosia Support",
+    "Brambleslam Support",
+    "Close Combat Support",
+    "Crater Support",
+    "Fist of War Support",
+    "Holy Descent Support",
+    "Lightning Attunement Support",
+    "Magnified Area Support",
+    "Momentum Support",
+    "Overcharge Support",
+    "Shocking Leap Support"
    ]
   },
   "Time of Need": {
@@ -990,6 +2209,15 @@
    "groups": [
     "Mace",
     "Primal"
+   ],
+   "recommended": [
+    "Cannibalism Support",
+    "Clarity Support",
+    "Cooldown Recovery Support",
+    "Direstrike Support",
+    "Herbalism Support",
+    "Vitality Support",
+    "Warm Blooded Support"
    ]
   },
   "Tornado Shot": {
@@ -1000,6 +2228,18 @@
    ],
    "groups": [
     "Bow"
+   ],
+   "recommended": [
+    "Blind Support",
+    "Durability Support",
+    "Efficiency Support",
+    "Elemental Armament Support",
+    "Magnified Area Support",
+    "Maim Support",
+    "Overabundance Support",
+    "Physical Mastery Support",
+    "Prolonged Duration Support",
+    "Slow Potency Support"
    ]
   },
   "Toxic Domain": {
@@ -1008,6 +2248,17 @@
    "weapons": [],
    "groups": [
     "Bow"
+   ],
+   "recommended": [
+    "Blind Support",
+    "Bounty Support",
+    "Chaos Mastery Support",
+    "Cooldown Recovery Support",
+    "Corrosion Support",
+    "Long Fuse Support",
+    "Magnified Area Support",
+    "Prolonged Duration Support",
+    "Short Fuse Support"
    ]
   },
   "Toxic Growth": {
@@ -1018,6 +2269,19 @@
    ],
    "groups": [
     "Bow"
+   ],
+   "recommended": [
+    "Alignment Support",
+    "Chaos Mastery Support",
+    "Close Combat Support",
+    "Corrosion Support",
+    "Deadly Poison Support",
+    "Escalating Poison Support",
+    "Long Fuse Support",
+    "Longshot Support",
+    "Magnified Area Support",
+    "Overreach Support",
+    "Short Fuse Support"
    ]
   },
   "Trinity": {
@@ -1027,6 +2291,16 @@
    "groups": [
     "Spear",
     "Primal"
+   ],
+   "recommended": [
+    "Cold Mastery Support",
+    "Direstrike Support",
+    "Fire Mastery Support",
+    "Herbalism Support",
+    "Precision Support",
+    "Strong Hearted Support",
+    "Vitality Support",
+    "Warm Blooded Support"
    ]
   },
   "Twister": {
@@ -1037,6 +2311,17 @@
    ],
    "groups": [
     "Spear"
+   ],
+   "recommended": [
+    "Brutality Support",
+    "Haemocrystals Support",
+    "Hit and Run Support",
+    "Longshot Support",
+    "Nova Projectiles Support",
+    "Projectile Acceleration Support",
+    "Prolonged Duration Support",
+    "Retreat Support",
+    "Spectral Volley Support"
    ]
   },
   "Unearth": {
@@ -1045,6 +2330,18 @@
    "weapons": [],
    "groups": [
     "Occult"
+   ],
+   "recommended": [
+    "Armour Break Support",
+    "Brutality Support",
+    "Corpse Conservation Support",
+    "Culling Strike Support",
+    "Feeding Frenzy Support",
+    "Heft Support",
+    "Minion Instability Support",
+    "Minion Pact Support",
+    "Physical Mastery Support",
+    "Prolonged Duration Support"
    ]
   },
   "Vaulting Impact": {
@@ -1055,6 +2352,20 @@
    ],
    "groups": [
     "Quarterstaff"
+   ],
+   "recommended": [
+    "Aftershock Support",
+    "Brutality Support",
+    "Close Combat Support",
+    "Combo Finisher Support",
+    "Crater Support",
+    "Fist of War Support",
+    "Heavy Swing Support",
+    "Heft Support",
+    "Holy Descent Support",
+    "Impale Support",
+    "Magnified Area Support",
+    "Stun Support"
    ]
   },
   "Vine Arrow": {
@@ -1065,6 +2376,19 @@
    ],
    "groups": [
     "Bow"
+   ],
+   "recommended": [
+    "Acrimony Support",
+    "Alignment Support",
+    "Chaos Mastery Support",
+    "Deadly Poison Support",
+    "Magnified Area Support",
+    "Mobility Support",
+    "Overabundance Support",
+    "Overreach Support",
+    "Profanity Support",
+    "Prolonged Duration Support",
+    "Slow Potency Support"
    ]
   },
   "Voltaic Mark": {
@@ -1073,6 +2397,15 @@
    "weapons": [],
    "groups": [
     "Bow"
+   ],
+   "recommended": [
+    "Charged Mark Support",
+    "Cooldown Recovery Support",
+    "Efficiency Support",
+    "Lightning Mastery Support",
+    "Mark for Death Support",
+    "Mark of Siphoning Support",
+    "Prolonged Duration Support"
    ]
   },
   "War Banner": {
@@ -1081,6 +2414,14 @@
    "weapons": [],
    "groups": [
     "Crossbow"
+   ],
+   "recommended": [
+    "Delayed Gratification Support",
+    "Magnified Area Support",
+    "Precision Support",
+    "Prolonged Duration Support",
+    "Refraction Support",
+    "Vitality Support"
    ]
   },
   "Whirlwind Lance": {
@@ -1091,6 +2432,17 @@
    ],
    "groups": [
     "Spear"
+   ],
+   "recommended": [
+    "Brutality Support",
+    "Concentrated Area Support",
+    "Deliberation Support",
+    "Impale Support",
+    "Magnified Area Support",
+    "Overabundance Support",
+    "Overreach Support",
+    "Perpetual Charge Support",
+    "Retreat Support"
    ]
   },
   "Wind Dancer": {
@@ -1100,6 +2452,16 @@
    "groups": [
     "Bow",
     "Spear"
+   ],
+   "recommended": [
+    "Blind Support",
+    "Cannibalism Support",
+    "Life Leech Support",
+    "Magnified Area Support",
+    "Maim Support",
+    "Pin Support",
+    "Quill Burst Support",
+    "Rage Support"
    ]
   },
   "Wind Serpent's Fury": {
@@ -1110,6 +2472,21 @@
    ],
    "groups": [
     "Spear"
+   ],
+   "recommended": [
+    "Bleed Support",
+    "Brutality Support",
+    "Heavy Swing Support",
+    "Heft Support",
+    "Heightened Charges Support",
+    "Hourglass Support",
+    "Impale Support",
+    "Overreach Support",
+    "Perpetual Charge Support",
+    "Punch Through Support",
+    "Pursuit Support",
+    "Retaliate Support",
+    "Stoicism Support"
    ]
   },
   "Wing Blast": {
@@ -1120,6 +2497,17 @@
    ],
    "groups": [
     "Primal"
+   ],
+   "recommended": [
+    "Blind Support",
+    "Charge Profusion Support",
+    "Fan The Flames Support",
+    "Heavy Swing Support",
+    "Heft Support",
+    "Impact Shockwave Support",
+    "Magnified Area Support",
+    "Practical Magic Support",
+    "Punch Through Support"
    ]
   },
   "Withering Presence": {
@@ -1128,6 +2516,14 @@
    "weapons": [],
    "groups": [
     "Occult"
+   ],
+   "recommended": [
+    "Chaos Mastery Support",
+    "Clarity Support",
+    "Mysticism Support",
+    "Prolonged Duration Support",
+    "Strong Hearted Support",
+    "Upwelling Support"
    ]
   },
   "Arctic Howl": {
@@ -1136,6 +2532,19 @@
    "weapons": [],
    "groups": [
     "Primal"
+   ],
+   "recommended": [
+    "Brittle Armour Support",
+    "Cooldown Recovery Support",
+    "Corrupting Cry Support",
+    "Deep Freeze Support",
+    "Echoing Cry Support",
+    "Enraged Warcry Support",
+    "Frost Nexus Support",
+    "Ice Bite Support",
+    "Raging Cry Support",
+    "Second Wind Support",
+    "Tireless Support"
    ]
   },
   "Cross Slash": {
@@ -1146,6 +2555,18 @@
    ],
    "groups": [
     "Primal"
+   ],
+   "recommended": [
+    "Biting Frost Support",
+    "Bleed Support",
+    "Blind Support",
+    "Culling Strike Support",
+    "Execute Support",
+    "Heavy Swing Support",
+    "Heft Support",
+    "Lifetap Support",
+    "Magnified Area Support",
+    "Maim Support"
    ]
   },
   "Lunar Blessing": {
@@ -1154,6 +2575,20 @@
    "weapons": [],
    "groups": [
     "Primal"
+   ],
+   "recommended": [
+    "Cold Mastery Support",
+    "Cold Penetration Support",
+    "Concentrated Area Support",
+    "Cooldown Recovery Support",
+    "Corrupting Cry Support",
+    "Culling Strike Support",
+    "Efficiency Support",
+    "Elemental Armament Support",
+    "Elemental Focus Support",
+    "Embitter Support",
+    "Exposing Cry Support",
+    "Prolonged Duration Support"
    ]
   },
   "Devour": {
@@ -1164,6 +2599,19 @@
    ],
    "groups": [
     "Primal"
+   ],
+   "recommended": [
+    "Brambleslam Support",
+    "Charge Profusion Support",
+    "Corpse Conservation Support",
+    "Crater Support",
+    "Culling Strike Support",
+    "Efficiency Support",
+    "Empowered Sparks Support",
+    "Gorge Support",
+    "Rapid Attacks Support",
+    "Soul Drain Support",
+    "Thrill of the Kill Support"
    ]
   },
   "Flame Breath": {
@@ -1174,6 +2622,20 @@
    ],
    "groups": [
     "Primal"
+   ],
+   "recommended": [
+    "Blazing Critical Support",
+    "Defy Support",
+    "Efficiency Support",
+    "Elemental Armament Support",
+    "Eternal Flame Support",
+    "Fiery Death Support",
+    "Fire Attunement Support",
+    "Fire Penetration Support",
+    "Ignite Support",
+    "Rapid Attacks Support",
+    "Stormfire Support",
+    "Wildfire Support"
    ]
   },
   "Ancestral Warrior Totem": {
@@ -1182,6 +2644,15 @@
    "weapons": [],
    "groups": [
     "Mace"
+   ],
+   "recommended": [
+    "Efficiency Support",
+    "Font of Blood Support",
+    "Heavy Swing Support",
+    "Perpetual Charge Support",
+    "Prolonged Duration Support",
+    "Reinforced Totems Support",
+    "Urgent Totems Support"
    ]
   },
   "Arc": {
@@ -1190,6 +2661,22 @@
    "weapons": [],
    "groups": [
     "Elemental"
+   ],
+   "recommended": [
+    "Chain Support",
+    "Controlled Destruction Support",
+    "Deliberation Support",
+    "Elemental Discharge Support",
+    "Lightning Exposure Support",
+    "Lightning Mastery Support",
+    "Lightning Penetration Support",
+    "Mana Flare Support",
+    "Nova Projectiles Support",
+    "Projectile Acceleration Support",
+    "Rapid Casting Support",
+    "Shock Conduction Support",
+    "Unleash Support",
+    "Wildshards Support"
    ]
   },
   "Arctic Armour": {
@@ -1198,6 +2685,16 @@
    "weapons": [],
    "groups": [
     "Elemental"
+   ],
+   "recommended": [
+    "Bounty Support",
+    "Clarity Support",
+    "Cold Mastery Support",
+    "Controlled Destruction Support",
+    "Freeze Support",
+    "Knockback Support",
+    "Mysticism Support",
+    "Warm Blooded Support"
    ]
   },
   "Armour Breaker": {
@@ -1209,6 +2706,18 @@
    ],
    "groups": [
     "Mace"
+   ],
+   "recommended": [
+    "Ancestral Call Support",
+    "Armour Demolisher Support",
+    "Armour Explosion Support",
+    "Barbs Support",
+    "Cadence Support",
+    "Knockback Support",
+    "Maim Support",
+    "Rage Support",
+    "Rapid Attacks Support",
+    "Volcanic Eruption Support"
    ]
   },
   "Siege Ballista": {
@@ -1219,6 +2728,19 @@
    ],
    "groups": [
     "Crossbow"
+   ],
+   "recommended": [
+    "Blind Support",
+    "Fire Attunement Support",
+    "Fire Exposure Support",
+    "Fire Penetration Support",
+    "Immolate Support",
+    "Magnified Area Support",
+    "Multishot Support",
+    "Overabundance Support",
+    "Reinforced Totems Support",
+    "Rising Tempest Support",
+    "Urgent Totems Support"
    ]
   },
   "Ball Lightning": {
@@ -1227,6 +2749,21 @@
    "weapons": [],
    "groups": [
     "Elemental"
+   ],
+   "recommended": [
+    "Considered Casting Support",
+    "Excise Support",
+    "Ignite Support",
+    "Inexorable Critical Support",
+    "Lightning Exposure Support",
+    "Lightning Mastery Support",
+    "Living Lightning Support",
+    "Magnified Area Support",
+    "Multishot Support",
+    "Nova Projectiles Support",
+    "Projectile Deceleration Support",
+    "Unleash Support",
+    "Wildshards Support"
    ]
   },
   "Barrage": {
@@ -1236,6 +2773,15 @@
    "groups": [
     "Bow",
     "Spear"
+   ],
+   "recommended": [
+    "Cooldown Recovery Support",
+    "Efficiency Support",
+    "Heightened Charges Support",
+    "Lifetap Support",
+    "Perpetual Charge Support",
+    "Prolonged Duration Support",
+    "Second Wind Support"
    ]
   },
   "Barrier Invocation": {
@@ -1246,6 +2792,14 @@
     "Occult",
     "Elemental",
     "Quarterstaff"
+   ],
+   "recommended": [
+    "Boundless Energy Support",
+    "Clarity Support",
+    "Energy Capacitor Support",
+    "Fluke Support",
+    "Mysticism Support",
+    "Vitality Support"
    ]
   },
   "Rampage": {
@@ -1256,6 +2810,20 @@
    ],
    "groups": [
     "Primal"
+   ],
+   "recommended": [
+    "Brambleslam Support",
+    "Brutality Support",
+    "Burgeon Support",
+    "Close Combat Support",
+    "Deadly Resolve Support",
+    "Heavy Swing Support",
+    "Heft Support",
+    "Hit and Run Support",
+    "Magnified Area Support",
+    "Momentum Support",
+    "Stomping Ground Support",
+    "Tectonic Slams Support"
    ]
   },
   "Bind Spectre": {
@@ -1264,7 +2832,8 @@
    "weapons": [],
    "groups": [
     "Occult"
-   ]
+   ],
+   "recommended": []
   },
   "Blasphemy": {
    "kind": "Meta Gem",
@@ -1272,6 +2841,13 @@
    "weapons": [],
    "groups": [
     "Occult"
+   ],
+   "recommended": [
+    "Clarity Support",
+    "Herbalism Support",
+    "Magnified Area Support",
+    "Mysticism Support",
+    "Strong Hearted Support"
    ]
   },
   "Blood Hunt": {
@@ -1282,6 +2858,19 @@
    ],
    "groups": [
     "Spear"
+   ],
+   "recommended": [
+    "Armour Break Support",
+    "Culling Strike Support",
+    "Expanse Support",
+    "Impale Support",
+    "Life Leech Support",
+    "Magnified Area Support",
+    "Maim Support",
+    "Overreach Support",
+    "Physical Mastery Support",
+    "Pin Support",
+    "Rapid Attacks Support"
    ]
   },
   "Bone Offering": {
@@ -1290,6 +2879,16 @@
    "weapons": [],
    "groups": [
     "Occult"
+   ],
+   "recommended": [
+    "Blind Support",
+    "Brutality Support",
+    "Efficiency Support",
+    "Heft Support",
+    "Meat Shield Support",
+    "Minion Mastery Support",
+    "Pin Support",
+    "Sacrificial Offering Support"
    ]
   },
   "Boneshatter": {
@@ -1301,6 +2900,18 @@
    ],
    "groups": [
     "Mace"
+   ],
+   "recommended": [
+    "Ancestral Call Support",
+    "Behead Support",
+    "Brutality Support",
+    "Close Combat Support",
+    "Defy Support",
+    "Enduring Impact Support",
+    "Execute Support",
+    "Heft Support",
+    "Impact Shockwave Support",
+    "Stoicism Support"
    ]
   },
   "Briarpatch": {
@@ -1309,6 +2920,18 @@
    "weapons": [],
    "groups": [
     "Primal"
+   ],
+   "recommended": [
+    "Accelerated Growth Support",
+    "Cannibalism Support",
+    "Clarity Support",
+    "Cool Headed Support",
+    "Mysticism Support",
+    "Physical Mastery Support",
+    "Precision Support",
+    "Strong Hearted Support",
+    "Thornskin Support",
+    "Vitality Support"
    ]
   },
   "Cast on Critical": {
@@ -1317,6 +2940,14 @@
    "weapons": [],
    "groups": [
     "Occult"
+   ],
+   "recommended": [
+    "Boundless Energy Support",
+    "Clarity Support",
+    "Energy Retention Support",
+    "Fluke Support",
+    "Mysticism Support",
+    "Vitality Support"
    ]
   },
   "Cast on Dodge": {
@@ -1325,6 +2956,14 @@
    "weapons": [],
    "groups": [
     "Quarterstaff"
+   ],
+   "recommended": [
+    "Boundless Energy Support",
+    "Clarity Support",
+    "Energy Retention Support",
+    "Fluke Support",
+    "Mysticism Support",
+    "Vitality Support"
    ]
   },
   "Cast on Elemental Ailment": {
@@ -1333,6 +2972,16 @@
    "weapons": [],
    "groups": [
     "Elemental"
+   ],
+   "recommended": [
+    "Boundless Energy Support",
+    "Clarity Support",
+    "Cold Mastery Support",
+    "Energy Retention Support",
+    "Fluke Support",
+    "Lightning Mastery Support",
+    "Mysticism Support",
+    "Vitality Support"
    ]
   },
   "Cast on Minion Death": {
@@ -1341,6 +2990,15 @@
    "weapons": [],
    "groups": [
     "Occult"
+   ],
+   "recommended": [
+    "Boundless Energy Support",
+    "Clarity Support",
+    "Energy Retention Support",
+    "Fluke Support",
+    "Minion Mastery Support",
+    "Upwelling Support",
+    "Vitality Support"
    ]
   },
   "Charged Staff": {
@@ -1349,6 +3007,18 @@
    "weapons": [],
    "groups": [
     "Quarterstaff"
+   ],
+   "recommended": [
+    "Bounty Support",
+    "Close Combat Support",
+    "Culling Strike Support",
+    "Elemental Armament Support",
+    "Elemental Focus Support",
+    "Innervate Support",
+    "Living Lightning Support",
+    "Perpetual Charge Support",
+    "Prolonged Duration Support",
+    "Rising Tempest Support"
    ]
   },
   "Comet": {
@@ -1357,6 +3027,20 @@
    "weapons": [],
    "groups": [
     "Elemental"
+   ],
+   "recommended": [
+    "Ambrosia Support",
+    "Cold Mastery Support",
+    "Considered Casting Support",
+    "Elemental Focus Support",
+    "Execute Support",
+    "Hourglass Support",
+    "Magnified Area Support",
+    "Rapid Casting Support",
+    "Rising Tempest Support",
+    "Spell Cascade Support",
+    "Spell Echo Support",
+    "Unleash Support"
    ]
   },
   "Contagion": {
@@ -1365,6 +3049,18 @@
    "weapons": [],
    "groups": [
     "Occult"
+   ],
+   "recommended": [
+    "Acrimony Support",
+    "Chaos Mastery Support",
+    "Chaotic Freeze Support",
+    "Derange Support",
+    "Drain Ailments Support",
+    "Intense Agony Support",
+    "Magnified Area Support",
+    "Minion Pact Support",
+    "Profanity Support",
+    "Prolonged Duration Support"
    ]
   },
   "Despair": {
@@ -1373,6 +3069,19 @@
    "weapons": [],
    "groups": [
     "Occult"
+   ],
+   "recommended": [
+    "Abiding Hex Support",
+    "Burning Inscription Support",
+    "Decaying Hex Support",
+    "Efficiency Support",
+    "Focused Curse Support",
+    "Heightened Curse Support",
+    "Impending Doom Support",
+    "Lifetap Support",
+    "Prolonged Duration Support",
+    "Rapid Casting Support",
+    "Ritualistic Curse Support"
    ]
   },
   "Detonate Dead": {
@@ -1381,6 +3090,21 @@
    "weapons": [],
    "groups": [
     "Occult"
+   ],
+   "recommended": [
+    "Controlled Destruction Support",
+    "Corpse Conservation Support",
+    "Extraction Support",
+    "Fiery Death Support",
+    "Fire Exposure Support",
+    "Heft Support",
+    "Ignite Support",
+    "Inexorable Critical Support",
+    "Magnified Area Support",
+    "Minion Pact Support",
+    "Physical Mastery Support",
+    "Searing Flame Support",
+    "Wildfire Support"
    ]
   },
   "Disengage": {
@@ -1391,6 +3115,21 @@
    ],
    "groups": [
     "Spear"
+   ],
+   "recommended": [
+    "Behead Support",
+    "Bleed Support",
+    "Brutality Support",
+    "Charge Profusion Support",
+    "Close Combat Support",
+    "Concentrated Area Support",
+    "Cooldown Recovery Support",
+    "Crater Support",
+    "Execute Support",
+    "Holy Descent Support",
+    "Impact Shockwave Support",
+    "Impale Support",
+    "Rupture Support"
    ]
   },
   "Earthquake": {
@@ -1402,6 +3141,18 @@
    ],
    "groups": [
     "Mace"
+   ],
+   "recommended": [
+    "Aftershock Support",
+    "Brambleslam Support",
+    "Brutality Support",
+    "Compressed Duration Support",
+    "Encroaching Ground Support",
+    "Fist of War Support",
+    "Heavy Swing Support",
+    "Heft Support",
+    "Rageforged Support",
+    "Stoicism Support"
    ]
   },
   "Earthshatter": {
@@ -1413,6 +3164,18 @@
    ],
    "groups": [
     "Mace"
+   ],
+   "recommended": [
+    "Aftershock Support",
+    "Branching Fissures Support",
+    "Brutality Support",
+    "Cadence Support",
+    "Clash Support",
+    "Heavy Swing Support",
+    "Heft Support",
+    "Magnified Area Support",
+    "Skittering Stone Support",
+    "Upheaval Support"
    ]
   },
   "Ember Fusillade": {
@@ -1421,6 +3184,17 @@
    "weapons": [],
    "groups": [
     "Elemental"
+   ],
+   "recommended": [
+    "Chain Support",
+    "Compressed Duration Support",
+    "Considered Casting Support",
+    "Fire Mastery Support",
+    "Gambleshot Support",
+    "Nova Projectiles Support",
+    "Rapid Casting Support",
+    "Wildshards Support",
+    "Zenith Support"
    ]
   },
   "Enfeeble": {
@@ -1429,6 +3203,18 @@
    "weapons": [],
    "groups": [
     "Occult"
+   ],
+   "recommended": [
+    "Abiding Hex Support",
+    "Burning Inscription Support",
+    "Cursed Ground Support",
+    "Efficiency Support",
+    "Focused Curse Support",
+    "Heightened Curse Support",
+    "Impending Doom Support",
+    "Lifetap Support",
+    "Prolonged Duration Support",
+    "Ritualistic Curse Support"
    ]
   },
   "Escape Shot": {
@@ -1439,6 +3225,21 @@
    ],
    "groups": [
     "Bow"
+   ],
+   "recommended": [
+    "Alignment Support",
+    "Close Combat Support",
+    "Cold Attunement Support",
+    "Cold Exposure Support",
+    "Culling Strike Support",
+    "Deep Freeze Support",
+    "Freeze Support",
+    "Frost Nexus Support",
+    "Holy Descent Support",
+    "Ice Bite Support",
+    "Long Fuse Support",
+    "Magnified Area Support",
+    "Short Fuse Support"
    ]
   },
   "Essence Drain": {
@@ -1447,6 +3248,18 @@
    "weapons": [],
    "groups": [
     "Occult"
+   ],
+   "recommended": [
+    "Acrimony Support",
+    "Chaos Mastery Support",
+    "Derange Support",
+    "Intense Agony Support",
+    "Minion Pact Support",
+    "Profanity Support",
+    "Prolonged Duration Support",
+    "Rapid Casting Support",
+    "Swift Affliction Support",
+    "Zenith Support"
    ]
   },
   "Eternal Rage": {
@@ -1455,6 +3268,17 @@
    "weapons": [],
    "groups": [
     "Primal"
+   ],
+   "recommended": [
+    "Cannibalism Support",
+    "Clarity Support",
+    "Cool Headed Support",
+    "Direstrike Support",
+    "Herbalism Support",
+    "Mysticism Support",
+    "Precision Support",
+    "Strong Hearted Support",
+    "Vitality Support"
    ]
   },
   "Eye of Winter": {
@@ -1463,6 +3287,18 @@
    "weapons": [],
    "groups": [
     "Elemental"
+   ],
+   "recommended": [
+    "Cold Mastery Support",
+    "Considered Casting Support",
+    "Cooldown Recovery Support",
+    "Deliberation Support",
+    "Efficiency Support",
+    "Elemental Focus Support",
+    "Embitter Support",
+    "Projectile Acceleration Support",
+    "Ricochet Support",
+    "Second Wind Support"
    ]
   },
   "Falling Thunder": {
@@ -1473,6 +3309,22 @@
    ],
    "groups": [
     "Quarterstaff"
+   ],
+   "recommended": [
+    "Ambrosia Support",
+    "Close Combat Support",
+    "Combo Finisher Support",
+    "Culmination Support",
+    "Elemental Armament Support",
+    "Fist of War Support",
+    "Heightened Charges Support",
+    "Lightning Attunement Support",
+    "Living Lightning Support",
+    "Nova Projectiles Support",
+    "Perpetual Charge Support",
+    "Projectile Acceleration Support",
+    "Ricochet Support",
+    "Volt Support"
    ]
   },
   "Ferocious Roar": {
@@ -1481,6 +3333,18 @@
    "weapons": [],
    "groups": [
     "Primal"
+   ],
+   "recommended": [
+    "Battershout Support",
+    "Cooldown Recovery Support",
+    "Corrupting Cry Support",
+    "Echoing Cry Support",
+    "Enraged Warcry Support",
+    "Exposing Cry Support",
+    "Lifetap Support",
+    "Magnified Area Support",
+    "Raging Cry Support",
+    "Tireless Support"
    ]
   },
   "Firestorm": {
@@ -1489,6 +3353,19 @@
    "weapons": [],
    "groups": [
     "Elemental"
+   ],
+   "recommended": [
+    "Considered Casting Support",
+    "Deliberation Support",
+    "Elemental Focus Support",
+    "Execute Support",
+    "Fire Exposure Support",
+    "Fire Mastery Support",
+    "Fire Penetration Support",
+    "Hourglass Support",
+    "Overabundance Support",
+    "Prolonged Duration Support",
+    "Rising Tempest Support"
    ]
   },
   "Flame Wall": {
@@ -1497,6 +3374,17 @@
    "weapons": [],
    "groups": [
     "Elemental"
+   ],
+   "recommended": [
+    "Considered Casting Support",
+    "Fire Exposure Support",
+    "Fire Mastery Support",
+    "Fortress Support",
+    "Ignite Support",
+    "Prolonged Duration Support",
+    "Rapid Casting Support",
+    "Rising Tempest Support",
+    "Zenith Support"
    ]
   },
   "Flameblast": {
@@ -1505,6 +3393,18 @@
    "weapons": [],
    "groups": [
     "Elemental"
+   ],
+   "recommended": [
+    "Burgeon Support",
+    "Considered Casting Support",
+    "Cooldown Recovery Support",
+    "Eternal Flame Support",
+    "Fire Mastery Support",
+    "Fire Penetration Support",
+    "Ignite Support",
+    "Rapid Casting Support",
+    "Searing Flame Support",
+    "Second Wind Support"
    ]
   },
   "Flicker Strike": {
@@ -1515,6 +3415,17 @@
    ],
    "groups": [
     "Quarterstaff"
+   ],
+   "recommended": [
+    "Ancestral Call Support",
+    "Brutality Support",
+    "Close Combat Support",
+    "Combo Finisher Support",
+    "Culmination Support",
+    "Heavy Swing Support",
+    "Heightened Charges Support",
+    "Impale Support",
+    "Perpetual Charge Support"
    ]
   },
   "Frost Bomb": {
@@ -1523,6 +3434,18 @@
    "weapons": [],
    "groups": [
     "Elemental"
+   ],
+   "recommended": [
+    "Cold Mastery Support",
+    "Cooldown Recovery Support",
+    "Harmonic Remnants Support",
+    "Long Fuse Support",
+    "Magnified Area Support",
+    "Potent Exposure Support",
+    "Prolonged Duration Support",
+    "Rapid Casting Support",
+    "Second Wind Support",
+    "Short Fuse Support"
    ]
   },
   "Frost Wall": {
@@ -1531,6 +3454,18 @@
    "weapons": [],
    "groups": [
     "Elemental"
+   ],
+   "recommended": [
+    "Cold Mastery Support",
+    "Cooldown Recovery Support",
+    "Fortress Support",
+    "Glacier Support",
+    "Icicle Support",
+    "Magnified Area Support",
+    "Rapid Casting Support",
+    "Second Wind Support",
+    "Spell Cascade Support",
+    "Verglas Support"
    ]
   },
   "Frostbolt": {
@@ -1539,6 +3474,17 @@
    "weapons": [],
    "groups": [
     "Elemental"
+   ],
+   "recommended": [
+    "Cold Mastery Support",
+    "Considered Casting Support",
+    "Deliberation Support",
+    "Inexorable Critical Support",
+    "Multishot Support",
+    "Projectile Acceleration Support",
+    "Rapid Casting Support",
+    "Ricochet Support",
+    "Unleash Support"
    ]
   },
   "Furious Slam": {
@@ -1549,6 +3495,17 @@
    ],
    "groups": [
     "Primal"
+   ],
+   "recommended": [
+    "Aftershock Support",
+    "Brambleslam Support",
+    "Brutality Support",
+    "Close Combat Support",
+    "Fist of War Support",
+    "Heavy Swing Support",
+    "Jagged Ground Support",
+    "Magnified Area Support",
+    "Rageforged Support"
    ]
   },
   "Ghost Dance": {
@@ -1557,6 +3514,16 @@
    "weapons": [],
    "groups": [
     "Quarterstaff"
+   ],
+   "recommended": [
+    "Clarity Support",
+    "Cooldown Recovery Support",
+    "Direstrike Support",
+    "Herbalism Support",
+    "Mysticism Support",
+    "Precision Support",
+    "Strong Hearted Support",
+    "Warm Blooded Support"
    ]
   },
   "Glacial Cascade": {
@@ -1567,6 +3534,20 @@
    ],
    "groups": [
     "Quarterstaff"
+   ],
+   "recommended": [
+    "Branching Fissures Support",
+    "Cold Attunement Support",
+    "Cold Mastery Support",
+    "Combo Finisher Support",
+    "Concentrated Area Support",
+    "Embitter Support",
+    "Execute Support",
+    "Frozen Spite Support",
+    "Hit and Run Support",
+    "Longshot Support",
+    "Upheaval Support",
+    "Verglas Support"
    ]
   },
   "Glacial Lance": {
@@ -1577,6 +3558,20 @@
    ],
    "groups": [
     "Spear"
+   ],
+   "recommended": [
+    "Cold Attunement Support",
+    "Cold Mastery Support",
+    "Deliberation Support",
+    "Elemental Armament Support",
+    "Freeze Support",
+    "Frozen Spite Support",
+    "Ice Bite Support",
+    "Projectile Acceleration Support",
+    "Rapid Attacks Support",
+    "Ricochet Support",
+    "Salvo Support",
+    "Spectral Volley Support"
    ]
   },
   "Herald of Ash": {
@@ -1586,6 +3581,15 @@
    "groups": [
     "Mace",
     "Primal"
+   ],
+   "recommended": [
+    "Cannibalism Support",
+    "Deadly Herald Support",
+    "Direstrike Support",
+    "Fire Mastery Support",
+    "Herbalism Support",
+    "Magnified Area Support",
+    "Precision Support"
    ]
   },
   "Herald of Ice": {
@@ -1595,6 +3599,16 @@
    "groups": [
     "Quarterstaff",
     "Primal"
+   ],
+   "recommended": [
+    "Blind Support",
+    "Bounty Support",
+    "Cannibalism Support",
+    "Cold Attunement Support",
+    "Cold Mastery Support",
+    "Deadly Herald Support",
+    "Overreach Support",
+    "Precision Support"
    ]
   },
   "Herald of Thunder": {
@@ -1606,6 +3620,17 @@
     "Bow",
     "Crossbow",
     "Spear"
+   ],
+   "recommended": [
+    "Blind Support",
+    "Concentrated Area Support",
+    "Culling Strike Support",
+    "Deadly Herald Support",
+    "Elemental Focus Support",
+    "Herbalism Support",
+    "Living Lightning Support",
+    "Maim Support",
+    "Precision Support"
    ]
   },
   "Hexblast": {
@@ -1614,6 +3639,18 @@
    "weapons": [],
    "groups": [
     "Occult"
+   ],
+   "recommended": [
+    "Chaos Mastery Support",
+    "Considered Casting Support",
+    "Deliberation Support",
+    "Execute Support",
+    "Extraction Support",
+    "Magnified Area Support",
+    "Minion Pact Support",
+    "Profanity Support",
+    "Spell Echo Support",
+    "Withering Touch Support"
    ]
   },
   "Ice Nova": {
@@ -1622,6 +3659,21 @@
    "weapons": [],
    "groups": [
     "Elemental"
+   ],
+   "recommended": [
+    "Astral Projection Support",
+    "Cold Exposure Support",
+    "Cold Mastery Support",
+    "Considered Casting Support",
+    "Deep Freeze Support",
+    "Encroaching Ground Support",
+    "Execrate Support",
+    "Hourglass Support",
+    "Inexorable Critical Support",
+    "Magnified Area Support",
+    "Persistent Ground Support",
+    "Rapid Casting Support",
+    "Rising Tempest Support"
    ]
   },
   "Ice Strike": {
@@ -1632,6 +3684,19 @@
    ],
    "groups": [
     "Quarterstaff"
+   ],
+   "recommended": [
+    "Ancestral Call Support",
+    "Behead Support",
+    "Cadence Support",
+    "Close Combat Support",
+    "Cold Attunement Support",
+    "Cold Exposure Support",
+    "Crescendo Support",
+    "Elemental Armament Support",
+    "Freeze Support",
+    "Frozen Spite Support",
+    "Practiced Combo Support"
    ]
   },
   "Incinerate": {
@@ -1640,6 +3705,16 @@
    "weapons": [],
    "groups": [
     "Elemental"
+   ],
+   "recommended": [
+    "Burgeon Support",
+    "Considered Casting Support",
+    "Fiery Death Support",
+    "Fire Mastery Support",
+    "Ignite Support",
+    "Persistent Ground Support",
+    "Searing Flame Support",
+    "Steadfast Support"
    ]
   },
   "Infernal Cry": {
@@ -1648,6 +3723,19 @@
    "weapons": [],
    "groups": [
     "Mace"
+   ],
+   "recommended": [
+    "Astral Projection Support",
+    "Battershout Support",
+    "Cooldown Recovery Support",
+    "Corrupting Cry Support",
+    "Efficiency Support",
+    "Enraged Warcry Support",
+    "Fire Mastery Support",
+    "Lifetap Support",
+    "Raging Cry Support",
+    "Second Wind Support",
+    "Tireless Support"
    ]
   },
   "Killing Palm": {
@@ -1658,6 +3746,19 @@
    ],
    "groups": [
     "Quarterstaff"
+   ],
+   "recommended": [
+    "Ancestral Call Support",
+    "Behead Support",
+    "Charge Profusion Support",
+    "Culling Strike Support",
+    "Frozen Spite Support",
+    "Hit and Run Support",
+    "Life Drain Support",
+    "Rage Support",
+    "Rapid Attacks Support",
+    "Soul Drain Support",
+    "Thrill of the Kill Support"
    ]
   },
   "Leap Slam": {
@@ -1669,6 +3770,21 @@
    ],
    "groups": [
     "Mace"
+   ],
+   "recommended": [
+    "Aftershock Support",
+    "Brink Support",
+    "Close Combat Support",
+    "Crater Support",
+    "Enduring Impact Support",
+    "Fist of War Support",
+    "Heft Support",
+    "Holy Descent Support",
+    "Magnified Area Support",
+    "Opening Move Support",
+    "Pin Support",
+    "Stun Support",
+    "Syzygy Support"
    ]
   },
   "Lightning Arrow": {
@@ -1679,6 +3795,21 @@
    ],
    "groups": [
     "Bow"
+   ],
+   "recommended": [
+    "Alignment Support",
+    "Chain Support",
+    "Charged Shots Support",
+    "Electrocute Support",
+    "Fork Support",
+    "Innervate Support",
+    "Lightning Attunement Support",
+    "Nova Projectiles Support",
+    "Projectile Acceleration Support",
+    "Salvo Support",
+    "Shock Conduction Support",
+    "Spectral Volley Support",
+    "Volt Support"
    ]
   },
   "Lightning Conduit": {
@@ -1687,6 +3818,19 @@
    "weapons": [],
    "groups": [
     "Elemental"
+   ],
+   "recommended": [
+    "Ambrosia Support",
+    "Considered Casting Support",
+    "Controlled Destruction Support",
+    "Cooldown Recovery Support",
+    "Electrocute Support",
+    "Elemental Focus Support",
+    "Execute Support",
+    "Lightning Mastery Support",
+    "Lightning Penetration Support",
+    "Magnified Area Support",
+    "Rapid Casting Support"
    ]
   },
   "Lightning Spear": {
@@ -1697,6 +3841,21 @@
    ],
    "groups": [
     "Spear"
+   ],
+   "recommended": [
+    "Elemental Armament Support",
+    "Heightened Charges Support",
+    "Innervate Support",
+    "Lightning Attunement Support",
+    "Lightning Mastery Support",
+    "Living Lightning Support",
+    "Longshot Support",
+    "Mobility Support",
+    "Nova Projectiles Support",
+    "Projectile Acceleration Support",
+    "Rising Tempest Support",
+    "Salvo Support",
+    "Spectral Volley Support"
    ]
   },
   "Lightning Warp": {
@@ -1705,6 +3864,19 @@
    "weapons": [],
    "groups": [
     "Elemental"
+   ],
+   "recommended": [
+    "Considered Casting Support",
+    "Encroaching Ground Support",
+    "Hourglass Support",
+    "Lightning Exposure Support",
+    "Lightning Mastery Support",
+    "Magnified Area Support",
+    "Overcharge Support",
+    "Persistent Ground Support",
+    "Rapid Casting Support",
+    "Soul Drain Support",
+    "Thrill of the Kill Support"
    ]
   },
   "Lingering Illusion": {
@@ -1713,6 +3885,14 @@
    "weapons": [],
    "groups": [
     "Quarterstaff"
+   ],
+   "recommended": [
+    "Charge Profusion Support",
+    "Direstrike Support",
+    "Herbalism Support",
+    "Precision Support",
+    "Prolonged Duration Support",
+    "Strong Hearted Support"
    ]
   },
   "Mana Tempest": {
@@ -1721,6 +3901,11 @@
    "weapons": [],
    "groups": [
     "Elemental"
+   ],
+   "recommended": [
+    "Cooldown Recovery Support",
+    "Lightning Mastery Support",
+    "Second Wind Support"
    ]
   },
   "Orb of Storms": {
@@ -1729,6 +3914,19 @@
    "weapons": [],
    "groups": [
     "Elemental"
+   ],
+   "recommended": [
+    "Chain Support",
+    "Considered Casting Support",
+    "Harmonic Remnants Support",
+    "Lightning Exposure Support",
+    "Lightning Mastery Support",
+    "Mana Flare Support",
+    "Neural Overload Support",
+    "Overabundance Support",
+    "Prolonged Duration Support",
+    "Shock Conduction Support",
+    "Zenith Support"
    ]
   },
   "Pain Offering": {
@@ -1737,6 +3935,14 @@
    "weapons": [],
    "groups": [
     "Occult"
+   ],
+   "recommended": [
+    "Danse Macabre Support",
+    "Efficiency Support",
+    "Meat Shield Support",
+    "Minion Mastery Support",
+    "Prolonged Duration Support",
+    "Sacrificial Offering Support"
    ]
   },
   "Plague Bearer": {
@@ -1745,6 +3951,18 @@
    "weapons": [],
    "groups": [
     "Bow"
+   ],
+   "recommended": [
+    "Armour Break Support",
+    "Astral Projection Support",
+    "Bursting Plague Support",
+    "Cannibalism Support",
+    "Chaos Mastery Support",
+    "Execute Support",
+    "Magnified Area Support",
+    "Physical Mastery Support",
+    "Pin Support",
+    "Vitality Support"
    ]
   },
   "Rain of Arrows": {
@@ -1755,6 +3973,20 @@
    ],
    "groups": [
     "Bow"
+   ],
+   "recommended": [
+    "Alignment Support",
+    "Armour Break Support",
+    "Bleed Support",
+    "Brutality Support",
+    "Deliberation Support",
+    "Heightened Charges Support",
+    "Impale Support",
+    "Incision Support",
+    "Longshot Support",
+    "Perpetual Charge Support",
+    "Pin Support",
+    "Stoicism Support"
    ]
   },
   "Raise Zombie": {
@@ -1763,6 +3995,19 @@
    "weapons": [],
    "groups": [
     "Occult"
+   ],
+   "recommended": [
+    "Behead Support",
+    "Brutality Support",
+    "Corpse Conservation Support",
+    "Feeding Frenzy Support",
+    "Heavy Swing Support",
+    "Impale Support",
+    "Minion Instability Support",
+    "Muster Support",
+    "Perpetual Charge Support",
+    "Physical Mastery Support",
+    "Prolonged Duration Support"
    ]
   },
   "Rapid Assault": {
@@ -1773,6 +4018,19 @@
    ],
    "groups": [
     "Spear"
+   ],
+   "recommended": [
+    "Ancestral Call Support",
+    "Behead Support",
+    "Brutality Support",
+    "Close Combat Support",
+    "Concoct Support",
+    "Deep Cuts Support",
+    "Heavy Swing Support",
+    "Heft Support",
+    "Rage Support",
+    "Rapid Attacks Support",
+    "Rip Support"
    ]
   },
   "Rhoa Mount": {
@@ -1782,6 +4040,19 @@
    "groups": [
     "Bow",
     "Spear"
+   ],
+   "recommended": [
+    "Blind Support",
+    "Culling Strike Support",
+    "Elemental Army Support",
+    "Hulking Minions Support",
+    "Incision Support",
+    "Last Gasp Support",
+    "Loyalty Support",
+    "Maim Support",
+    "Meat Shield Support",
+    "Minion Mastery Support",
+    "Warm Blooded Support"
    ]
   },
   "Artillery Ballista": {
@@ -1792,6 +4063,17 @@
    ],
    "groups": [
     "Crossbow"
+   ],
+   "recommended": [
+    "Armour Break Support",
+    "Brutality Support",
+    "Font of Mana Support",
+    "Hardy Totems Support",
+    "Magnified Area Support",
+    "Overabundance Support",
+    "Pin Support",
+    "Reinforced Totems Support",
+    "Urgent Totems Support"
    ]
   },
   "Rolling Magma": {
@@ -1802,6 +4084,19 @@
    ],
    "groups": [
     "Primal"
+   ],
+   "recommended": [
+    "Blazing Critical Support",
+    "Chain Support",
+    "Elemental Armament Support",
+    "Fire Exposure Support",
+    "Fire Penetration Support",
+    "Ignite Support",
+    "Immolate Support",
+    "Magnified Area Support",
+    "Multishot Support",
+    "Projectile Deceleration Support",
+    "Rapid Attacks Support"
    ]
   },
   "Rolling Slam": {
@@ -1813,6 +4108,20 @@
    ],
    "groups": [
     "Mace"
+   ],
+   "recommended": [
+    "Aftershock Support",
+    "Brambleslam Support",
+    "Brink Support",
+    "Brutality Support",
+    "Close Combat Support",
+    "Defy Support",
+    "Fist of War Support",
+    "Heavy Swing Support",
+    "Heft Support",
+    "Hit and Run Support",
+    "Momentum Support",
+    "Stun Support"
    ]
   },
   "Savage Fury": {
@@ -1821,6 +4130,16 @@
    "weapons": [],
    "groups": [
     "Primal"
+   ],
+   "recommended": [
+    "Cannibalism Support",
+    "Direstrike Support",
+    "Efficiency Support",
+    "Herbalism Support",
+    "Mysticism Support",
+    "Prolonged Duration Support",
+    "Strong Hearted Support",
+    "Vitality Support"
    ]
   },
   "Seismic Cry": {
@@ -1829,6 +4148,18 @@
    "weapons": [],
    "groups": [
     "Mace"
+   ],
+   "recommended": [
+    "Astral Projection Support",
+    "Battershout Support",
+    "Blind Support",
+    "Cooldown Recovery Support",
+    "Corrupting Cry Support",
+    "Enraged Warcry Support",
+    "Lifetap Support",
+    "Raging Cry Support",
+    "Stun Support",
+    "Tireless Support"
    ]
   },
   "Shattering Palm": {
@@ -1839,6 +4170,18 @@
    ],
    "groups": [
     "Quarterstaff"
+   ],
+   "recommended": [
+    "Close Combat Support",
+    "Cold Mastery Support",
+    "Deep Freeze Support",
+    "Elemental Armament Support",
+    "Elemental Focus Support",
+    "Execute Support",
+    "Freeze Support",
+    "Magnified Area Support",
+    "Overreach Support",
+    "Rising Tempest Support"
    ]
   },
   "Shield Charge": {
@@ -1850,6 +4193,20 @@
    ],
    "groups": [
     "Mace"
+   ],
+   "recommended": [
+    "Brink Support",
+    "Close Combat Support",
+    "Enduring Impact Support",
+    "Heavy Swing Support",
+    "Heft Support",
+    "Momentum Support",
+    "Opening Move Support",
+    "Rapid Attacks Support",
+    "Steadfast Support",
+    "Stomping Ground Support",
+    "Stun Support",
+    "Vanguard Support"
    ]
   },
   "Shockwave Totem": {
@@ -1863,6 +4220,19 @@
    "groups": [
     "Mace",
     "Primal"
+   ],
+   "recommended": [
+    "Astral Projection Support",
+    "Brutality Support",
+    "Font of Blood Support",
+    "Hardy Totems Support",
+    "Magnified Area Support",
+    "Overabundance Support",
+    "Prolonged Duration Support",
+    "Reinforced Totems Support",
+    "Splinter Totem Support",
+    "Stun Support",
+    "Urgent Totems Support"
    ]
   },
   "Skeletal Arsonist": {
@@ -1871,6 +4241,19 @@
    "weapons": [],
    "groups": [
     "Occult"
+   ],
+   "recommended": [
+    "Bidding Support",
+    "Elemental Armament Support",
+    "Eternal Flame Support",
+    "Feeding Frenzy Support",
+    "Fire Exposure Support",
+    "Fire Mastery Support",
+    "Fire Penetration Support",
+    "Ignite Support",
+    "Magnified Area Support",
+    "Multishot Support",
+    "Muster Support"
    ]
   },
   "Skeletal Brute": {
@@ -1879,6 +4262,20 @@
    "weapons": [],
    "groups": [
     "Occult"
+   ],
+   "recommended": [
+    "Behead Support",
+    "Bidding Support",
+    "Bleed Support",
+    "Culling Strike Support",
+    "Heft Support",
+    "Hulking Minions Support",
+    "Impact Shockwave Support",
+    "Impale Support",
+    "Magnified Area Support",
+    "Meat Shield Support",
+    "Minion Instability Support",
+    "Muster Support"
    ]
   },
   "Skeletal Cleric": {
@@ -1887,6 +4284,14 @@
    "weapons": [],
    "groups": [
     "Occult"
+   ],
+   "recommended": [
+    "Deathmarch Support",
+    "Essence Harvest Support",
+    "Last Gasp Support",
+    "Meat Shield Support",
+    "Minion Mastery Support",
+    "Rapid Casting Support"
    ]
   },
   "Skeletal Frost Mage": {
@@ -1895,6 +4300,18 @@
    "weapons": [],
    "groups": [
     "Occult"
+   ],
+   "recommended": [
+    "Bidding Support",
+    "Freeze Support",
+    "Last Gasp Support",
+    "Minion Mastery Support",
+    "Multishot Support",
+    "Muster Support",
+    "Nova Projectiles Support",
+    "Pierce Support",
+    "Projectile Acceleration Support",
+    "Wildshards Support"
    ]
   },
   "Skeletal Reaver": {
@@ -1903,6 +4320,19 @@
    "weapons": [],
    "groups": [
     "Occult"
+   ],
+   "recommended": [
+    "Brutality Support",
+    "Crazed Minions Support",
+    "Deathmarch Support",
+    "Essence Harvest Support",
+    "Feeding Frenzy Support",
+    "Heft Support",
+    "Impale Support",
+    "Last Gasp Support",
+    "Life Leech Support",
+    "Minion Instability Support",
+    "Rage Support"
    ]
   },
   "Skeletal Sniper": {
@@ -1911,6 +4341,19 @@
    "weapons": [],
    "groups": [
     "Occult"
+   ],
+   "recommended": [
+    "Bidding Support",
+    "Corrosion Support",
+    "Crazed Minions Support",
+    "Deadly Poison Support",
+    "Feeding Frenzy Support",
+    "Fire Mastery Support",
+    "Gambleshot Support",
+    "Last Gasp Support",
+    "Overreach Support",
+    "Persistent Ground Support",
+    "Rapid Attacks Support"
    ]
   },
   "Skeletal Storm Mage": {
@@ -1919,6 +4362,19 @@
    "weapons": [],
    "groups": [
     "Occult"
+   ],
+   "recommended": [
+    "Bidding Support",
+    "Chain Support",
+    "Electrocute Support",
+    "Elemental Focus Support",
+    "Feeding Frenzy Support",
+    "Lightning Mastery Support",
+    "Magnified Area Support",
+    "Muster Support",
+    "Overcharge Support",
+    "Persistent Ground Support",
+    "Shock Support"
    ]
   },
   "Sniper's Mark": {
@@ -1927,6 +4383,15 @@
    "weapons": [],
    "groups": [
     "Bow"
+   ],
+   "recommended": [
+    "Charge Profusion Support",
+    "Charged Mark Support",
+    "Efficiency Support",
+    "Lifetap Support",
+    "Mark for Death Support",
+    "Mark of Siphoning Support",
+    "Prolonged Duration Support"
    ]
   },
   "Spark": {
@@ -1935,6 +4400,18 @@
    "weapons": [],
    "groups": [
     "Elemental"
+   ],
+   "recommended": [
+    "Considered Casting Support",
+    "Electrocute Support",
+    "Lightning Exposure Support",
+    "Lightning Mastery Support",
+    "Pierce Support",
+    "Projectile Acceleration Support",
+    "Prolonged Duration Support",
+    "Rapid Casting Support",
+    "Rising Tempest Support",
+    "Zenith Support"
    ]
   },
   "Spearfield": {
@@ -1945,6 +4422,20 @@
    ],
    "groups": [
     "Spear"
+   ],
+   "recommended": [
+    "Blind Support",
+    "Brutality Support",
+    "Controlled Hazard Support",
+    "Delayed Reaction Support",
+    "Haemocrystals Support",
+    "Knockback Support",
+    "Magnified Area Support",
+    "Pin Support",
+    "Prolonged Duration Support",
+    "Rage Support",
+    "Rearm Support",
+    "Slow Potency Support"
    ]
   },
   "Spell Totem": {
@@ -1953,6 +4444,16 @@
    "weapons": [],
    "groups": [
     "Primal"
+   ],
+   "recommended": [
+    "Font of Blood Support",
+    "Hardy Totems Support",
+    "Overabundance Support",
+    "Perpetual Charge Support",
+    "Prolonged Duration Support",
+    "Reinforced Totems Support",
+    "Splinter Totem Support",
+    "Urgent Totems Support"
    ]
   },
   "Spiral Volley": {
@@ -1963,6 +4464,19 @@
    ],
    "groups": [
     "Bow"
+   ],
+   "recommended": [
+    "Alignment Support",
+    "Brutality Support",
+    "Chain Support",
+    "Gambleshot Support",
+    "Heft Support",
+    "Hit and Run Support",
+    "Hourglass Support",
+    "Impale Support",
+    "Perpetual Charge Support",
+    "Ricochet Support",
+    "Stoicism Support"
    ]
   },
   "Staggering Palm": {
@@ -1971,6 +4485,19 @@
    "weapons": [],
    "groups": [
     "Quarterstaff"
+   ],
+   "recommended": [
+    "Blind Support",
+    "Brutality Support",
+    "Culling Strike Support",
+    "Impact Shockwave Support",
+    "Life Leech Support",
+    "Longshot Support",
+    "Nova Projectiles Support",
+    "Projectile Acceleration Support",
+    "Prolonged Duration Support",
+    "Retreat Support",
+    "Ricochet Support"
    ]
   },
   "Sunder": {
@@ -1982,6 +4509,19 @@
    ],
    "groups": [
     "Mace"
+   ],
+   "recommended": [
+    "Aftershock Support",
+    "Branching Fissures Support",
+    "Brutality Support",
+    "Fist of War Support",
+    "Heavy Swing Support",
+    "Heft Support",
+    "Jagged Ground Support",
+    "Magnified Area Support",
+    "Rageforged Support",
+    "Stoicism Support",
+    "Upheaval Support"
    ]
   },
   "Supercharged Slam": {
@@ -1993,6 +4533,18 @@
    ],
    "groups": [
     "Mace"
+   ],
+   "recommended": [
+    "Aftershock Support",
+    "Brutality Support",
+    "Burgeon Support",
+    "Close Combat Support",
+    "Culmination Support",
+    "Fist of War Support",
+    "Heavy Swing Support",
+    "Rageforged Support",
+    "Stoicism Support",
+    "Stun Support"
    ]
   },
   "Tempest Flurry": {
@@ -2003,6 +4555,20 @@
    ],
    "groups": [
     "Quarterstaff"
+   ],
+   "recommended": [
+    "Ancestral Call Support",
+    "Close Combat Support",
+    "Crescendo Support",
+    "Lasting Shock Support",
+    "Lightning Attunement Support",
+    "Lightning Exposure Support",
+    "Magnified Area Support",
+    "Momentum Support",
+    "Rage Support",
+    "Shock Conduction Support",
+    "Shock Support",
+    "Stoicism Support"
    ]
   },
   "Temporal Chains": {
@@ -2011,6 +4577,16 @@
    "weapons": [],
    "groups": [
     "Elemental"
+   ],
+   "recommended": [
+    "Abiding Hex Support",
+    "Burning Inscription Support",
+    "Cursed Ground Support",
+    "Decaying Hex Support",
+    "Focused Curse Support",
+    "Heightened Curse Support",
+    "Magnified Area Support",
+    "Ritualistic Curse Support"
    ]
   },
   "Thunderstorm": {
@@ -2019,6 +4595,19 @@
    "weapons": [],
    "groups": [
     "Primal"
+   ],
+   "recommended": [
+    "Advancing Storm Support",
+    "Coursing Current Support",
+    "Elemental Discharge Support",
+    "Expand Support",
+    "Lightning Exposure Support",
+    "Lightning Mastery Support",
+    "Lightning Penetration Support",
+    "Living Lightning Support",
+    "Magnified Area Support",
+    "Prolonged Duration Support",
+    "Shock Conduction Support"
    ]
   },
   "Tornado": {
@@ -2027,6 +4616,21 @@
    "weapons": [],
    "groups": [
     "Primal"
+   ],
+   "recommended": [
+    "Acrimony Support",
+    "Advancing Storm Support",
+    "Catalysing Elements Support",
+    "Considered Casting Support",
+    "Efficiency Support",
+    "Expand Support",
+    "Lifetap Support",
+    "Magnified Area Support",
+    "Physical Mastery Support",
+    "Prolonged Duration Support",
+    "Rapid Casting Support",
+    "Slow Potency Support",
+    "Swift Affliction Support"
    ]
   },
   "Trail of Caltrops": {
@@ -2035,6 +4639,18 @@
    "weapons": [],
    "groups": [
     "Spear"
+   ],
+   "recommended": [
+    "Brutality Support",
+    "Delayed Reaction Support",
+    "Life Leech Support",
+    "Multishot Support",
+    "Nova Projectiles Support",
+    "Physical Mastery Support",
+    "Precision Support",
+    "Rearm Support",
+    "Retreat Support",
+    "Thornskin Support"
    ]
   },
   "Volcanic Fissure": {
@@ -2046,6 +4662,21 @@
    ],
    "groups": [
     "Mace"
+   ],
+   "recommended": [
+    "Branching Fissures Support",
+    "Cadence Support",
+    "Close Combat Support",
+    "Elemental Armament Support",
+    "Fiery Death Support",
+    "Fire Attunement Support",
+    "Fire Exposure Support",
+    "Fire Penetration Support",
+    "Magnified Area Support",
+    "Prolonged Duration Support",
+    "Rage Support",
+    "Syzygy Support",
+    "Upheaval Support"
    ]
   },
   "Volcano": {
@@ -2054,6 +4685,19 @@
    "weapons": [],
    "groups": [
     "Primal"
+   ],
+   "recommended": [
+    "Burgeon Support",
+    "Chain Support",
+    "Fiery Death Support",
+    "Fire Exposure Support",
+    "Fire Mastery Support",
+    "Fire Penetration Support",
+    "Ignite Support",
+    "Overabundance Support",
+    "Prolonged Duration Support",
+    "Rageforged Support",
+    "Wildshards Support"
    ]
   },
   "Voltaic Grenade": {
@@ -2064,6 +4708,21 @@
    ],
    "groups": [
     "Crossbow"
+   ],
+   "recommended": [
+    "Ambrosia Support",
+    "Close Combat Support",
+    "Cooldown Recovery Support",
+    "Lightning Attunement Support",
+    "Living Lightning Support",
+    "Long Fuse Support",
+    "Magnified Area Support",
+    "Multishot Support",
+    "Payload Support",
+    "Prolonged Duration Support",
+    "Second Wind Support",
+    "Short Fuse Support",
+    "Volt Support"
    ]
   },
   "Vulnerability": {
@@ -2072,6 +4731,19 @@
    "weapons": [],
    "groups": [
     "Occult"
+   ],
+   "recommended": [
+    "Abiding Hex Support",
+    "Burning Inscription Support",
+    "Cursed Ground Support",
+    "Efficiency Support",
+    "Focused Curse Support",
+    "Heightened Curse Support",
+    "Lifetap Support",
+    "Prolonged Duration Support",
+    "Rapid Casting Support",
+    "Ritualistic Curse Support",
+    "Spell Cascade Support"
    ]
   },
   "Walking Calamity": {
@@ -2080,6 +4752,18 @@
    "weapons": [],
    "groups": [
     "Primal"
+   ],
+   "recommended": [
+    "Elemental Armament Support",
+    "Fiery Death Support",
+    "Fire Exposure Support",
+    "Fire Penetration Support",
+    "Hourglass Support",
+    "Ignite Support",
+    "Magnified Area Support",
+    "Prolonged Duration Support",
+    "Rageforged Support",
+    "Searing Flame Support"
    ]
   },
   "Wave of Frost": {
@@ -2090,6 +4774,22 @@
    ],
    "groups": [
     "Quarterstaff"
+   ],
+   "recommended": [
+    "Close Combat Support",
+    "Cold Attunement Support",
+    "Cold Mastery Support",
+    "Crater Support",
+    "Culling Strike Support",
+    "Deep Freeze Support",
+    "Efficiency Support",
+    "Execrate Support",
+    "Freeze Support",
+    "Frost Nexus Support",
+    "Hit and Run Support",
+    "Holy Descent Support",
+    "Ice Bite Support",
+    "Rapid Attacks Support"
    ]
   },
   "Whirling Assault": {
@@ -2100,6 +4800,19 @@
    ],
    "groups": [
     "Quarterstaff"
+   ],
+   "recommended": [
+    "Ancestral Call Support",
+    "Brutality Support",
+    "Close Combat Support",
+    "Defy Support",
+    "Heavy Swing Support",
+    "Heft Support",
+    "Knockback Support",
+    "Momentum Support",
+    "Practiced Combo Support",
+    "Rage Support",
+    "Rapid Attacks Support"
    ]
   },
   "Whirling Slash": {
@@ -2110,6 +4823,19 @@
    ],
    "groups": [
     "Spear"
+   ],
+   "recommended": [
+    "Bleed Support",
+    "Brutality Support",
+    "Cadence Support",
+    "Close Combat Support",
+    "Heavy Swing Support",
+    "Heft Support",
+    "Impale Support",
+    "Magnified Area Support",
+    "Punch Through Support",
+    "Rage Support",
+    "Rapid Attacks Support"
    ]
   },
   "Wind Blast": {
@@ -2120,6 +4846,17 @@
    ],
    "groups": [
     "Quarterstaff"
+   ],
+   "recommended": [
+    "Armour Break Support",
+    "Brutality Support",
+    "Fan The Flames Support",
+    "Heft Support",
+    "Knockback Support",
+    "Magnified Area Support",
+    "Punch Through Support",
+    "Rapid Attacks Support",
+    "Stun Support"
    ]
   },
   "Wolf Pack": {
@@ -2128,6 +4865,20 @@
    "weapons": [],
    "groups": [
     "Primal"
+   ],
+   "recommended": [
+    "Bleed Support",
+    "Deathmarch Support",
+    "Elemental Army Support",
+    "Essence Harvest Support",
+    "Feeding Frenzy Support",
+    "Heavy Swing Support",
+    "Heft Support",
+    "Last Gasp Support",
+    "Loyalty Support",
+    "Minion Instability Support",
+    "Minion Mastery Support",
+    "Rapid Attacks Support"
    ]
   },
   "Pounce": {
@@ -2136,6 +4887,18 @@
    "weapons": [],
    "groups": [
     "Primal"
+   ],
+   "recommended": [
+    "Close Combat Support",
+    "Crater Support",
+    "Eternal Mark Support",
+    "Fist of War Support",
+    "Heavy Swing Support",
+    "Holy Descent Support",
+    "Mark for Death Support",
+    "Mark of Siphoning Support",
+    "Momentum Support",
+    "Opening Move Support"
    ]
   }
  },
@@ -2146,6 +4909,9 @@
    ],
    "gems": [
     "Abiding Hex"
+   ],
+   "groups": [
+    "Occult"
    ]
   },
   "Accelerated Growth Support": {
@@ -2156,6 +4922,9 @@
    "gems": [
     "Accelerated Growth",
     "Accelerated Growth II"
+   ],
+   "groups": [
+    "Primal"
    ]
   },
   "Acrimony Support": {
@@ -2164,6 +4933,9 @@
    ],
    "gems": [
     "Acrimony"
+   ],
+   "groups": [
+    "Elemental"
    ]
   },
   "Adhesive Grenades Support": {
@@ -2174,6 +4946,9 @@
    "gems": [
     "Adhesive Grenades I",
     "Adhesive Grenades II"
+   ],
+   "groups": [
+    "Crossbow"
    ]
   },
   "Admixture Support": {
@@ -2182,6 +4957,9 @@
    ],
    "gems": [
     "Admixture"
+   ],
+   "groups": [
+    "Bow"
    ]
   },
   "Advancing Storm Support": {
@@ -2190,6 +4968,9 @@
    ],
    "gems": [
     "Advancing Storm"
+   ],
+   "groups": [
+    "Primal"
    ]
   },
   "Aftershock Support": {
@@ -2200,6 +4981,9 @@
    "gems": [
     "Aftershock I",
     "Aftershock II"
+   ],
+   "groups": [
+    "Mace"
    ]
   },
   "Alignment Support": {
@@ -2212,6 +4996,9 @@
     "Alignment I",
     "Alignment II",
     "Alignment III"
+   ],
+   "groups": [
+    "Bow"
    ]
   },
   "Ambrosia Support": {
@@ -2222,6 +5009,9 @@
    "gems": [
     "Ambrosia",
     "Ambrosia II"
+   ],
+   "groups": [
+    "Bow"
    ]
   },
   "Ambush Support": {
@@ -2230,6 +5020,9 @@
    ],
    "gems": [
     "Ambush"
+   ],
+   "groups": [
+    "Elemental"
    ]
   },
   "Ammo Conservation Support": {
@@ -2242,6 +5035,9 @@
     "Ammo Conservation I",
     "Ammo Conservation II",
     "Ammo Conservation III"
+   ],
+   "groups": [
+    "Crossbow"
    ]
   },
   "Ancestral Call Support": {
@@ -2252,6 +5048,9 @@
    "gems": [
     "Ancestral Call I",
     "Ancestral Call II"
+   ],
+   "groups": [
+    "Mace"
    ]
   },
   "Arcane Surge Support": {
@@ -2260,6 +5059,9 @@
    ],
    "gems": [
     "Arcane Surge"
+   ],
+   "groups": [
+    "Elemental"
    ]
   },
   "Armour Break Support": {
@@ -2272,6 +5074,9 @@
     "Armour Break I",
     "Armour Break II",
     "Armour Break III"
+   ],
+   "groups": [
+    "Mace"
    ]
   },
   "Armour Demolisher Support": {
@@ -2282,6 +5087,9 @@
    "gems": [
     "Armour Demolisher I",
     "Armour Demolisher II"
+   ],
+   "groups": [
+    "Mace"
    ]
   },
   "Armour Explosion Support": {
@@ -2290,6 +5098,9 @@
    ],
    "gems": [
     "Armour Explosion"
+   ],
+   "groups": [
+    "Mace"
    ]
   },
   "Astral Projection Support": {
@@ -2298,6 +5109,9 @@
    ],
    "gems": [
     "Astral Projection"
+   ],
+   "groups": [
+    "Occult"
    ]
   },
   "Barbs Support": {
@@ -2310,6 +5124,9 @@
     "Barbs I",
     "Barbs II",
     "Barbs III"
+   ],
+   "groups": [
+    "Mace"
    ]
   },
   "Battershout Support": {
@@ -2318,6 +5135,9 @@
    ],
    "gems": [
     "Battershout"
+   ],
+   "groups": [
+    "Mace"
    ]
   },
   "Behead Support": {
@@ -2328,6 +5148,9 @@
    "gems": [
     "Behead I",
     "Behead II"
+   ],
+   "groups": [
+    "Mace"
    ]
   },
   "Bidding Support": {
@@ -2340,6 +5163,9 @@
     "Bidding I",
     "Bidding II",
     "Bidding III"
+   ],
+   "groups": [
+    "Elemental"
    ]
   },
   "Biting Frost Support": {
@@ -2350,6 +5176,9 @@
    "gems": [
     "Biting Frost I",
     "Biting Frost II"
+   ],
+   "groups": [
+    "Elemental"
    ]
   },
   "Blazing Critical Support": {
@@ -2358,6 +5187,9 @@
    ],
    "gems": [
     "Blazing Critical"
+   ],
+   "groups": [
+    "Primal"
    ]
   },
   "Bleed Support": {
@@ -2372,6 +5204,9 @@
     "Bleed II",
     "Bleed III",
     "Bleed IV"
+   ],
+   "groups": [
+    "Mace"
    ]
   },
   "Blind Support": {
@@ -2382,6 +5217,9 @@
    "gems": [
     "Blind I",
     "Blind II"
+   ],
+   "groups": [
+    "Bow"
    ]
   },
   "Blindside Support": {
@@ -2390,6 +5228,9 @@
    ],
    "gems": [
     "Blindside"
+   ],
+   "groups": [
+    "Spear"
    ]
   },
   "Bone Shrapnel Support": {
@@ -2398,6 +5239,9 @@
    ],
    "gems": [
     "Bone Shrapnel"
+   ],
+   "groups": [
+    "Occult"
    ]
   },
   "Boundless Energy Support": {
@@ -2408,6 +5252,9 @@
    "gems": [
     "Boundless Energy I",
     "Boundless Energy II"
+   ],
+   "groups": [
+    "Elemental"
    ]
   },
   "Bounty Support": {
@@ -2418,6 +5265,9 @@
    "gems": [
     "Bounty I",
     "Bounty II"
+   ],
+   "groups": [
+    "Bow"
    ]
   },
   "Brambleslam Support": {
@@ -2426,6 +5276,9 @@
    ],
    "gems": [
     "Brambleslam"
+   ],
+   "groups": [
+    "Primal"
    ]
   },
   "Branching Fissures Support": {
@@ -2436,6 +5289,9 @@
    "gems": [
     "Branching Fissures I",
     "Branching Fissures II"
+   ],
+   "groups": [
+    "Mace"
    ]
   },
   "Brink Support": {
@@ -2446,6 +5302,9 @@
    "gems": [
     "Brink I",
     "Brink II"
+   ],
+   "groups": [
+    "Mace"
    ]
   },
   "Brittle Armour Support": {
@@ -2454,6 +5313,9 @@
    ],
    "gems": [
     "Brittle Armour"
+   ],
+   "groups": [
+    "Primal"
    ]
   },
   "Brutality Support": {
@@ -2466,6 +5328,9 @@
     "Brutality I",
     "Brutality II",
     "Brutality III"
+   ],
+   "groups": [
+    "Mace"
    ]
   },
   "Burgeon Support": {
@@ -2476,6 +5341,9 @@
    "gems": [
     "Burgeon I",
     "Burgeon II"
+   ],
+   "groups": [
+    "Occult"
    ]
   },
   "Burning Inscription Support": {
@@ -2484,6 +5352,9 @@
    ],
    "gems": [
     "Burning Inscription"
+   ],
+   "groups": [
+    "Occult"
    ]
   },
   "Bursting Plague Support": {
@@ -2492,6 +5363,9 @@
    ],
    "gems": [
     "Bursting Plague"
+   ],
+   "groups": [
+    "Bow"
    ]
   },
   "Cadence Support": {
@@ -2500,6 +5374,9 @@
    ],
    "gems": [
     "Cadence"
+   ],
+   "groups": [
+    "Spear"
    ]
   },
   "Caltrops Support": {
@@ -2508,6 +5385,9 @@
    ],
    "gems": [
     "Caltrops"
+   ],
+   "groups": [
+    "Spear"
    ]
   },
   "Cannibalism Support": {
@@ -2518,6 +5398,9 @@
    "gems": [
     "Cannibalism I",
     "Cannibalism II"
+   ],
+   "groups": [
+    "Mace"
    ]
   },
   "Catalysing Elements Support": {
@@ -2526,6 +5409,9 @@
    ],
    "gems": [
     "Catalysing Elements"
+   ],
+   "groups": [
+    "Primal"
    ]
   },
   "Catharsis Support": {
@@ -2534,6 +5420,9 @@
    ],
    "gems": [
     "Catharsis"
+   ],
+   "groups": [
+    "Quarterstaff"
    ]
   },
   "Chain Support": {
@@ -2546,6 +5435,9 @@
     "Chain I",
     "Chain II",
     "Chain III"
+   ],
+   "groups": [
+    "Bow"
    ]
   },
   "Chaos Attunement Support": {
@@ -2554,6 +5446,9 @@
    ],
    "gems": [
     "Chaos Attunement"
+   ],
+   "groups": [
+    "Elemental"
    ]
   },
   "Chaos Mastery Support": {
@@ -2562,6 +5457,9 @@
    ],
    "gems": [
     "Chaos Mastery"
+   ],
+   "groups": [
+    "Elemental"
    ]
   },
   "Chaotic Freeze Support": {
@@ -2570,6 +5468,9 @@
    ],
    "gems": [
     "Chaotic Freeze"
+   ],
+   "groups": [
+    "Elemental"
    ]
   },
   "Charge Profusion Support": {
@@ -2580,6 +5481,9 @@
    "gems": [
     "Charge Profusion I",
     "Charge Profusion II"
+   ],
+   "groups": [
+    "Bow"
    ]
   },
   "Charged Mark Support": {
@@ -2588,6 +5492,9 @@
    ],
    "gems": [
     "Charged Mark"
+   ],
+   "groups": [
+    "Primal"
    ]
   },
   "Charged Shots Support": {
@@ -2598,6 +5505,9 @@
    "gems": [
     "Charged Shots I",
     "Charged Shots II"
+   ],
+   "groups": [
+    "Bow"
    ]
   },
   "Clarity Support": {
@@ -2608,6 +5518,9 @@
    "gems": [
     "Clarity I",
     "Clarity II"
+   ],
+   "groups": [
+    "Elemental"
    ]
   },
   "Clash Support": {
@@ -2616,6 +5529,9 @@
    ],
    "gems": [
     "Clash"
+   ],
+   "groups": [
+    "Crossbow"
    ]
   },
   "Close Combat Support": {
@@ -2626,6 +5542,9 @@
    "gems": [
     "Close Combat I",
     "Close Combat II"
+   ],
+   "groups": [
+    "Mace"
    ]
   },
   "Cold Attunement Support": {
@@ -2634,6 +5553,9 @@
    ],
    "gems": [
     "Cold Attunement"
+   ],
+   "groups": [
+    "Elemental"
    ]
   },
   "Cold Exposure Support": {
@@ -2642,6 +5564,9 @@
    ],
    "gems": [
     "Cold Exposure"
+   ],
+   "groups": [
+    "Elemental"
    ]
   },
   "Cold Mastery Support": {
@@ -2650,6 +5575,9 @@
    ],
    "gems": [
     "Cold Mastery"
+   ],
+   "groups": [
+    "Elemental"
    ]
   },
   "Cold Penetration Support": {
@@ -2658,6 +5586,9 @@
    ],
    "gems": [
     "Cold Penetration"
+   ],
+   "groups": [
+    "Elemental"
    ]
   },
   "Combo Finisher Support": {
@@ -2668,6 +5599,9 @@
    "gems": [
     "Combo Finisher I",
     "Combo Finisher II"
+   ],
+   "groups": [
+    "Bow"
    ]
   },
   "Commiserate Support": {
@@ -2676,6 +5610,9 @@
    ],
    "gems": [
     "Commiserate"
+   ],
+   "groups": [
+    "Bow"
    ]
   },
   "Compressed Duration Support": {
@@ -2686,6 +5623,9 @@
    "gems": [
     "Compressed Duration I",
     "Compressed Duration II"
+   ],
+   "groups": [
+    "Mace"
    ]
   },
   "Concentrated Area Support": {
@@ -2694,6 +5634,9 @@
    ],
    "gems": [
     "Concentrated Area"
+   ],
+   "groups": [
+    "Elemental"
    ]
   },
   "Concoct Support": {
@@ -2704,6 +5647,9 @@
    "gems": [
     "Concoct I",
     "Concoct II"
+   ],
+   "groups": [
+    "Spear"
    ]
   },
   "Concussive Spells Support": {
@@ -2712,6 +5658,9 @@
    ],
    "gems": [
     "Concussive Spells"
+   ],
+   "groups": [
+    "Primal"
    ]
   },
   "Considered Casting Support": {
@@ -2720,6 +5669,9 @@
    ],
    "gems": [
     "Considered Casting"
+   ],
+   "groups": [
+    "Occult"
    ]
   },
   "Controlled Destruction Support": {
@@ -2728,6 +5680,9 @@
    ],
    "gems": [
     "Controlled Destruction"
+   ],
+   "groups": [
+    "Elemental"
    ]
   },
   "Controlled Hazard Support": {
@@ -2736,6 +5691,9 @@
    ],
    "gems": [
     "Controlled Hazard"
+   ],
+   "groups": [
+    "Spear"
    ]
   },
   "Cool Headed Support": {
@@ -2744,6 +5702,9 @@
    ],
    "gems": [
     "Cool Headed"
+   ],
+   "groups": [
+    "Mace"
    ]
   },
   "Cooldown Recovery Support": {
@@ -2754,6 +5715,9 @@
    "gems": [
     "Cooldown Recovery I",
     "Cooldown Recovery II"
+   ],
+   "groups": [
+    "Bow"
    ]
   },
   "Corpse Conservation Support": {
@@ -2762,6 +5726,9 @@
    ],
    "gems": [
     "Corpse Conservation"
+   ],
+   "groups": [
+    "Elemental"
    ]
   },
   "Corrosion Support": {
@@ -2770,6 +5737,9 @@
    ],
    "gems": [
     "Corrosion"
+   ],
+   "groups": [
+    "Bow"
    ]
   },
   "Corrupting Cry Support": {
@@ -2780,6 +5750,9 @@
    "gems": [
     "Corrupting Cry I",
     "Corrupting Cry II"
+   ],
+   "groups": [
+    "Mace"
    ]
   },
   "Coursing Current Support": {
@@ -2788,6 +5761,9 @@
    ],
    "gems": [
     "Coursing Current"
+   ],
+   "groups": [
+    "Primal"
    ]
   },
   "Crackling Barrier Support": {
@@ -2796,6 +5772,9 @@
    ],
    "gems": [
     "Crackling Barrier"
+   ],
+   "groups": [
+    "Occult"
    ]
   },
   "Crater Support": {
@@ -2804,6 +5783,9 @@
    ],
    "gems": [
     "Crater"
+   ],
+   "groups": [
+    "Mace"
    ]
   },
   "Crazed Minions Support": {
@@ -2812,6 +5794,9 @@
    ],
    "gems": [
     "Crazed Minions"
+   ],
+   "groups": [
+    "Elemental"
    ]
   },
   "Creeping Chill Support": {
@@ -2820,6 +5805,9 @@
    ],
    "gems": [
     "Creeping Chill"
+   ],
+   "groups": [
+    "Quarterstaff"
    ]
   },
   "Crescendo Support": {
@@ -2832,6 +5820,9 @@
     "Crescendo I",
     "Crescendo II",
     "Crescendo III"
+   ],
+   "groups": [
+    "Bow"
    ]
   },
   "Crystalline Shards Support": {
@@ -2840,6 +5831,9 @@
    ],
    "gems": [
     "Crystalline Shards"
+   ],
+   "groups": [
+    "Elemental"
    ]
   },
   "Culling Strike Support": {
@@ -2850,6 +5844,9 @@
    "gems": [
     "Culling Strike I",
     "Culling Strike II"
+   ],
+   "groups": [
+    "Bow"
    ]
   },
   "Culmination Support": {
@@ -2860,6 +5857,9 @@
    "gems": [
     "Culmination I",
     "Culmination II"
+   ],
+   "groups": [
+    "Quarterstaff"
    ]
   },
   "Cursed Ground Support": {
@@ -2868,6 +5868,9 @@
    ],
    "gems": [
     "Cursed Ground"
+   ],
+   "groups": [
+    "Elemental"
    ]
   },
   "Danse Macabre Support": {
@@ -2876,6 +5879,9 @@
    ],
    "gems": [
     "Danse Macabre"
+   ],
+   "groups": [
+    "Elemental"
    ]
   },
   "Deadly Herald Support": {
@@ -2884,6 +5890,9 @@
    ],
    "gems": [
     "Deadly Herald"
+   ],
+   "groups": [
+    "Quarterstaff"
    ]
   },
   "Deadly Poison Support": {
@@ -2894,6 +5903,9 @@
    "gems": [
     "Deadly Poison I",
     "Deadly Poison II"
+   ],
+   "groups": [
+    "Bow"
    ]
   },
   "Deadly Resolve Support": {
@@ -2902,6 +5914,9 @@
    ],
    "gems": [
     "Deadly Resolve"
+   ],
+   "groups": [
+    "Primal"
    ]
   },
   "Deathmarch Support": {
@@ -2910,6 +5925,9 @@
    ],
    "gems": [
     "Deathmarch"
+   ],
+   "groups": [
+    "Occult"
    ]
   },
   "Decaying Hex Support": {
@@ -2918,6 +5936,9 @@
    ],
    "gems": [
     "Decaying Hex"
+   ],
+   "groups": [
+    "Elemental"
    ]
   },
   "Deep Cuts Support": {
@@ -2928,6 +5949,9 @@
    "gems": [
     "Deep Cuts I",
     "Deep Cuts II"
+   ],
+   "groups": [
+    "Mace"
    ]
   },
   "Deep Freeze Support": {
@@ -2936,6 +5960,9 @@
    ],
    "gems": [
     "Deep Freeze"
+   ],
+   "groups": [
+    "Elemental"
    ]
   },
   "Defy Support": {
@@ -2946,6 +5973,9 @@
    "gems": [
     "Defy I",
     "Defy II"
+   ],
+   "groups": [
+    "Mace"
    ]
   },
   "Delayed Gratification Support": {
@@ -2954,6 +5984,9 @@
    ],
    "gems": [
     "Delayed Gratification"
+   ],
+   "groups": [
+    "Spear"
    ]
   },
   "Delayed Reaction Support": {
@@ -2962,6 +5995,9 @@
    ],
    "gems": [
     "Delayed Reaction"
+   ],
+   "groups": [
+    "Spear"
    ]
   },
   "Deliberation Support": {
@@ -2970,6 +6006,9 @@
    ],
    "gems": [
     "Deliberation"
+   ],
+   "groups": [
+    "Bow"
    ]
   },
   "Derange Support": {
@@ -2978,6 +6017,9 @@
    ],
    "gems": [
     "Derange"
+   ],
+   "groups": [
+    "Elemental"
    ]
   },
   "Direstrike Support": {
@@ -2988,6 +6030,9 @@
    "gems": [
     "Direstrike I",
     "Direstrike II"
+   ],
+   "groups": [
+    "Crossbow"
    ]
   },
   "Double Barrel Support": {
@@ -3000,6 +6045,9 @@
     "Double Barrel I",
     "Double Barrel II",
     "Double Barrel III"
+   ],
+   "groups": [
+    "Mace"
    ]
   },
   "Drain Ailments Support": {
@@ -3008,6 +6056,9 @@
    ],
    "gems": [
     "Drain Ailments"
+   ],
+   "groups": [
+    "Elemental"
    ]
   },
   "Durability Support": {
@@ -3016,6 +6067,9 @@
    ],
    "gems": [
     "Durability"
+   ],
+   "groups": [
+    "Bow"
    ]
   },
   "Echoing Cry Support": {
@@ -3024,6 +6078,9 @@
    ],
    "gems": [
     "Echoing Cry"
+   ],
+   "groups": [
+    "Primal"
    ]
   },
   "Efficiency Support": {
@@ -3034,6 +6091,9 @@
    "gems": [
     "Efficiency I",
     "Efficiency II"
+   ],
+   "groups": [
+    "Mace"
    ]
   },
   "Electrocute Support": {
@@ -3042,6 +6102,9 @@
    ],
    "gems": [
     "Electrocute"
+   ],
+   "groups": [
+    "Bow"
    ]
   },
   "Electromagnetism Support": {
@@ -3050,6 +6113,9 @@
    ],
    "gems": [
     "Electromagnetism"
+   ],
+   "groups": [
+    "Elemental"
    ]
   },
   "Elemental Armament Support": {
@@ -3062,6 +6128,9 @@
     "Elemental Armament I",
     "Elemental Armament II",
     "Elemental Armament III"
+   ],
+   "groups": [
+    "Mace"
    ]
   },
   "Elemental Army Support": {
@@ -3070,6 +6139,9 @@
    ],
    "gems": [
     "Elemental Army"
+   ],
+   "groups": [
+    "Elemental"
    ]
   },
   "Elemental Discharge Support": {
@@ -3078,6 +6150,9 @@
    ],
    "gems": [
     "Elemental Discharge"
+   ],
+   "groups": [
+    "Elemental"
    ]
   },
   "Elemental Focus Support": {
@@ -3086,6 +6161,9 @@
    ],
    "gems": [
     "Elemental Focus"
+   ],
+   "groups": [
+    "Elemental"
    ]
   },
   "Embitter Support": {
@@ -3094,6 +6172,9 @@
    ],
    "gems": [
     "Embitter"
+   ],
+   "groups": [
+    "Elemental"
    ]
   },
   "Empowered Sparks Support": {
@@ -3104,6 +6185,9 @@
    "gems": [
     "Empowered Sparks I",
     "Empowered Sparks II"
+   ],
+   "groups": [
+    "Primal"
    ]
   },
   "Encroaching Ground Support": {
@@ -3112,6 +6196,9 @@
    ],
    "gems": [
     "Encroaching Ground"
+   ],
+   "groups": [
+    "Occult"
    ]
   },
   "Enduring Impact Support": {
@@ -3122,6 +6209,9 @@
    "gems": [
     "Enduring Impact I",
     "Enduring Impact II"
+   ],
+   "groups": [
+    "Mace"
    ]
   },
   "Energy Capacitor Support": {
@@ -3130,6 +6220,9 @@
    ],
    "gems": [
     "Energy Capacitor"
+   ],
+   "groups": [
+    "Elemental"
    ]
   },
   "Energy Retention Support": {
@@ -3138,6 +6231,9 @@
    ],
    "gems": [
     "Energy Retention"
+   ],
+   "groups": [
+    "Occult"
    ]
   },
   "Enraged Warcry Support": {
@@ -3148,6 +6244,9 @@
    "gems": [
     "Enraged Warcry I",
     "Enraged Warcry II"
+   ],
+   "groups": [
+    "Mace"
    ]
   },
   "Escalating Poison Support": {
@@ -3156,6 +6255,9 @@
    ],
    "gems": [
     "Escalating Poison"
+   ],
+   "groups": [
+    "Bow"
    ]
   },
   "Essence Harvest Support": {
@@ -3164,6 +6266,9 @@
    ],
    "gems": [
     "Essence Harvest"
+   ],
+   "groups": [
+    "Occult"
    ]
   },
   "Eternal Flame Support": {
@@ -3176,6 +6281,9 @@
     "Eternal Flame I",
     "Eternal Flame II",
     "Eternal Flame III"
+   ],
+   "groups": [
+    "Mace"
    ]
   },
   "Eternal Mark Support": {
@@ -3184,6 +6292,9 @@
    ],
    "gems": [
     "Eternal Mark"
+   ],
+   "groups": [
+    "Primal"
    ]
   },
   "Excise Support": {
@@ -3192,6 +6303,9 @@
    ],
    "gems": [
     "Excise"
+   ],
+   "groups": [
+    "Occult"
    ]
   },
   "Execrate Support": {
@@ -3200,6 +6314,9 @@
    ],
    "gems": [
     "Execrate"
+   ],
+   "groups": [
+    "Occult"
    ]
   },
   "Execute Support": {
@@ -3212,6 +6329,9 @@
     "Execute I",
     "Execute II",
     "Execute III"
+   ],
+   "groups": [
+    "Mace"
    ]
   },
   "Expand Support": {
@@ -3220,6 +6340,9 @@
    ],
    "gems": [
     "Expand"
+   ],
+   "groups": [
+    "Elemental"
    ]
   },
   "Expanse Support": {
@@ -3228,6 +6351,9 @@
    ],
    "gems": [
     "Expanse"
+   ],
+   "groups": [
+    "Occult"
    ]
   },
   "Exploit Weakness Support": {
@@ -3236,6 +6362,9 @@
    ],
    "gems": [
     "Exploit Weakness"
+   ],
+   "groups": [
+    "Mace"
    ]
   },
   "Exposing Cry Support": {
@@ -3244,6 +6373,9 @@
    ],
    "gems": [
     "Exposing Cry"
+   ],
+   "groups": [
+    "Spear"
    ]
   },
   "Extraction Support": {
@@ -3252,6 +6384,9 @@
    ],
    "gems": [
     "Extraction"
+   ],
+   "groups": [
+    "Occult"
    ]
   },
   "Fan The Flames Support": {
@@ -3262,6 +6397,9 @@
    "gems": [
     "Fan The Flames",
     "Fan The Flames II"
+   ],
+   "groups": [
+    "Primal"
    ]
   },
   "Feeding Frenzy Support": {
@@ -3272,6 +6410,9 @@
    "gems": [
     "Feeding Frenzy I",
     "Feeding Frenzy II"
+   ],
+   "groups": [
+    "Elemental"
    ]
   },
   "Fiery Death Support": {
@@ -3280,6 +6421,9 @@
    ],
    "gems": [
     "Fiery Death"
+   ],
+   "groups": [
+    "Elemental"
    ]
   },
   "Fire Attunement Support": {
@@ -3288,6 +6432,9 @@
    ],
    "gems": [
     "Fire Attunement"
+   ],
+   "groups": [
+    "Mace"
    ]
   },
   "Fire Exposure Support": {
@@ -3296,6 +6443,9 @@
    ],
    "gems": [
     "Fire Exposure"
+   ],
+   "groups": [
+    "Mace"
    ]
   },
   "Fire Mastery Support": {
@@ -3304,6 +6454,9 @@
    ],
    "gems": [
     "Fire Mastery"
+   ],
+   "groups": [
+    "Elemental"
    ]
   },
   "Fire Penetration Support": {
@@ -3314,6 +6467,9 @@
    "gems": [
     "Fire Penetration I",
     "Fire Penetration II"
+   ],
+   "groups": [
+    "Mace"
    ]
   },
   "Fist of War Support": {
@@ -3326,6 +6482,9 @@
     "Fist of War I",
     "Fist of War II",
     "Fist of War III"
+   ],
+   "groups": [
+    "Mace"
    ]
   },
   "Fluke Support": {
@@ -3334,6 +6493,9 @@
    ],
    "gems": [
     "Fluke"
+   ],
+   "groups": [
+    "Occult"
    ]
   },
   "Focused Curse Support": {
@@ -3342,6 +6504,9 @@
    ],
    "gems": [
     "Focused Curse"
+   ],
+   "groups": [
+    "Elemental"
    ]
   },
   "Font of Blood Support": {
@@ -3350,6 +6515,9 @@
    ],
    "gems": [
     "Font of Blood"
+   ],
+   "groups": [
+    "Elemental"
    ]
   },
   "Font of Mana Support": {
@@ -3358,6 +6526,9 @@
    ],
    "gems": [
     "Font of Mana"
+   ],
+   "groups": [
+    "Elemental"
    ]
   },
   "Fork Support": {
@@ -3366,6 +6537,9 @@
    ],
    "gems": [
     "Fork"
+   ],
+   "groups": [
+    "Bow"
    ]
   },
   "Fortress Support": {
@@ -3376,6 +6550,9 @@
    "gems": [
     "Fortress I",
     "Fortress II"
+   ],
+   "groups": [
+    "Elemental"
    ]
   },
   "Freeze Support": {
@@ -3384,6 +6561,9 @@
    ],
    "gems": [
     "Freeze"
+   ],
+   "groups": [
+    "Elemental"
    ]
   },
   "Frenzied Riposte Support": {
@@ -3392,6 +6572,9 @@
    ],
    "gems": [
     "Frenzied Riposte"
+   ],
+   "groups": [
+    "Spear"
    ]
   },
   "Fresh Clip Support": {
@@ -3402,6 +6585,9 @@
    "gems": [
     "Fresh Clip I",
     "Fresh Clip II"
+   ],
+   "groups": [
+    "Mace"
    ]
   },
   "Frost Nexus Support": {
@@ -3410,6 +6596,9 @@
    ],
    "gems": [
     "Frost Nexus"
+   ],
+   "groups": [
+    "Elemental"
    ]
   },
   "Frostfire Support": {
@@ -3418,6 +6607,9 @@
    ],
    "gems": [
     "Frostfire"
+   ],
+   "groups": [
+    "Elemental"
    ]
   },
   "Frozen Spite Support": {
@@ -3426,6 +6618,9 @@
    ],
    "gems": [
     "Frozen Spite"
+   ],
+   "groups": [
+    "Bow"
    ]
   },
   "Gambleshot Support": {
@@ -3434,6 +6629,9 @@
    ],
    "gems": [
     "Gambleshot"
+   ],
+   "groups": [
+    "Bow"
    ]
   },
   "Glacier Support": {
@@ -3442,6 +6640,9 @@
    ],
    "gems": [
     "Glacier"
+   ],
+   "groups": [
+    "Occult"
    ]
   },
   "Gorge Support": {
@@ -3450,6 +6651,9 @@
    ],
    "gems": [
     "Gorge"
+   ],
+   "groups": [
+    "Primal"
    ]
   },
   "Haemocrystals Support": {
@@ -3458,6 +6662,9 @@
    ],
    "gems": [
     "Haemocrystals"
+   ],
+   "groups": [
+    "Spear"
    ]
   },
   "Hardy Totems Support": {
@@ -3468,6 +6675,9 @@
    "gems": [
     "Hardy Totems I",
     "Hardy Totems II"
+   ],
+   "groups": [
+    "Mace"
    ]
   },
   "Harmonic Remnants Support": {
@@ -3478,6 +6688,9 @@
    "gems": [
     "Harmonic Remnants I",
     "Harmonic Remnants II"
+   ],
+   "groups": [
+    "Occult"
    ]
   },
   "Heavy Swing Support": {
@@ -3486,6 +6699,9 @@
    ],
    "gems": [
     "Heavy Swing"
+   ],
+   "groups": [
+    "Mace"
    ]
   },
   "Heft Support": {
@@ -3494,6 +6710,9 @@
    ],
    "gems": [
     "Heft"
+   ],
+   "groups": [
+    "Mace"
    ]
   },
   "Heightened Accuracy Support": {
@@ -3504,6 +6723,9 @@
    "gems": [
     "Heightened Accuracy I",
     "Heightened Accuracy II"
+   ],
+   "groups": [
+    "Bow"
    ]
   },
   "Heightened Charges Support": {
@@ -3512,6 +6734,9 @@
    ],
    "gems": [
     "Heightened Charges"
+   ],
+   "groups": [
+    "Spear"
    ]
   },
   "Heightened Curse Support": {
@@ -3520,6 +6745,9 @@
    ],
    "gems": [
     "Heightened Curse"
+   ],
+   "groups": [
+    "Elemental"
    ]
   },
   "Herbalism Support": {
@@ -3530,6 +6758,9 @@
    "gems": [
     "Herbalism I",
     "Herbalism II"
+   ],
+   "groups": [
+    "Mace"
    ]
   },
   "Hex Bloom Support": {
@@ -3538,6 +6769,9 @@
    ],
    "gems": [
     "Hex Bloom"
+   ],
+   "groups": [
+    "Elemental"
    ]
   },
   "Hit and Run Support": {
@@ -3546,6 +6780,9 @@
    ],
    "gems": [
     "Hit and Run"
+   ],
+   "groups": [
+    "Spear"
    ]
   },
   "Holy Descent Support": {
@@ -3554,6 +6791,9 @@
    ],
    "gems": [
     "Holy Descent"
+   ],
+   "groups": [
+    "Mace"
    ]
   },
   "Hourglass Support": {
@@ -3562,6 +6802,9 @@
    ],
    "gems": [
     "Hourglass"
+   ],
+   "groups": [
+    "Elemental"
    ]
   },
   "Hulking Minions Support": {
@@ -3570,6 +6813,9 @@
    ],
    "gems": [
     "Hulking Minions"
+   ],
+   "groups": [
+    "Occult"
    ]
   },
   "Ice Bite Support": {
@@ -3580,6 +6826,9 @@
    "gems": [
     "Ice Bite I",
     "Ice Bite II"
+   ],
+   "groups": [
+    "Elemental"
    ]
   },
   "Icicle Support": {
@@ -3588,6 +6837,9 @@
    ],
    "gems": [
     "Icicle"
+   ],
+   "groups": [
+    "Occult"
    ]
   },
   "Ignite Support": {
@@ -3600,6 +6852,9 @@
     "Ignite I",
     "Ignite II",
     "Ignite III"
+   ],
+   "groups": [
+    "Mace"
    ]
   },
   "Immolate Support": {
@@ -3608,6 +6863,9 @@
    ],
    "gems": [
     "Immolate"
+   ],
+   "groups": [
+    "Mace"
    ]
   },
   "Impact Shockwave Support": {
@@ -3616,6 +6874,9 @@
    ],
    "gems": [
     "Impact Shockwave"
+   ],
+   "groups": [
+    "Mace"
    ]
   },
   "Impale Support": {
@@ -3624,6 +6885,9 @@
    ],
    "gems": [
     "Impale"
+   ],
+   "groups": [
+    "Spear"
    ]
   },
   "Impending Doom Support": {
@@ -3632,6 +6896,9 @@
    ],
    "gems": [
     "Impending Doom"
+   ],
+   "groups": [
+    "Elemental"
    ]
   },
   "Incision Support": {
@@ -3640,6 +6907,9 @@
    ],
    "gems": [
     "Incision"
+   ],
+   "groups": [
+    "Spear"
    ]
   },
   "Inexorable Critical Support": {
@@ -3650,6 +6920,9 @@
    "gems": [
     "Inexorable Critical I",
     "Inexorable Critical II"
+   ],
+   "groups": [
+    "Elemental"
    ]
   },
   "Infernal Legion Support": {
@@ -3660,6 +6933,9 @@
    "gems": [
     "Infernal Legion I",
     "Infernal Legion II"
+   ],
+   "groups": [
+    "Mace"
    ]
   },
   "Inhibitor Support": {
@@ -3668,6 +6944,9 @@
    ],
    "gems": [
     "Inhibitor"
+   ],
+   "groups": [
+    "Spear"
    ]
   },
   "Innervate Support": {
@@ -3676,6 +6955,9 @@
    ],
    "gems": [
     "Innervate"
+   ],
+   "groups": [
+    "Bow"
    ]
   },
   "Intense Agony Support": {
@@ -3684,6 +6966,9 @@
    ],
    "gems": [
     "Intense Agony"
+   ],
+   "groups": [
+    "Elemental"
    ]
   },
   "Jagged Ground Support": {
@@ -3694,6 +6979,9 @@
    "gems": [
     "Jagged Ground I",
     "Jagged Ground II"
+   ],
+   "groups": [
+    "Mace"
    ]
   },
   "Knockback Support": {
@@ -3702,6 +6990,9 @@
    ],
    "gems": [
     "Knockback"
+   ],
+   "groups": [
+    "Mace"
    ]
   },
   "Last Gasp Support": {
@@ -3710,6 +7001,9 @@
    ],
    "gems": [
     "Last Gasp"
+   ],
+   "groups": [
+    "Elemental"
    ]
   },
   "Lasting Shock Support": {
@@ -3718,6 +7012,9 @@
    ],
    "gems": [
     "Lasting Shock"
+   ],
+   "groups": [
+    "Bow"
    ]
   },
   "Life Drain Support": {
@@ -3726,6 +7023,9 @@
    ],
    "gems": [
     "Life Drain"
+   ],
+   "groups": [
+    "Bow"
    ]
   },
   "Life Leech Support": {
@@ -3738,6 +7038,9 @@
     "Life Leech I",
     "Life Leech II",
     "Life Leech III"
+   ],
+   "groups": [
+    "Mace"
    ]
   },
   "Lifetap Support": {
@@ -3746,6 +7049,9 @@
    ],
    "gems": [
     "Lifetap"
+   ],
+   "groups": [
+    "Mace"
    ]
   },
   "Lightning Attunement Support": {
@@ -3754,6 +7060,9 @@
    ],
    "gems": [
     "Lightning Attunement"
+   ],
+   "groups": [
+    "Bow"
    ]
   },
   "Lightning Exposure Support": {
@@ -3762,6 +7071,9 @@
    ],
    "gems": [
     "Lightning Exposure"
+   ],
+   "groups": [
+    "Bow"
    ]
   },
   "Lightning Mastery Support": {
@@ -3770,6 +7082,9 @@
    ],
    "gems": [
     "Lightning Mastery"
+   ],
+   "groups": [
+    "Elemental"
    ]
   },
   "Lightning Penetration Support": {
@@ -3778,6 +7093,9 @@
    ],
    "gems": [
     "Lightning Penetration"
+   ],
+   "groups": [
+    "Bow"
    ]
   },
   "Living Lightning Support": {
@@ -3788,6 +7106,9 @@
    "gems": [
     "Living Lightning",
     "Living Lightning II"
+   ],
+   "groups": [
+    "Elemental"
    ]
   },
   "Long Fuse Support": {
@@ -3798,6 +7119,9 @@
    "gems": [
     "Long Fuse I",
     "Long Fuse II"
+   ],
+   "groups": [
+    "Crossbow"
    ]
   },
   "Longshot Support": {
@@ -3808,6 +7132,9 @@
    "gems": [
     "Longshot I",
     "Longshot II"
+   ],
+   "groups": [
+    "Bow"
    ]
   },
   "Loyalty Support": {
@@ -3816,6 +7143,9 @@
    ],
    "gems": [
     "Loyalty"
+   ],
+   "groups": [
+    "Occult"
    ]
   },
   "Magnified Area Support": {
@@ -3826,6 +7156,9 @@
    "gems": [
     "Magnified Area I",
     "Magnified Area II"
+   ],
+   "groups": [
+    "Elemental"
    ]
   },
   "Maim Support": {
@@ -3834,6 +7167,9 @@
    ],
    "gems": [
     "Maim"
+   ],
+   "groups": [
+    "Bow"
    ]
   },
   "Mana Flare Support": {
@@ -3842,6 +7178,9 @@
    ],
    "gems": [
     "Mana Flare"
+   ],
+   "groups": [
+    "Elemental"
    ]
   },
   "Mana Leech Support": {
@@ -3850,6 +7189,9 @@
    ],
    "gems": [
     "Mana Leech"
+   ],
+   "groups": [
+    "Elemental"
    ]
   },
   "Mark for Death Support": {
@@ -3860,6 +7202,9 @@
    "gems": [
     "Mark for Death",
     "Mark for Death II"
+   ],
+   "groups": [
+    "Bow"
    ]
   },
   "Mark of Siphoning Support": {
@@ -3870,6 +7215,9 @@
    "gems": [
     "Mark of Siphoning",
     "Mark of Siphoning II"
+   ],
+   "groups": [
+    "Primal"
    ]
   },
   "Meat Shield Support": {
@@ -3880,6 +7228,9 @@
    "gems": [
     "Meat Shield I",
     "Meat Shield II"
+   ],
+   "groups": [
+    "Mace"
    ]
   },
   "Minion Instability Support": {
@@ -3888,6 +7239,9 @@
    ],
    "gems": [
     "Minion Instability"
+   ],
+   "groups": [
+    "Elemental"
    ]
   },
   "Minion Mastery Support": {
@@ -3896,6 +7250,9 @@
    ],
    "gems": [
     "Minion Mastery"
+   ],
+   "groups": [
+    "Elemental"
    ]
   },
   "Minion Pact Support": {
@@ -3906,6 +7263,9 @@
    "gems": [
     "Minion Pact I",
     "Minion Pact II"
+   ],
+   "groups": [
+    "Elemental"
    ]
   },
   "Minion Splash Support": {
@@ -3916,6 +7276,9 @@
    "gems": [
     "Minion Splash I",
     "Minion Splash II"
+   ],
+   "groups": [
+    "Primal"
    ]
   },
   "Mobility Support": {
@@ -3924,6 +7287,9 @@
    ],
    "gems": [
     "Mobility"
+   ],
+   "groups": [
+    "Bow"
    ]
   },
   "Momentum Support": {
@@ -3932,6 +7298,9 @@
    ],
    "gems": [
     "Momentum"
+   ],
+   "groups": [
+    "Bow"
    ]
   },
   "Multishot Support": {
@@ -3942,6 +7311,9 @@
    "gems": [
     "Multishot I",
     "Multishot II"
+   ],
+   "groups": [
+    "Bow"
    ]
   },
   "Muster Support": {
@@ -3950,6 +7322,9 @@
    ],
    "gems": [
     "Muster"
+   ],
+   "groups": [
+    "Elemental"
    ]
   },
   "Mysticism Support": {
@@ -3960,6 +7335,9 @@
    "gems": [
     "Mysticism I",
     "Mysticism II"
+   ],
+   "groups": [
+    "Elemental"
    ]
   },
   "Neural Overload Support": {
@@ -3968,6 +7346,9 @@
    ],
    "gems": [
     "Neural Overload"
+   ],
+   "groups": [
+    "Bow"
    ]
   },
   "Nimble Reload Support": {
@@ -3976,6 +7357,9 @@
    ],
    "gems": [
     "Nimble Reload"
+   ],
+   "groups": [
+    "Crossbow"
    ]
   },
   "Nova Projectiles Support": {
@@ -3986,6 +7370,9 @@
    "gems": [
     "Nova Projectiles I",
     "Nova Projectiles II"
+   ],
+   "groups": [
+    "Bow"
    ]
   },
   "Opening Move Support": {
@@ -3994,6 +7381,9 @@
    ],
    "gems": [
     "Opening Move"
+   ],
+   "groups": [
+    "Primal"
    ]
   },
   "Overabundance Support": {
@@ -4004,6 +7394,9 @@
    "gems": [
     "Overabundance I",
     "Overabundance II"
+   ],
+   "groups": [
+    "Bow"
    ]
   },
   "Overcharge Support": {
@@ -4012,6 +7405,9 @@
    ],
    "gems": [
     "Overcharge"
+   ],
+   "groups": [
+    "Bow"
    ]
   },
   "Overreach Support": {
@@ -4020,6 +7416,9 @@
    ],
    "gems": [
     "Overreach"
+   ],
+   "groups": [
+    "Spear"
    ]
   },
   "Payload Support": {
@@ -4028,6 +7427,9 @@
    ],
    "gems": [
     "Payload"
+   ],
+   "groups": [
+    "Crossbow"
    ]
   },
   "Perfected Endurance Support": {
@@ -4036,6 +7438,9 @@
    ],
    "gems": [
     "Perfected Endurance"
+   ],
+   "groups": [
+    "Spear"
    ]
   },
   "Perfection Support": {
@@ -4044,6 +7449,9 @@
    ],
    "gems": [
     "Perfection"
+   ],
+   "groups": [
+    "Spear"
    ]
   },
   "Perpetual Charge Support": {
@@ -4052,6 +7460,9 @@
    ],
    "gems": [
     "Perpetual Charge"
+   ],
+   "groups": [
+    "Bow"
    ]
   },
   "Persistent Ground Support": {
@@ -4064,6 +7475,9 @@
     "Persistent Ground I",
     "Persistent Ground II",
     "Persistent Ground III"
+   ],
+   "groups": [
+    "Crossbow"
    ]
   },
   "Physical Mastery Support": {
@@ -4072,6 +7486,9 @@
    ],
    "gems": [
     "Physical Mastery"
+   ],
+   "groups": [
+    "Elemental"
    ]
   },
   "Pierce Support": {
@@ -4084,6 +7501,9 @@
     "Pierce I",
     "Pierce II",
     "Pierce III"
+   ],
+   "groups": [
+    "Bow"
    ]
   },
   "Pin Support": {
@@ -4096,6 +7516,9 @@
     "Pin I",
     "Pin II",
     "Pin III"
+   ],
+   "groups": [
+    "Bow"
    ]
   },
   "Pinpoint Critical Support": {
@@ -4104,6 +7527,9 @@
    ],
    "gems": [
     "Pinpoint Critical"
+   ],
+   "groups": [
+    "Occult"
    ]
   },
   "Poison Support": {
@@ -4116,6 +7542,9 @@
     "Poison I",
     "Poison II",
     "Poison III"
+   ],
+   "groups": [
+    "Bow"
    ]
   },
   "Poison Spores Support": {
@@ -4124,6 +7553,9 @@
    ],
    "gems": [
     "Poison Spores"
+   ],
+   "groups": [
+    "Primal"
    ]
   },
   "Potent Exposure Support": {
@@ -4132,6 +7564,9 @@
    ],
    "gems": [
     "Potent Exposure"
+   ],
+   "groups": [
+    "Occult"
    ]
   },
   "Practical Magic Support": {
@@ -4142,6 +7577,9 @@
    "gems": [
     "Practical Magic I",
     "Practical Magic II"
+   ],
+   "groups": [
+    "Primal"
    ]
   },
   "Practiced Combo Support": {
@@ -4150,6 +7588,9 @@
    ],
    "gems": [
     "Practiced Combo"
+   ],
+   "groups": [
+    "Quarterstaff"
    ]
   },
   "Precision Support": {
@@ -4160,6 +7601,9 @@
    "gems": [
     "Precision I",
     "Precision II"
+   ],
+   "groups": [
+    "Bow"
    ]
   },
   "Profanity Support": {
@@ -4170,6 +7614,9 @@
    "gems": [
     "Profanity I",
     "Profanity II"
+   ],
+   "groups": [
+    "Occult"
    ]
   },
   "Projectile Acceleration Support": {
@@ -4182,6 +7629,9 @@
     "Projectile Acceleration I",
     "Projectile Acceleration II",
     "Projectile Acceleration III"
+   ],
+   "groups": [
+    "Bow"
    ]
   },
   "Projectile Deceleration Support": {
@@ -4192,6 +7642,9 @@
    "gems": [
     "Projectile Deceleration I",
     "Projectile Deceleration II"
+   ],
+   "groups": [
+    "Bow"
    ]
   },
   "Prolonged Duration Support": {
@@ -4202,6 +7655,9 @@
    "gems": [
     "Prolonged Duration I",
     "Prolonged Duration II"
+   ],
+   "groups": [
+    "Mace"
    ]
   },
   "Punch Through Support": {
@@ -4210,6 +7666,9 @@
    ],
    "gems": [
     "Punch Through"
+   ],
+   "groups": [
+    "Spear"
    ]
   },
   "Pursuit Support": {
@@ -4222,6 +7681,9 @@
     "Pursuit I",
     "Pursuit II",
     "Pursuit III"
+   ],
+   "groups": [
+    "Spear"
    ]
   },
   "Quill Burst Support": {
@@ -4230,6 +7692,9 @@
    ],
    "gems": [
     "Quill Burst"
+   ],
+   "groups": [
+    "Mace"
    ]
   },
   "Rage Support": {
@@ -4242,6 +7707,9 @@
     "Rage I",
     "Rage II",
     "Rage III"
+   ],
+   "groups": [
+    "Mace"
    ]
   },
   "Rageforged Support": {
@@ -4252,6 +7720,9 @@
    "gems": [
     "Rageforged I",
     "Rageforged II"
+   ],
+   "groups": [
+    "Mace"
    ]
   },
   "Raging Cry Support": {
@@ -4260,6 +7731,9 @@
    ],
    "gems": [
     "Raging Cry"
+   ],
+   "groups": [
+    "Mace"
    ]
   },
   "Rapid Attacks Support": {
@@ -4272,6 +7746,9 @@
     "Rapid Attacks I",
     "Rapid Attacks II",
     "Rapid Attacks III"
+   ],
+   "groups": [
+    "Bow"
    ]
   },
   "Rapid Casting Support": {
@@ -4284,6 +7761,9 @@
     "Rapid Casting I",
     "Rapid Casting II",
     "Rapid Casting III"
+   ],
+   "groups": [
+    "Elemental"
    ]
   },
   "Rearm Support": {
@@ -4294,6 +7774,9 @@
    "gems": [
     "Rearm I",
     "Rearm II"
+   ],
+   "groups": [
+    "Spear"
    ]
   },
   "Refraction Support": {
@@ -4306,6 +7789,9 @@
     "Refraction I",
     "Refraction II",
     "Refraction III"
+   ],
+   "groups": [
+    "Crossbow"
    ]
   },
   "Reinforced Totems Support": {
@@ -4316,6 +7802,9 @@
    "gems": [
     "Reinforced Totems I",
     "Reinforced Totems II"
+   ],
+   "groups": [
+    "Mace"
    ]
   },
   "Remnant Potency Support": {
@@ -4328,7 +7817,8 @@
     "Remnant Potency I",
     "Remnant Potency II",
     "Remnant Potency III"
-   ]
+   ],
+   "groups": []
   },
   "Rending Apex Support": {
    "tiers": [
@@ -4336,6 +7826,9 @@
    ],
    "gems": [
     "Rending Apex"
+   ],
+   "groups": [
+    "Primal"
    ]
   },
   "Retaliate Support": {
@@ -4346,6 +7839,9 @@
    "gems": [
     "Retaliate I",
     "Retaliate II"
+   ],
+   "groups": [
+    "Mace"
    ]
   },
   "Retreat Support": {
@@ -4358,6 +7854,9 @@
     "Retreat I",
     "Retreat II",
     "Retreat III"
+   ],
+   "groups": [
+    "Spear"
    ]
   },
   "Ricochet Support": {
@@ -4368,6 +7867,9 @@
    "gems": [
     "Ricochet I",
     "Ricochet II"
+   ],
+   "groups": [
+    "Bow"
    ]
   },
   "Rip Support": {
@@ -4376,6 +7878,9 @@
    ],
    "gems": [
     "Rip"
+   ],
+   "groups": [
+    "Spear"
    ]
   },
   "Rising Tempest Support": {
@@ -4384,6 +7889,9 @@
    ],
    "gems": [
     "Rising Tempest"
+   ],
+   "groups": [
+    "Occult"
    ]
   },
   "Ritualistic Curse Support": {
@@ -4392,6 +7900,9 @@
    ],
    "gems": [
     "Ritualistic Curse"
+   ],
+   "groups": [
+    "Elemental"
    ]
   },
   "Rupture Support": {
@@ -4400,6 +7911,9 @@
    ],
    "gems": [
     "Rupture"
+   ],
+   "groups": [
+    "Mace"
    ]
   },
   "Sacrificial Lamb Support": {
@@ -4410,6 +7924,9 @@
    "gems": [
     "Sacrificial Lamb I",
     "Sacrificial Lamb II"
+   ],
+   "groups": [
+    "Occult"
    ]
   },
   "Sacrificial Offering Support": {
@@ -4418,6 +7935,9 @@
    ],
    "gems": [
     "Sacrificial Offering"
+   ],
+   "groups": [
+    "Elemental"
    ]
   },
   "Salvo Support": {
@@ -4426,6 +7946,9 @@
    ],
    "gems": [
     "Salvo"
+   ],
+   "groups": [
+    "Bow"
    ]
   },
   "Searing Flame Support": {
@@ -4436,6 +7959,9 @@
    "gems": [
     "Searing Flame I",
     "Searing Flame II"
+   ],
+   "groups": [
+    "Mace"
    ]
   },
   "Second Wind Support": {
@@ -4448,6 +7974,9 @@
     "Second Wind I",
     "Second Wind II",
     "Second Wind III"
+   ],
+   "groups": [
+    "Bow"
    ]
   },
   "Selfless Remnants Support": {
@@ -4456,7 +7985,8 @@
    ],
    "gems": [
     "Selfless Remnants"
-   ]
+   ],
+   "groups": []
   },
   "Shock Support": {
    "tiers": [
@@ -4464,6 +7994,9 @@
    ],
    "gems": [
     "Shock"
+   ],
+   "groups": [
+    "Bow"
    ]
   },
   "Shock Conduction Support": {
@@ -4472,6 +8005,9 @@
    ],
    "gems": [
     "Shock Conduction"
+   ],
+   "groups": [
+    "Elemental"
    ]
   },
   "Shocking Leap Support": {
@@ -4480,6 +8016,9 @@
    ],
    "gems": [
     "Shocking Leap"
+   ],
+   "groups": [
+    "Mace"
    ]
   },
   "Short Fuse Support": {
@@ -4490,6 +8029,9 @@
    "gems": [
     "Short Fuse I",
     "Short Fuse II"
+   ],
+   "groups": [
+    "Crossbow"
    ]
   },
   "Skittering Stone Support": {
@@ -4500,6 +8042,9 @@
    "gems": [
     "Skittering Stone I",
     "Skittering Stone II"
+   ],
+   "groups": [
+    "Mace"
    ]
   },
   "Slow Potency Support": {
@@ -4508,6 +8053,9 @@
    ],
    "gems": [
     "Slow Potency"
+   ],
+   "groups": [
+    "Bow"
    ]
   },
   "Soul Drain Support": {
@@ -4516,6 +8064,9 @@
    ],
    "gems": [
     "Soul Drain"
+   ],
+   "groups": [
+    "Bow"
    ]
   },
   "Spectral Volley Support": {
@@ -4524,6 +8075,9 @@
    ],
    "gems": [
     "Spectral Volley"
+   ],
+   "groups": [
+    "Bow"
    ]
   },
   "Spell Cascade Support": {
@@ -4532,6 +8086,9 @@
    ],
    "gems": [
     "Spell Cascade"
+   ],
+   "groups": [
+    "Elemental"
    ]
   },
   "Spell Echo Support": {
@@ -4540,6 +8097,9 @@
    ],
    "gems": [
     "Spell Echo"
+   ],
+   "groups": [
+    "Elemental"
    ]
   },
   "Splinter Totem Support": {
@@ -4550,6 +8110,9 @@
    "gems": [
     "Splinter Totem I",
     "Splinter Totem II"
+   ],
+   "groups": [
+    "Mace"
    ]
   },
   "Static Shocks Support": {
@@ -4558,6 +8121,9 @@
    ],
    "gems": [
     "Static Shocks"
+   ],
+   "groups": [
+    "Occult"
    ]
   },
   "Steadfast Support": {
@@ -4568,6 +8134,9 @@
    "gems": [
     "Steadfast I",
     "Steadfast II"
+   ],
+   "groups": [
+    "Mace"
    ]
   },
   "Stoicism Support": {
@@ -4578,6 +8147,9 @@
    "gems": [
     "Stoicism I",
     "Stoicism II"
+   ],
+   "groups": [
+    "Crossbow"
    ]
   },
   "Stomping Ground Support": {
@@ -4586,6 +8158,9 @@
    ],
    "gems": [
     "Stomping Ground"
+   ],
+   "groups": [
+    "Mace"
    ]
   },
   "Stormfire Support": {
@@ -4594,6 +8169,9 @@
    ],
    "gems": [
     "Stormfire"
+   ],
+   "groups": [
+    "Elemental"
    ]
   },
   "Streamlined Rounds Support": {
@@ -4602,6 +8180,9 @@
    ],
    "gems": [
     "Streamlined Rounds"
+   ],
+   "groups": [
+    "Crossbow"
    ]
   },
   "Strong Hearted Support": {
@@ -4610,6 +8191,9 @@
    ],
    "gems": [
     "Strong Hearted"
+   ],
+   "groups": [
+    "Occult"
    ]
   },
   "Stun Support": {
@@ -4622,6 +8206,9 @@
     "Stun I",
     "Stun II",
     "Stun III"
+   ],
+   "groups": [
+    "Mace"
    ]
   },
   "Supercritical Support": {
@@ -4630,6 +8217,9 @@
    ],
    "gems": [
     "Supercritical"
+   ],
+   "groups": [
+    "Elemental"
    ]
   },
   "Swift Affliction Support": {
@@ -4642,6 +8232,9 @@
     "Swift Affliction I",
     "Swift Affliction II",
     "Swift Affliction III"
+   ],
+   "groups": [
+    "Bow"
    ]
   },
   "Syzygy Support": {
@@ -4650,6 +8243,9 @@
    ],
    "gems": [
     "Syzygy"
+   ],
+   "groups": [
+    "Mace"
    ]
   },
   "Tear Support": {
@@ -4658,6 +8254,9 @@
    ],
    "gems": [
     "Tear"
+   ],
+   "groups": [
+    "Spear"
    ]
   },
   "Tectonic Slams Support": {
@@ -4666,6 +8265,9 @@
    ],
    "gems": [
     "Tectonic Slams"
+   ],
+   "groups": [
+    "Mace"
    ]
   },
   "Thornskin Support": {
@@ -4676,6 +8278,9 @@
    "gems": [
     "Thornskin I",
     "Thornskin II"
+   ],
+   "groups": [
+    "Mace"
    ]
   },
   "Thrill of the Kill Support": {
@@ -4686,6 +8291,9 @@
    "gems": [
     "Thrill of the Kill",
     "Thrill of the Kill II"
+   ],
+   "groups": [
+    "Spear"
    ]
   },
   "Tireless Support": {
@@ -4694,6 +8302,9 @@
    ],
    "gems": [
     "Tireless"
+   ],
+   "groups": [
+    "Mace"
    ]
   },
   "Unleash Support": {
@@ -4702,6 +8313,9 @@
    ],
    "gems": [
     "Unleash"
+   ],
+   "groups": [
+    "Elemental"
    ]
   },
   "Upheaval Support": {
@@ -4712,6 +8326,9 @@
    "gems": [
     "Upheaval I",
     "Upheaval II"
+   ],
+   "groups": [
+    "Mace"
    ]
   },
   "Upwelling Support": {
@@ -4722,6 +8339,9 @@
    "gems": [
     "Upwelling I",
     "Upwelling II"
+   ],
+   "groups": [
+    "Elemental"
    ]
   },
   "Urgent Totems Support": {
@@ -4734,6 +8354,9 @@
     "Urgent Totems I",
     "Urgent Totems II",
     "Urgent Totems III"
+   ],
+   "groups": [
+    "Mace"
    ]
   },
   "Vanguard Support": {
@@ -4744,6 +8367,9 @@
    "gems": [
     "Vanguard I",
     "Vanguard II"
+   ],
+   "groups": [
+    "Mace"
    ]
   },
   "Verglas Support": {
@@ -4752,6 +8378,9 @@
    ],
    "gems": [
     "Verglas"
+   ],
+   "groups": [
+    "Quarterstaff"
    ]
   },
   "Vitality Support": {
@@ -4762,6 +8391,9 @@
    "gems": [
     "Vitality I",
     "Vitality II"
+   ],
+   "groups": [
+    "Mace"
    ]
   },
   "Volatility Support": {
@@ -4770,6 +8402,9 @@
    ],
    "gems": [
     "Volatility"
+   ],
+   "groups": [
+    "Elemental"
    ]
   },
   "Volcanic Eruption Support": {
@@ -4778,6 +8413,9 @@
    ],
    "gems": [
     "Volcanic Eruption"
+   ],
+   "groups": [
+    "Mace"
    ]
   },
   "Volt Support": {
@@ -4786,6 +8424,9 @@
    ],
    "gems": [
     "Volt"
+   ],
+   "groups": [
+    "Bow"
    ]
   },
   "Warm Blooded Support": {
@@ -4794,6 +8435,9 @@
    ],
    "gems": [
     "Warm Blooded"
+   ],
+   "groups": [
+    "Bow"
    ]
   },
   "Wildfire Support": {
@@ -4802,6 +8446,9 @@
    ],
    "gems": [
     "Wildfire"
+   ],
+   "groups": [
+    "Mace"
    ]
   },
   "Wildshards Support": {
@@ -4812,6 +8459,9 @@
    "gems": [
     "Wildshards I",
     "Wildshards II"
+   ],
+   "groups": [
+    "Occult"
    ]
   },
   "Window of Opportunity Support": {
@@ -4822,6 +8472,9 @@
    "gems": [
     "Window of Opportunity I",
     "Window of Opportunity II"
+   ],
+   "groups": [
+    "Bow"
    ]
   },
   "Withering Touch Support": {
@@ -4830,6 +8483,9 @@
    ],
    "gems": [
     "Withering Touch"
+   ],
+   "groups": [
+    "Elemental"
    ]
   },
   "Zenith Support": {
@@ -4840,6 +8496,9 @@
    "gems": [
     "Zenith I",
     "Zenith II"
+   ],
+   "groups": [
+    "Elemental"
    ]
   }
  },
